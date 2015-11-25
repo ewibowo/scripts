@@ -1,0 +1,971 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;\f2\fnil\fcharset0 AppleColorEmoji;
+}
+{\colortbl;\red255\green255\blue255;\red128\green128\blue128;\red119\green0\blue2;\red17\green0\blue171;
+\red13\green100\blue1;\red222\green221\blue73;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs22 \cf0 \cb2 \CocoaLigature0 flypro:NewMACSetup rlaney$ vim BrewInstall1.sh \
+flypro:NewMACSetup rlaney$ brew install rcm\
+\cf3 \ul \ulc3 Error\cf0 \ulnone : No available formula with the name "rcm" \
+
+\f1\b \cf4 ==>\cf1  Searching for similarly named formulae...
+\f0\b0 \cf0 \
+\cf3 \ul Error\cf0 \ulnone : No similarly named formulae found.\
+
+\f1\b \cf4 ==>\cf1  Searching taps...
+\f0\b0 \cf0 \
+\cf3 \ul Error\cf0 \ulnone : No formulae found in taps.\
+flypro:NewMACSetup rlaney$ vim BrewInstall1.sh \
+flypro:NewMACSetup rlaney$ brew install python --universal --framework\
+\cf3 \ul Error\cf0 \ulnone : No available formula with the name "homebrew/dupes/tcl-tk" \
+Please tap it and then try again: brew tap homebrew/dupes\
+
+\f1\b \cf4 ==>\cf1  Searching for similarly named formulae...
+\f0\b0 \cf0 \
+\cf3 \ul Error\cf0 \ulnone : No similarly named formulae found.\
+
+\f1\b \cf4 ==>\cf1  Searching taps...
+\f0\b0 \cf0 \
+\cf3 \ul Error\cf0 \ulnone : No formulae found in taps.\
+flypro:NewMACSetup rlaney$ brew tap homebrew/dupes\
+
+\f1\b \cf4 ==>\cf1  Tapping homebrew/dupes
+\f0\b0 \cf0 \
+Cloning into '/usr/local/Library/Taps/homebrew/homebrew-dupes'...\
+remote: Counting objects: 42, done.\
+remote: Compressing objects: 100% (42/42), done.\
+remote: Total 42 (delta 0), reused 5 (delta 0), pack-reused 0\
+Unpacking objects: 100% (42/42), done.\
+Checking connectivity... done.\
+Tapped 39 formulae (103 files, 420K)\
+flypro:NewMACSetup rlaney$ brew install python --universal --framework\
+
+\f1\b \cf5 ==>\cf1  Installing dependencies for python: \cf5 sqlite, gdbm, makedepend, openssl
+\f0\b0 \cf0 \
+
+\f1\b \cf5 ==>\cf1  Installing python dependency: \cf5 sqlite
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading https://sqlite.org/2015/sqlite-autoconf-3090200.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  ./configure --prefix=/usr/local/Cellar/sqlite/3.9.2 --enable-dynamic-extensions
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  make install
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Caveats
+\f0\b0 \cf0 \
+This formula is keg-only, which means it was not symlinked into /usr/local.\
+\
+OS X provides an older sqlite3.\
+\
+Generally there are no consequences of this for you. If you build your\
+own software and it requires this formula, you'll need to add to your\
+build variables:\
+\
+    LDFLAGS:  -L/usr/local/opt/sqlite/lib\
+    CPPFLAGS: -I/usr/local/opt/sqlite/include\
+\
+
+\f1\b \cf4 ==>\cf1  Summary
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/sqlite/3.9.2: 9 files, 5.1M, built in 50 seconds\
+
+\f1\b \cf5 ==>\cf1  Installing python dependency: \cf5 gdbm
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading http://ftpmirror.gnu.org/gdbm/gdbm-1.11.tar.gz
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading from http://gnu.mirror.iweb.com/gdbm/gdbm-1.11.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  ./configure --disable-silent-rules --prefix=/usr/local/Cellar/gdbm/1.11
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  make install
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/gdbm/1.11: 17 files, 752K, built in 17 seconds\
+
+\f1\b \cf5 ==>\cf1  Installing python dependency: \cf5 makedepend
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/makedepend-1.0.5.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring makedepend-1.0.5.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/makedepend/1.0.5: 7 files, 92K\
+
+\f1\b \cf5 ==>\cf1  Installing python dependency: \cf5 openssl
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading https://www.openssl.org/source/openssl-1.0.2d.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  make clean
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  perl ./Configure --prefix=/usr/local/Cellar/openssl/1.0.2d_1 --openssldir=/usr/local/etc/openssl no-ssl2 zlib-dynami
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  make depend
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  make
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  make test
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  make clean
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  perl ./Configure --prefix=/usr/local/Cellar/openssl/1.0.2d_1 --openssldir=/usr/local/etc/openssl no-ssl2 zlib-dynami
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  make depend
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  make
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  make test
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  make install MANDIR=/usr/local/Cellar/openssl/1.0.2d_1/share/man MANSUFFIX=ssl
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  lipo -create build-x86_64/libcrypto.1.0.0.dylib build-i386/libcrypto.1.0.0.dylib -output /usr/local/Cellar/openssl/1
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  lipo -create build-x86_64/libcrypto.a build-i386/libcrypto.a -output /usr/local/Cellar/openssl/1.0.2d_1/lib/libcrypt
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  lipo -create build-x86_64/libssl.1.0.0.dylib build-i386/libssl.1.0.0.dylib -output /usr/local/Cellar/openssl/1.0.2d_
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  lipo -create build-x86_64/libssl.a build-i386/libssl.a -output /usr/local/Cellar/openssl/1.0.2d_1/lib/libssl.a
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  lipo -create build-x86_64/engines/lib4758cca.dylib build-i386/engines/lib4758cca.dylib -output /usr/local/Cellar/ope
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  lipo -create build-x86_64/engines/libaep.dylib build-i386/engines/libaep.dylib -output /usr/local/Cellar/openssl/1.0
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  lipo -create build-x86_64/engines/libatalla.dylib build-i386/engines/libatalla.dylib -output /usr/local/Cellar/opens
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  lipo -create build-x86_64/engines/libcapi.dylib build-i386/engines/libcapi.dylib -output /usr/local/Cellar/openssl/1
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  lipo -create build-x86_64/engines/libchil.dylib build-i386/engines/libchil.dylib -output /usr/local/Cellar/openssl/1
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  lipo -create build-x86_64/engines/libcswift.dylib build-i386/engines/libcswift.dylib -output /usr/local/Cellar/opens
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  lipo -create build-x86_64/engines/libgmp.dylib build-i386/engines/libgmp.dylib -output /usr/local/Cellar/openssl/1.0
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  lipo -create build-x86_64/engines/libgost.dylib build-i386/engines/libgost.dylib -output /usr/local/Cellar/openssl/1
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  lipo -create build-x86_64/engines/libnuron.dylib build-i386/engines/libnuron.dylib -output /usr/local/Cellar/openssl
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  lipo -create build-x86_64/engines/libpadlock.dylib build-i386/engines/libpadlock.dylib -output /usr/local/Cellar/ope
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  lipo -create build-x86_64/engines/libsureware.dylib build-i386/engines/libsureware.dylib -output /usr/local/Cellar/o
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  lipo -create build-x86_64/engines/libubsec.dylib build-i386/engines/libubsec.dylib -output /usr/local/Cellar/openssl
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  lipo -create build-x86_64/openssl build-i386/openssl -output /usr/local/Cellar/openssl/1.0.2d_1/bin/openssl
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Caveats
+\f0\b0 \cf0 \
+A CA file has been bootstrapped using certificates from the system\
+keychain. To add additional certificates, place .pem files in\
+  /usr/local/etc/openssl/certs\
+\
+and run\
+  /usr/local/opt/openssl/bin/c_rehash\
+\
+This formula is keg-only, which means it was not symlinked into /usr/local.\
+\
+Apple has deprecated use of OpenSSL in favor of its own TLS and crypto libraries\
+\
+Generally there are no consequences of this for you. If you build your\
+own software and it requires this formula, you'll need to add to your\
+build variables:\
+\
+    LDFLAGS:  -L/usr/local/opt/openssl/lib\
+    CPPFLAGS: -I/usr/local/opt/openssl/include\
+\
+
+\f1\b \cf4 ==>\cf1  Summary
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/openssl/1.0.2d_1: 464 files, 23M, built in 6.3 minutes\
+
+\f1\b \cf5 ==>\cf1  Installing \cf5 python
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading https://www.python.org/ftp/python/2.7.10/Python-2.7.10.tgz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Downloading https://bugs.python.org/file30805/issue10910-workaround.txt
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Downloading https://bugs.python.org/file40479/xcode-stubs-2.7.patch
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Patching
+\f0\b0 \cf0 \
+patching file Include/pyport.h\
+Hunk #1 succeeded at 713 (offset 14 lines).\
+Hunk #2 succeeded at 736 (offset 14 lines).\
+patching file Lib/distutils/ccompiler.py\
+patching file Lib/distutils/unixccompiler.py\
+
+\f1\b \cf4 ==>\cf1  ./configure --prefix=/usr/local/Cellar/python/2.7.10_2 --enable-ipv6 --datarootdir=/usr/local/Cellar/python/2.7.10_2
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  make
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  make install PYTHONAPPSDIR=/usr/local/Cellar/python/2.7.10_2
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  make frameworkinstallextras PYTHONAPPSDIR=/usr/local/Cellar/python/2.7.10_2/share/python
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading https://pypi.python.org/packages/source/s/setuptools/setuptools-18.3.1.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Downloading https://pypi.python.org/packages/source/p/pip/pip-7.1.2.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Downloading https://pypi.python.org/packages/source/w/wheel/wheel-0.26.0.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  /usr/local/Cellar/python/2.7.10_2/bin/python -s setup.py --no-user-cfg install --force --verbose --single-version-ex
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  /usr/local/Cellar/python/2.7.10_2/bin/python -s setup.py --no-user-cfg install --force --verbose --single-version-ex
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  /usr/local/Cellar/python/2.7.10_2/bin/python -s setup.py --no-user-cfg install --force --verbose --single-version-ex
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Caveats
+\f0\b0 \cf0 \
+Pip and setuptools have been installed. To update them\
+  pip install --upgrade pip setuptools\
+\
+You can install Python packages with\
+  pip install <package>\
+\
+They will install into the site-package directory\
+  /usr/local/lib/python2.7/site-packages\
+\
+See: https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Homebrew-and-Python.md\
+\
+.app bundles were installed.\
+Run `brew linkapps python` to symlink these to /Applications.\
+
+\f1\b \cf4 ==>\cf1  Summary
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/python/2.7.10_2: 6197 files, 103M, built in 2.3 minutes\
+flypro:NewMACSetup rlaney$ brew cleanup\
+flypro:NewMACSetup rlaney$ vim BrewInstall1.sh \
+flypro:NewMACSetup rlaney$ vim BrewInstall1.sh \
+flypro:NewMACSetup rlaney$ vim BrewInstall2.sh \
+flypro:NewMACSetup rlaney$ brew install python3 --universal --framework\
+
+\f1\b \cf5 ==>\cf1  Installing dependencies for python3: \cf5 xz
+\f0\b0 \cf0 \
+
+\f1\b \cf5 ==>\cf1  Installing python3 dependency: \cf5 xz
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading https://fossies.org/linux/misc/xz-5.2.2.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  ./configure --disable-silent-rules --prefix=/usr/local/Cellar/xz/5.2.2
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  make install
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/xz/5.2.2: 59 files, 2.1M, built in 76 seconds\
+
+\f1\b \cf5 ==>\cf1  Installing \cf5 python3
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading https://www.python.org/ftp/python/3.5.0/Python-3.5.0.tar.xz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Downloading https://bugs.python.org/file40478/xcode-stubs.diff
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Patching
+\f0\b0 \cf0 \
+patching file Lib/distutils/ccompiler.py\
+patching file Lib/distutils/unixccompiler.py\
+
+\f1\b \cf4 ==>\cf1  ./configure --prefix=/usr/local/Cellar/python3/3.5.0 --enable-ipv6 --datarootdir=/usr/local/Cellar/python3/3.5.0/sha
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  make
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  make install PYTHONAPPSDIR=/usr/local/Cellar/python3/3.5.0
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  make frameworkinstallextras PYTHONAPPSDIR=/usr/local/Cellar/python3/3.5.0/share/python3
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading https://pypi.python.org/packages/source/s/setuptools/setuptools-18.3.1.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Downloading https://pypi.python.org/packages/source/p/pip/pip-7.1.2.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Downloading https://pypi.python.org/packages/source/w/wheel/wheel-0.26.0.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  /usr/local/Cellar/python3/3.5.0/bin/python3 -s setup.py --no-user-cfg install --force --verbose --install-scripts=/u
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  /usr/local/Cellar/python3/3.5.0/bin/python3 -s setup.py --no-user-cfg install --force --verbose --install-scripts=/u
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  /usr/local/Cellar/python3/3.5.0/bin/python3 -s setup.py --no-user-cfg install --force --verbose --install-scripts=/u
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Caveats
+\f0\b0 \cf0 \
+Pip and setuptools have been installed. To update them\
+  pip3 install --upgrade pip setuptools\
+\
+You can install Python packages with\
+  pip3 install <package>\
+\
+They will install into the site-package directory\
+  /usr/local/lib/python3.5/site-packages\
+\
+See: https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Homebrew-and-Python.md\
+\
+.app bundles were installed.\
+Run `brew linkapps python3` to symlink these to /Applications.\
+
+\f1\b \cf4 ==>\cf1  Summary
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/python3/3.5.0: 7614 files, 128M, built in 117 seconds\
+flypro:NewMACSetup rlaney$ chmod +x BrewInstall2.sh \
+flypro:NewMACSetup rlaney$ ./BrewInstall2.sh \
+installing binaries...\
+\cf6 \ul \ulc6 Warning\cf0 \ulnone : autoconf-2.69 already installed\
+\cf6 \ul Warning\cf0 \ulnone : openssl-1.0.2d_1 already installed\
+\cf6 \ul Warning\cf0 \ulnone : pkg-config-0.29 already installed\
+\cf6 \ul Warning\cf0 \ulnone : xz-5.2.2 already installed\
+
+\f1\b \cf4 ==>\cf1  Downloading https://github.com/ali-rantakari/trash/archive/v0.8.5.tar.gz
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading from https://codeload.github.com/ali-rantakari/trash/tar.gz/v0.8.5
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  make
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  make docs
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/trash/0.8.5: 4 files, 56K, built in 4 seconds\
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/hub-2.2.2.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring hub-2.2.2.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Caveats
+\f0\b0 \cf0 \
+Bash completion has been installed to:\
+  /usr/local/etc/bash_completion.d\
+\
+zsh completion has been installed to:\
+  /usr/local/share/zsh/site-functions\
+
+\f1\b \cf4 ==>\cf1  Summary
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/hub/2.2.2: 9 files, 10M\
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/git-2.6.3.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring git-2.6.3.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Caveats
+\f0\b0 \cf0 \
+The OS X keychain credential helper has been installed to:\
+  /usr/local/bin/git-credential-osxkeychain\
+\
+The "contrib" directory has been installed to:\
+  /usr/local/share/git-core/contrib\
+\
+Bash completion has been installed to:\
+  /usr/local/etc/bash_completion.d\
+\
+zsh completion has been installed to:\
+  /usr/local/share/zsh/site-functions\
+
+\f1\b \cf4 ==>\cf1  Summary
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/git/2.6.3: 1400 files, 33M\
+
+\f1\b \cf4 ==>\cf1  Downloading http://beyondgrep.com/ack-2.14-single-file
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  pod2man /usr/local/Cellar/ack/2.14/bin/ack ack.1
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/ack/2.14: 3 files, 188K, built in 2 seconds\
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/boost-1.59.0.yosemite.bottle.1.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring boost-1.59.0.yosemite.bottle.1.tar.gz
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/boost/1.59.0: 10928 files, 454M\
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/boost-python-1.59.0.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring boost-python-1.59.0.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/boost-python/1.59.0: 5 files, 12M\
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/docker-1.9.0.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring docker-1.9.0.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Caveats
+\f0\b0 \cf0 \
+Bash completion has been installed to:\
+  /usr/local/etc/bash_completion.d\
+\
+zsh completion has been installed to:\
+  /usr/local/share/zsh/site-functions\
+
+\f1\b \cf4 ==>\cf1  Summary
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/docker/1.9.0: 10 files, 9.6M\
+
+\f1\b \cf5 ==>\cf1  Installing dependencies for docker-compose: \cf5 libyaml, docker-machine
+\f0\b0 \cf0 \
+
+\f1\b \cf5 ==>\cf1  Installing docker-compose dependency: \cf5 libyaml
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/libyaml-0.1.6_1.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring libyaml-0.1.6_1.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/libyaml/0.1.6_1: 7 files, 352K\
+
+\f1\b \cf5 ==>\cf1  Installing docker-compose dependency: \cf5 docker-machine
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/docker-machine-0.5.0.yosemite.bottle.1.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring docker-machine-0.5.0.yosemite.bottle.1.tar.gz
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Caveats
+\f0\b0 \cf0 \
+Bash completion has been installed to:\
+  /usr/local/etc/bash_completion.d\
+
+\f1\b \cf4 ==>\cf1  Summary
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/docker-machine/0.5.0: 23 files, 133M\
+
+\f1\b \cf5 ==>\cf1  Installing \cf5 docker-compose
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/docker-compose-1.5.0.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring docker-compose-1.5.0.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Caveats
+\f0\b0 \cf0 \
+Bash completion has been installed to:\
+  /usr/local/etc/bash_completion.d\
+\
+zsh completion has been installed to:\
+  /usr/local/share/zsh/site-functions\
+
+\f1\b \cf4 ==>\cf1  Summary
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/docker-compose/1.5.0: 284 files, 3.3M\
+
+\f1\b \cf5 ==>\cf1  Installing dependencies for fontconfig: \cf5 libpng, freetype
+\f0\b0 \cf0 \
+
+\f1\b \cf5 ==>\cf1  Installing fontconfig dependency: \cf5 libpng
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/libpng-1.6.19.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring libpng-1.6.19.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/libpng/1.6.19: 17 files, 1.2M\
+
+\f1\b \cf5 ==>\cf1  Installing fontconfig dependency: \cf5 freetype
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/freetype-2.6_1.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring freetype-2.6_1.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/freetype/2.6_1: 60 files, 2.6M\
+
+\f1\b \cf5 ==>\cf1  Installing \cf5 fontconfig
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/fontconfig-2.11.1.yosemite.bottle.4.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring fontconfig-2.11.1.yosemite.bottle.4.tar.gz
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  /usr/local/Cellar/fontconfig/2.11.1/bin/fc-cache -frv
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/fontconfig/2.11.1: 449 files, 3.9M\
+
+\f1\b \cf4 ==>\cf1  Downloading https://s3.amazonaws.com/assets.heroku.com/heroku-client/heroku-client-3.42.20.tgz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Caveats
+\f0\b0 \cf0 \
+Unlike the standalone download for Heroku Toolbelt, the Homebrew package\
+does not come with Foreman. It is available via RubyGems, direct download,\
+and other installation methods. See https://ddollar.github.io/foreman/ for more info.\
+
+\f1\b \cf4 ==>\cf1  Summary
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/heroku-toolbelt/3.42.20: 985 files, 8.6M, built in 2 seconds\
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/highlight-3.23.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring highlight-3.23.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/highlight/3.23: 326 files, 3.3M\
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/libdnet-1.12.yosemite.bottle.2.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring libdnet-1.12.yosemite.bottle.2.tar.gz
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/libdnet/1.12: 28 files, 476K\
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/libevent-2.0.22.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring libevent-2.0.22.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/libevent/2.0.22: 48 files, 1.8M\
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/markdown-1.0.1.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring markdown-1.0.1.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/markdown/1.0.1: 2 files, 40K\
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/nginx-1.8.0.yosemite.bottle.1.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring nginx-1.8.0.yosemite.bottle.1.tar.gz
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Caveats
+\f0\b0 \cf0 \
+Docroot is: /usr/local/var/www\
+\
+The default port has been set in /usr/local/etc/nginx/nginx.conf to 8080 so that\
+nginx can run without sudo.\
+\
+nginx will load all files in /usr/local/etc/nginx/servers/.\
+\
+To have launchd start nginx at login:\
+  ln -sfv /usr/local/opt/nginx/*.plist ~/Library/LaunchAgents\
+Then to load nginx now:\
+  launchctl load ~/Library/LaunchAgents/homebrew.mxcl.nginx.plist\
+Or, if you don't want/need launchctl, you can just run:\
+  nginx\
+
+\f1\b \cf4 ==>\cf1  Summary
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/nginx/1.8.0: 7 files, 964K\
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/packer-0.8.6.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring packer-0.8.6.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/packer/0.8.6: 40 files, 446M\
+
+\f1\b \cf4 ==>\cf1  Downloading https://github.com/yyuu/pyenv/archive/v20151105.tar.gz
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading from https://codeload.github.com/yyuu/pyenv/tar.gz/v20151105
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Caveats
+\f0\b0 \cf0 \
+To enable shims and autocompletion add to your profile:\
+  if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi\
+\
+To use Homebrew's directories rather than ~/.pyenv add to your profile:\
+  export PYENV_ROOT=/usr/local/var/pyenv\
+
+\f1\b \cf4 ==>\cf1  Summary
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/pyenv/20151105: 377 files, 2.9M, built in 2 seconds\
+
+\f1\b \cf5 ==>\cf1  Installing dependencies for pyqt: \cf5 qt, sip
+\f0\b0 \cf0 \
+
+\f1\b \cf5 ==>\cf1  Installing pyqt dependency: \cf5 qt
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/qt-4.8.7_1.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring qt-4.8.7_1.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Caveats
+\f0\b0 \cf0 \
+We agreed to the Qt opensource license for you.\
+If this is unacceptable you should uninstall.\
+\
+.app bundles were installed.\
+Run `brew linkapps qt` to symlink these to /Applications.\
+
+\f1\b \cf4 ==>\cf1  Summary
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/qt/4.8.7_1: 2794 files, 121M\
+
+\f1\b \cf5 ==>\cf1  Installing pyqt dependency: \cf5 sip
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/sip-4.16.9.yosemite.bottle.1.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring sip-4.16.9.yosemite.bottle.1.tar.gz
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Caveats
+\f0\b0 \cf0 \
+The sip-dir for Python is /usr/local/share/sip.\
+
+\f1\b \cf4 ==>\cf1  Summary
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/sip/4.16.9: 10 files, 888K\
+
+\f1\b \cf5 ==>\cf1  Installing \cf5 pyqt
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/pyqt-4.11.4.yosemite.bottle.1.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring pyqt-4.11.4.yosemite.bottle.1.tar.gz
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Caveats
+\f0\b0 \cf0 \
+Phonon support is broken.\
+
+\f1\b \cf4 ==>\cf1  Summary
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/pyqt/4.11.4: 562 files, 19M\
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/tmux-2.1.yosemite.bottle.1.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring tmux-2.1.yosemite.bottle.1.tar.gz
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Caveats
+\f0\b0 \cf0 \
+Example configurations have been installed to:\
+  /usr/local/opt/tmux/share/tmux/examples\
+\
+Bash completion has been installed to:\
+  /usr/local/etc/bash_completion.d\
+
+\f1\b \cf4 ==>\cf1  Summary
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/tmux/2.1: 15 files, 684K\
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/tree-1.7.0.yosemite.bottle.1.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring tree-1.7.0.yosemite.bottle.1.tar.gz
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/tree/1.7.0: 7 files, 128K\
+
+\f1\b \cf4 ==>\cf1  Downloading https://github.com/jpoliv/wakeonlan/archive/wakeonlan-0.41.tar.gz
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading from https://codeload.github.com/jpoliv/wakeonlan/tar.gz/wakeonlan-0.41
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  perl Makefile.PL
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  make
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/wakeonlan/0.41: 5 files, 28K, built in 2 seconds\
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/wget-1.16.3.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring wget-1.16.3.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/wget/1.16.3: 9 files, 1.5M\
+
+\f1\b \cf4 ==>\cf1  Downloading https://github.com/rupa/z/archive/v1.9.tar.gz
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading from https://codeload.github.com/rupa/z/tar.gz/v1.9
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Caveats
+\f0\b0 \cf0 \
+For Bash or Zsh, put something like this in your $HOME/.bashrc or $HOME/.zshrc:\
+  . `brew --prefix`/etc/profile.d/z.sh\
+
+\f1\b \cf4 ==>\cf1  Summary
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/z/1.9: 4 files, 32K, built in 2 seconds\
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/zeromq-4.1.3.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring zeromq-4.1.3.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/zeromq/4.1.3: 63 files, 3.3M\
+
+\f1\b \cf4 ==>\cf1  Downloading https://homebrew.bintray.com/bottles/zsh-5.1.1.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Pouring zsh-5.1.1.yosemite.bottle.tar.gz
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Caveats
+\f0\b0 \cf0 \
+In order to use this build of zsh as your login shell,\
+it must be added to /etc/shells.\
+Add the following to your zshrc to access the online help:\
+  unalias run-help\
+  autoload run-help\
+  HELPDIR=/usr/local/share/zsh/help\
+
+\f1\b \cf4 ==>\cf1  Summary
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/zsh/5.1.1: 1127 files, 11M\
+
+\f1\b \cf4 ==>\cf1  Downloading https://github.com/zsh-users/zsh-completions/archive/0.12.0.tar.gz
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Downloading from https://codeload.github.com/zsh-users/zsh-completions/tar.gz/0.12.0
+\f0\b0 \cf0 \
+######################################################################## 100.0%\
+
+\f1\b \cf4 ==>\cf1  Caveats
+\f0\b0 \cf0 \
+To activate these completions, add the following to your .zshrc:\
+\
+  fpath=(/usr/local/share/zsh-completions $fpath)\
+\
+You may also need to force rebuild `zcompdump`:\
+\
+  rm -f ~/.zcompdump; compinit\
+\
+Additionally, if you receive "zsh compinit: insecure directories" warnings when attempting\
+to load these completions, you may need to run this:\
+\
+  chmod go-w /usr/local/share\
+
+\f1\b \cf4 ==>\cf1  Summary
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/zsh-completions/0.12.0: 121 files, 980K, built in 3 seconds\
+
+\f1\b \cf4 ==>\cf1  Downloading https://github.com/macvim-dev/macvim/archive/snapshot-81.tar.gz
+\f0\b0 \cf0 \
+Already downloaded: /Library/Caches/Homebrew/macvim-7.4-81.tar.gz\
+
+\f1\b \cf4 ==>\cf1  ./configure --with-features=huge --enable-multibyte --with-macarchs=x86_64 --enable-perlinterp --enable-rubyinterp -
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  make
+\f0\b0 \cf0 \
+
+\f1\b \cf4 ==>\cf1  Caveats
+\f0\b0 \cf0 \
+.app bundles were installed.\
+Run `brew linkapps macvim` to symlink these to /Applications.\
+
+\f1\b \cf4 ==>\cf1  Summary
+\f0\b0 \cf0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/macvim/7.4-81: 1918 files, 35M, built in 38 seconds\
+flypro:NewMACSetup rlaney$ \
+}

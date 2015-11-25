@@ -1,0 +1,42 @@
+#!/usr/bin/expect -f
+
+spawn ssh-add -k /Users/rlaney/.ssh/cloud_id
+expect "Enter passphrase for /Users/rlaney/.ssh/cloud_id:"
+send "LetMeIn22\r";
+expect "Identity added: /Users/rlaney/.ssh/cloud_id (/Users/rlaney/.ssh/cloud_id)"
+
+spawn ssh-add -k /Users/rlaney/.ssh/ssh_rsa
+expect "Enter passphrase for /Users/rlaney/.ssh/ssh_rsa:"
+send "atdSw6t!D\$h2L9De\r"; # The $ must be backslashed to send the literal $.
+expect "Identity added: /Users/rlaney/.ssh/ssh_rsa (/Users/rlaney/.ssh/ssh_rsa)"
+
+interact
+
+#send -- "$passwd\r"
+#The -- indicates that any following words beginning with a dash are not to be treated as an option to the send command.
+#
+# An example expect script using FTP.
+######################################
+#!/usr/local/bin/expect --
+# retrieve an RFC (or the index) from uunet via anon ftp
+
+#if {[llength $argv] == 0} {
+#        puts "usage: ftp-rfc {-index|#}"
+#            exit 1
+#        }
+#        set timeout −1
+#        spawn ftp ftp.uu.net
+#        expect "Name"
+#        send "anonymous\r"
+#        expect "Password:"
+#        send "don@libes.com\r"
+#        expect "ftp> "
+#        send "cd inet/rfc\r"
+#        expect "ftp> "
+#
+#        send "binary\r"
+#        expect "ftp> "
+#        send "get rfc$argv.Z\r"
+#        expect "ftp> "
+#
+#        exec uncompress rfc$argv.Z

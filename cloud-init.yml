@@ -1,0 +1,20 @@
+#cloud-config
+groups:
+  – user
+  - admin
+
+# Add users user with password user
+users:
+  – default
+    – name: rlaney
+    gecos: Ricky User
+    primary-group: admin
+    groups: admin
+    plain_text_passwd: ‘ralrox22’
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    lock-passwd: false
+
+# Authorize password authentication for SSH
+runcmd:
+  – [ sh, -xc, “sed -i ‘s/PasswordAuthentication no/PasswordAuthentication yes/’ /etc/ssh/sshd_config” ]
+  – [ sh, -xc, “service ssh restart” ]

@@ -1,6 +1,5 @@
 #cloud-config
 groups:
-  – user
   - admin
 
 # Add users user with password user

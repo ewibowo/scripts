@@ -283,10 +283,11 @@ echo 'rails' >> "$HOME/.rbenv/default-gems"
 
 gem update --system
 
-if ! command -v rcup >/dev/null; then
-  brew_tap 'thoughtbot/formulae'
-  brew_install_or_upgrade 'rcm'
-fi
+# Replaced with mr and vcsh!!
+#if ! command -v rcup >/dev/null; then
+#  brew_tap 'thoughtbot/formulae'
+#  brew_install_or_upgrade 'rcm'
+#fi
 
 ##################################################
 #                Install XQuartz                 #
@@ -370,6 +371,39 @@ brew_install_or_upgrade 'readline'
 brew_install_or_upgrade 'scapy'
 brew_install_or_upgrade 'sip'
 
+# Get complete completions
+brew_install_or_upgrade 'apm-bash-completion'
+brew_install_or_upgrade 'aptly-completion'
+brew_install_or_upgrade 'boom-completion'
+brew_install_or_upgrade 'boot2docker-completion'
+brew_install_or_upgrade 'brew-cask-completion'
+brew_install_or_upgrade 'bundler-completion'
+brew_install_or_upgrade 'cargo-completion'
+brew_install_or_upgrade 'composer-completion'
+brew_install_or_upgrade 'ctest-completion'
+brew_install_or_upgrade 'django-completion'
+brew_install_or_upgrade 'docker-completion'
+brew_install_or_upgrade 'docker-machine-completion'
+brew_install_or_upgrade 'fabric-completion'
+brew_install_or_upgrade 'gem-completion'
+brew_install_or_upgrade 'grunt-completion'
+brew_install_or_upgrade 'kitchen-completion'
+brew_install_or_upgrade 'maven-completion'
+brew_install_or_upgrade 'mix-completion'
+brew_install_or_upgrade 'open-completion'
+brew_install_or_upgrade 'packer-completion'
+brew_install_or_upgrade 'pip-completion'
+brew_install_or_upgrade 'rails-completion'
+brew_install_or_upgrade 'rake-completion'
+brew_install_or_upgrade 'ruby-completion'
+brew_install_or_upgrade 'rustc-completion'
+brew_install_or_upgrade 'sonar-completion'
+brew_install_or_upgrade 'spring-completion'
+brew_install_or_upgrade 't-completion'
+brew_install_or_upgrade 'tmuxinator-completion'
+brew_install_or_upgrade 'vagrant-completion'
+brew_install_or_upgrade 'wpcli-completion'
+
 brew_install_or_upgrade 'the_silver_searcher'
 brew_install_or_upgrade 'ctags'
 brew_install_or_upgrade 'tmux'
@@ -395,7 +429,6 @@ brew_install_or_upgrade 'wget'
 brew_install_or_upgrade 'zeromq'
 brew_install_or_upgrade 'automake'
 brew_install_or_upgrade 'awk'
-brew_install_or_upgrade 'tmuxinator-completion'
 brew_install_or_upgrade 'z'
 
 gem_install_or_update 'tmuxinator'
@@ -452,6 +485,8 @@ brew_cask_install_or_upgrade 'vlc'
 brew_cask_install_or_upgrade 'webpquicklook'
 
 # New Stuff - 1-16-2016
+brew_install_or_upgrade 'mr'
+brew_install_or_upgrade 'vcsh'
 brew_install_or_upgrade 'mtr'
 brew_install_or_upgrade 'sift'
 brew_cask_install_or_upgrade 'gitbook'
@@ -552,26 +587,174 @@ brew-cask audit
 
 
 # Brew list
-# ack                   coreutils       fontconfig       hub          libtool       neovim      pyenv                       rsync       tcl-tk                 whois
-# autoconf              cscope          freetype         imagemagick  libvo-aacenc  nginx       pyqt                        ruby        tcpdump                x264
-# autoenv               ctags           gcc              isl          libyaml       node        python                      ruby-build  the_silver_searcher    xvid
-# automake              diffstat        gdbm             jpeg         lsof          numpy       python3                     sbt         tmux                   xz
-# awk                   diffutils       gettext          lame         lua           nvm         qt                          scala       tmuxinator-completion  z
-# bash                  docker          git              less         macvim        openssh     rbenv                       scapy       trash                  zeromq
-# boost                 docker-compose  gmp              libdnet      make          openssl     rcm                         scipy       tree                   zopfli
-# boost-python          docker-machine  grep             libevent     makedepend    packer      readline                    screen      unar                   zsh
-# brew-cask             expect          gzip             libmpc       markdown      pcre        reattach-to-user-namespace  sip         unzip                  zsh-completions
-# brew-cask-completion  ffmpeg          heroku-toolbelt  libpng       matplotlib    pkg-config  redis                       sqlite      wakeonlan
-# cmake                 findutils       highlight        libtiff      mpfr          postgresql  rename                      swig        wget
-# Brew Cask list
-#  alfred                                      flux                                        nvalt                                       sublime-text3
-#  appcleaner                                  font-fontawesome                            qlcolorcode                                 suspicious-package
-#  arq                                         font-material-icons                         qlmarkdown                                  tcl
-#  atom                                        font-octicons                               qlprettypatch                               totalfinder
-#  betterzipql                                 font-roboto                                 qlstephen                                   tower
-#  dockertoolbox                               font-source-code-pro                        quicklook-csv                               transmission
-#  dropbox                                     font-source-code-pro-for-powerline          quicklook-json                              vagrant
-#  evernote                                    google-chrome                               screenflick                                 vagrant-manager
-#  firefox                                     google-chrome-canary                        seil                                        virtualbox
-#  firefoxdeveloperedition                     insomniax                                   skype                                       vlc
-#  flash                                       iterm2                                      spectacle                                   webpquicklook
+#ack
+#autoconf
+#autoenv
+#automake
+#awk
+#bash
+#boost
+#boost-python
+#brew-cask
+#brew-cask-completion
+#cmake
+#coreutils
+#cscope
+#ctags
+#diffstat
+#diffutils
+#docker
+#docker-compose
+#docker-machine
+#expect
+#ffmpeg
+#findutils
+#fontconfig
+#freetype
+#gcc
+#gdbm
+#gettext
+#git
+#gmp
+#grep
+#gzip
+#heroku-toolbelt
+#highlight
+#hub
+#imagemagick
+#isl
+#jpeg
+#keychain
+#lame
+#less
+#libdnet
+#libevent
+#libmpc
+#libpng
+#libtiff
+#libtool
+#libvo-aacenc
+#libyaml
+#lsof
+#lua
+#macvim
+#make
+#makedepend
+#markdown
+#matplotlib
+#mpfr
+#mr
+#mtr
+#neovim
+#nginx
+#nmap
+#node
+#numpy
+#nvm
+#openssh
+#openssl
+#packer
+#pcre
+#pkg-config
+#postgresql
+#pyenv
+#pyqt
+#python
+#python3
+#qt
+#rbenv
+#readline
+#reattach-to-user-namespace
+#redis
+#rename
+#rsync
+#ruby
+#ruby-build
+#sbt
+#scala
+#scapy
+#scipy
+#screen
+#sift
+#sip
+#sqlite
+#swig
+#tcl-tk
+#tcpdump
+#the_silver_searcher
+#tmux
+#tmuxinator-completion
+#trash
+#tree
+#unar
+#unzip
+#vcsh
+#wakeonlan
+#wget
+#whois
+#x264
+#xvid
+#xz
+#z
+#zeromq
+#zopfli
+#zsh
+#zsh-completions
+
+# Brew cask list
+#alfred
+#appcleaner
+#arq
+#atom
+#betterzipql
+#dash
+#dockertoolbox
+#dropbox
+#evernote
+#firefox
+#firefoxdeveloperedition
+#flash
+#flashlight
+#flux
+#font-fontawesome
+#font-material-icons
+#font-octicons
+#font-roboto
+#font-source-code-pro
+#font-source-code-pro-for-powerline (!)
+#gitbook
+#google-chrome
+#google-chrome-canary
+#hammerspoon
+#insomniax
+#iterm2
+#java
+#near-lock
+#nvalt
+#qlcolorcode
+#qlimagesize
+#qlmarkdown
+#qlprettypatch
+#qlstephen
+#qq
+#quicklook-csv
+#quicklook-json
+#screenflick
+#seil
+#sequel-pro
+#skype
+#sogouinput
+#sourcetree
+#spectacle
+#sublime-text3
+#suspicious-package
+#tcl
+#totalfinder
+#tower
+#transmission
+#tunnelblick
+#vagrant
+#vagrant-manager
+#virtualbox
+#vlc
+#webpquicklook

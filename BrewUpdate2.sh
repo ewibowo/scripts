@@ -4,10 +4,26 @@ NAME="$0:t:r"
 
 export PATH=/usr/local/bin:/usr/bin:/usr/sbin:/sbin:/bin
 
-(#di-xquartz.sh && \
- brew update  && \
+(brew update && \
  brew upgrade && \
- brew doctor) 2>&1 |\
- 	tee -a "$HOME/Library/Logs/$NAME.log"
+ brew cask update && \
+ brew linkapps && \
+ brew cleanup && \
+ brew cask cleanup && \
+ brew doctor && \
+ brew cask doctor && \
+ brew cask audit ) 2>&1 |\
+ 	tee -a "$HOME/Logs/$NAME.log"
 
 exit 0
+
+# List commands:
+#brew linkapps
+#brew update
+#brew upgrade
+#brew cask update
+#brew cleanup
+#brew cask cleanup
+#brew doctor
+#brew cask doctor
+#brew cask audit

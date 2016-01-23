@@ -485,8 +485,6 @@ brew_cask_install_or_upgrade 'vlc'
 brew_cask_install_or_upgrade 'webpquicklook'
 
 # New Stuff - 1-16-2016
-brew_install_or_upgrade 'mr'
-brew_install_or_upgrade 'vcsh'
 brew_install_or_upgrade 'mtr'
 brew_install_or_upgrade 'sift'
 brew_cask_install_or_upgrade 'gitbook'
@@ -588,35 +586,47 @@ brew-cask audit
 
 # Brew list
 #ack
+#apm-bash-completion
+#aptly-completion
 #autoconf
 #autoenv
 #automake
 #awk
 #bash
+#boom-completion
 #boost
 #boost-python
+#boot2docker-completion
 #brew-cask
 #brew-cask-completion
+#bundler-completion
+#cargo-completion
 #cmake
+#composer-completion
 #coreutils
 #cscope
 #ctags
+#ctest-completion
 #diffstat
 #diffutils
+#django-completion
 #docker
 #docker-compose
 #docker-machine
 #expect
+#fabric-completion
 #ffmpeg
 #findutils
 #fontconfig
 #freetype
 #gcc
 #gdbm
+#gem-completion
 #gettext
 #git
 #gmp
 #grep
+#grunt-completion
 #gzip
 #heroku-toolbelt
 #highlight
@@ -625,6 +635,7 @@ brew-cask audit
 #isl
 #jpeg
 #keychain
+#kitchen-completion
 #lame
 #less
 #libdnet
@@ -642,8 +653,9 @@ brew-cask audit
 #makedepend
 #markdown
 #matplotlib
+#maven-completion
+#mix-completion
 #mpfr
-#mr
 #mtr
 #neovim
 #nginx
@@ -651,10 +663,13 @@ brew-cask audit
 #node
 #numpy
 #nvm
+#open-completion
 #openssh
 #openssl
 #packer
+#packer-completion
 #pcre
+#pip-completion
 #pkg-config
 #postgresql
 #pyenv
@@ -662,6 +677,8 @@ brew-cask audit
 #python
 #python3
 #qt
+#rails-completion
+#rake-completion
 #rbenv
 #readline
 #reattach-to-user-namespace
@@ -670,6 +687,8 @@ brew-cask audit
 #rsync
 #ruby
 #ruby-build
+#ruby-completion
+#rustc-completion
 #sbt
 #scala
 #scapy
@@ -677,8 +696,11 @@ brew-cask audit
 #screen
 #sift
 #sip
+#sonar-completion
+#spring-completion
 #sqlite
 #swig
+#t-completion
 #tcl-tk
 #tcpdump
 #the_silver_searcher
@@ -688,10 +710,11 @@ brew-cask audit
 #tree
 #unar
 #unzip
-#vcsh
+#vagrant-completion
 #wakeonlan
 #wget
 #whois
+#wpcli-completion
 #x264
 #xvid
 #xz

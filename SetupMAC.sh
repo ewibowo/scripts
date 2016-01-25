@@ -354,7 +354,7 @@ brew_install_or_upgrade 'redis'
 brew_launchctl_restart 'redis'
 brew_install_or_upgrade 'sqlite'
 brew_install_or_upgrade 'mongodb --with-openssl'
-brew_launchctl_restart 'mongodb'
+#brew_launchctl_restart 'mongodb' # Prefer manual start & stop.
 
 brew_install_or_upgrade 'cscope'
 brew_install_or_upgrade 'lua'

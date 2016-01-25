@@ -374,6 +374,7 @@ brew_install_or_upgrade 'scapy'
 brew_install_or_upgrade 'sip'
 
 # Get complete completions
+brew_install_or_upgrade 'ansible'
 brew_install_or_upgrade 'apm-bash-completion'
 brew_install_or_upgrade 'aptly-completion'
 brew_install_or_upgrade 'boom-completion'
@@ -537,6 +538,7 @@ pip install pyzmq
 pip install pygments
 pip install jinja2
 pip install tornado
+pip install pymongo
 
 brew_install_or_upgrade 'homebrew/python/numpy'
 brew_install_or_upgrade 'samueljohn/python/numpy'

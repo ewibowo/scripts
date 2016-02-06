@@ -1,4 +1,4 @@
-#!/usr/bin/expect -f
+#!/usr/local/bin/expect -f
 
 spawn ssh-add -k /Users/rlaney/.ssh/cloud_id
 expect "Enter passphrase for /Users/rlaney/.ssh/cloud_id:"

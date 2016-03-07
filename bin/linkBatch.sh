@@ -33,6 +33,8 @@ ln -s ~/scripts/bin/git-up                   ~/.bin/git-up
 ln -s ~/scripts/bin/gomongo                  ~/.bin/gomongo
 ln -s ~/scripts/bin/goredis                  ~/.bin/goredis
 ln -s ~/scripts/bin/noredis                  ~/.bin/noredis
+ln -s ~/scripts/bin/goftp                    ~/.bin/goftp
+ln -s ~/scripts/bin/noftp                    ~/.bin/noftp
 ln -s ~/scripts/bin/replace                  ~/.bin/replace
 ln -s ~/scripts/bin/ssh-copy-id.sh           ~/.bin/ssh-copy-id.sh
 ln -s ~/scripts/bin/ssh-multi.sh             ~/.bin/ssh-multi.sh

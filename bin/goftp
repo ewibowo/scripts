@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Start a ftp server
+echo "Start FTP server command:"
+sudo -s launchctl load -w /System/Library/LaunchDaemons/ftp.plist
+echo "FTP server has started"
+echo "To shutdown the server use this command:" 
+echo "noftp (sudo -s launchctl unload -w /System/Library/LaunchDaemons/ftp.plist)"

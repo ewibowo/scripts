@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Stop a ftp server
+echo "Stop FTP server command:"
+sudo -s launchctl unload -w /System/Library/LaunchDaemons/ftp.plist
+echo "FTP server has stopped"
+echo "To start the server use this command:" 
+echo "goftp (sudo -s launchctl load -w /System/Library/LaunchDaemons/ftp.plist)"

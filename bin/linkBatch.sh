@@ -36,6 +36,8 @@ ln -s ~/scripts/bin/noredis                  ~/.bin/noredis
 ln -s ~/scripts/bin/goftp                    ~/.bin/goftp
 ln -s ~/scripts/bin/noftp                    ~/.bin/noftp
 ln -s ~/scripts/bin/replace                  ~/.bin/replace
+ln -s ~/scripts/bin/goretna                  ~/.bin/goretna
+ln -s ~/scripts/bin/noretna                  ~/.bin/noretna
 ln -s ~/scripts/bin/ssh-copy-id.sh           ~/.bin/ssh-copy-id.sh
 ln -s ~/scripts/bin/ssh-multi.sh             ~/.bin/ssh-multi.sh
 ln -s ~/scripts/bin/ssh-multi2.sh            ~/.bin/ssh-multi2.sh

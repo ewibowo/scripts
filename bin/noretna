@@ -1,0 +1,15 @@
+#!/bin/sh
+
+echo "Shuting off the Laptop Monitor (Retina) and keyboard to save CPU/MEM/etc."
+echo "Please remember to raise the lid back up to keep this thing from melting!!"
+sudo -v
+sudo nvram boot-args=niog=1
+echo "Please reboot immediately closing the lid."
+echo "After login you can re-open lid and monitor/keyboard will be off."
+echo "Use 'goretna' then reboot to get it back."
+
+echo "########################################"
+echo "Official instructions:
+1) After putting in the terminal command, reboot and close the lid immediately
+2) Keep the lid closed during boot up and once logged in, open the lid
+3) Viola! The MacBook Pro's screen is turned off"

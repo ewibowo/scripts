@@ -1,0 +1,7 @@
+#!/usr/bin/sh
+
+# Command to flush the DNS cache on MAC OSX 10.10.4 or later:
+sudo killall -HUP mDNSResponder
+
+# Command to flush the DNS cache on MAC OSX 10.10 - 10.10.3:
+#sudo discoveryutil mdnsflushcache

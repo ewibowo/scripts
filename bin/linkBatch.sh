@@ -57,3 +57,4 @@ ln -s ~/scripts/bin/ralssh.exp               ~/.bin/ralssh.exp
 ln -s ~/scripts/bin/ubuFontInstSrcCodePro.sh ~/.bin/ubuFontInstSrcCodePro.sh
 ln -s ~/scripts/bin/ubuInstall_ohmyzsh.sh    ~/.bin/ubuInstall_ohmyzsh.sh
 ln -s ~/scripts/bin/clrcache.sh              ~/.bin/clrcache.sh
+ln -s ~/scripts/bin/flushdns                 ~/.bin/flushdns

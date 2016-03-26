@@ -58,3 +58,4 @@ ln -s ~/scripts/bin/ubuFontInstSrcCodePro.sh ~/.bin/ubuFontInstSrcCodePro.sh
 ln -s ~/scripts/bin/ubuInstall_ohmyzsh.sh    ~/.bin/ubuInstall_ohmyzsh.sh
 ln -s ~/scripts/bin/clrcache.sh              ~/.bin/clrcache.sh
 ln -s ~/scripts/bin/flushdns                 ~/.bin/flushdns
+ln -s ~/scripts/bin/ubuJava8.sh              ~/.bin/ubuJava8.sh

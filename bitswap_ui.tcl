@@ -87,7 +87,7 @@ MAC Bitswapping utility, v1.1
 
 Provided by Cisco Systems, Inc.
 
-This utility is a wrapper around a simple Tcl function which reverses byte order in a hexidecimal, regardless of the inherent bye order of the platform.
+This utility is a wrapper around a simple Tcl function which reverses byte order in a hexidecimal, regardless of the inherent byte order of the platform.
 
 If you would like to script your own functions, to allow automation of more frequent swaps or perhaps port this capability to another scripting language, the portion
 of the code doing the real work is simply:

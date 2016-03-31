@@ -13,3 +13,9 @@ sudo chown -R root:root /usr/lib/jvm/jdk1.8.0_77
 sudo update-alternatives --config java
 sudo update-alternatives --config javac
 sudo update-alternatives --config javaws
+
+
+#sudo update-alternatives --remove java /usr/lib/jvm/jdk1.8.0_77/bin/java
+#sudo update-alternatives --remove javac /usr/lib/jvm/jdk1.8.0_77/bin/javac
+#sudo update-alternatives --remove javaws /usr/lib/jvm/jdk1.8.0_77/bin/javaws
+#JAVA_HOME="/usr/lib/jvm/java-7-openjdk-amd64"

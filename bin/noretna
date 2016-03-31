@@ -13,3 +13,16 @@ echo "Official instructions:
 1) After putting in the terminal command, reboot and close the lid immediately
 2) Keep the lid closed during boot up and once logged in, open the lid
 3) Viola! The MacBook Pro's screen is turned off"
+echo "Rebooting in 5..."
+sleep 1
+echo "4..."
+sleep 1
+echo "3..."
+sleep 1
+echo "2..."
+sleep 1
+echo "1...CLOSE LID!!!"
+sleep 1
+sudo reboot
+
+EXIT 0

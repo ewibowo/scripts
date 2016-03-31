@@ -1,7 +1,19 @@
 #!/bin/sh
 
-echo "Re-enabling the Retina display and keyboard backlighting."
+echo "Use 'noretna' to cut off."
+echo "Re-enabling the Retina display."
 sudo -v
 sudo nvram -d boot-args
-echo "Please reboot."
-echo "Use 'noretna' then reboot to cut off."
+echo "Rebooting in 5..."
+sleep 1
+echo "4..."
+sleep 1
+echo "3..."
+sleep 1
+echo "2..."
+sleep 1
+echo "1...CLOSE LID!!!"
+sleep 1
+sudo reboot
+
+EXIT 0

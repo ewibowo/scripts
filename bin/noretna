@@ -3,6 +3,9 @@
 echo "Shuting off the Laptop Monitor (Retina) and keyboard to save CPU/MEM/etc."
 echo "Please remember to raise the lid back up to keep this thing from melting!!"
 sudo -v
+sudo nvram boot-args=""
+echo "Cleared boot-args"
+sleep 1
 sudo nvram boot-args=niog=1
 echo "Please reboot immediately closing the lid."
 echo "After login you can re-open lid and monitor/keyboard will be off."
@@ -26,3 +29,50 @@ sleep 1
 sudo reboot
 
 EXIT 0
+
+############################################################
+# Options for boot-args.
+#sudo nvram boot-args=niog=1
+#
+#sudo nvram boot-args="-v"
+#Verbose mode.
+#
+#sudo nvram boot-args="-x"
+#Safe Mode.
+#
+#sudo nvram boot-args="-s"
+#Single User mode, drops you to the command line as the "root" user.
+#
+#sudo nvram boot-args="iog=0x0"
+#This reverses the "Clamshell" mode for Apple's laptop systems, where when you close the display but connect the system to an external monitor and keyboard the system will stay awake. After running this command, when connecting an external monitor, the internal display will be disabled, which can be beneficial in some situations such as those where you are mirroring your desktop but wish to run the external display at a higher resolution than your laptop can run.
+#
+#sudo nvram boot-args="debug=0x144"
+#This is a combination of kernel debugging features that will show you extra information about the kernel's processes, which can be exceptionally useful if a system is experiencing kernel panics. Another option is to use debug=0x14e, which will display even more logging options. The primary use for this is that it enables old-style kernel panics that show scrolled text on the screen about why the system panicked, instead of displaying the gray backdrop and the message to merely restart your system. Alternative debug options are the following, though these will likely only be useful to kernel programmers:
+#
+#0x01 - Stop at boot time and wait for the debugger to attach
+#0x02 - Send kernel debugging output to the console
+#0x04 - Drop into debugger on a nonmaskable interrupt
+#0x08 - Send kernel debugging information to a serial port
+#0x10 - Make ddb the default debugger
+#0x20 - Output diagnostics information to the system log
+#0x40 - Allow the debugger to ARP and route
+#0x80 - Support old versions of gdb on newer systems
+#0x100 - Disable the graphical panic dialog screen
+#
+#sudo nvram boot-args="arch=x86_64"
+#On Snow Leopard system, even though a 64-bit kernel is available, the system boots to the 32-bit one by default. This command will change this so the system always boots to the 64-bit kernel. To change systems to always boot to a 32-bit kernel, replace the "x86_64" section of the command with "i386." In some instances, third-party kernel extensions might be 32-bit or 64-bit only, which will require booting to the respective kernel type in order to load.
+#
+#sudo nvram boot-args="maxmem=32"
+#Limits the addressable memory to the specified amount, which in this case is 32GB. This is another one of those that is likely only useful to programmers. Without it, the system sets the memory limit to either the maximum that the hardware can address, or to the amount that is installed.
+#
+#sudo nvram boot-args="cpus=1"
+#Limits the number of active processors in the system to the set level. Apple's developer tools have an option to enable or disable some of the CPUs on the system, but you can do this manually by running this command and specifying the number of CPU cores to use. In some cases, such as with laptop systems, this might help preserve power, though is likely not useful for much else unless you are testing and programming.
+#With these options you can set them individually by running the above commands one at a time, or you can combine them if needed. For instance, to set the system to boot into Safe Mode and verbosely show items as they load during startup, you can either run both of the commands listed above to do this, or you can simply combine them into the following command:
+#
+#sudo nvram boot-args="-x -v"
+#
+#To disable these features and have the system boot normally without any extra options, you can erase them from the nvram by either resetting it or, more specifically, by running either of the following commands in the Terminal (these will reset the boot arguments instead of resetting all the nvram variables):
+#
+#sudo nvram boot-args=""
+#sudo nvram -d boot-args
+############################################################

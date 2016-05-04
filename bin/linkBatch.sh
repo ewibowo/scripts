@@ -60,3 +60,5 @@ ln -s ~/scripts/bin/clrcache.sh              ~/.bin/clrcache.sh
 ln -s ~/scripts/bin/flushdns                 ~/.bin/flushdns
 ln -s ~/scripts/bin/ubuJava8.sh              ~/.bin/ubuJava8.sh
 ln -s ~/scripts/bin/ubuInstall.sh            ~/.bin/ubuInstall.sh
+ln -s ~/scripts/bin/ubuInstallxRDPlxqt.sh    ~/.bin/ubuInstallxRDPlxqt.sh
+ln -s ~/scripts/bin/ubuInstallxRDPxfce.sh    ~/.bin/ubuInstallxRDPxfce.sh

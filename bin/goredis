@@ -20,7 +20,7 @@
 #If it replies “PONG”, then it’s good to go!
 
 # Start redis with local config file
-echo "To run from command line run:"
+echo "To run from command line run: redis-server"
 redis-server /Users/rlaney/DB/redis/redis.conf
 echo "Redis has started"
 echo "To shutdown the server use CTRL-C" 

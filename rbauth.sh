@@ -1,0 +1,16 @@
+en
+conf t
+username rlaney
+ssh client user rlaney authorized-key key sshv2 AAAAB3NzaC1yc2EAAAADAQABAAABAQDDFswsuKUa94ko6jVTskbrMd22shlAuf5Q4OVIcUUt7dyvTMNcXgBtwiyrEzV6EAPp7bfxOFtJoeNAGl4U8IKEtHmfV4i9UEyBx2oXxZQ4zvRnvUjrrGwNxVdyJKkUxaXD/M/1N60Ct7jLajjy4JcArLUMw/lnfy/sfl0HmKGKvterNcsBY2twCHVRjeZC+kPhSMduqE0UAVCXPSnKbqp7vNrbgU0D5JtIvo2Q7dDIgxdpgWUBjFPizJz+t/MJrEg1uyb458mIN61nxi1uoO43EbFVRJuA/pi2IWmb9tIOcNHa/Fkk54S93nw1e77zQKr/eprTSbYdxp1Xce9pEDRp
+
+no protocol smb2 find-responses negative-single
+protocol smb2 credit-mgr throttle
+no protocol smb2 write-behind enable
+no protocol smb2 neg-whitelist enable
+no protocol smb2 basic-dialect
+no protocol smb2 find-prefetch enable
+no protocol smb2 find-caching enable
+end
+wr mem
+restart
+

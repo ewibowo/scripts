@@ -28,6 +28,7 @@ ln -s ~/scripts/bin/git-current-branch       ~/.bin/git-current-branch
 ln -s ~/scripts/bin/git-delete-branch        ~/.bin/git-delete-branch
 ln -s ~/scripts/bin/git-merge-branch         ~/.bin/git-merge-branch
 ln -s ~/scripts/bin/git-pr                   ~/.bin/git-pr
+ln -s ~/scripts/bin/git-ignore               ~/.bin/git-ignore
 ln -s ~/scripts/bin/git-rename-branch        ~/.bin/git-rename-branch
 ln -s ~/scripts/bin/git-up                   ~/.bin/git-up
 ln -s ~/scripts/bin/gomongo                  ~/.bin/gomongo

@@ -36,6 +36,9 @@ ln -s ~/scripts/bin/goredis                  ~/.bin/goredis
 ln -s ~/scripts/bin/noredis                  ~/.bin/noredis
 ln -s ~/scripts/bin/goftp                    ~/.bin/goftp
 ln -s ~/scripts/bin/noftp                    ~/.bin/noftp
+ln -s ~/scripts/bin/gotftp                   ~/.bin/gotftp
+ln -s ~/scripts/bin/notftp                   ~/.bin/notftp
+ln -s ~/scripts/bin/retftp                   ~/.bin/retftp
 ln -s ~/scripts/bin/replace                  ~/.bin/replace
 ln -s ~/scripts/bin/goretna                  ~/.bin/goretna
 ln -s ~/scripts/bin/noretna                  ~/.bin/noretna

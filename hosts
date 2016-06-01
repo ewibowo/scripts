@@ -8,19 +8,20 @@
 255.255.255.255	broadcasthost
 
 ### Begin Custom Hosts ###
-192.168.206.210 bea-core-sw1    be1
-192.168.206.211 bea-core-sw2    be2
-192.168.206.212 bea-circ-sw1    be3
-192.168.206.213 bea-edit-sw1    be4
-192.168.206.214 bea-exec-sw1    be5
+10.185.6.33 bea-core-sw1    be1
+10.185.6.34 bea-core-sw2    be2
+10.185.6.36 bea-circ-sw1    be3
+10.185.6.38 bea-edit-sw1    be4
+10.185.6.39 bea-exec-sw1    be5
 
-172.19.12.30    kubuntu02       k2
+172.19.12.30    ubuntu22        u22
 10.72.0.202     redhat          rh
-10.0.22.24      kubuntu01       k1
+10.0.22.24      ubu16           u16
 10.0.10.6       ns2             k22
 10.0.10.5       ns1
 147.75.194.195  virl-cloud
 10.101.14.1     het-remote01    r1
+10.0.22.5       tw-gw3          gw3
 
 10.0.22.90      cloudmon09      cld9
 10.0.22.80      cloudmon08      cld8

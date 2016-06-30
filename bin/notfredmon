@@ -13,3 +13,6 @@ echo "TFTP server is stopped. Use gotftp to start it again."
 redis-cli shutdown
 echo "Redis has stopped"
 
+# Shutdown Mongodb
+print "Shutting Mongo Server Down!!"
+mongo admin --eval "printjson(db.shutdownServer())"

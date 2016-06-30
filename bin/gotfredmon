@@ -20,7 +20,7 @@ echo "redis-cli ping"
 echo "If it replies “PONG”, then it’s good to go!"
 
 echo "WARNING: launchctl will fail when run under tmux."
-echo "You have 10 seconds to Control-C......"
+echo "You have 5 seconds to Control-C......"
 sleep 5
 # Using "fork" to start process in the background.
 mongod --config /Users/rlaney/DB/mongodb/mongod.conf --fork

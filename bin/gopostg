@@ -21,3 +21,6 @@
 echo "Starting Postgres SQL"
 #postgres -D /usr/local/var/postgres
 pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+echo "Let's check the status with:
+pg_ctl -D /usr/local/var/postgres status"
+pg_ctl -D /usr/local/var/postgres status

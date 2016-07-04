@@ -18,9 +18,21 @@
 #Or, if you don't want/need a background service you can just run:
 #  postgres -D /usr/local/var/postgres
 
+#   pg_ctl -D postgres -l logfile start
+
 echo "Starting Postgres SQL"
-#postgres -D /usr/local/var/postgres
-pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+#postgres -D /Users/rlaney/DB/postgres
+pg_ctl -D /Users/rlaney/DB/postgres -l /Users/rlaney/DB/postgres/server.log start
+echo "5"
+sleep 1
+echo "4"
+sleep 1
+echo "3"
+sleep 1
+echo "2"
+sleep 1
+echo "1"
+sleep 1
 echo "Let's check the status with:
-pg_ctl -D /usr/local/var/postgres status"
-pg_ctl -D /usr/local/var/postgres status
+pg_ctl -D /Users/rlaney/DB/postgres status"
+pg_ctl -D /Users/rlaney/DB/postgres status

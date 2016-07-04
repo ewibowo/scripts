@@ -19,7 +19,17 @@
 #  postgres -D /usr/local/var/postgres
 
 echo "Stopping Postgres SQL"
-pg_ctl -D /usr/local/var/postgres stop -s -m fast
+pg_ctl -D /Users/rlaney/DB/postgres stop -s -m fast
+echo "5"
+sleep 1
+echo "4"
+sleep 1
+echo "3"
+sleep 1
+echo "2"
+sleep 1
+echo "1"
+sleep 1
 echo "Let's check the status with:
-pg_ctl -D /usr/local/var/postgres status"
-pg_ctl -D /usr/local/var/postgres status
+pg_ctl -D /Users/rlaney/DB/postgres status"
+pg_ctl -D /Users/rlaney/DB/postgres status

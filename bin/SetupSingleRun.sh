@@ -187,20 +187,9 @@ brew_cask_expand_alias() {
 ##################################################
 
 
-brew_cask_install_or_upgrade 'gitbook'
-brew_cask_install_or_upgrade 'github'
-brew_cask_install_or_upgrade 'near-lock'
-brew_cask_install_or_upgrade 'dash'
-brew_cask_install_or_upgrade 'java'
-brew_cask_install_or_upgrade 'qq'
-brew_cask_install_or_upgrade 'flashlight'
-brew_cask_install_or_upgrade 'sequel-pro'
-brew_cask_install_or_upgrade 'tunnelblick'
-brew_cask_install_or_upgrade 'hammerspoon'
-brew_cask_install_or_upgrade 'sogouinput'
-brew_cask_install_or_upgrade 'qlimagesize'
-brew_cask_install_or_upgrade 'sourcetree'
-
+brew install python --universal --framework
+brew install python3 --universal --framework
+brew install macvim --env-std --with-override-system-vim
 brew linkapps
 brew update
 brew upgrade
@@ -211,6 +200,19 @@ brew doctor
 brew cask doctor
 brew cask audit
 
+#brew_cask_install_or_upgrade 'gitbook'
+#brew_cask_install_or_upgrade 'github'
+#brew_cask_install_or_upgrade 'near-lock'
+#brew_cask_install_or_upgrade 'dash'
+#brew_cask_install_or_upgrade 'java'
+#brew_cask_install_or_upgrade 'qq'
+#brew_cask_install_or_upgrade 'flashlight'
+#brew_cask_install_or_upgrade 'sequel-pro'
+#brew_cask_install_or_upgrade 'tunnelblick'
+#brew_cask_install_or_upgrade 'hammerspoon'
+#brew_cask_install_or_upgrade 'sogouinput'
+#brew_cask_install_or_upgrade 'qlimagesize'
+#brew_cask_install_or_upgrade 'sourcetree'
 #brew_install_or_upgrade 'automake'
 #brew_install_or_upgrade 'awk'
 #brew_install_or_upgrade 'tmuxinator-completion'

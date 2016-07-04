@@ -10,7 +10,16 @@
 
 echo "WARNING: launchctl will fail when run under tmux."
 echo "You have 5 seconds to Control-C......"
-sleep 5
+echo "5"
+sleep 1
+echo "4"
+sleep 1
+echo "3"
+sleep 1
+echo "2"
+sleep 1
+echo "1"
+sleep 1
 # Using "fork" to start process in the background.
 mongod --config /Users/rlaney/DB/mongodb/mongod.conf --fork
 echo "MongoDB has started"

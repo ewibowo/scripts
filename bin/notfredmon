@@ -16,3 +16,19 @@ echo "Redis has stopped"
 # Shutdown Mongodb
 print "Shutting Mongo Server Down!!"
 mongo admin --eval "printjson(db.shutdownServer())"
+
+echo "Stopping Postgres SQL"
+pg_ctl -D /Users/rlaney/DB/postgres stop -s -m fast
+#echo "5"
+#sleep 1
+#echo "4"
+#sleep 1
+echo "3"
+sleep 1
+echo "2"
+sleep 1
+echo "1"
+sleep 1
+echo "Let's check the status with:
+pg_ctl -D /Users/rlaney/DB/postgres status"
+pg_ctl -D /Users/rlaney/DB/postgres status

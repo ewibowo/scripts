@@ -20,10 +20,10 @@
 
 echo "Stopping Postgres SQL"
 pg_ctl -D /Users/rlaney/DB/postgres stop -s -m fast
-echo "5"
-sleep 1
-echo "4"
-sleep 1
+#echo "5"
+#sleep 1
+#echo "4"
+#sleep 1
 echo "3"
 sleep 1
 echo "2"

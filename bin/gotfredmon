@@ -18,12 +18,39 @@ echo "========================================"
 echo "Test if Redis server is running."
 echo "redis-cli ping"
 echo "If it replies “PONG”, then it’s good to go!"
+redis-cli ping
 
 echo "WARNING: launchctl will fail when run under tmux."
 echo "You have 5 seconds to Control-C......"
-sleep 5
+echo "5"
+sleep 1
+echo "4"
+sleep 1
+echo "3"
+sleep 1
+echo "2"
+sleep 1
+echo "1"
+sleep 1
 # Using "fork" to start process in the background.
 mongod --config /Users/rlaney/DB/mongodb/mongod.conf --fork
 echo "MongoDB has started"
 echo "To shutdown the server use db.shutdownServer(); in the mongo shell."
 echo "NOTE: You must be in the admin database (use admin)."
+
+echo "Starting Postgres SQL"
+#postgres -D /Users/rlaney/DB/postgres
+pg_ctl -D /Users/rlaney/DB/postgres -l /Users/rlaney/DB/postgres/server.log start
+echo "5"
+sleep 1
+echo "4"
+sleep 1
+echo "3"
+sleep 1
+echo "2"
+sleep 1
+echo "1"
+sleep 1
+echo "Let's check the status with:
+pg_ctl -D /Users/rlaney/DB/postgres status"
+pg_ctl -D /Users/rlaney/DB/postgres status

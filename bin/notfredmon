@@ -7,16 +7,23 @@ sudo -v
 echo "Stopping TFTP server..."
 sudo launchctl stop com.apple.tftpd
 sudo launchctl unload -F /System/Library/LaunchDaemons/tftp.plist
+echo "\n"
 echo "TFTP server is stopped. Use gotftp to start it again."
+echo "\n"
 
+echo "\n"
 # Shutdown redis from command line:
 redis-cli shutdown
 echo "Redis has stopped"
+echo "\n"
 
+echo "\n"
 # Shutdown Mongodb
 print "Shutting Mongo Server Down!!"
 mongo admin --eval "printjson(db.shutdownServer())"
+echo "\n"
 
+echo "\n"
 echo "Stopping Postgres SQL"
 pg_ctl -D /Users/rlaney/DB/postgres stop -s -m fast
 #echo "5"
@@ -31,4 +38,5 @@ echo "1"
 sleep 1
 echo "Let's check the status with:
 pg_ctl -D /Users/rlaney/DB/postgres status"
+echo "\n"
 pg_ctl -D /Users/rlaney/DB/postgres status

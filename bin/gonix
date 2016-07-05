@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+
+# Location of nginx site config files:
+# /usr/local/etc/nginx/sites-enabled
+echo "Starting nginx..."
+sudo nginx
+echo "\n"
+echo "Some more useful commands:"
+echo "sudo nginx -s reload"
+echo "sudo nginx -s restart"
+echo "sudo nginx -s stop"
+echo "sudo nginx"
+echo "\n"
+echo "Nginx running"

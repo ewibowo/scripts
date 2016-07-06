@@ -5,10 +5,12 @@
 echo "Starting nginx..."
 sudo nginx
 echo "\n"
+echo "****************************************" 
 echo "Some more useful commands:"
 echo "sudo nginx -s reload"
 echo "sudo nginx -s restart"
 echo "sudo nginx -s stop"
 echo "sudo nginx"
+echo "****************************************" 
 echo "\n"
 echo "Nginx running"

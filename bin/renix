@@ -4,10 +4,12 @@
 # /usr/local/etc/nginx/sites-enabled
 echo "Reloading nginx..."
 sudo nginx -s reload
+echo "****************************************" 
 echo "Some more useful commands:"
 echo "sudo nginx -s reload"
 echo "sudo nginx -s restart"
 echo "sudo nginx -s stop"
 echo "sudo nginx"
+echo "****************************************" 
 echo "Nginx reloaded"
 

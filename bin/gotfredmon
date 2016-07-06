@@ -8,30 +8,34 @@ echo "Starting TFTP server..."
 sudo launchctl load -F /System/Library/LaunchDaemons/tftp.plist
 sudo launchctl start com.apple.tftpd
 echo "\n"
+echo "----------------------------------------" 
 echo "TFTP server is running. Use notftp to stop it."
-echo "\n"
 
 echo "\n"
+echo "****************************************" 
+echo "\n"
+
 # Start redis with local config file
 echo "To run from command line run: redis-server"
+echo "Starting Redis..."
 redis-server /Users/rlaney/DB/redis/redis.conf
+echo "----------------------------------------" 
 echo "Redis has started"
 echo "\n"
 echo "To shutdown the server use CTRL-C"
 echo "\n"
+echo "----------------------------------------" 
 echo "Test if Redis server is running."
 echo "redis-cli ping"
 echo "If it replies “PONG”, then it’s good to go!"
 redis-cli ping
-echo "\n"
 
 echo "\n"
+echo "****************************************" 
+echo "\n"
+
 echo "WARNING: launchctl will fail when run under tmux."
-echo "You have 5 seconds to Control-C......"
-echo "5"
-sleep 1
-echo "4"
-sleep 1
+echo "You have 3 seconds to Control-C..."
 echo "3"
 sleep 1
 echo "2"
@@ -40,42 +44,49 @@ echo "1"
 sleep 1
 # Using "fork" to start process in the background.
 mongod --config /Users/rlaney/DB/mongodb/mongod.conf --fork
+echo "----------------------------------------" 
 echo "MongoDB has started"
 echo "\n"
 echo "To shutdown the server use db.shutdownServer(); in the mongo shell."
 echo "NOTE: You must be in the admin database (use admin)."
-echo "\n"
 
 echo "\n"
+echo "****************************************" 
+echo "\n"
+
 echo "Starting Postgres SQL"
 #postgres -D /Users/rlaney/DB/postgres
 pg_ctl -D /Users/rlaney/DB/postgres -l /Users/rlaney/DB/postgres/server.log start
-echo "5"
-sleep 1
-echo "4"
-sleep 1
+echo "Countdown before status check..."
 echo "3"
 sleep 1
 echo "2"
 sleep 1
 echo "1"
 sleep 1
-echo "Let's check the status with:
-pg_ctl -D /Users/rlaney/DB/postgres status"
+echo "----------------------------------------" 
+echo "Checking the status with:"
+echo "pg_ctl -D /Users/rlaney/DB/postgres status"
 echo "\n"
 pg_ctl -D /Users/rlaney/DB/postgres status
-echo "\n"
 
 echo "\n"
-# Location of nginx site config files:
-# /usr/local/etc/nginx/sites-enabled
-echo "Starting nginx..."
-sudo nginx
+echo "****************************************" 
 echo "\n"
-echo "Some more useful commands:"
-echo "sudo nginx -s reload"
-echo "sudo nginx -s restart"
-echo "sudo nginx -s stop"
-echo "sudo nginx"
-echo "\n"
-echo "Nginx running"
+
+## Location of nginx site config files:
+## /usr/local/etc/nginx/sites-enabled
+#echo "Starting nginx..."
+#sudo nginx
+#echo "\n"
+#echo "----------------------------------------" 
+#echo "Some more useful commands:"
+#echo "sudo nginx -s reload"
+#echo "sudo nginx -s restart"
+#echo "sudo nginx -s stop"
+#echo "sudo nginx"
+#echo "----------------------------------------" 
+#echo "\n"
+#echo "Nginx running"
+
+echo "DONE!"

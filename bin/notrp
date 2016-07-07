@@ -1,0 +1,68 @@
+#!/bin/sh
+
+# The default tftp file path is /private/tftpboot but you can change that by
+# editing /System/Library/LaunchDaemons/tftp.plist and re-starting with retftp.
+echo "We are going to need your sudo password"
+sudo -v
+echo "Stopping TFTP server..."
+sudo launchctl stop com.apple.tftpd
+sudo launchctl unload -F /System/Library/LaunchDaemons/tftp.plist
+echo "\n"
+echo "TFTP server is stopped. Use gotftp to start it again."
+
+echo "\n"
+echo "****************************************" 
+echo "\n"
+
+# Shutdown redis from command line:
+echo "Shutting down Redis..."
+redis-cli shutdown
+echo "Redis has stopped"
+
+echo "\n"
+echo "****************************************" 
+echo "\n"
+
+## Shutdown Mongodb
+#print "Shutting Mongo Server Down..."
+#mongo admin --eval "printjson(db.shutdownServer())"
+#
+#echo "\n"
+#echo "****************************************" 
+#echo "\n"
+
+echo "Stopping Postgres SQL..."
+pg_ctl -D /Users/rlaney/DB/postgres stop -s -m fast
+echo "Countdown before status check..."
+echo "3"
+sleep 1
+echo "2"
+sleep 1
+echo "1"
+sleep 1
+echo "----------------------------------------" 
+echo "Checking the status with:"
+echo "pg_ctl -D /Users/rlaney/DB/postgres status"
+echo "\n"
+pg_ctl -D /Users/rlaney/DB/postgres status
+
+echo "\n"
+echo "****************************************" 
+echo "\n"
+
+## Location of nginx site config files:
+## /usr/local/etc/nginx/sites-enabled
+#echo "Stopping nginx..."
+#sudo nginx -s stop
+#echo "\n"
+#echo "----------------------------------------" 
+#echo "Some more useful commands:"
+#echo "sudo nginx -s reload"
+#echo "sudo nginx -s restart"
+#echo "sudo nginx -s stop"
+#echo "sudo nginx"
+#echo "----------------------------------------" 
+#echo "\n"
+#echo "Nginx stopped"
+
+echo "DONE!"

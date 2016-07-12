@@ -7,7 +7,7 @@
 cd /tmp/
 cp ~/Library/Preferences/com.googlecode.iterm2.plist .
 plutil -convert xml1 com.googlecode.iterm2.plist
-vi com.googlecode.iterm2.plist
+v com.googlecode.iterm2.plist
 
 # Now remove the color schemes in the <key> and <dict> tags, 
 # to make it easier, record a macro in vi to remove the key (e.g: Desert/Solarized) using `dd`,
@@ -21,6 +21,7 @@ cp com.googlecode.iterm2.plist ~/Library/Preferences/
 # Note that iTerm2 has 'fallback' configuration in case something is wrong,
 # You might want to remove them as well:
 
+rm /Users/rlaney/Dropbox\ (Hearst\ Corporation)/SYNC/iTermConfig/com.googlecode.iterm2.plist
 rm ~/Library/Preferences/iTerm2.plist
 rm ~/Library/Preferences/net.sourceforge.iTerm.plist
 

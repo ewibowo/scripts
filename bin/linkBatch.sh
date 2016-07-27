@@ -67,3 +67,4 @@ ln -s ~/scripts/bin/ubuInstall.sh            ~/.bin/ubuInstall.sh
 ln -s ~/scripts/bin/ubuInstallxRDPlxqt.sh    ~/.bin/ubuInstallxRDPlxqt.sh
 ln -s ~/scripts/bin/ubuInstallxRDPxfce.sh    ~/.bin/ubuInstallxRDPxfce.sh
 ln -s ~/scripts/bin/pip-freeze-require.py    ~/.bin/pip-freeze-require.py
+ln -s ~/scripts/bin/randpass.py              ~/.bin/randpass.py

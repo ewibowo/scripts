@@ -1,5 +1,16 @@
 #!/bin/sh
 
+# Stop a ftp server
+echo "Stop FTP server command:"
+sudo -s launchctl unload -w /System/Library/LaunchDaemons/ftp.plist
+echo "FTP server has stopped"
+echo "To start the server use this command:" 
+echo "goftp (sudo -s launchctl load -w /System/Library/LaunchDaemons/ftp.plist)"
+
+echo "\n"
+echo "****************************************" 
+echo "\n"
+
 # The default tftp file path is /private/tftpboot but you can change that by
 # editing /System/Library/LaunchDaemons/tftp.plist and re-starting with retftp.
 echo "We are going to need your sudo password"

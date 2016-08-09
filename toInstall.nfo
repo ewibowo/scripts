@@ -1,0 +1,593 @@
+libnet-telnet-cisco-perl/trusty 1.10-5 all
+  Additional functionality to automate Cisco management
+
+libvde-dev/trusty 2.3.2-4ubuntu2 amd64
+  Virtual Distributed Ethernet - support libraries development files
+
+libvde0/trusty,now 2.3.2-4ubuntu2 amd64 [installed,automatic]
+  Virtual Distributed Ethernet - support libraries
+
+libvdeplug-dev/trusty 2.3.2-4ubuntu2 amd64
+  Virtual Distributed Ethernet - Plug development files
+
+libvdeplug2/trusty,now 2.3.2-4ubuntu2 amd64 [installed,automatic]
+  Virtual Distributed Ethernet - Plug library
+
+mininet/trusty 2.1.0-0ubuntu1 amd64
+  Process-based network emulator
+
+mrd6/trusty 0.9.6-10 amd64
+  IPv6 Multicast Routing Daemon
+
+mumble-server/trusty-updates,trusty-security 1.2.4-0.2ubuntu1.1 amd64
+  Low latency VoIP server
+
+munin/trusty 2.0.19-3 all
+  network-wide graphing framework (grapher/gatherer)
+
+munin-async/trusty 2.0.19-3 all
+  network-wide graphing framework (async master/client)
+
+munin-common/trusty 2.0.19-3 all
+  network-wide graphing framework (common)
+
+munin-doc/trusty 2.0.19-3 all
+  network-wide graphing framework (documentation)
+
+munin-libvirt-plugins/trusty 0.0.6-1 all
+  Munin plugins using libvirt
+
+munin-node/trusty 2.0.19-3 all
+  network-wide graphing framework (node)
+
+munin-plugins-core/trusty 2.0.19-3 all
+  network-wide graphing framework (plugins for node)
+
+munin-plugins-extra/trusty 2.0.19-3 all
+  network-wide graphing framework (user contributed plugins for node)
+
+munin-plugins-java/trusty 2.0.19-3 all
+  network-wide graphing framework (java plugins for node)
+
+neko/trusty 2.0.0-3 amd64
+  Lightweight virtual machine - compiler and tools
+
+neko-dev/trusty 2.0.0-3 all
+  Lightweight virtual machine - headers
+
+netpipe-pvm/trusty 3.7.2-7build1 amd64
+  Network performance tool using PVM
+
+netscript-2.4/trusty 5.3.0ubuntu1 all
+  Linux 2.4/2.6 router/firewall/VM host network config. system.
+
+netscript-2.4-upstart/trusty 5.3.0ubuntu1 all
+  Linux 2.4/2.6 router/firewall/VM host network config. system.
+
+neutron-common/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - common
+
+neutron-dhcp-agent/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - DHCP agent
+
+neutron-l3-agent/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - l3 agent
+
+neutron-lbaas-agent/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - LBaaS agent
+
+neutron-metadata-agent/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - metadata agent
+
+neutron-metering-agent/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - metering agent
+
+neutron-plugin-bigswitch/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - BigSwitch plugin
+
+neutron-plugin-bigswitch-agent/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - BigSwitch plugin agent
+
+neutron-plugin-brocade/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - Brocade plugin
+
+neutron-plugin-cisco/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - Cisco plugin
+
+neutron-plugin-hyperv/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - Hyper-V plugin
+
+neutron-plugin-ibm/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - IBM SDN plugin
+
+neutron-plugin-ibm-agent/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - IBM agent
+
+neutron-plugin-linuxbridge/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - linuxbridge plugin
+
+neutron-plugin-linuxbridge-agent/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - linuxbridge plugin agent
+
+neutron-plugin-metaplugin/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - Metaplugin plugin
+
+neutron-plugin-midonet/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - Midonet plugin
+
+neutron-plugin-ml2/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - ML2 plugin
+
+neutron-plugin-mlnx/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - Mellanox plugin
+
+neutron-plugin-mlnx-agent/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - Mellanox plugin agent
+
+neutron-plugin-nec/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - NEC plugin
+
+neutron-plugin-nec-agent/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - NEC plugin agent
+
+neutron-plugin-oneconvergence/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - One Convergence plugin
+
+neutron-plugin-oneconvergence-agent/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - One Convergence agent
+
+neutron-plugin-openflow-agent/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - Openflow agent
+
+neutron-plugin-openvswitch/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - Open vSwitch plugin
+
+neutron-plugin-openvswitch-agent/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - Open vSwitch plugin agent
+
+neutron-plugin-plumgrid/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - PLUMgrid plugin
+
+neutron-plugin-ryu/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - RYU plugin
+
+neutron-plugin-ryu-agent/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - RYU plugin agent
+
+neutron-plugin-vmware/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - VMware plugin
+
+neutron-server/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - server
+
+neutron-vpn-agent/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - VPN agent
+
+open-vm-dkms/trusty-updates 2:9.4.0-1280544-5ubuntu6.2 all
+  Open VMware Tools for virtual machines hosted on VMware (transitional package)
+
+open-vm-dkms-lts-trusty/trusty-updates 2:9.4.0-1280544-5ubuntu6.2 all
+  Open VMware Tools for virtual machines hosted on VMware (transitional package)
+
+open-vm-toolbox/trusty-updates 2:9.4.0-1280544-5ubuntu6.2 all
+  Open VMware Tools for virtual machines hosted on VMware (transitional package)
+
+open-vm-toolbox-lts-trusty/trusty-updates 2:9.4.0-1280544-5ubuntu6.2 all
+  Open VMware Tools for virtual machines hosted on VMware (transitional package)
+
+open-vm-tools/trusty-updates 2:9.4.0-1280544-5ubuntu6.2 amd64
+  Open VMware Tools for virtual machines hosted on VMware (CLI)
+
+open-vm-tools-dbg/trusty-updates 2:9.4.0-1280544-5ubuntu6.2 amd64
+  Open VMware Tools for virtual machines hosted on VMware (debug)
+
+open-vm-tools-desktop/trusty-updates 2:9.4.0-1280544-5ubuntu6.2 amd64
+  Open VMware Tools for virtual machines hosted on VMware (GUI)
+
+open-vm-tools-dev/trusty-updates 2:9.4.0-1280544-5ubuntu6.2 all
+  Open VMware Tools for virtual machines hosted on VMware (development)
+
+open-vm-tools-dkms/trusty-updates 2:9.4.0-1280544-5ubuntu6.2 all
+  Open VMware Tools for virtual machines hosted on VMware (transitional package)
+
+open-vm-tools-lts-trusty/trusty-updates 2:9.4.0-1280544-5ubuntu6.2 all
+  Open VMware Tools for virtual machines hosted on VMware (transitional package)
+
+open-vm-tools-lts-trusty-dbg/trusty-updates 2:9.4.0-1280544-5ubuntu6.2 all
+  Open VMware Tools for virtual machines hosted on VMware (transitional package)
+
+open-vm-tools-lts-trusty-desktop/trusty-updates 2:9.4.0-1280544-5ubuntu6.2 all
+  Open VMware Tools for virtual machines hosted on VMware (transitional package)
+
+open-vm-tools-lts-trusty-dev/trusty-updates 2:9.4.0-1280544-5ubuntu6.2 all
+  Open VMware Tools for virtual machines hosted on VMware (transitional package)
+
+open-vm-tools-lts-trusty-dkms/trusty-updates 2:9.4.0-1280544-5ubuntu6.2 all
+  Open VMware Tools for virtual machines hosted on VMware (transitional package)
+
+openvpn/trusty-updates,trusty-security 2.3.2-7ubuntu3.1 amd64
+  virtual private network daemon
+
+openvswitch-common/trusty-updates 2.0.2-0ubuntu0.14.04.3 amd64
+  Open vSwitch common components
+
+openvswitch-controller/trusty-updates 2.0.2-0ubuntu0.14.04.3 amd64
+  Open vSwitch controller implementation
+
+openvswitch-datapath-dkms/trusty-updates 2.0.2-0ubuntu0.14.04.3 all
+  Open vSwitch datapath module source - DKMS version
+
+openvswitch-datapath-source/trusty-updates 2.0.2-0ubuntu0.14.04.3 all
+  Open vSwitch datapath module source - module-assistant version
+
+openvswitch-dbg/trusty-updates 2.0.2-0ubuntu0.14.04.3 amd64
+  Debug symbols for Open vSwitch packages
+
+openvswitch-ipsec/trusty-updates 2.0.2-0ubuntu0.14.04.3 amd64
+  Open vSwitch GRE-over-IPsec support
+
+openvswitch-pki/trusty-updates 2.0.2-0ubuntu0.14.04.3 all
+  Open vSwitch public key infrastructure dependency package
+
+openvswitch-switch/trusty-updates 2.0.2-0ubuntu0.14.04.3 amd64
+  Open vSwitch switch implementations
+
+openvswitch-test/trusty-updates 2.0.2-0ubuntu0.14.04.3 all
+  Open vSwitch test package
+
+ovsdbmonitor/trusty-updates 2.0.2-0ubuntu0.14.04.3 all
+  Open vSwitch graphical monitoring tool
+
+python-jpype/trusty 0.5.4.2-3 amd64
+  Binding the worlds of Java and Python
+
+python-koan/trusty 2.4.1-0ubuntu2 all
+  kickstart-over-a-network (koan) - python libraries
+
+python-libvirt/trusty-updates,now 1.2.2-0ubuntu2 amd64 [installed,automatic]
+  libvirt Python bindings
+
+python-llfuse/trusty 0.40-2build2 amd64
+  Python bindings for the low-level FUSE API
+
+python-llfuse-dbg/trusty 0.40-2build2 amd64
+  Python bindings for the low-level FUSE API (debugging symbols)
+
+python-llfuse-doc/trusty 0.40-2build2 all
+  Python bindings for the low-level FUSE API (documentation)
+
+python-lmdb/trusty-backports 0.86-1build1~ubuntu14.04.1 amd64
+  Python binding for LMDB Lightning Memory-Mapped Database
+
+python-nemu/trusty 0.2-1 all
+  lightweight network emulator embedded in a small python library
+
+python-neutron/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virutal network service for Openstack - Python library
+
+python-neutronclient/trusty 1:2.3.4-0ubuntu1 all
+  client - Neutron is a virtual network service for Openstack
+
+python-openvswitch/trusty-updates 2.0.2-0ubuntu0.14.04.3 all
+  Python bindings for Open vSwitch
+
+qemu/trusty-updates,trusty-security,now 2.0.0+dfsg-2ubuntu1.22 amd64 [installed]
+  fast processor emulator
+
+qemu-guest-agent/trusty-updates,trusty-security 2.0.0+dfsg-2ubuntu1.22 amd64
+  Guest-side qemu-system agent
+
+qemu-kvm/trusty-updates,trusty-security 2.0.0+dfsg-2ubuntu1.22 amd64
+  QEMU Full virtualization
+
+qemu-launcher/trusty 1.7.4-1ubuntu2 all
+  GTK+ front-end to QEMU computer emulator
+
+qemu-system-arm/trusty-updates,trusty-security,now 2.0.0+dfsg-2ubuntu1.22 amd64 [installed,automatic]
+  QEMU full system emulation binaries (arm)
+
+qemu-system-mips/trusty-updates,trusty-security,now 2.0.0+dfsg-2ubuntu1.22 amd64 [installed,automatic]
+  QEMU full system emulation binaries (mips)
+
+qemu-system-misc/trusty-updates,trusty-security,now 2.0.0+dfsg-2ubuntu1.22 amd64 [installed,automatic]
+  QEMU full system emulation binaries (miscelaneous)
+
+qemu-system-ppc/trusty-updates,trusty-security,now 2.0.0+dfsg-2ubuntu1.22 amd64 [installed,automatic]
+  QEMU full system emulation binaries (ppc)
+
+qemu-system-sparc/trusty-updates,trusty-security,now 2.0.0+dfsg-2ubuntu1.22 amd64 [installed,automatic]
+  QEMU full system emulation binaries (sparc)
+
+qemu-system-x86/trusty-updates,trusty-security,now 2.0.0+dfsg-2ubuntu1.22 amd64 [installed,automatic]
+  QEMU full system emulation binaries (x86)
+
+qlvnictools/trusty 0.0.1-3 amd64
+  Tools for QLogic Virtual NICs
+
+qtemu/trusty 2.0~alpha1-1ubuntu5 amd64
+  graphical user interface for QEMU
+
+tinc/trusty 1.0.23-2 amd64
+  Virtual Private Network daemon
+
+tor/trusty-updates,trusty-security 0.2.4.27-1build0.14.04.1 amd64
+  anonymizing overlay network for TCP
+
+ubuntu-virt/trusty 1.4 all
+  Host and manage virtual machines
+
+ubuntu-virt-mgmt/trusty 1.4 all
+  Common packages useful for managing virtual machines graphically
+
+ubuntu-virt-server/trusty 1.4 all
+  Common packages necessary for hosting virtual machines
+
+ucarp/trusty 1.5.2-1+nmu1ubuntu1 amd64
+  user-space replacement to VRRP -- automatic IP fail-over
+
+usbredirserver/trusty-updates 0.6-2ubuntu1.1 amd64
+  Simple USB host TCP server
+
+user-mode-linux/trusty 3.13.0-1um-0ubuntu1 amd64
+  User-mode Linux (kernel)
+
+util-vserver/trusty 0.30.216-pre3054-1 amd64
+  user-space tools for Linux-VServer virtual private servers
+
+uvtool/trusty 0~bzr92-0ubuntu1 all
+  Library and tools for using Ubuntu Cloud images
+
+uvtool-libvirt/trusty 0~bzr92-0ubuntu1 all
+  Library and tools for using Ubuntu Cloud Images with libvirt
+
+v4l2loopback-dkms/trusty 0.8.0-1 all
+  Source for the v4l2loopback driver (DKMS)
+
+v4l2loopback-source/trusty 0.8.0-1 all
+  Source for the v4l2loopback driver
+
+v4l2loopback-utils/trusty 0.8.0-1 all
+  Commandline utilities for the for the v4l2-loopback module
+
+vagrant/trusty,now 1.4.3-1 all [installed]
+  Tool for building and distributing virtualized development environments
+
+vblade/trusty 20-1ubuntu2 amd64
+  virtual AoE blade emulator
+
+vde2/trusty,now 2.3.2-4ubuntu2 amd64 [installed]
+  Virtual Distributed Ethernet
+
+vde2-cryptcab/trusty 2.3.2-4ubuntu2 amd64
+  Virtual Distributed Ethernet - CryptCab
+
+vdetelweb/trusty 1.2.1-1ubuntu1 amd64
+  Telnet and Web interface for VDE 2.x
+
+virt-goodies/trusty 0.4-2 all
+  A collection of helpful virtualisation related tools
+
+vdesk/trusty 1.2-4 amd64
+  manages virtual desktops for minimal window managers
+
+
+vmdebootstrap/trusty 0.2-2 amd64
+  Bootstrap Debian into a (virtual machine) disk image
+
+vmdk-stream-converter/trusty 0.2-1 all
+  raw disk images to stream-optimized VMDK files convert tool
+
+vmfs-tools/trusty 0.2.5-1 amd64
+  Tools to access VMFS filesystems
+
+vdesk/trusty 1.2-4 amd64
+  manages virtual desktops for minimal window managers
+
+
+vmdebootstrap/trusty 0.2-2 amd64
+  Bootstrap Debian into a (virtual machine) disk image
+
+vmdk-stream-converter/trusty 0.2-1 all
+  raw disk images to stream-optimized VMDK files convert tool
+
+vmfs-tools/trusty 0.2.5-1 amd64
+  Tools to access VMFS filesystems
+
+vpcs/trusty 0.5b0-1 amd64
+  virtual PC simulator for Dynamips
+
+vrrpd/trusty 1.0-2 amd64
+  Virtual Router Redundancy Protocol user-space implementation
+
+vserver-debiantools/trusty 0.8.1 all
+  Tools to manage Debian virtual servers
+
+vtun/trusty 3.0.3-2 amd64
+  virtual tunnel over TCP/IP networks
+
+vzctl/trusty 4.6.1-1 amd64
+  server virtualization solution - control tools
+
+vzquota/trusty 3.1-1 amd64
+  server virtualization solution - quota tools
+
+cdpr/trusty 2.4-1ubuntu1 amd64
+  Cisco Discovery Protocol Reporter
+
+dynagen/trusty 0.11.0-6 all
+  Cisco 7200 Router Emulator Command Line Interface
+
+dynamips/trusty 0.2.11-1 amd64
+  Cisco 7200/3600/3725/3745/2600/1700 Router Emulator
+
+filtergen/trusty 0.12.4-5.1ubuntu1 amd64
+  packet filter generator for various firewall systems
+
+flightgear-data-base/trusty 3.0.0-1 all
+  FlightGear Flight Simulator -- base files
+
+flowscan/trusty 1.006-13.2 all
+  flow-based IP traffic analysis and visualization tool
+
+fwlogwatch/trusty 1.2-2ubuntu0.13.04.1 amd64
+  Firewall log analyzer
+
+gns3/trusty 0.8.6-3ubuntu1 all
+  Graphical Network Simulator
+
+hydra/trusty 7.5-2 amd64
+  very fast network logon cracker
+
+hydra-gtk/trusty 7.5-2 amd64
+  very fast network logon cracker - GTK+ based GUI
+
+ipcalc/trusty,now 0.41-4 all [installed]
+  parameter calculator for IPv4 addresses
+
+ipcheck/trusty 0.233-1.1 all
+  Dyndns.org client to register your dynamic IP address
+
+irpas/trusty 0.10-4.1 amd64
+  Internetwork Routing Protocol Attack Suite
+
+jffnms/trusty 0.9.3-3 all
+  PHP Network Management System
+
+kvpnc/trusty 0.9.6a-2.1 amd64
+  vpn clients frontend for KDE4
+
+libcflow-perl/trusty 1:0.68-12.1build1 amd64
+  perl module for analyzing raw IP flow files written by cflowd
+
+libcli-dev/trusty 1.9.6-1 amd64
+  emulates a cisco style telnet command-line interface (dev files)
+
+libcli1.9/trusty 1.9.6-1 amd64
+  emulates a cisco style telnet command-line interface
+
+liblldpctl-dev/trusty 0.7.7-1 amd64
+  implementation of IEEE 802.1ab (LLDP) - development files
+
+libnet-appliance-session-perl/trusty 4.131260-1 all
+  module for running command-line sessions to network appliances
+
+libnet-dns-fingerprint-perl/trusty 0.9.3-5 all
+  library to determine DNS server vendor, product and version
+
+libnet-telnet-cisco-perl/trusty 1.10-5 all
+  Additional functionality to automate Cisco management
+
+libnet-traceroute-perl/trusty 1.14-1 all
+  traceroute(1) functionality in perl
+
+libopenconnect-dev/trusty 5.02-1 amd64
+  open client for Cisco AnyConnect VPN - development files
+
+libopenconnect2/trusty,now 5.02-1 amd64 [installed,automatic]
+  open client for Cisco AnyConnect VPN - shared library
+
+libpam-tacplus/trusty 1.3.8-2 amd64
+  PAM module for using TACACS+ as an authentication service
+
+libpcp-pmda-perl/trusty 3.8.12ubuntu1 amd64
+  Performance Co-Pilot Domain Agent Perl module
+
+libpcp-pmda3/trusty 3.8.12ubuntu1 amd64
+  Performance Co-Pilot Domain Agent library
+
+libpcp-pmda3-dev/trusty 3.8.12ubuntu1 amd64
+  Performance Co-Pilot Domain Agent library and headers
+
+libwiretap-dev/trusty 1.10.6-1 amd64
+  network packet capture library -- development files
+
+libwiretap3/trusty 1.10.6-1 amd64
+  network packet capture library -- shared library
+
+lldpd/trusty 0.7.7-1 amd64
+  implementation of IEEE 802.1ab (LLDP)
+
+nagios-plugins-contrib/trusty 9.20140106 amd64
+  Plugins for nagios compatible monitoring systems
+
+netexpect/trusty 0.21-2 amd64
+  Network Expect, a framework for manipulating network packets
+
+network-manager-openconnect/trusty 0.9.8.0-1ubuntu2 amd64
+  network management framework (OpenConnect plugin)
+
+network-manager-vpnc/trusty 0.9.8.6-1ubuntu2 amd64
+  network management framework (VPNC plugin core)
+
+neutron-plugin-cisco/trusty-updates 1:2014.1.5-0ubuntu4 all
+  Neutron is a virtual network service for Openstack - Cisco plugin
+
+opencaster/trusty 3.2.2+dfsg-1 amd64
+  MPEG2 transport stream data generator and packet manipulator
+
+openconnect/trusty 5.02-1 amd64
+  open client for Cisco AnyConnect VPN
+
+openvswitch-common/trusty-updates 2.0.2-0ubuntu0.14.04.3 amd64
+  Open vSwitch common components
+
+openvswitch-controller/trusty-updates 2.0.2-0ubuntu0.14.04.3 amd64
+  Open vSwitch controller implementation
+
+openvswitch-datapath-dkms/trusty-updates 2.0.2-0ubuntu0.14.04.3 all
+  Open vSwitch datapath module source - DKMS version
+
+openvswitch-datapath-source/trusty-updates 2.0.2-0ubuntu0.14.04.3 all
+  Open vSwitch datapath module source - module-assistant version
+
+openvswitch-dbg/trusty-updates 2.0.2-0ubuntu0.14.04.3 amd64
+  Debug symbols for Open vSwitch packages
+
+openvswitch-ipsec/trusty-updates 2.0.2-0ubuntu0.14.04.3 amd64
+  Open vSwitch GRE-over-IPsec support
+
+openvswitch-pki/trusty-updates 2.0.2-0ubuntu0.14.04.3 all
+  Open vSwitch public key infrastructure dependency package
+
+openvswitch-switch/trusty-updates 2.0.2-0ubuntu0.14.04.3 amd64
+  Open vSwitch switch implementations
+
+openvswitch-test/trusty-updates 2.0.2-0ubuntu0.14.04.3 all
+  Open vSwitch test package
+
+ovsdbmonitor/trusty-updates 2.0.2-0ubuntu0.14.04.3 all
+  Open vSwitch graphical monitoring tool
+
+python-openvswitch/trusty-updates 2.0.2-0ubuntu0.14.04.3 all
+  Python bindings for Open vSwitch
+
+rancid/trusty 2.3.8-6 amd64
+  Really Awesome New Cisco confIg Differ
+
+rancid-cgi/trusty 2.3.8-6 all
+  looking glass CGI for rancid
+
+ser2net/trusty 2.9.1-1 amd64
+  Serial port to network proxy
+
+sipcalc/trusty 1.1.5-1 amd64
+  Advanced console-based ip subnet calculator
+
+softflowd/trusty 0.9.9-1 amd64
+  Flow-based network traffic analyser
+
+strongswan-plugin-unity/trusty-updates,trusty-security 5.1.2-0ubuntu2.4 amd64
+  strongSwan plugin for IKEv1 Cisco Unity Extensions
+
+vpnc/trusty 0.5.3r512-2ubuntu1 amd64
+  Cisco-compatible VPN client
+
+vpnc-scripts/trusty 0.1~git20120602-2 all
+  Network configuration scripts for VPNC and OpenConnect
+
+yardradius/trusty 1.1.2-4ubuntu1 amd64
+  YARD Radius Authorization and Accounting Server
+
+yersinia/trusty 0.7.3-1 amd64
+  Network vulnerabilities check software
+

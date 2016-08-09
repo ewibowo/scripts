@@ -1,0 +1,21 @@
+http://www.martin-burger.net/blog/unix-shell/manage-dotfiles-quickly-and-effortlessly/
+
+http://myrepos.branchable.com/
+
+http://vcs-home.branchable.com/
+
+https://github.com/dotphiles/dotphiles
+
+https://github.com/RichiH/vcsh
+
+https://github.com/RichiH/vcsh/tree/master/doc
+
+https://dotfiles.github.io/
+
+1/20/16 5:50:05.699 AM WindowServer[163]: _CGXGetWindowOrderingGroup: Operation on a window 0x526 requiring rights 0x5 by caller System Preferences
+1/20/16 5:50:07.000 AM kernel[0]: ARPT: 42910.126716: directed SSID scan fail
+1/20/16 5:50:08.457 AM WindowServer[163]: WSGetSurfaceInWindow : Invalid surface 761776285 for window 1305
+1/20/16 5:50:08.457 AM WindowServer[163]: WSGetSurfaceInWindow : Invalid surface 761776285 for window 1305
+1/20/16 5:50:08.457 AM WindowServer[163]: WSGetSurfaceInWindow : Invalid surface 761776285 for window 1305
+
+1/21/16 8:39:31.432 PM com.apple.xpc.launchd[1]: (com.apple.ReportCrash[5291]) Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.ReportCrash

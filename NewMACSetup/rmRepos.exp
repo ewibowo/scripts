@@ -1,0 +1,8 @@
+#!/usr/bin/expect -f
+
+spawn rm -rf ~/.zplug/repos/*
+expect "zsh: sure you want to delete all the files in /home/rlaney/.zplug/repos \[yn\]? "
+send "y\r"
+expect eof
+
+interact

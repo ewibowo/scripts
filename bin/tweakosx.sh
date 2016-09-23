@@ -22,15 +22,15 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 echo "Reveal IP address, hostname, OS version, etc. when clicking the clock in the login window"
 sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 
-#echo "Disable Notification Center and remove the menu bar icon"
-#launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist 2> /dev/null
+echo "Disable Notification Center and remove the menu bar icon"
+launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist 2> /dev/null
 
 #echo "Fix MacVim black lines at top and bottom of Fullscreen"
 #defaults write org.vim.MacVim MMNativeFullScreen 0
 
-#echo "Show remaining battery time; hide percentage"
-#defaults write com.apple.menuextra.battery ShowPercent -string "NO"
-#defaults write com.apple.menuextra.battery ShowTime -string "YES"
+echo "Show remaining battery time; hide percentage"
+defaults write com.apple.menuextra.battery ShowPercent -string "NO"
+defaults write com.apple.menuextra.battery ShowTime -string "YES"
 
 #echo "Disable local Time Machine backups"
 #hash tmutil &> /dev/null && sudo tmutil disablelocal
@@ -109,8 +109,8 @@ defaults write NSGlobalDomain KeyRepeat -int 0.5
 echo "Disable auto-correct"
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
-#echo "Stop iTunes from responding to the keyboard media keys"
-#launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
+echo "Stop iTunes from responding to the keyboard media keys"
+launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
 
 echo "Enable iTunes track notifications in the Dock"
 defaults write com.apple.dock itunes-notifications -bool true
@@ -319,8 +319,8 @@ defaults write com.apple.dock show-process-indicators -bool true
 #echo "Add a spacer to the right side of the Dock (where the Trash is)"
 #defaults write com.apple.dock persistent-others -array-add '{tile-data={}; tile-type="spacer-tile";}'
 
-echo "Add a new stack to the Dock which will display recently used Applications"
-defaults write com.apple.dock persistent-others -array-add '{"tile-data" = {"list-type" = 1;}; "tile-type" = "recents-tile";}'
+#echo "Add a new stack to the Dock which will display recently used Applications"
+#defaults write com.apple.dock persistent-others -array-add '{"tile-data" = {"list-type" = 1;}; "tile-type" = "recents-tile";}'
 
 #echo "Add a spacer to the Dock"
 #defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
@@ -424,9 +424,6 @@ defaults write com.apple.Safari FindOnPageMatchesWordStartsOnly -bool false
 echo "Remove useless icons from Safari’s bookmarks bar"
 defaults write com.apple.Safari ProxiesInBookmarksBar "()"
 
-echo "Add a context menu item for showing the Web Inspector in web views"
-defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
-
 
 ###############################################################################
 # Activity Monitor                                                            #
@@ -515,21 +512,21 @@ defaults write com.operasoftware.OperaDeveloper PMPrintingExpandedStateForPrint2
 # Transmission, QuickLook, & All Other Apps                                   #
 ###############################################################################
 
-echo "Use ~/Documents/Torrents to store incomplete downloads"
-defaults write org.m0k.transmission UseIncompleteDownloadFolder -bool true
-defaults write org.m0k.transmission IncompleteDownloadFolder -string "${HOME}/Documents/Torrents"
-
-echo "Don’t prompt for confirmation before downloading"
-defaults write org.m0k.transmission DownloadAsk -bool false
-
-echo "Trash original torrent files"
-defaults write org.m0k.transmission DeleteOriginalTorrent -bool true
-
-echo "Hide the donate message"
-defaults write org.m0k.transmission WarningDonate -bool false
-
-echo "Hide the legal disclaimer"
-defaults write org.m0k.transmission WarningLegal -bool false
+#echo "Use ~/Documents/Torrents to store incomplete downloads"
+#defaults write org.m0k.transmission UseIncompleteDownloadFolder -bool true
+#defaults write org.m0k.transmission IncompleteDownloadFolder -string "${HOME}/Documents/Torrents"
+#
+#echo "Don’t prompt for confirmation before downloading"
+#defaults write org.m0k.transmission DownloadAsk -bool false
+#
+#echo "Trash original torrent files"
+#defaults write org.m0k.transmission DeleteOriginalTorrent -bool true
+#
+#echo "Hide the donate message"
+#defaults write org.m0k.transmission WarningDonate -bool false
+#
+#echo "Hide the legal disclaimer"
+#defaults write org.m0k.transmission WarningLegal -bool false
 
 #Fix for the ancient UTF-8 bug in QuickLook (http://mths.be/bbo)
 #echo "Commented out, as this is known to cause problems when saving files in Adobe Illustrator CS5 :("

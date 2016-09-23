@@ -1,0 +1,940 @@
+:hi
+SpecialKey     xxx term=bold ctermfg=8 guifg=#75715e
+NonText        xxx term=bold ctermfg=8 gui=bold guifg=#75715e
+Directory      xxx term=bold ctermfg=4 guifg=#66d9ef
+ErrorMsg       xxx term=standout ctermfg=1 ctermbg=0 guifg=#f92672 guibg=#272822
+IncSearch      xxx term=reverse ctermfg=18 ctermbg=16 guifg=#383830 guibg=#fd971f
+Search         xxx term=reverse ctermfg=11 ctermbg=242 guifg=white guibg=DarkGrey
+MoreMsg        xxx term=bold ctermfg=2 gui=bold guifg=#a6e22e
+ModeMsg        xxx term=bold cterm=bold ctermfg=2 gui=bold guifg=#a6e22e
+LineNr         xxx term=underline ctermfg=248 guifg=grey
+CursorLineNr   xxx term=bold cterm=bold ctermfg=11 gui=bold guifg=yellow
+Question       xxx term=standout ctermfg=4 gui=bold guifg=#66d9ef
+StatusLine     xxx term=bold,reverse ctermfg=20 ctermbg=19 guifg=#a59f85 guibg=#49483e
+StatusLineNC   xxx term=reverse ctermfg=8 ctermbg=18 guifg=#75715e guibg=#383830
+VertSplit      xxx term=reverse ctermfg=19 ctermbg=19 guifg=#49483e guibg=#49483e
+Title          xxx term=bold ctermfg=4 guifg=#66d9ef
+Visual         xxx term=reverse ctermbg=242 guibg=DarkGrey
+VisualNOS      xxx term=bold,underline cterm=bold,underline ctermfg=1 gui=bold,underline guifg=#f92672
+WarningMsg     xxx term=standout ctermfg=1 guifg=#f92672
+WildMenu       xxx term=standout ctermfg=1 ctermbg=11 guifg=#f92672 guibg=Yellow
+Folded         xxx term=standout ctermfg=8 ctermbg=18 guifg=#75715e guibg=#383830
+FoldColumn     xxx term=standout ctermfg=14 ctermbg=18 guifg=Cyan guibg=#383830
+DiffAdd        xxx term=bold ctermfg=2 ctermbg=18 guifg=#a6e22e guibg=#383830
+DiffChange     xxx term=bold ctermfg=8 ctermbg=18 guifg=#75715e guibg=#383830
+DiffDelete     xxx term=bold ctermfg=1 ctermbg=18 gui=bold guifg=#f92672 guibg=#383830
+DiffText       xxx term=reverse cterm=bold ctermfg=4 ctermbg=18 gui=bold guifg=#66d9ef guibg=#383830
+SignColumn     xxx term=standout ctermfg=8 ctermbg=18 guifg=#75715e guibg=#383830
+                   links to LineNr
+Conceal        xxx ctermfg=4 ctermbg=0 guifg=#66d9ef guibg=#272822
+SpellBad       xxx term=reverse cterm=undercurl ctermbg=0 gui=undercurl guibg=#272822 guisp=Red
+SpellCap       xxx term=reverse cterm=undercurl ctermbg=0 gui=undercurl guibg=#272822 guisp=Blue
+SpellRare      xxx term=reverse cterm=undercurl ctermbg=0 gui=undercurl guibg=#272822 guisp=Magenta
+SpellLocal     xxx term=underline cterm=undercurl ctermbg=0 gui=undercurl guibg=#272822 guisp=Cyan
+Pmenu          xxx ctermfg=20 ctermbg=18 guifg=#a59f85 guibg=#383830
+PmenuSel       xxx ctermfg=18 ctermbg=20 guifg=#383830 guibg=#a59f85
+PmenuSbar      xxx ctermbg=248 guibg=Grey
+PmenuThumb     xxx ctermbg=15 guibg=White
+TabLine        xxx term=underline ctermfg=8 ctermbg=18 guifg=#75715e guibg=#383830
+TabLineSel     xxx term=bold ctermfg=2 ctermbg=18 guifg=#a6e22e guibg=#383830
+TabLineFill    xxx term=bold cterm=bold ctermfg=8 ctermbg=0 guifg=#75715e guibg=#383830
+CursorColumn   xxx term=reverse ctermbg=18 guibg=#383830
+CursorLine     xxx term=underline ctermbg=18 guibg=#383830
+ColorColumn    xxx term=reverse ctermbg=18 guibg=#383830
+Cursor         xxx ctermfg=0 ctermbg=7 guifg=#272822 guibg=#f8f8f2
+lCursor        xxx guifg=bg guibg=fg
+MatchParen     xxx term=reverse ctermfg=0 ctermbg=8 guifg=#272822 guibg=#75715e
+Normal         xxx ctermfg=7 ctermbg=0 guifg=#f8f8f2 guibg=#272822
+Comment        xxx term=bold ctermfg=8 guifg=#75715e
+Constant       xxx term=underline ctermfg=16 guifg=#fd971f
+Special        xxx term=bold ctermfg=6 guifg=#a1efe4
+Identifier     xxx term=underline ctermfg=1 guifg=#f92672
+Statement      xxx term=bold ctermfg=1 gui=bold guifg=#f92672
+PreProc        xxx term=underline ctermfg=3 guifg=#f4bf75
+Type           xxx term=underline ctermfg=3 guifg=#f4bf75
+Underlined     xxx term=underline cterm=underline ctermfg=1 gui=underline guifg=#f92672
+Ignore         xxx ctermfg=0 guifg=bg
+Error          xxx term=reverse ctermfg=15 ctermbg=9 guifg=White guibg=Red
+Todo           xxx term=standout ctermfg=3 ctermbg=18 guifg=#f4bf75 guibg=#383830
+String         xxx ctermfg=2 guifg=#a6e22e
+Character      xxx ctermfg=1 guifg=#f92672
+Number         xxx ctermfg=16 guifg=#fd971f
+Boolean        xxx ctermfg=16 guifg=#fd971f
+Float          xxx ctermfg=16 guifg=#fd971f
+Function       xxx ctermfg=4 guifg=#66d9ef
+Conditional    xxx ctermfg=5 guifg=#ae81ff
+Repeat         xxx ctermfg=3 guifg=#f4bf75
+Label          xxx ctermfg=3 guifg=#f4bf75
+Operator       xxx ctermfg=7 guifg=#f8f8f2
+Keyword        xxx ctermfg=5 guifg=#ae81ff
+Exception      xxx ctermfg=1 guifg=#f92672
+Include        xxx ctermfg=4 guifg=#66d9ef
+Define         xxx ctermfg=5 guifg=#ae81ff
+Macro          xxx ctermfg=1 guifg=#f92672
+PreCondit      xxx links to PreProc
+StorageClass   xxx ctermfg=3 guifg=#f4bf75
+Structure      xxx ctermfg=5 guifg=#ae81ff
+Typedef        xxx ctermfg=3 guifg=#f4bf75
+Tag            xxx ctermfg=3 guifg=#f4bf75
+SpecialChar    xxx ctermfg=17 guifg=#cc6633
+Delimiter      xxx ctermfg=17 guifg=#cc6633
+SpecialComment xxx links to Special
+Debug          xxx ctermfg=1 guifg=#f92672
+Bold           xxx cterm=bold gui=bold
+Italic         xxx cleared
+TooLong        xxx ctermfg=1 guifg=#f92672
+cOperator      xxx ctermfg=6 guifg=#a1efe4
+cPreCondit     xxx ctermfg=5 guifg=#ae81ff
+cssBraces      xxx ctermfg=7 guifg=#f8f8f2
+cssClassName   xxx ctermfg=5 guifg=#ae81ff
+cssColor       xxx ctermfg=6 guifg=#a1efe4
+DiffAdded      xxx ctermfg=2 ctermbg=0 guifg=#a6e22e guibg=#272822
+DiffFile       xxx ctermfg=1 ctermbg=0 guifg=#f92672 guibg=#272822
+DiffNewFile    xxx ctermfg=2 ctermbg=0 guifg=#a6e22e guibg=#272822
+DiffLine       xxx ctermfg=4 ctermbg=0 guifg=#66d9ef guibg=#272822
+DiffRemoved    xxx ctermfg=1 ctermbg=0 guifg=#f92672 guibg=#272822
+gitCommitOverflow xxx ctermfg=1 guifg=#f92672
+gitCommitSummary xxx ctermfg=2 guifg=#a6e22e
+GitGutterAdd   xxx ctermfg=2 ctermbg=18 guifg=#a6e22e guibg=#383830
+GitGutterChange xxx ctermfg=4 ctermbg=18 guifg=#66d9ef guibg=#383830
+GitGutterDelete xxx ctermfg=1 ctermbg=18 guifg=#f92672 guibg=#383830
+GitGutterChangeDelete xxx ctermfg=5 ctermbg=18 guifg=#ae81ff guibg=#383830
+htmlBold       xxx ctermfg=3 guifg=#f4bf75
+htmlItalic     xxx ctermfg=5 guifg=#ae81ff
+htmlEndTag     xxx ctermfg=7 guifg=#f8f8f2
+htmlTag        xxx ctermfg=7 guifg=#f8f8f2
+javaScript     xxx ctermfg=7 guifg=#f8f8f2
+javaScriptBraces xxx ctermfg=7 guifg=#f8f8f2
+javaScriptNumber xxx ctermfg=16 guifg=#fd971f
+markdownCode   xxx ctermfg=2 guifg=#a6e22e
+markdownError  xxx ctermfg=7 ctermbg=0 guifg=#f8f8f2 guibg=#272822
+markdownCodeBlock xxx ctermfg=2 guifg=#a6e22e
+markdownHeadingDelimiter xxx ctermfg=4 guifg=#66d9ef
+NERDTreeDirSlash xxx ctermfg=4 guifg=#66d9ef
+NERDTreeExecFile xxx ctermfg=7 guifg=#f8f8f2
+phpMemberSelector xxx ctermfg=7 guifg=#f8f8f2
+phpComparison  xxx ctermfg=7 guifg=#f8f8f2
+phpParent      xxx ctermfg=7 guifg=#f8f8f2
+pythonOperator xxx ctermfg=5 guifg=#ae81ff
+pythonRepeat   xxx ctermfg=5 guifg=#ae81ff
+rubyAttribute  xxx ctermfg=4 guifg=#66d9ef
+rubyConstant   xxx ctermfg=3 guifg=#f4bf75
+rubyInterpolation xxx ctermfg=2 guifg=#a6e22e
+rubyInterpolationDelimiter xxx ctermfg=17 guifg=#cc6633
+rubyRegexp     xxx ctermfg=6 guifg=#a1efe4
+rubySymbol     xxx ctermfg=2 guifg=#a6e22e
+rubyStringDelimiter xxx ctermfg=2 guifg=#a6e22e
+sassidChar     xxx ctermfg=1 guifg=#f92672
+sassClassChar  xxx ctermfg=16 guifg=#fd971f
+sassInclude    xxx ctermfg=5 guifg=#ae81ff
+sassMixing     xxx ctermfg=5 guifg=#ae81ff
+sassMixinName  xxx ctermfg=4 guifg=#66d9ef
+SignifySignAdd xxx ctermfg=2 ctermbg=18 guifg=#a6e22e guibg=#383830
+SignifySignChange xxx ctermfg=4 ctermbg=18 guifg=#66d9ef guibg=#383830
+SignifySignDelete xxx ctermfg=1 ctermbg=18 guifg=#f92672 guibg=#383830
+SyntasticErrorSign xxx links to Error
+SyntasticWarningSign xxx links to Todo
+SyntasticStyleErrorSign xxx links to SyntasticErrorSign
+SyntasticStyleWarningSign xxx links to SyntasticWarningSign
+SyntasticStyleErrorLine xxx links to SyntasticErrorLine
+SyntasticErrorLine xxx cleared
+SyntasticStyleWarningLine xxx links to SyntasticWarningLine
+SyntasticWarningLine xxx cleared
+SyntasticError xxx links to SpellBad
+SyntasticWarning xxx links to SpellCap
+SyntasticStyleError xxx links to SyntasticError
+SyntasticStyleWarning xxx links to SyntasticWarning
+GitGutterAddDefault xxx ctermfg=2 guifg=#009900
+GitGutterChangeDefault xxx ctermfg=3 guifg=#bbbb00
+GitGutterDeleteDefault xxx ctermfg=1 guifg=#ff2222
+GitGutterChangeDeleteDefault xxx links to GitGutterChangeDefault
+GitGutterAddInvisible xxx guifg=bg
+GitGutterChangeInvisible xxx guifg=bg
+GitGutterDeleteInvisible xxx guifg=bg
+GitGutterChangeDeleteInvisible xxx links to GitGutterChangeInvisble
+GitGutterChangeInvisble xxx cleared
+GitGutterAddLine xxx links to DiffAdd
+GitGutterChangeLine xxx links to DiffChange
+GitGutterDeleteLine xxx links to DiffDelete
+GitGutterChangeDeleteLine xxx links to GitGutterChangeLine
+               xxx cleared
+vimTodo        xxx links to Todo
+vimCommand     xxx links to Statement
+vimStdPlugin   xxx cleared
+vimOption      xxx links to PreProc
+vimErrSetting  xxx links to vimError
+vimAutoEvent   xxx links to Type
+vimGroup       xxx links to Type
+vimHLGroup     xxx links to vimGroup
+vimFuncName    xxx links to Function
+vimGlobal      xxx cleared
+vimSubst       xxx links to vimCommand
+vimNumber      xxx links to Number
+vimAddress     xxx links to vimMark
+vimAutoCmd     xxx links to vimCommand
+vimIsCommand   xxx cleared
+vimExtCmd      xxx cleared
+vimFilter      xxx cleared
+vimLet         xxx links to vimCommand
+vimMap         xxx links to vimCommand
+vimMark        xxx links to Number
+vimSet         xxx cleared
+vimSyntax      xxx links to vimCommand
+vimUserCmd     xxx cleared
+vimCmdSep      xxx cleared
+vimVar         xxx links to Identifier
+vimFBVar       xxx links to vimVar
+vimInsert      xxx links to vimString
+vimBehaveModel xxx links to vimBehave
+vimBehaveError xxx links to vimError
+vimBehave      xxx links to vimCommand
+vimFTCmd       xxx links to vimCommand
+vimFTOption    xxx links to vimSynType
+vimFTError     xxx links to vimError
+vimFiletype    xxx cleared
+vimAugroup     xxx cleared
+vimExecute     xxx cleared
+vimNotFunc     xxx links to vimCommand
+vimFunction    xxx cleared
+vimFunctionError xxx links to vimError
+vimLineComment xxx links to vimComment
+vimSpecFile    xxx links to Identifier
+vimOper        xxx links to Operator
+vimOperParen   xxx cleared
+vimComment     xxx links to Comment
+vimString      xxx links to String
+vimRegister    xxx links to SpecialChar
+vimCmplxRepeat xxx links to SpecialChar
+vimRegion      xxx cleared
+vimSynLine     xxx cleared
+vimNotation    xxx links to Special
+vimCtrlChar    xxx links to SpecialChar
+vimFuncVar     xxx links to Identifier
+vimContinue    xxx links to Special
+vimAugroupKey  xxx links to vimCommand
+vimAugroupError xxx links to vimError
+vimEnvvar      xxx links to PreProc
+vimFunc        xxx links to vimError
+vimParenSep    xxx links to Delimiter
+vimSep         xxx links to Delimiter
+vimOperError   xxx links to Error
+vimFuncKey     xxx links to vimCommand
+vimFuncSID     xxx links to Special
+vimAbb         xxx links to vimCommand
+vimEcho        xxx cleared
+vimEchoHL      xxx links to vimCommand
+vimIf          xxx cleared
+vimHighlight   xxx links to vimCommand
+vimNorm        xxx links to vimCommand
+vimUnmap       xxx links to vimMap
+vimUserCommand xxx links to vimCommand
+vimFuncBody    xxx cleared
+vimFuncBlank   xxx cleared
+vimPattern     xxx links to Type
+vimSpecFileMod xxx links to vimSpecFile
+vimEscapeBrace xxx cleared
+vimSetEqual    xxx cleared
+vimSetString   xxx links to vimString
+vimSubstRep    xxx cleared
+vimSubstRange  xxx cleared
+vimUserAttrb   xxx links to vimSpecial
+vimUserAttrbError xxx links to Error
+vimUserAttrbKey xxx links to vimOption
+vimUserAttrbCmplt xxx links to vimSpecial
+vimUserCmdError xxx links to Error
+vimUserAttrbCmpltFunc xxx links to Special
+vimCommentString xxx links to vimString
+vimPatSepErr   xxx links to vimPatSep
+vimPatSep      xxx links to SpecialChar
+vimPatSepZ     xxx links to vimPatSep
+vimPatSepZone  xxx links to vimString
+vimPatSepR     xxx links to vimPatSep
+vimPatRegion   xxx cleared
+vimNotPatSep   xxx links to vimString
+vimStringCont  xxx links to vimString
+vimSubstTwoBS  xxx links to vimString
+vimSubstSubstr xxx links to SpecialChar
+vimCollection  xxx cleared
+vimSubstPat    xxx cleared
+vimSubst1      xxx links to vimSubst
+vimSubstDelim  xxx links to Delimiter
+vimSubstRep4   xxx cleared
+vimSubstFlagErr xxx links to vimError
+vimCollClass   xxx cleared
+vimCollClassErr xxx links to vimError
+vimSubstFlags  xxx links to Special
+vimMarkNumber  xxx links to vimNumber
+vimPlainMark   xxx links to vimMark
+vimPlainRegister xxx links to vimRegister
+vimSetMod      xxx links to vimOption
+vimSetSep      xxx links to Statement
+vimMapMod      xxx links to vimBracket
+vimMapLhs      xxx cleared
+vimAutoCmdSpace xxx cleared
+vimAutoEventList xxx cleared
+vimAutoCmdSfxList xxx cleared
+vimEchoHLNone  xxx links to vimGroup
+vimMapBang     xxx links to vimCommand
+vimMapRhs      xxx cleared
+vimMapModKey   xxx links to vimFuncSID
+vimMapModErr   xxx links to vimError
+vimMapRhsExtend xxx cleared
+vimMenuBang    xxx cleared
+vimMenuPriority xxx cleared
+vimMenuName    xxx links to PreProc
+vimMenuMod     xxx links to vimMapMod
+vimMenuNameMore xxx links to vimMenuName
+vimMenuMap     xxx cleared
+vimMenuRhs     xxx cleared
+vimBracket     xxx links to Delimiter
+vimUserFunc    xxx links to Normal
+vimElseIfErr   xxx links to Error
+vimBufnrWarn   xxx links to vimWarn
+vimNormCmds    xxx cleared
+vimGroupSpecial xxx links to Special
+vimGroupList   xxx cleared
+vimSynError    xxx links to Error
+vimSynContains xxx links to vimSynOption
+vimSynKeyContainedin xxx links to vimSynContains
+vimSynNextgroup xxx links to vimSynOption
+vimSynType     xxx links to vimSpecial
+vimAuSyntax    xxx cleared
+vimSynCase     xxx links to Type
+vimSynCaseError xxx links to vimError
+vimClusterName xxx cleared
+vimGroupName   xxx links to vimGroup
+vimGroupAdd    xxx links to vimSynOption
+vimGroupRem    xxx links to vimSynOption
+vimSynKeyOpt   xxx links to vimSynOption
+vimSynKeyRegion xxx cleared
+vimMtchComment xxx links to vimComment
+vimSynMtchOpt  xxx links to vimSynOption
+vimSynRegPat   xxx links to vimString
+vimSynMatchRegion xxx cleared
+vimSynMtchCchar xxx cleared
+vimSynMtchGroup xxx cleared
+vimSynPatRange xxx links to vimString
+vimSynNotPatRange xxx links to vimSynRegPat
+vimSynRegOpt   xxx links to vimSynOption
+vimSynReg      xxx links to Type
+vimSynMtchGrp  xxx links to vimSynOption
+vimSynRegion   xxx cleared
+vimSynPatMod   xxx cleared
+vimSyncC       xxx links to Type
+vimSyncLines   xxx cleared
+vimSyncMatch   xxx cleared
+vimSyncError   xxx links to Error
+vimSyncLinebreak xxx cleared
+vimSyncLinecont xxx cleared
+vimSyncRegion  xxx cleared
+vimSyncGroupName xxx links to vimGroupName
+vimSyncKey     xxx links to Type
+vimSyncGroup   xxx links to vimGroupName
+vimSyncNone    xxx links to Type
+vimHiLink      xxx cleared
+vimHiClear     xxx links to vimHighlight
+vimHiKeyList   xxx cleared
+vimHiCtermError xxx links to vimError
+vimHiBang      xxx cleared
+vimHiGroup     xxx links to vimGroupName
+vimHiAttrib    xxx links to PreProc
+vimFgBgAttrib  xxx links to vimHiAttrib
+vimHiAttribList xxx links to vimError
+vimHiCtermColor xxx cleared
+vimHiFontname  xxx cleared
+vimHiGuiFontname xxx cleared
+vimHiGuiRgb    xxx links to vimNumber
+vimHiTerm      xxx links to Type
+vimHiCTerm     xxx links to vimHiTerm
+vimHiStartStop xxx links to vimHiTerm
+vimHiCtermFgBg xxx links to vimHiTerm
+vimHiGui       xxx links to vimHiTerm
+vimHiGuiFont   xxx links to vimHiTerm
+vimHiGuiFgBg   xxx links to vimHiTerm
+vimHiKeyError  xxx links to vimError
+vimHiTermcap   xxx cleared
+vimHiNmbr      xxx links to Number
+vimCommentTitle xxx links to PreProc
+vimCommentTitleLeader xxx cleared
+vimSearchDelim xxx links to Statement
+vimSearch      xxx links to vimString
+vimEmbedError  xxx links to vimError
+podCmdText     xxx links to String
+podCommand     xxx links to Statement
+podOverIndent  xxx links to Number
+podForKeywd    xxx links to Identifier
+podFormat      xxx links to Identifier
+podVerbatimLine xxx links to PreProc
+podSpecial     xxx links to Identifier
+podEscape      xxx links to String
+podEscape2     xxx links to Number
+podBoldItalic  xxx cleared
+podBoldOpen    xxx cleared
+podBoldAlternativeDelimOpen xxx cleared
+podItalicBold  xxx cleared
+podItalicOpen  xxx cleared
+podItalicAlternativeDelimOpen xxx cleared
+podNoSpaceOpen xxx cleared
+podNoSpaceAlternativeDelimOpen xxx cleared
+podIndexOpen   xxx cleared
+podIndexAlternativeDelimOpen xxx cleared
+podBold        xxx cleared
+podBoldAlternativeDelim xxx cleared
+podItalic      xxx cleared
+podItalicAlternativeDelim xxx cleared
+perlTodo       xxx links to Todo
+perlPOD        xxx links to perlComment
+perlBraces     xxx cleared
+perlConditional xxx links to Conditional
+perlElseIfError xxx links to Error
+perlRepeat     xxx links to Repeat
+perlOperator   xxx links to Operator
+perlFakeGroup  xxx cleared
+perlControl    xxx links to PreProc
+perlStatementStorage xxx links to perlStatement
+perlStatementControl xxx links to perlStatement
+perlStatementScalar xxx links to perlStatement
+perlStatementRegexp xxx links to perlStatement
+perlStatementNumeric xxx links to perlStatement
+perlStatementList xxx links to perlStatement
+perlStatementHash xxx links to perlStatement
+perlStatementIOfunc xxx links to perlStatement
+perlFiledescStatementNocomma xxx cleared
+perlStatementFiledesc xxx links to perlStatement
+perlFiledescStatementComma xxx cleared
+perlStatementVector xxx links to perlStatement
+perlStatementFiles xxx links to perlStatement
+perlStatementFlow xxx links to perlStatement
+perlStatementInclude xxx links to perlStatement
+perlStatementProc xxx links to perlStatement
+perlStatementSocket xxx links to perlStatement
+perlStatementIPC xxx links to perlStatement
+perlStatementNetwork xxx links to perlStatement
+perlStatementPword xxx links to perlStatement
+perlStatementTime xxx links to perlStatement
+perlStatementMisc xxx links to perlStatement
+perlStatementIndirObj xxx links to perlStatement
+perlStatementIndirObjWrap xxx cleared
+perlLabel      xxx links to Label
+perlVarPlain   xxx links to perlIdentifier
+perlVarNotInMatches xxx links to perlIdentifier
+perlVarSlash   xxx links to perlIdentifier
+perlPackageRef xxx links to perlType
+perlVarMember  xxx cleared
+perlVarSimpleMember xxx links to perlIdentifier
+perlMethod     xxx links to perlIdentifier
+perlVarPlain2  xxx links to perlIdentifier
+perlFunctionName xxx links to perlIdentifier
+perlVarBlock   xxx cleared
+perlVarBlock2  xxx cleared
+perlShellCommand xxx links to perlString
+perlFloat      xxx links to Float
+perlNumber     xxx links to Number
+perlStringUnexpanded xxx links to perlString
+perlString     xxx links to String
+perlQQ         xxx links to perlString
+perlArrow      xxx links to perlIdentifier
+perlVarSimpleMemberName xxx links to perlString
+perlPackageConst xxx cleared
+perlFiledescRead xxx links to perlIdentifier
+perlFiledescStatement xxx links to perlIdentifier
+perlSpecialString xxx links to perlSpecial
+NONE           xxx cleared
+perlSpecialStringU2 xxx links to perlString
+perlSpecialStringU xxx links to perlSpecial
+perlSpecialMatch xxx links to perlSpecial
+perlNotEmptyLine xxx links to Error
+perlMatchStartEnd xxx links to perlStatement
+perlVStringV   xxx links to perlStringStartEnd
+perlParensSQ   xxx links to perlString
+perlBracketsSQ xxx links to perlString
+perlBracesSQ   xxx links to perlString
+perlAnglesSQ   xxx links to perlString
+perlParensDQ   xxx links to perlString
+perlBracketsDQ xxx links to perlString
+perlBracesDQ   xxx links to perlString
+perlAnglesDQ   xxx links to perlString
+perlMatch      xxx links to perlString
+perlComment    xxx links to Comment
+perlSubstitutionGQQ xxx links to perlString
+perlSubstitutionSQ xxx links to perlString
+perlTranslationGQ xxx links to perlString
+perlStringStartEnd xxx links to perlString
+perlHereDoc    xxx links to perlString
+perlAutoload   xxx cleared
+perlStatementPackage xxx links to perlStatement
+perlPackageDecl xxx links to perlType
+perlSubError   xxx links to Error
+perlSubAttributesCont xxx links to perlSubAttributes
+perlSubAttributes xxx links to PreProc
+perlSubPrototypeError xxx links to Error
+perlSubPrototype xxx links to Type
+perlSubName    xxx links to Function
+perlFunction   xxx links to Keyword
+perlFunctionPRef xxx links to perlType
+perlSharpBang  xxx links to PreProc
+perlFormatName xxx links to perlIdentifier
+perlFormatField xxx links to perlString
+perlFormat     xxx cleared
+
+perlDATA       xxx links to perlComment
+perlInclude    xxx links to Include
+perlSpecial    xxx links to Special
+perlCharacter  xxx links to Character
+perlType       xxx links to Type
+perlIdentifier xxx links to Identifier
+perlStatement  xxx links to Statement
+perlList       xxx links to perlStatement
+perlMisc       xxx links to perlStatement
+perlStorageClass xxx links to perlType
+perlSpecialAscii xxx links to perlSpecial
+perlSpecialDollar xxx links to perlSpecial
+perlSync       xxx cleared
+perlSyncPOD    xxx cleared
+vimScriptDelim xxx links to Comment
+vimPerlRegion  xxx cleared
+rubyConditional xxx links to Conditional
+rubyExceptional xxx links to rubyConditional
+rubyMethodExceptional xxx links to rubyDefine
+rubyTodo       xxx links to Todo
+rubyStringEscape xxx links to Special
+rubyQuoteEscape xxx links to rubyStringEscape
+rubyInstanceVariable xxx links to rubyIdentifier
+rubyClassVariable xxx links to rubyIdentifier
+rubyGlobalVariable xxx links to rubyIdentifier
+rubyPredefinedVariable xxx links to rubyPredefinedIdentifier
+rubyInvalidVariable xxx links to Error
+rubyNoInterpolation xxx links to rubyString
+rubyDelimEscape xxx cleared
+rubyString     xxx links to String
+rubyNestedParentheses xxx cleared
+rubyNestedCurlyBraces xxx cleared
+rubyNestedAngleBrackets xxx cleared
+rubyNestedSquareBrackets xxx cleared
+rubyRegexpSpecial xxx links to Special
+rubyRegexpComment xxx links to Comment
+rubyRegexpParens xxx cleared
+rubyRegexpCharClass xxx links to rubyRegexpSpecial
+rubyRegexpEscape xxx links to rubyRegexpSpecial
+rubyRegexpBrackets xxx cleared
+rubyRegexpQuantifier xxx links to rubyRegexpSpecial
+rubyRegexpAnchor xxx links to rubyRegexpSpecial
+rubyRegexpDot  xxx links to rubyRegexpCharClass
+rubyASCIICode  xxx links to Character
+rubyInteger    xxx links to Number
+rubyFloat      xxx links to Float
+rubyLocalVariableOrMethod xxx cleared
+rubyBlockArgument xxx cleared
+rubyBlockParameter xxx links to rubyIdentifier
+rubyBlockParameterList xxx cleared
+rubyPredefinedConstant xxx links to rubyPredefinedIdentifier
+rubyRegexpDelimiter xxx links to rubyStringDelimiter
+rubySymbolDelimiter xxx links to rubyStringDelimiter
+rubyHeredocStart xxx cleared
+rubyHeredoc    xxx links to rubyString
+rubyAliasDeclaration2 xxx cleared
+rubyAliasDeclaration xxx cleared
+rubyBoolean    xxx links to Boolean
+rubyPseudoVariable xxx links to Constant
+rubyMethodDeclaration xxx cleared
+rubyOperator   xxx links to Operator
+rubyClassDeclaration xxx cleared
+rubyModuleDeclaration xxx cleared
+rubyFunction   xxx links to Function
+rubyControl    xxx links to Statement
+rubyKeyword    xxx links to Keyword
+rubyBeginEnd   xxx links to Statement
+rubyDefine     xxx links to Define
+rubyClass      xxx links to rubyDefine
+rubyModule     xxx links to rubyDefine
+rubyMethodBlock xxx cleared
+rubyBlock      xxx cleared
+rubyConditionalModifier xxx links to rubyConditional
+rubyRepeatModifier xxx links to rubyRepeat
+rubyDoBlock    xxx cleared
+rubyCurlyBlockDelimiter xxx cleared
+rubyCurlyBlock xxx cleared
+rubyArrayDelimiter xxx cleared
+rubyArrayLiteral xxx cleared
+rubyBlockExpression xxx cleared
+rubyCaseExpression xxx cleared
+rubyConditionalExpression xxx cleared
+rubyRepeat     xxx links to Repeat
+rubyOptionalDo xxx links to rubyRepeat
+rubyOptionalDoLine xxx cleared
+rubyRepeatExpression xxx cleared
+rubyAccess     xxx links to Statement
+rubyEval       xxx links to Statement
+rubyException  xxx links to Exception
+rubyInclude    xxx links to Include
+rubySharpBang  xxx links to PreProc
+rubySpaceError xxx links to rubyError
+rubyComment    xxx links to Comment
+rubyMultilineComment xxx cleared
+rubyDocumentation xxx links to Comment
+rubyKeywordAsMethod xxx cleared
+rubyDataDirective xxx links to Delimiter
+rubyData       xxx links to Comment
+rubyIdentifier xxx links to Identifier
+rubyPredefinedIdentifier xxx links to rubyIdentifier
+rubyError      xxx links to Error
+vimRubyRegion  xxx cleared
+pythonStatement xxx links to Statement
+pythonFunction xxx links to Function
+pythonConditional xxx links to Conditional
+pythonException xxx links to Exception
+pythonInclude  xxx links to Include
+pythonAsync    xxx links to Statement
+pythonDecorator xxx links to Define
+pythonTodo     xxx links to Todo
+pythonComment  xxx links to Comment
+pythonQuotes   xxx links to String
+pythonEscape   xxx links to Special
+pythonString   xxx links to String
+pythonTripleQuotes xxx links to pythonQuotes
+pythonSpaceError xxx cleared
+pythonDoctest  xxx links to Special
+pythonRawString xxx links to String
+pythonNumber   xxx links to Number
+pythonBuiltin  xxx links to Function
+pythonExceptions xxx links to Structure
+pythonDoctestValue xxx links to Define
+pythonSync     xxx cleared
+vimPythonRegion xxx cleared
+vimAugroupSyncA xxx cleared
+vimError       xxx links to Error
+vimKeyCodeError xxx links to vimError
+vimWarn        xxx links to WarningMsg
+vimAuHighlight xxx links to vimHighlight
+vimAutoCmdOpt  xxx links to vimOption
+vimAutoSet     xxx links to vimCommand
+vimCondHL      xxx links to vimCommand
+vimElseif      xxx links to vimCondHL
+vimFold        xxx links to Folded
+vimSynOption   xxx links to Special
+vimHLMod       xxx links to PreProc
+vimKeyCode     xxx links to vimSpecFile
+vimKeyword     xxx links to Statement
+vimSpecial     xxx links to Type
+vimStatement   xxx links to Statement
+airline_x_inactive xxx ctermfg=249 ctermbg=238 guifg=#b2b2b2 guibg=#444444
+airline_x_inactive_bold xxx term=bold cterm=bold ctermfg=249 ctermbg=238 gui=bold guifg=#b2b2b2 guibg=#444444
+airline_x_inactive_red xxx ctermfg=160 ctermbg=238 guifg=#ff0000 guibg=#444444
+airline_y_inactive xxx ctermfg=249 ctermbg=238 guifg=#b2b2b2 guibg=#444444
+airline_y_inactive_bold xxx term=bold cterm=bold ctermfg=249 ctermbg=238 gui=bold guifg=#b2b2b2 guibg=#444444
+airline_y_inactive_red xxx ctermfg=160 ctermbg=238 guifg=#ff0000 guibg=#444444
+airline_z_inactive xxx ctermfg=249 ctermbg=238 guifg=#b2b2b2 guibg=#444444
+airline_z_inactive_bold xxx term=bold cterm=bold ctermfg=249 ctermbg=238 gui=bold guifg=#b2b2b2 guibg=#444444
+airline_z_inactive_red xxx ctermfg=160 ctermbg=238 guifg=#ff0000 guibg=#444444
+vimSpecial     xxx links to Type
+vimStatement   xxx links to Statement
+airline_x_inactive xxx ctermfg=249 ctermbg=238 guifg=#b2b2b2 guibg=#444444
+airline_x_inactive_bold xxx term=bold cterm=bold ctermfg=249 ctermbg=238 gui=bold guifg=#b2b2b2 guibg=#444444
+airline_x_inactive_red xxx ctermfg=160 ctermbg=238 guifg=#ff0000 guibg=#444444
+airline_y_inactive xxx ctermfg=249 ctermbg=238 guifg=#b2b2b2 guibg=#444444
+airline_y_inactive_bold xxx term=bold cterm=bold ctermfg=249 ctermbg=238 gui=bold guifg=#b2b2b2 guibg=#444444
+airline_y_inactive_red xxx ctermfg=160 ctermbg=238 guifg=#ff0000 guibg=#444444
+airline_z_inactive xxx ctermfg=249 ctermbg=238 guifg=#b2b2b2 guibg=#444444
+airline_z_inactive_bold xxx term=bold cterm=bold ctermfg=249 ctermbg=238 gui=bold guifg=#b2b2b2 guibg=#444444
+airline_z_inactive_red xxx ctermfg=160 ctermbg=238 guifg=#ff0000 guibg=#444444
+airline_a_inactive xxx ctermfg=249 ctermbg=238 guifg=#b2b2b2 guibg=#444444
+airline_a_inactive_bold xxx term=bold cterm=bold ctermfg=249 ctermbg=238 gui=bold guifg=#b2b2b2 guibg=#444444
+airline_a_inactive_red xxx ctermfg=160 ctermbg=238 guifg=#ff0000 guibg=#444444
+airline_b_inactive xxx ctermfg=249 ctermbg=238 guifg=#b2b2b2 guibg=#444444
+airline_b_inactive_bold xxx term=bold cterm=bold ctermfg=249 ctermbg=238 gui=bold guifg=#b2b2b2 guibg=#444444
+airline_b_inactive_red xxx ctermfg=160 ctermbg=238 guifg=#ff0000 guibg=#444444
+airline_c_inactive xxx ctermfg=249 ctermbg=238 guifg=#b2b2b2 guibg=#444444
+airline_c_inactive_bold xxx term=bold cterm=bold ctermfg=249 ctermbg=238 gui=bold guifg=#b2b2b2 guibg=#444444
+airline_c_inactive_red xxx ctermfg=160 ctermbg=238 guifg=#ff0000 guibg=#444444
+airline_warning_inactive xxx ctermfg=232 ctermbg=166 guifg=#000000 guibg=#df5f00
+airline_warning_inactive_bold xxx term=bold cterm=bold ctermfg=232 ctermbg=166 gui=bold guifg=#000000 guibg=#df5f00
+airline_warning_inactive_red xxx ctermfg=160 ctermbg=166 guifg=#ff0000 guibg=#df5f00
+airline_x      xxx ctermfg=150 ctermbg=238 guifg=#afd787 guibg=#444444
+airline_x_bold xxx term=bold cterm=bold ctermfg=150 ctermbg=238 gui=bold guifg=#afd787 guibg=#444444
+airline_x_red  xxx ctermfg=160 ctermbg=238 guifg=#ff0000 guibg=#444444
+airline_y      xxx ctermfg=249 ctermbg=237 guifg=#b2b2b2 guibg=#3a3a3a
+airline_y_bold xxx term=bold cterm=bold ctermfg=249 ctermbg=237 gui=bold guifg=#b2b2b2 guibg=#3a3a3a
+airline_y_red  xxx ctermfg=160 ctermbg=237 guifg=#ff0000 guibg=#3a3a3a
+airline_z      xxx ctermfg=236 ctermbg=150 guifg=#303030 guibg=#afd787
+airline_z_bold xxx term=bold cterm=bold ctermfg=236 ctermbg=150 gui=bold guifg=#303030 guibg=#afd787
+airline_z_red  xxx ctermfg=160 ctermbg=150 guifg=#ff0000 guibg=#afd787
+airline_a      xxx ctermfg=236 ctermbg=150 guifg=#303030 guibg=#afd787
+airline_a_bold xxx term=bold cterm=bold ctermfg=236 ctermbg=150 gui=bold guifg=#303030 guibg=#afd787
+airline_a_red  xxx ctermfg=160 ctermbg=150 guifg=#ff0000 guibg=#afd787
+airline_b      xxx ctermfg=249 ctermbg=237 guifg=#b2b2b2 guibg=#3a3a3a
+airline_b_bold xxx term=bold cterm=bold ctermfg=249 ctermbg=237 gui=bold guifg=#b2b2b2 guibg=#3a3a3a
+airline_b_red  xxx ctermfg=160 ctermbg=237 guifg=#ff0000 guibg=#3a3a3a
+airline_c      xxx ctermfg=150 ctermbg=238 guifg=#afd787 guibg=#444444
+airline_c_bold xxx term=bold cterm=bold ctermfg=150 ctermbg=238 gui=bold guifg=#afd787 guibg=#444444
+airline_c_red  xxx ctermfg=160 ctermbg=238 guifg=#ff0000 guibg=#444444
+airline_warning xxx ctermfg=232 ctermbg=166 guifg=#000000 guibg=#df5f00
+airline_warning_bold xxx term=bold cterm=bold ctermfg=232 ctermbg=166 gui=bold guifg=#000000 guibg=#df5f00
+airline_warning_red xxx ctermfg=160 ctermbg=166 guifg=#ff0000 guibg=#df5f00
+CtrlPwhite     xxx term=bold cterm=bold ctermfg=236 ctermbg=150 gui=bold guifg=#303030 guibg=#afd787
+CtrlPlight     xxx ctermfg=179 ctermbg=237 guifg=#d7af5f guibg=#3a3a3a
+CtrlPdark      xxx ctermfg=179 ctermbg=238 guifg=#d7af5f guibg=#444444
+CtrlParrow1    xxx ctermfg=237 ctermbg=150 guifg=#3a3a3a guibg=#afd787
+CtrlParrow2    xxx ctermfg=150 ctermbg=237 guifg=#afd787 guibg=#3a3a3a
+CtrlParrow3    xxx ctermfg=237 ctermbg=238 guifg=#3a3a3a guibg=#444444
+airline_a_to_airline_b xxx ctermfg=150 ctermbg=237
+airline_b_to_airline_c xxx ctermfg=237 ctermbg=238
+airline_c_to_airline_x xxx ctermfg=238 ctermbg=238
+airline_x_to_airline_y xxx ctermfg=237 ctermbg=238
+airline_y_to_airline_z xxx ctermfg=150 ctermbg=237
+airline_z_to_airline_warning xxx ctermfg=166 ctermbg=150
+airline_c1_inactive xxx ctermfg=249 ctermbg=238 guifg=#b2b2b2 guibg=#444444
+
+
+Number         xxx ctermfg=16 guifg=#fd971f
+Boolean        xxx ctermfg=16 guifg=#fd971f
+Float          xxx ctermfg=16 guifg=#fd971f
+SpecialChar    xxx ctermfg=17 guifg=#cc6633
+Delimiter      xxx ctermfg=17 guifg=#cc6633
+TabLine        xxx term=underline ctermfg=8 ctermbg=18 guifg=#75715e guibg=#383830
+TabLineSel     xxx term=bold ctermfg=2 ctermbg=18 guifg=#a6e22e guibg=#383830
+TabLineFill    xxx term=bold cterm=bold ctermfg=8 ctermbg=0 guifg=#75715e guibg=#383830
+hi TabLine      ctermfg=Black  ctermbg=Green     cterm=NONE
+hi TabLineFill  ctermfg=Black  ctermbg=Green     cterm=NONE
+hi TabLineSel   ctermfg=White  ctermbg=DarkBlue  cterm=NONE
+
+hi x016_Grey0 ctermfg=16 guifg=#000000 "rgb=0,0,0
+hi x017_NavyBlue ctermfg=17 guifg=#00005f "rgb=0,0,95
+hi x018_DarkBlue ctermfg=18 guifg=#000087 "rgb=0,0,135
+hi x019_Blue3 ctermfg=19 guifg=#0000af "rgb=0,0,175
+hi x020_Blue3 ctermfg=20 guifg=#0000d7 "rgb=0,0,215
+hi x021_Blue1 ctermfg=21 guifg=#0000ff "rgb=0,0,255
+hi x022_DarkGreen ctermfg=22 guifg=#005f00 "rgb=0,95,0
+hi x023_DeepSkyBlue4 ctermfg=23 guifg=#005f5f "rgb=0,95,95
+hi x024_DeepSkyBlue4 ctermfg=24 guifg=#005f87 "rgb=0,95,135
+hi x025_DeepSkyBlue4 ctermfg=25 guifg=#005faf "rgb=0,95,175
+hi x026_DodgerBlue3 ctermfg=26 guifg=#005fd7 "rgb=0,95,215
+hi x027_DodgerBlue2 ctermfg=27 guifg=#005fff "rgb=0,95,255
+hi x028_Green4 ctermfg=28 guifg=#008700 "rgb=0,135,0
+hi x029_SpringGreen4 ctermfg=29 guifg=#00875f "rgb=0,135,95
+hi x030_Turquoise4 ctermfg=30 guifg=#008787 "rgb=0,135,135
+hi x031_DeepSkyBlue3 ctermfg=31 guifg=#0087af "rgb=0,135,175
+hi x032_DeepSkyBlue3 ctermfg=32 guifg=#0087d7 "rgb=0,135,215
+hi x033_DodgerBlue1 ctermfg=33 guifg=#0087ff "rgb=0,135,255
+
+hi x034_Green3 ctermfg=34 guifg=#00af00 "rgb=0,175,0
+hi x035_SpringGreen3 ctermfg=35 guifg=#00af5f "rgb=0,175,95
+hi x036_DarkCyan ctermfg=36 guifg=#00af87 "rgb=0,175,135
+hi x037_LightSeaGreen ctermfg=37 guifg=#00afaf "rgb=0,175,175
+hi x038_DeepSkyBlue2 ctermfg=38 guifg=#00afd7 "rgb=0,175,215
+hi x039_DeepSkyBlue1 ctermfg=39 guifg=#00afff "rgb=0,175,255
+hi x040_Green3 ctermfg=40 guifg=#00d700 "rgb=0,215,0
+hi x041_SpringGreen3 ctermfg=41 guifg=#00d75f "rgb=0,215,95
+hi x042_SpringGreen2 ctermfg=42 guifg=#00d787 "rgb=0,215,135
+hi x043_Cyan3 ctermfg=43 guifg=#00d7af "rgb=0,215,175
+hi x044_DarkTurquoise ctermfg=44 guifg=#00d7d7 "rgb=0,215,215
+hi x045_Turquoise2 ctermfg=45 guifg=#00d7ff "rgb=0,215,255
+hi x046_Green1 ctermfg=46 guifg=#00ff00 "rgb=0,255,0
+hi x047_SpringGreen2 ctermfg=47 guifg=#00ff5f "rgb=0,255,95
+hi x048_SpringGreen1 ctermfg=48 guifg=#00ff87 "rgb=0,255,135
+hi x049_MediumSpringGreen ctermfg=49 guifg=#00ffaf "rgb=0,255,175
+hi x050_Cyan2 ctermfg=50 guifg=#00ffd7 "rgb=0,255,215
+hi x051_Cyan1 ctermfg=51 guifg=#00ffff "rgb=0,255,255
+hi x052_DarkRed ctermfg=52 guifg=#5f0000 "rgb=95,0,0
+hi x053_DeepPink4 ctermfg=53 guifg=#5f005f "rgb=95,0,95
+hi x054_Purple4 ctermfg=54 guifg=#5f0087 "rgb=95,0,135
+hi x055_Purple4 ctermfg=55 guifg=#5f00af "rgb=95,0,175
+hi x056_Purple3 ctermfg=56 guifg=#5f00d7 "rgb=95,0,215
+hi x057_BlueViolet ctermfg=57 guifg=#5f00ff "rgb=95,0,255
+hi x058_Orange4 ctermfg=58 guifg=#5f5f00 "rgb=95,95,0
+hi x059_Grey37 ctermfg=59 guifg=#5f5f5f "rgb=95,95,95
+hi x060_MediumPurple4 ctermfg=60 guifg=#5f5f87 "rgb=95,95,135
+hi x061_SlateBlue3 ctermfg=61 guifg=#5f5faf "rgb=95,95,175
+hi x062_SlateBlue3 ctermfg=62 guifg=#5f5fd7 "rgb=95,95,215
+hi x063_RoyalBlue1 ctermfg=63 guifg=#5f5fff "rgb=95,95,255
+hi x064_Chartreuse4 ctermfg=64 guifg=#5f8700 "rgb=95,135,0
+hi x065_DarkSeaGreen4 ctermfg=65 guifg=#5f875f "rgb=95,135,95
+hi x066_PaleTurquoise4 ctermfg=66 guifg=#5f8787 "rgb=95,135,135
+hi x067_SteelBlue ctermfg=67 guifg=#5f87af "rgb=95,135,175
+hi x068_SteelBlue3 ctermfg=68 guifg=#5f87d7 "rgb=95,135,215
+hi x069_CornflowerBlue ctermfg=69 guifg=#5f87ff "rgb=95,135,255
+hi x070_Chartreuse3 ctermfg=70 guifg=#5faf00 "rgb=95,175,0
+hi x071_DarkSeaGreen4 ctermfg=71 guifg=#5faf5f "rgb=95,175,95
+hi x072_CadetBlue ctermfg=72 guifg=#5faf87 "rgb=95,175,135
+hi x073_CadetBlue ctermfg=73 guifg=#5fafaf "rgb=95,175,175
+hi x074_SkyBlue3 ctermfg=74 guifg=#5fafd7 "rgb=95,175,215
+hi x075_SteelBlue1 ctermfg=75 guifg=#5fafff "rgb=95,175,255
+hi x076_Chartreuse3 ctermfg=76 guifg=#5fd700 "rgb=95,215,0
+hi x077_PaleGreen3 ctermfg=77 guifg=#5fd75f "rgb=95,215,95
+hi x078_SeaGreen3 ctermfg=78 guifg=#5fd787 "rgb=95,215,135
+hi x079_Aquamarine3 ctermfg=79 guifg=#5fd7af "rgb=95,215,175
+hi x080_MediumTurquoise ctermfg=80 guifg=#5fd7d7 "rgb=95,215,215
+hi x081_SteelBlue1 ctermfg=81 guifg=#5fd7ff "rgb=95,215,255
+hi x082_Chartreuse2 ctermfg=82 guifg=#5fff00 "rgb=95,255,0
+hi x083_SeaGreen2 ctermfg=83 guifg=#5fff5f "rgb=95,255,95
+hi x084_SeaGreen1 ctermfg=84 guifg=#5fff87 "rgb=95,255,135
+hi x085_SeaGreen1 ctermfg=85 guifg=#5fffaf "rgb=95,255,175
+hi x086_Aquamarine1 ctermfg=86 guifg=#5fffd7 "rgb=95,255,215
+hi x087_DarkSlateGray2 ctermfg=87 guifg=#5fffff "rgb=95,255,255
+hi x088_DarkRed ctermfg=88 guifg=#870000 "rgb=135,0,0
+hi x089_DeepPink4 ctermfg=89 guifg=#87005f "rgb=135,0,95
+hi x090_DarkMagenta ctermfg=90 guifg=#870087 "rgb=135,0,135
+hi x091_DarkMagenta ctermfg=91 guifg=#8700af "rgb=135,0,175
+hi x092_DarkViolet ctermfg=92 guifg=#8700d7 "rgb=135,0,215
+hi x093_Purple ctermfg=93 guifg=#8700ff "rgb=135,0,255
+hi x094_Orange4 ctermfg=94 guifg=#875f00 "rgb=135,95,0
+hi x095_LightPink4 ctermfg=95 guifg=#875f5f "rgb=135,95,95
+hi x096_Plum4 ctermfg=96 guifg=#875f87 "rgb=135,95,135
+hi x097_MediumPurple3 ctermfg=97 guifg=#875faf "rgb=135,95,175
+hi x098_MediumPurple3 ctermfg=98 guifg=#875fd7 "rgb=135,95,215
+hi x099_SlateBlue1 ctermfg=99 guifg=#875fff "rgb=135,95,255
+hi x100_Yellow4 ctermfg=100 guifg=#878700 "rgb=135,135,0
+hi x101_Wheat4 ctermfg=101 guifg=#87875f "rgb=135,135,95
+hi x102_Grey53 ctermfg=102 guifg=#878787 "rgb=135,135,135
+hi x103_LightSlateGrey ctermfg=103 guifg=#8787af "rgb=135,135,175
+hi x104_MediumPurple ctermfg=104 guifg=#8787d7 "rgb=135,135,215
+hi x105_LightSlateBlue ctermfg=105 guifg=#8787ff "rgb=135,135,255
+hi x106_Yellow4 ctermfg=106 guifg=#87af00 "rgb=135,175,0
+hi x107_DarkOliveGreen3 ctermfg=107 guifg=#87af5f "rgb=135,175,95
+hi x108_DarkSeaGreen ctermfg=108 guifg=#87af87 "rgb=135,175,135
+hi x109_LightSkyBlue3 ctermfg=109 guifg=#87afaf "rgb=135,175,175
+hi x110_LightSkyBlue3 ctermfg=110 guifg=#87afd7 "rgb=135,175,215
+hi x111_SkyBlue2 ctermfg=111 guifg=#87afff "rgb=135,175,255
+hi x112_Chartreuse2 ctermfg=112 guifg=#87d700 "rgb=135,215,0
+hi x113_DarkOliveGreen3 ctermfg=113 guifg=#87d75f "rgb=135,215,95
+hi x114_PaleGreen3 ctermfg=114 guifg=#87d787 "rgb=135,215,135
+hi x115_DarkSeaGreen3 ctermfg=115 guifg=#87d7af "rgb=135,215,175
+hi x116_DarkSlateGray3 ctermfg=116 guifg=#87d7d7 "rgb=135,215,215
+hi x117_SkyBlue1 ctermfg=117 guifg=#87d7ff "rgb=135,215,255
+hi x118_Chartreuse1 ctermfg=118 guifg=#87ff00 "rgb=135,255,0
+hi x119_LightGreen ctermfg=119 guifg=#87ff5f "rgb=135,255,95
+hi x120_LightGreen ctermfg=120 guifg=#87ff87 "rgb=135,255,135
+hi x121_PaleGreen1 ctermfg=121 guifg=#87ffaf "rgb=135,255,175
+hi x122_Aquamarine1 ctermfg=122 guifg=#87ffd7 "rgb=135,255,215
+hi x123_DarkSlateGray1 ctermfg=123 guifg=#87ffff "rgb=135,255,255
+hi x124_Red3 ctermfg=124 guifg=#af0000 "rgb=175,0,0
+hi x125_DeepPink4 ctermfg=125 guifg=#af005f "rgb=175,0,95
+hi x126_MediumVioletRed ctermfg=126 guifg=#af0087 "rgb=175,0,135
+hi x127_Magenta3 ctermfg=127 guifg=#af00af "rgb=175,0,175
+hi x128_DarkViolet ctermfg=128 guifg=#af00d7 "rgb=175,0,215
+hi x129_Purple ctermfg=129 guifg=#af00ff "rgb=175,0,255
+hi x130_DarkOrange3 ctermfg=130 guifg=#af5f00 "rgb=175,95,0
+hi x131_IndianRed ctermfg=131 guifg=#af5f5f "rgb=175,95,95
+hi x132_HotPink3 ctermfg=132 guifg=#af5f87 "rgb=175,95,135
+hi x133_MediumOrchid3 ctermfg=133 guifg=#af5faf "rgb=175,95,175
+hi x134_MediumOrchid ctermfg=134 guifg=#af5fd7 "rgb=175,95,215
+hi x135_MediumPurple2 ctermfg=135 guifg=#af5fff "rgb=175,95,255
+hi x136_DarkGoldenrod ctermfg=136 guifg=#af8700 "rgb=175,135,0
+hi x137_LightSalmon3 ctermfg=137 guifg=#af875f "rgb=175,135,95
+hi x138_RosyBrown ctermfg=138 guifg=#af8787 "rgb=175,135,135
+hi x139_Grey63 ctermfg=139 guifg=#af87af "rgb=175,135,175
+hi x140_MediumPurple2 ctermfg=140 guifg=#af87d7 "rgb=175,135,215
+hi x141_MediumPurple1 ctermfg=141 guifg=#af87ff "rgb=175,135,255
+hi x142_Gold3 ctermfg=142 guifg=#afaf00 "rgb=175,175,0
+hi x143_DarkKhaki ctermfg=143 guifg=#afaf5f "rgb=175,175,95
+hi x144_NavajoWhite3 ctermfg=144 guifg=#afaf87 "rgb=175,175,135
+hi x145_Grey69 ctermfg=145 guifg=#afafaf "rgb=175,175,175
+hi x146_LightSteelBlue3 ctermfg=146 guifg=#afafd7 "rgb=175,175,215
+hi x147_LightSteelBlue ctermfg=147 guifg=#afafff "rgb=175,175,255
+hi x148_Yellow3 ctermfg=148 guifg=#afd700 "rgb=175,215,0
+hi x149_DarkOliveGreen3 ctermfg=149 guifg=#afd75f "rgb=175,215,95
+hi x150_DarkSeaGreen3 ctermfg=150 guifg=#afd787 "rgb=175,215,135
+hi x151_DarkSeaGreen2 ctermfg=151 guifg=#afd7af "rgb=175,215,175
+hi x152_LightCyan3 ctermfg=152 guifg=#afd7d7 "rgb=175,215,215
+hi x153_LightSkyBlue1 ctermfg=153 guifg=#afd7ff "rgb=175,215,255
+hi x154_GreenYellow ctermfg=154 guifg=#afff00 "rgb=175,255,0
+hi x155_DarkOliveGreen2 ctermfg=155 guifg=#afff5f "rgb=175,255,95
+hi x156_PaleGreen1 ctermfg=156 guifg=#afff87 "rgb=175,255,135
+hi x157_DarkSeaGreen2 ctermfg=157 guifg=#afffaf "rgb=175,255,175
+hi x158_DarkSeaGreen1 ctermfg=158 guifg=#afffd7 "rgb=175,255,215
+hi x159_PaleTurquoise1 ctermfg=159 guifg=#afffff "rgb=175,255,255
+hi x160_Red3 ctermfg=160 guifg=#d70000 "rgb=215,0,0
+hi x161_DeepPink3 ctermfg=161 guifg=#d7005f "rgb=215,0,95
+hi x162_DeepPink3 ctermfg=162 guifg=#d70087 "rgb=215,0,135
+hi x163_Magenta3 ctermfg=163 guifg=#d700af "rgb=215,0,175
+hi x164_Magenta3 ctermfg=164 guifg=#d700d7 "rgb=215,0,215
+hi x165_Magenta2 ctermfg=165 guifg=#d700ff "rgb=215,0,255
+hi x166_DarkOrange3 ctermfg=166 guifg=#d75f00 "rgb=215,95,0
+hi x167_IndianRed ctermfg=167 guifg=#d75f5f "rgb=215,95,95
+hi x168_HotPink3 ctermfg=168 guifg=#d75f87 "rgb=215,95,135
+hi x169_HotPink2 ctermfg=169 guifg=#d75faf "rgb=215,95,175
+hi x170_Orchid ctermfg=170 guifg=#d75fd7 "rgb=215,95,215
+hi x171_MediumOrchid1 ctermfg=171 guifg=#d75fff "rgb=215,95,255
+hi x172_Orange3 ctermfg=172 guifg=#d78700 "rgb=215,135,0
+hi x173_LightSalmon3 ctermfg=173 guifg=#d7875f "rgb=215,135,95
+hi x174_LightPink3 ctermfg=174 guifg=#d78787 "rgb=215,135,135
+hi x175_Pink3 ctermfg=175 guifg=#d787af "rgb=215,135,175
+hi x176_Plum3 ctermfg=176 guifg=#d787d7 "rgb=215,135,215
+hi x177_Violet ctermfg=177 guifg=#d787ff "rgb=215,135,255
+hi x178_Gold3 ctermfg=178 guifg=#d7af00 "rgb=215,175,0
+hi x179_LightGoldenrod3 ctermfg=179 guifg=#d7af5f "rgb=215,175,95
+hi x180_Tan ctermfg=180 guifg=#d7af87 "rgb=215,175,135
+hi x181_MistyRose3 ctermfg=181 guifg=#d7afaf "rgb=215,175,175
+hi x182_Thistle3 ctermfg=182 guifg=#d7afd7 "rgb=215,175,215
+hi x183_Plum2 ctermfg=183 guifg=#d7afff "rgb=215,175,255
+hi x184_Yellow3 ctermfg=184 guifg=#d7d700 "rgb=215,215,0
+hi x185_Khaki3 ctermfg=185 guifg=#d7d75f "rgb=215,215,95
+hi x186_LightGoldenrod2 ctermfg=186 guifg=#d7d787 "rgb=215,215,135
+hi x187_LightYellow3 ctermfg=187 guifg=#d7d7af "rgb=215,215,175
+hi x188_Grey84 ctermfg=188 guifg=#d7d7d7 "rgb=215,215,215
+hi x189_LightSteelBlue1 ctermfg=189 guifg=#d7d7ff "rgb=215,215,255
+hi x190_Yellow2 ctermfg=190 guifg=#d7ff00 "rgb=215,255,0
+hi x191_DarkOliveGreen1 ctermfg=191 guifg=#d7ff5f "rgb=215,255,95
+hi x192_DarkOliveGreen1 ctermfg=192 guifg=#d7ff87 "rgb=215,255,135
+hi x193_DarkSeaGreen1 ctermfg=193 guifg=#d7ffaf "rgb=215,255,175
+hi x194_Honeydew2 ctermfg=194 guifg=#d7ffd7 "rgb=215,255,215
+hi x195_LightCyan1 ctermfg=195 guifg=#d7ffff "rgb=215,255,255
+hi x196_Red1 ctermfg=196 guifg=#ff0000 "rgb=255,0,0
+hi x197_DeepPink2 ctermfg=197 guifg=#ff005f "rgb=255,0,95
+hi x198_DeepPink1 ctermfg=198 guifg=#ff0087 "rgb=255,0,135
+hi x199_DeepPink1 ctermfg=199 guifg=#ff00af "rgb=255,0,175
+hi x200_Magenta2 ctermfg=200 guifg=#ff00d7 "rgb=255,0,215
+hi x201_Magenta1 ctermfg=201 guifg=#ff00ff "rgb=255,0,255
+hi x202_OrangeRed1 ctermfg=202 guifg=#ff5f00 "rgb=255,95,0
+hi x203_IndianRed1 ctermfg=203 guifg=#ff5f5f "rgb=255,95,95
+hi x204_IndianRed1 ctermfg=204 guifg=#ff5f87 "rgb=255,95,135
+hi x205_HotPink ctermfg=205 guifg=#ff5faf "rgb=255,95,175
+hi x206_HotPink ctermfg=206 guifg=#ff5fd7 "rgb=255,95,215
+hi x207_MediumOrchid1 ctermfg=207 guifg=#ff5fff "rgb=255,95,255
+hi x208_DarkOrange ctermfg=208 guifg=#ff8700 "rgb=255,135,0
+hi x209_Salmon1 ctermfg=209 guifg=#ff875f "rgb=255,135,95
+hi x210_LightCoral ctermfg=210 guifg=#ff8787 "rgb=255,135,135
+hi x211_PaleVioletRed1 ctermfg=211 guifg=#ff87af "rgb=255,135,175
+hi x212_Orchid2 ctermfg=212 guifg=#ff87d7 "rgb=255,135,215
+hi x213_Orchid1 ctermfg=213 guifg=#ff87ff "rgb=255,135,255
+hi x214_Orange1 ctermfg=214 guifg=#ffaf00 "rgb=255,175,0
+hi x215_SandyBrown ctermfg=215 guifg=#ffaf5f "rgb=255,175,95
+hi x216_LightSalmon1 ctermfg=216 guifg=#ffaf87 "rgb=255,175,135
+hi x217_LightPink1 ctermfg=217 guifg=#ffafaf "rgb=255,175,175
+hi x218_Pink1 ctermfg=218 guifg=#ffafd7 "rgb=255,175,215
+hi x219_Plum1 ctermfg=219 guifg=#ffafff "rgb=255,175,255
+hi x220_Gold1 ctermfg=220 guifg=#ffd700 "rgb=255,215,0
+hi x221_LightGoldenrod2 ctermfg=221 guifg=#ffd75f "rgb=255,215,95
+hi x222_LightGoldenrod2 ctermfg=222 guifg=#ffd787 "rgb=255,215,135
+hi x223_NavajoWhite1 ctermfg=223 guifg=#ffd7af "rgb=255,215,175
+hi x224_MistyRose1 ctermfg=224 guifg=#ffd7d7 "rgb=255,215,215
+hi x225_Thistle1 ctermfg=225 guifg=#ffd7ff "rgb=255,215,255
+hi x226_Yellow1 ctermfg=226 guifg=#ffff00 "rgb=255,255,0
+hi x227_LightGoldenrod1 ctermfg=227 guifg=#ffff5f "rgb=255,255,95
+hi x228_Khaki1 ctermfg=228 guifg=#ffff87 "rgb=255,255,135
+hi x229_Wheat1 ctermfg=229 guifg=#ffffaf "rgb=255,255,175
+hi x230_Cornsilk1 ctermfg=230 guifg=#ffffd7 "rgb=255,255,215
+hi x231_Grey100 ctermfg=231 guifg=#ffffff "rgb=255,255,255
+hi x232_Grey3 ctermfg=232 guifg=#080808 "rgb=8,8,8
+hi x233_Grey7 ctermfg=233 guifg=#121212 "rgb=18,18,18
+hi x234_Grey11 ctermfg=234 guifg=#1c1c1c "rgb=28,28,28
+hi x235_Grey15 ctermfg=235 guifg=#262626 "rgb=38,38,38
+hi x236_Grey19 ctermfg=236 guifg=#303030 "rgb=48,48,48
+hi x237_Grey23 ctermfg=237 guifg=#3a3a3a "rgb=58,58,58
+hi x238_Grey27 ctermfg=238 guifg=#444444 "rgb=68,68,68
+hi x239_Grey30 ctermfg=239 guifg=#4e4e4e "rgb=78,78,78
+hi x240_Grey35 ctermfg=240 guifg=#585858 "rgb=88,88,88
+hi x241_Grey39 ctermfg=241 guifg=#626262 "rgb=98,98,98
+hi x242_Grey42 ctermfg=242 guifg=#6c6c6c "rgb=108,108,108
+hi x243_Grey46 ctermfg=243 guifg=#767676 "rgb=118,118,118
+hi x244_Grey50 ctermfg=244 guifg=#808080 "rgb=128,128,128
+hi x245_Grey54 ctermfg=245 guifg=#8a8a8a "rgb=138,138,138
+hi x246_Grey58 ctermfg=246 guifg=#949494 "rgb=148,148,148
+hi x247_Grey62 ctermfg=247 guifg=#9e9e9e "rgb=158,158,158
+hi x248_Grey66 ctermfg=248 guifg=#a8a8a8 "rgb=168,168,168
+hi x249_Grey70 ctermfg=249 guifg=#b2b2b2 "rgb=178,178,178
+hi x250_Grey74 ctermfg=250 guifg=#bcbcbc "rgb=188,188,188
+hi x251_Grey78 ctermfg=251 guifg=#c6c6c6 "rgb=198,198,198
+hi x252_Grey82 ctermfg=252 guifg=#d0d0d0 "rgb=208,208,208
+hi x253_Grey85 ctermfg=253 guifg=#dadada "rgb=218,218,218
+hi x254_Grey89 ctermfg=254 guifg=#e4e4e4 "rgb=228,228,228
+hi x255_Grey93 ctermfg=255 guifg=#eeeeee "rgb=238,238,238

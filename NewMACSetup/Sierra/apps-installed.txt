@@ -1,0 +1,111 @@
+'ActiveState ActiveTcl'
+Adobe
+'Adobe Acrobat XI Pro'
+'Alfred 3.app'
+ApacheDirectoryStudio.app
+'App Store.app'
+AppCleaner.app
+Arq.app
+Atom.app
+AutoRaise.app*
+Automator.app
+Calculator.app
+Calendar.app
+Cheats
+Chess.app
+'Chrome Apps.localized'
+'Chrome Canary Apps.localized'
+'Cisco Jabber.app'
+Contacts.app
+Cyberduck.app
+'DVD Player.app'
+Dash.app
+Dashboard.app
+Designer.app -> /usr/local/opt/qt/Designer.app
+Dictionary.app
+DockApp.app
+Docker.app
+Dropbox.app
+EazyDraw.app
+Eclipse.app
+Evernote.app
+FaceTime.app
+Fake.app
+Fiddler.app
+FirefoxDeveloperEdition.app
+Fluid.app
+Flux.app
+'Font Book.app'
+GIMP.app
+GNS3.app
+'Game Center.app'
+'Google Chrome.app'
+'Google Drive.app'
+Graphviz.app
+Hammerspoon.app
+'IDLE 3.app' -> '/usr/local/opt/python3/IDLE 3.app'
+IDLE.app -> /usr/local/opt/python/IDLE.app
+'Image Capture.app'
+'Jabber Video.app'
+KeePassX.app
+'Kitematic (Beta).app'
+'Komodo Edit 10.app'
+LastPass.app
+Launchpad.app
+LinCastor.app
+'Lingon X.app'
+LiveReload.app
+'Mac Linux USB Loader.app'
+MacVim.app -> /usr/local/opt/macvim/MacVim.app
+Mail.app
+Maps.app
+Messages.app
+Microsoft
+'Mission Control.app'
+'Near Lock.app'
+Notes.app
+'Opera Developer.app'
+Packages.app
+Pandora.app
+'Path Analyzer Pro 2.7.app'
+'Photo Booth.app'
+Photos.app
+Postman.app
+Preview.app
+'Pulse Secure.app'
+'PyCharm CE.app'
+'Python Launcher 3.app' -> '/usr/local/opt/python3/Python Launcher 3.app'
+'Python Launcher.app' -> '/usr/local/opt/python/Python Launcher.app'
+'QuickTime Player.app'
+Reminders.app
+SQLiteStudio.app
+Safari.app
+Seil.app
+'Simulator (Watch).app' -> '/Applications/Xcode.app/Contents/Developer/Applications/Simulator (Watch).app'
+Simulator.app -> /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app
+SizeUp.app
+Snagit.app
+Spectacle.app
+Stickies.app
+'Sublime Text.app'
+SubnetCalc.app
+Synergy.app
+'System Preferences.app'
+TextEdit.app
+'Time Machine.app'
+Toad.app
+TotalFinder.app
+Utilities
+VLC.app
+VMMaestro.app
+'VMware Fusion.app'
+VirtualBox.app
+Wireshark.app
+'Xcode Tools'
+Xcode.app
+iBooks.app
+iTerm.app
+iTunes.app
+nvALT.app
+sqlitebrowser.app
+yEd.app

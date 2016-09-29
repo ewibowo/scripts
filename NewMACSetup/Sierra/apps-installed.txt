@@ -11,6 +11,7 @@ AutoRaise.app*
 Automator.app
 Calculator.app
 Calendar.app
+'Carbon Copy Cloner.app'
 Cheats
 Chess.app
 'Chrome Apps.localized'
@@ -59,6 +60,7 @@ LiveReload.app
 MacVim.app -> /usr/local/opt/macvim/MacVim.app
 Mail.app
 Maps.app
+'Memory Clean.app'
 Messages.app
 Microsoft
 'Mission Control.app'
@@ -89,6 +91,7 @@ Spectacle.app
 Stickies.app
 'Sublime Text.app'
 SubnetCalc.app
+'SuperDuper!.app'
 Synergy.app
 'System Preferences.app'
 TextEdit.app

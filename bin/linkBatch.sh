@@ -52,6 +52,7 @@ ln -s ~/scripts/bin/gotftp                   ~/bin/gotftp
 ln -s ~/scripts/bin/gotrp                    ~/bin/gotrp
 ln -s ~/scripts/bin/install-mininet-vm.sh    ~/bin/install-mininet-vm.sh
 ln -s ~/scripts/bin/linkBatch.sh             ~/bin/linkBatch.sh
+ln -s ~/scripts/bin/linkdots.sh              ~/bin/linkdots.sh
 ln -s ~/scripts/bin/nodocker                 ~/bin/nodocker
 ln -s ~/scripts/bin/noftp                    ~/bin/noftp
 ln -s ~/scripts/bin/nomongo                  ~/bin/nomongo

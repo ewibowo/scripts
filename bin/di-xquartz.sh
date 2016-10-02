@@ -31,7 +31,7 @@ TIME=$(strftime "%Y-%m-%d-at-%H.%M.%S" "$EPOCHSECONDS")
 HOST=`hostname -s`
 HOST="$HOST:l"
 
-LOG="$HOME/Dropbox/logs/$HOST/$NAME/$TIME.txt"
+LOG="$HOME/Logs/$HOST/$NAME/$TIME.txt"
 
 [[ -d "$LOG:h" ]] || mkdir -p "$LOG:h"
 [[ -e "$LOG" ]]   || touch "$LOG"

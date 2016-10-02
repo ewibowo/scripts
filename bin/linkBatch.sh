@@ -1,6 +1,5 @@
 #!/bin/sh
 
-ln -s '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' ~/bin/subl
 
 ln -s ~/scripts/bin/ConfigFileComp.py        ~/bin/ConfigFileComp.py
 ln -s ~/scripts/bin/DHCPSim_Final.py         ~/bin/DHCPSim_Final.py
@@ -89,3 +88,9 @@ ln -s ~/scripts/bin/ubuJava8.sh              ~/bin/ubuJava8.sh
 ln -s ~/scripts/bin/upgradePythonTools.sh    ~/bin/upgradePythonTools.sh
 ln -s ~/scripts/bin/vimPluginUpdate.sh       ~/bin/vimPluginUpdate.sh
 ln -s ~/scripts/bin/vimfix.sh                ~/bin/vimfix.sh
+
+ln -s ~/scripts/init/Preferences.sublime-settings              ~/Preferences.sublime-settings
+ln -s ~/scripts/init/Solarized Dark xterm-256color.terminal    ~/Solarized Dark xterm-256color.terminal
+ln -s ~/scripts/init/Solarized Dark.itermcolors                ~/Solarized Dark.itermcolors
+
+ln -s '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' ~/bin/subl

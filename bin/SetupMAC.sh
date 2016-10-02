@@ -236,7 +236,7 @@ if ! command -v brew cask >/dev/null; then
   fancy_echo "Installing Brew Cask ..."
     append_to_env '# User specified directories.  Can be overriden with local command.' 1
     append_to_env 'export HOMEBREW_CASK_OPTS="--appdir=/Applications"' 1
-    export HOMEBREW_CASK_OPTS="--appdir=/Applications"    
+    export HOMEBREW_CASK_OPTS="--appdir=/Applications"
     brew install caskroom/cask/brew-cask
 else
   fancy_echo "Brew Cask already installed. Skipping ..."
@@ -570,7 +570,7 @@ brew_cask_install_or_upgrade 'opera'
 brew_cask_install_or_upgrade 'packages'
 brew_cask_install_or_upgrade 'pandora'
 brew_cask_install_or_upgrade 'postman'
-brew_cask_install_or_upgrade 'pycharm'
+brew_cask_install_or_upgrade 'pycharm-ce'
 brew_cask_install_or_upgrade 'qlcolorcode'
 brew_cask_install_or_upgrade 'qlimagesize'
 brew_cask_install_or_upgrade 'qlmarkdown'
@@ -623,9 +623,9 @@ brew_cask_install_or_upgrade 'yed'
 brew_cask_install_or_upgrade 'font-source-code-pro'
 brew_cask_install_or_upgrade 'font-source-code-pro-for-powerline'
 brew_cask_install_or_upgrade 'font-roboto'
-brew_cask_install_or_upgrade 'font-fontawesome'   
+brew_cask_install_or_upgrade 'font-fontawesome'
 brew_cask_install_or_upgrade 'font-material-icons'
-brew_cask_install_or_upgrade 'font-octicons'      
+brew_cask_install_or_upgrade 'font-octicons'
 
 # Python tools
 pip install --upgrade setuptools
@@ -717,4 +717,3 @@ brew cask cleanup
 brew doctor
 brew cask doctor
 brew cask audit
-

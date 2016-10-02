@@ -75,6 +75,21 @@ defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 echo "Increase sound quality for Bluetooth headphones/headsets"
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
 
+# Restart automatically if the computer freezes
+sudo systemsetup -setrestartfreeze on
+
+# Never go into computer sleep mode
+sudo systemsetup -setcomputersleep Off > /dev/null
+
+# Disable Notification Center and remove the menu bar icon
+launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist 2> /dev/null
+
+# Disable smart quotes as they’re annoying when typing code
+defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+
+# Disable smart dashes as they’re annoying when typing code
+defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+
 echo "Enable full keyboard access for all controls"
 echo "(e.g. enable Tab in modal dialogs)"
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3

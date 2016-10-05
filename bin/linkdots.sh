@@ -25,8 +25,8 @@ ln -s ~/.dotfiles/vimrc                           ~/.vimrc
 ln -s ~/.dotfiles/vimrc.bundles                   ~/.vimrc.bundles
 ln -s ~/.dotfiles/zshenv                          ~/.zshenv
 ln -s ~/.dotfiles/zshrc                           ~/.zshrc
-ln -s ~/.dotfiles/iterm2                          ~/.iterm2
-ln -s ~/.dotfiles/karabiner.d                     ~/.karabiner.d
-ln -s ~/.dotfiles/iterm2_shell_integration.zsh*   ~/.iterm2_shell_integration.zsh*
+ln -s ~/.dotfiles/iterm2_shell_integration.zsh    ~/.iterm2_shell_integration.zsh
 
-sudo cp ~/.dotfiles/hosts /private/etc/hosts
+ln -s ~/.dotfiles/iterm2/                          ~/.iterm2
+ln -s ~/.dotfiles/karabiner.d/                     ~/.karabiner.d
+#sudo cp ~/.dotfiles/hosts /private/etc/hosts

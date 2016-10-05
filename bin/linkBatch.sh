@@ -1,6 +1,7 @@
 #!/bin/sh
 
 
+mkdir -p ~/bin
 ln -s ~/scripts/bin/ConfigFileComp.py        ~/bin/ConfigFileComp.py
 ln -s ~/scripts/bin/DHCPSim_Final.py         ~/bin/DHCPSim_Final.py
 ln -s ~/scripts/bin/FixAll.env               ~/bin/FixAll.env
@@ -23,6 +24,7 @@ ln -s ~/scripts/bin/bundler-search           ~/bin/bundler-search
 ln -s ~/scripts/bin/cleanupResurrect.sh      ~/bin/cleanupResurrect.sh
 ln -s ~/scripts/bin/clrcache.sh              ~/bin/clrcache.sh
 ln -s ~/scripts/bin/di-xquartz.sh            ~/bin/di-xquartz.sh
+ln -s ~/scripts/bin/dot_update.sh            ~/bin/dot_update.sh
 ln -s ~/scripts/bin/docker-completion.sh     ~/bin/docker-completion.sh
 ln -s ~/scripts/bin/flushdns                 ~/bin/flushdns
 ln -s ~/scripts/bin/git-ca                   ~/bin/git-ca
@@ -89,8 +91,3 @@ ln -s ~/scripts/bin/upgradePythonTools.sh    ~/bin/upgradePythonTools.sh
 ln -s ~/scripts/bin/vimPluginUpdate.sh       ~/bin/vimPluginUpdate.sh
 ln -s ~/scripts/bin/vimfix.sh                ~/bin/vimfix.sh
 
-ln -s ~/scripts/init/Preferences.sublime-settings              ~/Preferences.sublime-settings
-ln -s ~/scripts/init/Solarized Dark xterm-256color.terminal    ~/Solarized Dark xterm-256color.terminal
-ln -s ~/scripts/init/Solarized Dark.itermcolors                ~/Solarized Dark.itermcolors
-
-ln -s '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' ~/bin/subl

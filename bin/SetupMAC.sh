@@ -14,6 +14,15 @@ echo "xcode-select --install"
 sleep 1
 echo "Make sure you have installed Xquartz!!  http://www.xquartz.org"
 sleep 1
+
+##################################################
+#                Install XQuartz                 #
+##################################################
+
+#/bin/sh $HOME/bin/di-xquartz.sh
+
+##################################################
+
 echo "Make sure you have all your dotfiles and config folders"
 echo "in place before moving forward.  I am giving you 5 secs to "
 echo "think about this and backout!!!"
@@ -23,24 +32,6 @@ sudo -v
 
 echo "Keep-alive: update existing sudo time stamp until tweekosx has finished"
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
-##################################################
-#           Run script to tweak OS X             #
-##################################################
-
-#echo "Running system tweeks with tweakosx.sh"
-#source ~/bin/tweakosx.sh
-/bin/sh $HOME/bin/tweakosx.sh
-
-#echo "Running system tweeks with .macos"
-#source ./.macos
-#/bin/sh ./.macos
-
-# If not running tweakosx or macos then:
-#echo "Ask for the administrator password upfront"
-#sudo -v
-#
-#echo "Keep-alive: update existing sudo time stamp until tweekosx has finished"
-#while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 ##################################################
 #               Define functions                 #
@@ -104,25 +95,25 @@ trap 'ret=$?; test $ret -ne 0 && printf "failed\n\n" >&2; exit $ret' EXIT
 
 set +e
 
-#if [ ! -d "$HOME/bin/" ]; then
-#  mkdir "$HOME/bin"
-#fi
-#
-#if [ ! -d "$HOME/.config/" ]; then
-#  mkdir "$HOME/.config"
-#fi
-#
-#if [ ! -f "$HOME/.zshenv" ]; then
-#  touch "$HOME/.zshenv"
-#fi
-#
-#if [ ! -f "$HOME/.zshrc" ]; then
-#  touch "$HOME/.zshrc"
-#fi
-#
-#if [ ! -f "$HOME/.gemrc" ]; then
-#  touch "$HOME/.gemrc"
-#fi
+if [ ! -d "$HOME/bin/" ]; then
+  mkdir "$HOME/bin"
+fi
+
+if [ ! -d "$HOME/.config/" ]; then
+  mkdir "$HOME/.config"
+fi
+
+if [ ! -f "$HOME/.zshenv" ]; then
+  touch "$HOME/.zshenv"
+fi
+
+if [ ! -f "$HOME/.zshrc" ]; then
+  touch "$HOME/.zshrc"
+fi
+
+if [ ! -f "$HOME/.gemrc" ]; then
+  touch "$HOME/.gemrc"
+fi
 
 # shellcheck disable=SC2016
 #append_to_env 'export PATH="$HOME/bin:$PATH"'
@@ -308,14 +299,6 @@ gem update --system
 #  brew_install_or_upgrade 'rcm'
 #fi
 
-##################################################
-#                Install XQuartz                 #
-##################################################
-
-/bin/sh $HOME/bin/di-xquartz.sh
-
-##################################################
-
 fancy_echo "Installing GNU core utilities (those that come with OS X are outdated)"
 brew install coreutils
 fancy_echo "Installing GNU find, locate, updatedb, and xargs, g-prefixed"
@@ -329,8 +312,8 @@ export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
 brew_tap 'homebrew/fuse'
-#brew_tap 'samueljohn/python'
-#brew_tap 'homebrew/science'
+brew_tap 'samueljohn/python'
+brew_tap 'homebrew/science'
 brew_install_or_upgrade 'gcc'
 
 brew_tap 'homebrew/completions'
@@ -504,9 +487,9 @@ brew_install_or_upgrade 'cargo-completion'
 brew_install_or_upgrade 'composer-completion'
 brew_install_or_upgrade 'ctest-completion'
 brew_install_or_upgrade 'django-completion'
-brew_install_or_upgrade 'docker-completion'
-brew_install_or_upgrade 'docker-compose-completion'
-brew_install_or_upgrade 'docker-machine-completion'
+#brew_install_or_upgrade 'docker-completion'
+#brew_install_or_upgrade 'docker-compose-completion'
+#brew_install_or_upgrade 'docker-machine-completion'
 brew_install_or_upgrade 'fabric-completion'
 brew_install_or_upgrade 'gem-completion'
 brew_install_or_upgrade 'grunt-completion'
@@ -532,17 +515,24 @@ brew install macvim --env-std --with-override-system-vim
 brew install neovim/neovim/neovim
 
 # Cask taps needed for Apps and fonts
-#brew_tap 'caskroom/versions'
+brew_tap 'caskroom/versions'
 brew_tap 'caskroom/fonts'
 brew_tap 'caskroom/unofficial'
 
 # Applications
+#brew_cask_install_or_upgrade 'seil'
+#brew_cask_install_or_upgrade 'sizeup'
+#brew_cask_install_or_upgrade 'skype'
+#brew_cask_install_or_upgrade 'sublime-text3'
+#brew_cask_install_or_upgrade 'vagrant'
+#brew_cask_install_or_upgrade 'vagrant-manager'
 brew_cask_install_or_upgrade 'alfred'
 brew_cask_install_or_upgrade 'apache-directory-studio'
 brew_cask_install_or_upgrade 'appcleaner'
 brew_cask_install_or_upgrade 'arq'
 brew_cask_install_or_upgrade 'atom'
 brew_cask_install_or_upgrade 'betterzipql'
+brew_cask_install_or_upgrade 'codelite'
 brew_cask_install_or_upgrade 'cyberduck'
 brew_cask_install_or_upgrade 'dash'
 brew_cask_install_or_upgrade 'docker'
@@ -564,9 +554,10 @@ brew_cask_install_or_upgrade 'google-chrome-canary'
 brew_cask_install_or_upgrade 'google-drive'
 brew_cask_install_or_upgrade 'hammerspoon'
 brew_cask_install_or_upgrade 'insomniax'
+brew_cask_install_or_upgrade 'intellij-idea-ce'
 brew_cask_install_or_upgrade 'iterm2'
 brew_cask_install_or_upgrade 'java'
-#brew_cask_install_or_upgrade 'java7'
+brew_cask_install_or_upgrade 'java7'
 brew_cask_install_or_upgrade 'keepassx'
 brew_cask_install_or_upgrade 'kitematic'
 brew_cask_install_or_upgrade 'komodo-edit'
@@ -589,16 +580,13 @@ brew_cask_install_or_upgrade 'qlprettypatch'
 brew_cask_install_or_upgrade 'qlstephen'
 brew_cask_install_or_upgrade 'quicklook-csv'
 brew_cask_install_or_upgrade 'quicklook-json'
-#brew_cask_install_or_upgrade 'seil'
 brew_cask_install_or_upgrade 'sequel-pro'
-#brew_cask_install_or_upgrade 'sizeup'
-#brew_cask_install_or_upgrade 'skype'
 brew_cask_install_or_upgrade 'snagit'
+brew_cask_install_or_upgrade 'sourcetree'
 brew_cask_install_or_upgrade 'spectacle'
 brew_cask_install_or_upgrade 'sqlitebrowser'
 brew_cask_install_or_upgrade 'sqlitestudio'
 brew_cask_install_or_upgrade 'sublime-text-dev'
-#brew_cask_install_or_upgrade 'sublime-text3'
 brew_cask_install_or_upgrade 'subnetcalc'
 brew_cask_install_or_upgrade 'suspicious-package'
 brew_cask_install_or_upgrade 'synergy'
@@ -607,8 +595,6 @@ brew_cask_install_or_upgrade 'toad'
 brew_cask_install_or_upgrade 'totalfinder'
 brew_cask_install_or_upgrade 'transmission'
 brew_cask_install_or_upgrade 'tunnelblick'
-#brew_cask_install_or_upgrade 'vagrant'
-#brew_cask_install_or_upgrade 'vagrant-manager'
 brew_cask_install_or_upgrade 'virtualbox'
 brew_cask_install_or_upgrade 'vlc'
 brew_cask_install_or_upgrade 'vmware-fusion'
@@ -812,3 +798,16 @@ brew cask cleanup
 brew doctor
 brew cask doctor
 brew cask audit
+
+##################################################
+#           Run script to tweak OS X             #
+##################################################
+
+#echo "Running system tweeks with tweakosx.sh"
+#source ~/bin/tweakosx.sh
+/bin/sh $HOME/bin/tweakosx.sh
+
+#echo "Running system tweeks with .macos"
+#source ./.macos
+#/bin/sh ./.macos
+

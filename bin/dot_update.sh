@@ -4,6 +4,8 @@ rm -rf $HOME/.bin
 rm -rf $HOME/.config
 rm -rf $HOME/.dotfiles
 rm -rf $HOME/scripts
+rm -rf $HOME/.tmux
+rm -rf $HOME/.tmuxinator
 rm -rf $HOME/.vim
 rm -rf $HOME/.zplug
 rm -rf $HOME/.zsh
@@ -22,6 +24,8 @@ rm -rf $HOME/.zshrc
 git clone https://github.com/rlaneyjr/config.git $HOME/.config
 git clone https://github.com/rlaneyjr/dotfiles.git $HOME/.dotfiles
 git clone https://github.com/rlaneyjr/scripts.git $HOME/scripts
+git clone https://github.com/rlaneyjr/tmux.git $HOME/.tmux
+git clone https://github.com/rlaneyjr/tmuxinator.git $HOME/.tmuxinator
 git clone https://github.com/rlaneyjr/vim.git $HOME/.vim
 git clone https://github.com/rlaneyjr/zplug.git $HOME/.zplug
 git clone https://github.com/rlaneyjr/zsh.git $HOME/.zsh

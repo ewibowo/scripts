@@ -3,6 +3,7 @@
 ln -s ~/.dotfiles/admin-openrc.sh                 ~/.admin-openrc.sh
 ln -s ~/.dotfiles/agignore                        ~/.agignore
 ln -s ~/.dotfiles/aliases                         ~/.aliases
+ln -s ~/.dotfiles/apmrc                           ~/.apmrc
 ln -s ~/.dotfiles/demo-openrc.sh                  ~/.demo-openrc.sh
 ln -s ~/.dotfiles/gemrc                           ~/.gemrc
 ln -s ~/.dotfiles/gitconfig                       ~/.gitconfig
@@ -29,4 +30,4 @@ ln -s ~/.dotfiles/iterm2_shell_integration.zsh    ~/.iterm2_shell_integration.zs
 
 ln -s ~/.dotfiles/iterm2/                          ~/.iterm2
 ln -s ~/.dotfiles/karabiner.d/                     ~/.karabiner.d
-#sudo cp ~/.dotfiles/hosts /private/etc/hosts
+sudo cp ~/.dotfiles/hosts /private/etc/hosts

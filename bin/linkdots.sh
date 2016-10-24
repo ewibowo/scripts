@@ -11,6 +11,7 @@ ln -s ~/.dotfiles/gitignore                       ~/.gitignore
 ln -s ~/.dotfiles/gitignore_global                ~/.gitignore_global
 ln -s ~/.dotfiles/gitmessage                      ~/.gitmessage
 ln -s ~/.dotfiles/hgignore_global                 ~/.hgignore_global
+ln -s ~/.dotfiles/ideavimrc                       ~/.ideavimrc
 ln -s ~/.dotfiles/LESS_TERMCAP                    ~/.LESS_TERMCAP
 ln -s ~/.dotfiles/macos                           ~/.macos
 ln -s ~/.dotfiles/mongo_hacker.js                 ~/.mongo_hacker.js

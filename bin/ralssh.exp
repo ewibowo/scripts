@@ -10,6 +10,11 @@ expect "Enter passphrase for /Users/rlaney/.ssh/ssh_rsa:"
 send "atdSw6t!D\$h2L9De\r"; # The $ must be backslashed to send the literal $.
 expect "Identity added: /Users/rlaney/.ssh/ssh_rsa (/Users/rlaney/.ssh/ssh_rsa)"
 
+spawn ssh-add -k /Users/rlaney/.ssh/het_rsa
+expect "Enter passphrase for /Users/rlaney/.ssh/het_rsa:"
+send "2dRR4aAcRndj=!E%\r"; # The $ must be backslashed to send the literal $.
+expect "Identity added: /Users/rlaney/.ssh/het_rsa (/Users/rlaney/.ssh/het_rsa)"
+
 interact
 
 #send -- "$passwd\r"

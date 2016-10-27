@@ -16,6 +16,7 @@ ln -s ~/.dotfiles/LESS_TERMCAP                    ~/.LESS_TERMCAP
 ln -s ~/.dotfiles/macos                           ~/.macos
 ln -s ~/.dotfiles/mongo_hacker.js                 ~/.mongo_hacker.js
 ln -s ~/.dotfiles/mongorc.js                      ~/.mongorc.js
+ln -s ~/.dotfiles/myshutils.sh                    ~/.myshutils.sh
 ln -s ~/.dotfiles/netrc                           ~/.netrc
 ln -s ~/.dotfiles/powerlevel9k                    ~/.powerlevel9k
 ln -s ~/.dotfiles/psqlrc                          ~/.psqlrc

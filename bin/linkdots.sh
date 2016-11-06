@@ -22,6 +22,7 @@ ln -s ~/.dotfiles/powerlevel9k                    ~/.powerlevel9k
 ln -s ~/.dotfiles/psqlrc                          ~/.psqlrc
 ln -s ~/.dotfiles/psqlrc.local                    ~/.psqlrc.local
 ln -s ~/.dotfiles/rspec                           ~/.rspec
+ln -s ~/.dotfiles/rvmrc                           ~/.rvmrc
 ln -s ~/.dotfiles/sbtconfig                       ~/.sbtconfig
 ln -s ~/.dotfiles/tmux.conf                       ~/.tmux.conf
 ln -s ~/.dotfiles/vimrc                           ~/.vimrc

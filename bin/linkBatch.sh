@@ -23,6 +23,7 @@ ln -s ~/scripts/bin/brewUpdate.sh            ~/bin/brewUpdate.sh
 ln -s ~/scripts/bin/bundler-search           ~/bin/bundler-search
 ln -s ~/scripts/bin/cleanupResurrect.sh      ~/bin/cleanupResurrect.sh
 ln -s ~/scripts/bin/clrcache.sh              ~/bin/clrcache.sh
+ln -s ~/scripts/bin/convox                   ~/bin/convox
 ln -s ~/scripts/bin/csv-json.py              ~/bin/csv-json.py
 ln -s ~/scripts/bin/di-xquartz.sh            ~/bin/di-xquartz.sh
 ln -s ~/scripts/bin/dot_update.sh            ~/bin/dot_update.sh

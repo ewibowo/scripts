@@ -1,0 +1,86 @@
+
+alias gaa='git add -A'
+alias gcam='git commit -a -m'
+alias gpom='git push -u origin master'
+alias gacap='gaa && gcam "Auto Push" && gpom'
+
+
+~/.atom/.git
+~/.config/.git
+~/.dotfiles/.git
+~/.tmux/.git
+~/.tmuxinator/.git
+~/.vim/.git
+~/.zplug/.git
+~/.zsh/.git
+~/Dropbox (Hearst Corporation)/cheaters/.git
+~/Dropbox (Personal)/cheaters/.git
+~/Projects/ansible1/.git
+~/Projects/neteng1/.git
+~/Projects/NetEngineerONE/.git
+~/Projects/oxidized/.git
+~/Projects/trigger/.git
+~/Projects/VIRL_Projects/.git
+~/scripts/.git
+~/vimwiki/.git
+
+
+~/Projects/NetEngineerONE/other/repos/django-wiki/.git
+~/Projects/NetEngineerONE/other/repos/django-wiki-project-template/.git
+~/Projects/NetEngineerONE/other/repos/GateOne/.git
+~/Projects/NetEngineerONE/other/repos/netbox/.git
+~/Projects/NetEngineerONE/other/repos/oxidized/.git
+~/Projects/NetEngineerONE/other/repos/trigger/.git
+~/Projects/Network_Automation/ansible-modules-core/.git
+~/Projects/Network_Automation/ansible-modules-extras/.git
+~/Projects/Network_Automation/bsn-ansible/.git
+~/Projects/Network_Automation/napalm/.git
+~/Projects/Network_Automation/napalm-ansible/.git
+~/Projects/Network_Automation/Netmiko training/.git
+~/Projects/Network_Automation/ntc-ansible/.git
+~/Projects/Network_Automation/ntc-ansible-docs/.git
+~/Projects/Network_Automation/ntc-templates/.git
+~/Projects/Network_Automation/pyntc/.git
+~/Projects/Network_Automation/pynxos/.git
+~/Projects/Network_Automation/test-network-modules/.git
+~/Projects/CiscoDevNet/aci-learning-labs/.git
+~/Projects/CiscoDevNet/api-design-guide/.git
+~/Projects/CiscoDevNet/apic-em-samples-aradford/.git
+~/Projects/CiscoDevNet/apicem-ga-ll-sample-code/.git
+~/Projects/CiscoDevNet/coding-skills-go/.git
+~/Projects/CiscoDevNet/coding-skills-sample-code/.git
+~/Projects/CiscoDevNet/cosc-learning-labs/.git
+~/Projects/CiscoDevNet/cosc-rest-api-python/.git
+~/Projects/CiscoDevNet/devnet-dev-vms/.git
+~/Projects/CiscoDevNet/netconf-examples/.git
+~/Projects/CiscoDevNet/NeXt/.git
+~/Projects/CiscoDevNet/nxapi-learning-labs/.git
+~/Projects/CiscoDevNet/nxos-ansible/.git
+~/Projects/CiscoDevNet/nxos-examples/.git
+~/Projects/CiscoDevNet/nxtoolkit/.git
+~/Projects/CiscoDevNet/opendaylight-bootcamps/.git
+~/Projects/CiscoDevNet/Opendaylight-Openflow-App/.git
+~/Projects/CiscoDevNet/opendaylight-sample-apps/.git
+~/Projects/CiscoDevNet/opendaylight-setup/.git
+~/Projects/CiscoDevNet/opennxos/.git
+~/Projects/CiscoDevNet/OPNFV/.git
+~/Projects/CiscoDevNet/pceof-gui/.git
+~/Projects/CiscoDevNet/restconf-examples/.git
+~/Projects/CiscoDevNet/uniq/.git
+~/Projects/CiscoDevNet/vpp-odl/.git
+~/Projects/CiscoDevNet/yang-examples/.git
+~/Projects/CiscoDevNet/yang-explorer/.git
+~/Projects/CiscoDevNet/yangman/.git
+~/Projects/CiscoDevNet/ydk-gen/.git
+~/Projects/CiscoDevNet/ydk-gen-bundles/.git
+~/Projects/CiscoDevNet/ydk-py/.git
+~/Projects/CiscoDevNet/ydk-py-samples/.git
+~/Projects/GateOne/.git
+~/Projects/Openstack_DevToolBox/app-catalog-ui/.git
+~/Projects/pynet/.git
+~/Projects/Python/PythonDropboxUploader/.git
+~/Projects/python-guide/.git
+~/Projects/recon/recon-ng/.git
+~/Projects/SNMP/.git
+~/Projects/tornado/.git
+~/Projects/trigger-dev/.git

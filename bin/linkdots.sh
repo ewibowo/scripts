@@ -4,6 +4,7 @@ ln -s ~/.dotfiles/admin-openrc.sh                 ~/.admin-openrc.sh
 ln -s ~/.dotfiles/agignore                        ~/.agignore
 ln -s ~/.dotfiles/aliases                         ~/.aliases
 ln -s ~/.dotfiles/apmrc                           ~/.apmrc
+ln -s ~/.dotfiles/bashrc                          ~/.bashrc
 ln -s ~/.dotfiles/demo-openrc.sh                  ~/.demo-openrc.sh
 ln -s ~/.dotfiles/gemrc                           ~/.gemrc
 ln -s ~/.dotfiles/gitconfig                       ~/.gitconfig

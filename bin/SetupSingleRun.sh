@@ -15,6 +15,7 @@
 #echo "Running system tweeks with tweakosx.sh"
 #source ./tweakosx.sh
 #/bin/sh ./tweakosx.sh
+#/bin/sh ./.macos
 
 # If not running tweakosx then:
 echo "Ask for the administrator password upfront"

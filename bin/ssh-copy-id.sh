@@ -5,7 +5,7 @@
 # Obviously, the remote machine must accept password authentication,
 # or one of the other keys in your ssh-agent, for this to work.
 
-ID_FILE="${HOME}/.ssh/het_rsa.pub"
+ID_FILE="${HOME}/.ssh/cloud_id.pub"
 
 if [ "-i" = "$1" ]; then
   shift

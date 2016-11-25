@@ -20,6 +20,7 @@ commit = ('git add -A && git commit -a -m "The git-update script pushed these"')
 sync = ('git push -u origin master')
 system_repos = ['/Users/rlaney/.atom', '/Users/rlaney/.config', '/Users/rlaney/.dotfiles', '/Users/rlaney/.tmux', '/Users/rlaney/.tmuxinator',
                 '/Users/rlaney/.vim', '/Users/rlaney/.zplug', '/Users/rlaney/.zsh', '/Users/rlaney/scripts', '/Users/rlaney/vimwiki']
+mycmds = (commit, sync)
 
 
 #try:
@@ -31,7 +32,7 @@ system_repos = ['/Users/rlaney/.atom', '/Users/rlaney/.config', '/Users/rlaney/.
 
 try:
     for d in system_repos:
-        retcode = call([commit, sync], cwd=d, shell=True)
+        retcode = call(mycmds, cwd=d, shell=True)
         if retcode < 0:
             print >>sys.stderr, "Child was terminated by signal", -retcode
         else:

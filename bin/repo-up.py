@@ -22,13 +22,22 @@ system_repos = ['/Users/rlaney/.atom', '/Users/rlaney/.config', '/Users/rlaney/.
                 '/Users/rlaney/.vim', '/Users/rlaney/.zplug', '/Users/rlaney/.zsh', '/Users/rlaney/scripts', '/Users/rlaney/vimwiki']
 
 
+#try:
+#    for d in system_repos:
+#        output = Popen([commit, sync], cwd=d, shell=True)
+#        print(output)
+#except sub_exceptions as e:
+#        print(e)
+
 try:
     for d in system_repos:
-        output = Popen([commit, sync], cwd=d, shell=True)
-        print(output)
-except sub_exceptions as e:
-        print(e)
-
+        retcode = call([commit, sync], cwd=d, shell=True)
+        if retcode < 0:
+            print >>sys.stderr, "Child was terminated by signal", -retcode
+        else:
+            print >>sys.stderr, "Child returned", retcode
+except OSError, e:
+    print >>sys.stderr, "Execution failed:", e
 
 ##Get Command Line Arguments
 #def main(sys.argv):

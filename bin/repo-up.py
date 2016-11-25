@@ -16,11 +16,11 @@ from subprocess import *
 sub_exceptions = (OSError,ValueError)
 
 mess = "The git-update script pushed these"
-commit = ('git add -A && git commit -a -m "The git-update script pushed these"')
-sync = ('git push -u origin master')
+git_add = ('git add -A')
+git_commit = ('git commit -a -m "The git-update script pushed these"')
+git_sync = ('git push -u origin master')
 system_repos = ['/Users/rlaney/.atom', '/Users/rlaney/.config', '/Users/rlaney/.dotfiles', '/Users/rlaney/.tmux', '/Users/rlaney/.tmuxinator',
                 '/Users/rlaney/.vim', '/Users/rlaney/.zplug', '/Users/rlaney/.zsh', '/Users/rlaney/scripts', '/Users/rlaney/vimwiki']
-mycmds = (commit, sync)
 
 
 #try:
@@ -32,7 +32,9 @@ mycmds = (commit, sync)
 
 try:
     for d in system_repos:
-        retcode = call(mycmds, cwd=d, shell=True)
+        retcode = call(git_add, cwd=d, shell=True)
+        retcode = call(git_commit, cwd=d, shell=True)
+        retcode = call(git_sync, cwd=d, shell=True)
         if retcode < 0:
             print >>sys.stderr, "Child was terminated by signal", -retcode
         else:

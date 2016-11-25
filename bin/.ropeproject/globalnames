@@ -11,4 +11,5 @@ output_runq,eU	SSHConfig]q-(Ucmd_is_validq.Uuser_is_validq/Uip_is_validq0Uop
 top3_upintq>Umem_proc_averageq?U	check_sqlq@Upoll_timestampqAh/Uproc_mem_valuesqBUio_mem_valuesqCU	user_fileqDUsql_is_validqEUip_fileqFh1h2U
 cpu_valuesqGUmem_io_averageqHUupint_valuesqIUsql_connectionqJUtop3_cpuqKUcpu_averageqLUupint_totalqMh0Utop3_io_memqNeUSSHTemplate]qOh1aUpip-freeze-require]qP(UreqqQUdistqRUfeUSniffer]qS(U
 packet_logqTUpktqUUproto_sniffqVU	file_nameqWUtime_to_sniffqXU	packet_noqYhUpkt_to_sniffqZUsniffer_logq[eUremote-rsync]q\(Uconfirmq]U	file_typeq^U	the_filesq_U	rsyncFileq`U
-local_pathqaUprintLogqbUcheck_dir_existqcUremote_pathqdUremote_filesqeeUrepo-up]qf(UeUdUmessqgUmycmdsqhUsyncqiUsystem_reposqjUcommitqkUsub_exceptionsqlUretcodeqmeu.
+local_pathqaUprintLogqbUcheck_dir_existqcUremote_pathqdUremote_filesqeeUrepo-up]qf(UeUdUmessqgUgit_syncqhUsystem_reposqiUgit_addqjU
+git_commitqkUsub_exceptionsqlUretcodeqmeu.

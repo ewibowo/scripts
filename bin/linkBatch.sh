@@ -73,6 +73,7 @@ ln -s ~/scripts/bin/ralssh.exp               ~/bin/ralssh.exp
 ln -s ~/scripts/bin/randpass.py              ~/bin/randpass.py
 ln -s ~/scripts/bin/remote-rsync.py          ~/bin/remote-rsync.py
 ln -s ~/scripts/bin/renix                    ~/bin/renix
+ln -s ~/scripts/bin/repo-all-up.py           ~/bin/repo-all-up.py
 ln -s ~/scripts/bin/repo-up.py               ~/bin/repo-up.py
 ln -s ~/scripts/bin/rplc                     ~/bin/rplc
 ln -s ~/scripts/bin/retftp                   ~/bin/retftp

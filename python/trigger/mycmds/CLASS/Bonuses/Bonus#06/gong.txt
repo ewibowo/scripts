@@ -1,0 +1,33 @@
+cat ~/.gorc
+
+cisco:
+
+show clock
+
+show ip interface brief
+
+terminal width 132
+
+
+
+juniper:
+
+set cli timestamp
+
+show interfaces terse
+
+show system users
+
+
+
+arista:
+
+show ip interface brief
+
+show uptime
+
+python-shell
+
+
+
+gong 172.16.1.2

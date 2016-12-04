@@ -1,0 +1,123 @@
+
+!
+version 12.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Cisco-R1
+!
+boot-start-marker
+boot-end-marker
+!
+enable secret 5 $1$RrPw$1tpwWPHe2G.gFGOm4lTYY1
+!
+no aaa new-model
+memory-size iomem 5
+no ip icmp rate-limit unreachable
+ip cef
+!
+!
+!
+!
+no ip domain lookup
+ip domain name mihai
+ip auth-proxy max-nodata-conns 3
+ip admission max-nodata-conns 3
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+username mihai privilege 15 password 0 python
+!
+!
+ip tcp synwait-time 5
+ip ssh time-out 60
+ip ssh version 2
+! 
+!
+!
+!
+!
+interface Loopback100
+ ip address 100.100.100.100 255.255.255.255
+!
+interface Loopback101
+ ip address 100.100.100.101 255.255.255.255
+!
+interface Loopback102
+ ip address 100.100.100.102 255.255.255.255
+!
+interface Loopback103
+ ip address 100.100.100.103 255.255.255.255
+!
+interface Loopback104
+ ip address 100.100.100.104 255.255.255.255
+!
+interface Loopback105
+ ip address 100.100.100.105 255.255.255.255
+!
+interface FastEthernet0/0
+ ip address 172.16.1.2 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+!
+ip forward-protocol nd
+!
+!
+no ip http server
+no ip http secure-server
+!
+snmp-server community public RW
+snmp-server community private RW
+snmp-server location AAA
+snmp-server contact BBB
+no cdp log mismatch duplex
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+line aux 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+line vty 0 4
+ privilege level 15
+ login local
+ transport input telnet ssh
+!
+!
+end

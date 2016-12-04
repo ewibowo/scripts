@@ -1,0 +1,2 @@
+snmp-server community 0d71d56ae6 RW
+snmp-server host 172.16.1.5 0d71d56ae6

@@ -1,0 +1,37 @@
+"GetNets-NG Fetches interface information from routing and firewall devices. This includes network and IP information along with the inbound and outbound filters that may be applied to the interface. Skips un-numbered and disabled interfaces by default. Works on Cisco, Foundry, Juniper, and NetScreen devices." (Source: http://trigger.readthedocs.org/)
+
+
+
+gnng 172.16.1.2
+
+
+
+gnng -a [-a, --all run on all devices]
+
+
+
+gnng -d 172.16.1.2 [-d, --include-disabled include disabled interfaces]
+
+
+
+gnng -u 172.16.1.2 [-u, --include-unnumbered include un-numbered interfaces]
+
+
+
+gnng -N [Look for production and non-production devices]
+
+
+
+gnng --filter-on-type='ROUTER' [Run on all devices with this device type]
+
+
+
+gnng -c 172.16.1.2 [output the data in CSV format instead]
+
+
+
+gnng -s mysqldb 172.16.1.2 [output to SQLite DB]
+
+
+
+gnng -h, --help [command help]

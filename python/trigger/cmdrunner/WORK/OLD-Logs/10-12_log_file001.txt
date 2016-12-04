@@ -1,0 +1,2947 @@
+Total IOS devices unsanitized: 821
+Total sanitized IOS devices: 818
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wnne-gw-sw1 with IP 167.173.44.10IOS Device: WNNE-GW-SW1
+no username opmantek
+WNNE-GW-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WNNE-GW-SW1(config)#end
+WNNE-GW-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wnne-inet1 with IP 167.173.44.16IOS Device: WNNE-INET1
+no username opmantek
+WNNE-INET1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WNNE-INET1(config)#end
+WNNE-INET1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wcvb-exec-sw1 with IP 10.144.1.26Connecting to IOS hn-001-swac3801 with IP 10.172.3.24IOS Device: hn-001-swac3801
+no username opmantek
+hn-001-swac3801(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac3801(config)#end
+hn-001-swac3801#Building configuration...
+Compressed configuration from 173401 bytes to 39286 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wbal-voip-ag7 with IP 10.135.64.58Connecting to IOS tu_cap_rtr with IP 167.166.224.58Connecting to IOS np-svv-gw1 with IP 167.173.80.36IOS Device: np-svv-gw1
+no username opmantek
+np-svv-gw1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+np-svv-gw1(config)#end
+np-svv-gw1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wjcl-gw-sw1 with IP 167.173.48.10Connecting to IOS atu_sw1b2 with IP 167.166.10.104IOS Device: ATU_SW1b2
+no username opmantek
+ATU_SW1b2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+ATU_SW1b2(config)#end
+ATU_SW1b2#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hsc28-bc2-sw2 with IP 172.19.10.207Connecting to IOS wdlnd-1a-mgr with IP 130.80.186.254IOS Device: USA1022-MDF01-01-SWA01
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+USA1022-MDF01-01-SWA(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                                ^
+% Invalid input detected at '^' marker.
+
+USA1022-MDF01-01-SWA(config)#end
+USA1022-MDF01-01-SWA01#Building configuration...
+Compressed configuration from 18223 bytes to 7855 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS kmbc-nmx1 with IP 10.141.1.31Connecting to IOS 25loop-mgr with IP 130.80.150.75Connecting to IOS hn-001-swdz1001 with IP 10.172.1.12IOS Device: hn-001-swdz1001
+no username opmantek
+hn-001-swdz1001(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swdz1001(config)#end
+hn-001-swdz1001#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hc-gw01 with IP 130.80.37.16IOS Device: HC-GW01
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+HC-GW01(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                   ^
+% Invalid input detected at '^' marker.
+
+HC-GW01(config)#end
+HC-GW01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sw2-2-1a-mgr with IP 130.80.250.102IOS Device: SW2-2-1A-MGR
+no username opmantek
+SW2-2-1A-MGR(config)#username opmantek privilege 15 secret 0 N0Data4U!
+SW2-2-1A-MGR(config)#end
+SW2-2-1A-MGR#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wnne-core-sw1 with IP 10.157.64.1Connecting to IOS koat-voip-ag2 with IP 10.160.64.72Connecting to IOS hn-001-swac0201 with IP 10.172.3.28IOS Device: hn-001-swac0201
+no username opmantek
+hn-001-swac0201(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac0201(config)#end
+hn-001-swac0201#Building configuration...
+Compressed configuration from 100797 bytes to 26728 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS gm26995 with IP 10.211.255.6Connecting to IOS mcg_mdf_stack with IP 10.37.3.1IOS Device: MCG_MDF_Stack
+no username opmantek
+MCG_MDF_Stack(config)#username opmantek privilege 15 secret 0 N0Data4U!
+MCG_MDF_Stack(config)#end
+MCG_MDF_Stack##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wmor-master-sw1 with IP 10.152.1.41Connecting to IOS wmor-inet1 with IP 167.173.34.16Connecting to IOS wmtw-portland-sw1 with IP 10.138.142.253Connecting to IOS bridgeport-vz-gw with IP 167.173.204.2IOS Device: BRIDGEPORT-VZ-GW
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+BRIDGEPORT-VZ-GW(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                            ^
+% Invalid input detected at '^' marker.
+
+BRIDGEPORT-VZ-GW(config)#end
+BRIDGEPORT-VZ-GW#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hsc28-bc3-sw2 with IP 172.19.10.152Connecting to IOS wptzc-gw-sw1 with IP 167.173.35.10Connecting to IOS nycsw6 with IP 10.13.20.6IOS Device: NYCSW6
+no username opmantek
+NYCSW6(config)#username opmantek privilege 15 secret 0 N0Data4U!
+NYCSW6(config)#end
+NYCSW6#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wesh-voip-r1 with IP 10.133.64.51IOS Device: WESH-VOIP-R1
+no username opmantek
+WESH-VOIP-R1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WESH-VOIP-R1(config)#end
+WESH-VOIP-R1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS nyc-ts-rtr with IP 10.171.8.250IOS Device: NYC-TS-RTR
+no username opmantek
+NYC-TS-RTR(config)#username opmantek privilege 15 secret 0 N0Data4U!
+NYC-TS-RTR(config)#end
+NYC-TS-RTR#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS cat3550 with IP 172.31.19.252IOS Device: cat3550
+no username opmantek
+cat3550(config)#username opmantek privilege 15 secret 0 N0Data4U!
+cat3550(config)#end
+cat3550#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sm-swac-006 with IP 10.118.32.14IOS Device: sm-swac-006
+no username opmantek
+sm-swac-006(config)#username opmantek privilege 15 secret 0 N0Data4U!
+sm-swac-006(config)#end
+sm-swac-006#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS ksbw-femont-sw1 with IP 10.149.1.32IOS Device: KSBW-FEMONT-SW1
+no username opmantek
+KSBW-FEMONT-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KSBW-FEMONT-SW1(config)#end
+KSBW-FEMONT-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wisn-voip-ag1 with IP 10.142.64.71Connecting to IOS ksbw-voip-r2 with IP 10.149.64.52IOS Device: KSBW-VOIP-R2
+no username opmantek
+KSBW-VOIP-R2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KSBW-VOIP-R2(config)#end
+KSBW-VOIP-R2#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sm-mscr-001 with IP 10.118.32.2IOS Device: sm-mscr-001
+no username opmantek
+sm-mscr-001(config)#username opmantek privilege 15 secret 0 N0Data4U!
+sm-mscr-001(config)#end
+sm-mscr-001#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS kcci-inet1 with IP 167.173.36.16IOS Device: kcci-inet1
+no username opmantek
+kcci-inet1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+kcci-inet1(config)#end
+kcci-inet1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hsc28-6513-1 with IP 172.19.35.3IOS Device: hsc28-6513-1
+no username opmantek
+hsc28-6513-1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hsc28-6513-1(config)#end
+hsc28-6513-1#Building configuration...
+Compressed configuration from 115578 bytes to 36621 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wesh-techcore-sw1 with IP 10.133.1.26IOS Device: WESH-TECHCORE-SW1
+no username opmantek
+WESH-TECHCORE-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WESH-TECHCORE-SW1(config)#end
+WESH-TECHCORE-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS ctpost_production with IP 192.168.3.251IOS Device: CTPOST_PRODUCTION
+no username opmantek
+CTPOST_PRODUCTION(config)#username opmantek privilege 15 secret 0 N0Data4U!
+CTPOST_PRODUCTION(config)#end
+CTPOST_PRODUCTION#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wesh-gw-sw1 with IP 167.173.29.10IOS Device: WESH-GW-SW1
+no username opmantek
+WESH-GW-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WESH-GW-SW1(config)#end
+WESH-GW-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS atu-vz-gw with IP 68.138.43.34IOS Device: ATU-VZ-GW
+no username opmantek
+ATU-VZ-GW(config)#username opmantek privilege 15 secret 0 N0Data4U!
+ATU-VZ-GW(config)#end
+ATU-VZ-GW#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS phoneroom3548-1 with IP 10.224.69.15Connecting to IOS wmur-voip-ag1 with IP 10.161.64.53Connecting to IOS hn-002-swac1001 with IP 10.174.129.4IOS Device: hn-002-swac1001
+no username opmantek
+hn-002-swac1001(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-002-swac1001(config)#end
+hn-002-swac1001#001#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS srst_whiteriver-gw with IP 10.157.64.51IOS Device: SRST_WhiteRiver-GW
+no username opmantek
+SRST_WhiteRiver-GW(config)#username opmantek privilege 15 secret 0 N0Data4U!
+SRST_WhiteRiver-GW(config)#end
+SRST_WhiteRiver-GW#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS nyswitch1 with IP 10.13.16.1IOS Device: nyswitch1
+no username opmantek
+nyswitch1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+nyswitch1(config)#end
+nyswitch1#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS mezz-1b-mgr with IP 130.80.150.129Connecting to IOS sw5-2-4a-mgr with IP 130.80.249.118IOS Device: sw5-2-4a-mgr
+no username opmantek
+sw5-2-4a-mgr(config)#username opmantek privilege 15 secret 0 N0Data4U!
+sw5-2-4a-mgr(config)#end
+sw5-2-4a-mgr#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS 36loop-mgr with IP 130.80.150.245Connecting to IOS np-ssc-sw1 with IP 10.66.1.1IOS Device: np-ssc-sw1
+no username opmantek
+np-ssc-sw1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+np-ssc-sw1(config)#end
+np-ssc-sw1#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sfborder with IP 204.56.98.1IOS Device: sfborder
+no username opmantek
+sfborder(config)#username opmantek privilege 15 secret 0 N0Data4U!
+sfborder(config)#end
+sfborder#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS koco-management-sw1 with IP 10.153.1.11IOS Device: KOCO-MANAGEMENT-SW1
+no username opmantek
+KOCO-MANAGEMENT-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KOCO-MANAGEMENT-SW1(config)#end
+KOCO-MANAGEMENT-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wjcl-core-sw2 with IP 10.164.1.3Connecting to IOS wmor-louth-sw1 with IP 10.152.1.31Connecting to IOS hbmrchswcore with IP 10.189.31.249IOS Device: HBMRCHSWCORE
+no username opmantek
+HBMRCHSWCORE(config)#username opmantek privilege 15 secret 0 N0Data4U!
+HBMRCHSWCORE(config)#end
+HBMRCHSWCORE#Building configuration...
+Compressed configuration from 39529 bytes to 11530 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS stl-rtr-02 with IP 66.193.39.66Connecting to IOS hsc28-3750-9 with IP 172.19.10.208IOS Device: hsc28-3750-9
+no username opmantek
+hsc28-3750-9(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hsc28-3750-9(config)#end
+hsc28-3750-9#write memory
+Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS koat-inet01 with IP 167.173.232.5IOS Device: KOAT-INET01
+no username opmantek
+KOAT-INET01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KOAT-INET01(config)#end
+KOAT-INET01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wisn-vz-gw1 with IP 167.173.28.73Connecting to IOS ketv-b-radar-sw1 with IP 10.145.101.253IOS Device: KETV-B-RADAR-SW1
+no username opmantek
+KETV-B-RADAR-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KETV-B-RADAR-SW1(config)#end
+KETV-B-RADAR-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS greenwich3548-1 with IP 10.232.100.81IOS Device: Greenwich3548-1
+no username opmantek
+Greenwich3548-1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+Greenwich3548-1(config)#end
+Greenwich3548-1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wmur-vz-gw1 with IP 167.173.39.6IOS Device: WMUR-VZ-GW1
+no username opmantek
+WMUR-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WMUR-VZ-GW1(config)#end
+WMUR-VZ-GW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swac1901 with IP 10.172.2.15IOS Device: hn-001-swac1901
+no username opmantek
+hn-001-swac1901(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac1901(config)#end
+hn-001-swac1901#Building configuration...
+Compressed configuration from 165884 bytes to 36239 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wyff-vz-gw1 with IP 167.173.24.6IOS Device: WYFF-VZ-GW1
+no username opmantek
+WYFF-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WYFF-VZ-GW1(config)#end
+WYFF-VZ-GW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS usa1217-swac-301 with IP 172.28.48.3IOS Device: USA1217-SWAC-301
+no username opmantek
+USA1217-SWAC-301(config)#username opmantek privilege 15 secret 0 N0Data4U!
+USA1217-SWAC-301(config)#end
+USA1217-SWAC-301#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS 25loop2-mgr with IP 130.80.150.76Connecting to IOS wtae-gw-sw1 with IP 167.173.26.10IOS Device: WTAE-GW-SW1
+no username opmantek
+WTAE-GW-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WTAE-GW-SW1(config)#end
+WTAE-GW-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wmur-voip-ag3 with IP 10.161.64.55Connecting to IOS hn-001-msia1001 with IP 10.172.1.9IOS Device: hn-001-msia1001
+no username opmantek
+hn-001-msia1001(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-msia1001(config)#end
+hn-001-msia1001#Building configuration...
+Compressed configuration from 30440 bytes to 12145 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sw7-1-1a-mgr with IP 130.80.250.107Connecting to IOS wisn-gw-sw1 with IP 167.173.28.10Connecting to IOS wisn-eng-sw1-old with IP 10.142.1.6IOS Device: WISN-ENG-SW1-OLD
+no username opmantek
+WISN-ENG-SW1-OLD(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WISN-ENG-SW1-OLD(config)#end
+WISN-ENG-SW1-OLD#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS kmbc-inet1 with IP 167.173.19.5IOS Device: KMBC-INET1
+no username opmantek
+KMBC-INET1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KMBC-INET1(config)#end
+KMBC-INET1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swac0202 with IP 10.172.3.29IOS Device: hn-001-swac0202
+no username opmantek
+hn-001-swac0202(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac0202(config)#end
+hn-001-swac0202#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wtae-voip-r1 with IP 10.134.64.51Connecting to IOS wmur-mcr-sw1 with IP 10.161.1.5IOS Device: WMUR-MCR-SW1
+no username opmantek
+WMUR-MCR-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WMUR-MCR-SW1(config)#end
+WMUR-MCR-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS atu-gw-sw with IP 167.166.208.7Connecting to IOS kcra-server-sw1 with IP 10.151.1.121IOS Device: KCRA-SERVER-SW1
+no username opmantek
+KCRA-SERVER-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KCRA-SERVER-SW1(config)#end
+KCRA-SERVER-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS 6-hearstcl-mgr with IP 130.80.150.207Connecting to IOS wdsu-utility-sw1 with IP 10.140.1.30IOS Device: wdsu-utility-sw1
+no username opmantek
+wdsu-utility-sw1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+wdsu-utility-sw1(config)#end
+wdsu-utility-sw1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wesh-voip-ag2 with IP 10.133.64.78IOS Device: WESH-VOIP-AG2
+no username opmantek
+WESH-VOIP-AG2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WESH-VOIP-AG2(config)#end
+WESH-VOIP-AG2#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hsc28-bc4-sw2 with IP 172.19.10.154Connecting to IOS hsc28-3750-8 with IP 172.19.10.174IOS Device: hsc28-3750-8
+no username opmantek
+hsc28-3750-8(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hsc28-3750-8(config)#end
+hsc28-3750-8#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS neptune with IP 10.90.0.3Connecting to IOS gm27001 with IP 10.121.79.14Connecting to IOS hbmgrvswiscsi with IP 10.210.2.2Connecting to IOS chidesk5 with IP 10.13.12.5IOS Device: CHIDESK5
+no username opmantek
+CHIDESK5(config)#username opmantek privilege 15 secret 0 N0Data4U!
+CHIDESK5(config)#end
+CHIDESK5#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS ksbw-harmonics-sw2 with IP 10.149.16.253Connecting to IOS sw-tcoma-rtr with IP 172.25.0.129Connecting to IOS jstart-royaloaks-core with IP 192.168.201.1Connecting to IOS usa1359-mdf01-swa03 with IP 10.1.2.53Connecting to IOS wxii-inet1 with IP 167.173.23.16Connecting to IOS wmtw-a-vz-gw1 with IP 167.173.42.73IOS Device: wmtw-a-vz-gw1
+no username opmantek
+wmtw-a-vz-gw1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+wmtw-a-vz-gw1(config)#end
+wmtw-a-vz-gw1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hbmgrvlightower with IP 67.220.152.3IOS Device: HBMGRVLIGHTOWER
+no username opmantek
+HBMGRVLIGHTOWER(config)#username opmantek privilege 15 secret 0 N0Data4U!
+HBMGRVLIGHTOWER(config)#end
+HBMGRVLIGHTOWER#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS het-voip-agw01 with IP 10.0.252.14Connecting to IOS jupiter with IP 130.80.150.61Connecting to IOS hougrdnetsw01 with IP 130.80.193.126IOS Device: hougrdnetsw01
+no username opmantek
+hougrdnetsw01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hougrdnetsw01(config)#end
+hougrdnetsw01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hdt-gw01 with IP 50.206.193.81IOS Device: HDT-GW01
+no username opmantek
+HDT-GW01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+HDT-GW01(config)#end
+HDT-GW01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swac2501 with IP 10.172.2.18IOS Device: hn-001-swac2501
+no username opmantek
+hn-001-swac2501(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac2501(config)#end
+hn-001-swac2501#Building configuration...
+Compressed configuration from 175399 bytes to 38125 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wmtw-news-sw1 with IP 10.138.1.21IOS Device: WMTW-NEWS-SW1
+no username opmantek
+WMTW-NEWS-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WMTW-NEWS-SW1(config)#end
+WMTW-NEWS-SW1##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wdsu-tech1-sw2 with IP 10.140.1.22IOS Device: WDSU-TECH1-SW2
+no username opmantek
+WDSU-TECH1-SW2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WDSU-TECH1-SW2(config)#end
+WDSU-TECH1-SW2#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swac4301 with IP 10.172.2.27IOS Device: hn-001-swac4301
+no username opmantek
+hn-001-swac4301(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac4301(config)#end
+hn-001-swac4301#Building configuration...
+Compressed configuration from 140975 bytes to 33960 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wlky-mgmt-sw2 with IP 10.137.1.53Connecting to IOS sfcconcord with IP 10.32.12.1IOS Device: SFCConcord
+no username opmantek
+SFCConcord(config)#username opmantek privilege 15 secret 0 N0Data4U!
+SFCConcord(config)#end
+SFCConcord#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS ksbw-eng-sw1 with IP 10.149.1.14Connecting to IOS pdh-edge-sw2 with IP 208.180.102.41IOS Device: PDH-EDGE-SW2
+no username opmantek
+PDH-EDGE-SW2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+PDH-EDGE-SW2(config)#end
+PDH-EDGE-SW2#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS alm-c2950-2 with IP 172.31.2.251IOS Device: alm-c2950-2
+no username opmantek
+alm-c2950-2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+alm-c2950-2(config)#end
+alm-c2950-2#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS kcra-inet1 with IP 167.173.27.16IOS Device: kcra-inet1
+no username opmantek
+kcra-inet1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+kcra-inet1(config)#end
+kcra-inet1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wlwt-gw-sw1 with IP 167.173.21.10IOS Device: WLWT-GW-SW1
+no username opmantek
+WLWT-GW-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WLWT-GW-SW1(config)#end
+WLWT-GW-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sun-fw-1-x4 with IP 10.33.7.1IOS Device: csunswitch1
+no username opmantek
+csunswitch1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+csunswitch1(config)#end
+csunswitch1#Connecting to IOS dc4-gw01 with IP 167.173.88.49IOS Device: DC4-GW01
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+DC4-GW01(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                    ^
+% Invalid input detected at '^' marker.
+
+DC4-GW01(config)#end
+DC4-GW01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS ksbw-voip-ag2 with IP 10.149.64.62Connecting to IOS wtae-inet1 with IP 167.173.26.16IOS Device: WTAE-INET1
+no username opmantek
+WTAE-INET1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WTAE-INET1(config)#end
+WTAE-INET1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wmur-voip-r1-srst with IP 10.161.64.51Connecting to IOS be-pci-sw1 with IP 10.184.16.4Connecting to IOS hn-001-msds1004 with IP 10.172.1.6IOS Device: hn-001-msds1004
+no username opmantek
+hn-001-msds1004(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-msds1004(config)#end
+hn-001-msds1004#Building configuration...
+Compressed configuration from 56121 bytes to 20553 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS be-gw-sw2 with IP 97.77.235.10IOS Device: BE-GW-SW2
+Connecting to IOS gm26928 with IP 10.121.175.6Connecting to IOS weshcorp-dev-switch with IP 10.133.1.254IOS Device: WESHCORP-DEV-SWITCH
+no username opmantek
+WESHCORP-DEV-SWITCH(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WESHCORP-DEV-SWITCH(config)#end
+WESHCORP-DEV-SWITCH#-SWITCH#write memory
+Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS chic-vz-gw with IP 192.168.95.1Connecting to IOS hn-001-swac2001 with IP 10.172.3.15IOS Device: hn-001-swac2001
+no username opmantek
+hn-001-swac2001(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac2001(config)#end
+hn-001-swac2001#Building configuration...
+Compressed configuration from 194902 bytes to 41784 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wptz-user-sw1 with IP 10.156.1.10IOS Device: WPTZ-USER-SW1
+no username opmantek
+WPTZ-USER-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WPTZ-USER-SW1(config)#end
+WPTZ-USER-SW1##Connecting to IOS hn-001-swac2401 with IP 10.172.3.17IOS Device: hn-001-swac2401
+no username opmantek
+hn-001-swac2401(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac2401(config)#end
+hn-001-swac2401#Building configuration...
+Compressed configuration from 173999 bytes to 37781 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS ketv-b-transmitter-sw1 with IP 10.145.101.254IOS Device: KETV-B-TRANSMITTER-SW1
+no username opmantek
+KETV-B-TRANSMITTER-S(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KETV-B-TRANSMITTER-S(config)#end
+KETV-B-TRANSMITTER-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wmur-hub-sw1 with IP 10.161.1.4IOS Device: WMUR-HUB-SW1
+no username opmantek
+WMUR-HUB-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WMUR-HUB-SW1(config)#end
+WMUR-HUB-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS edge-s01-bmez-3550 with IP 172.18.3.131Connecting to IOS hn-001-swac1601 with IP 10.172.3.13IOS Device: hn-001-swac1601
+no username opmantek
+hn-001-swac1601(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac1601(config)#end
+hn-001-swac1601#Building configuration...
+Compressed configuration from 178471 bytes to 41521 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hsc28-bc2-sw1 with IP 172.19.10.206Connecting to IOS 29loop-mgr with IP 130.80.150.78Connecting to IOS khog-transmitter-sw1 with IP 10.187.101.254IOS Device: KHOG-TRANSMITTER-SW1
+no username opmantek
+KHOG-TRANSMITTER-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KHOG-TRANSMITTER-SW1(config)#end
+KHOG-TRANSMITTER-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wrhf-vz-gw with IP 192.168.234.1IOS Device: wrhf-vz-gw
+no username opmantek
+wrhf-vz-gw(config)#username opmantek privilege 15 secret 0 N0Data4U!
+wrhf-vz-gw(config)#end
+wrhf-vz-gw#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sc9-gw01 with IP 167.173.72.49IOS Device: SC9-GW01
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+SC9-GW01(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                    ^
+% Invalid input detected at '^' marker.
+
+SC9-GW01(config)#end
+SC9-GW01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS 217-c7206-1 with IP 10.40.0.5Connecting to IOS chic1 with IP 192.168.95.4Connecting to IOS hbmgrvswcore with IP 10.210.10.1IOS Device: HBMGRVSWCORE
+no username opmantek
+HBMGRVSWCORE(config)#username opmantek privilege 15 secret 0 N0Data4U!
+HBMGRVSWCORE(config)#end
+HBMGRVSWCORE##Connecting to IOS koat-vz-gw01 with IP 167.173.232.73IOS Device: KOAT-VZ-GW01
+no username opmantek
+KOAT-VZ-GW01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KOAT-VZ-GW01(config)#end
+KOAT-VZ-GW01#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wmor-gw-sw1 with IP 167.173.34.10IOS Device: WMOR-GW-SW1
+no username opmantek
+WMOR-GW-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WMOR-GW-SW1(config)#end
+WMOR-GW-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS prlblunetsw01 with IP 192.168.6.254IOS Device: prlblunetsw01
+no username opmantek
+prlblunetsw01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+prlblunetsw01(config)#end
+prlblunetsw01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS oakland-16th-c2960 with IP 172.31.11.250IOS Device: oakland-16th-c2960
+no username opmantek
+oakland-16th-c2960(config)#username opmantek privilege 15 secret 0 N0Data4U!
+oakland-16th-c2960(config)#end
+oakland-16th-c2960#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS houchanetrtr01 with IP 130.80.255.41IOS Device: houchanetrtr01
+no username opmantek
+houchanetrtr01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+houchanetrtr01(config)#end
+houchanetrtr01#Building configuration...
+Compressed configuration from 6782 bytes to 3874 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS detr-vz-gw1 with IP 192.168.132.1IOS Device: DETR-VZ-GW1
+no username opmantek
+DETR-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+DETR-VZ-GW1(config)#end
+DETR-VZ-GW1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS edge-s03-m2fl-3550 with IP 172.18.3.23Connecting to IOS scswitch1 with IP 10.13.48.1IOS Device: scswitch1
+no username opmantek
+scswitch1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+scswitch1(config)#end
+scswitch1#NVRAM: Unable to read configuration. Try again later.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS danbury-vz-gw with IP 167.173.205.2IOS Device: DANBURY-VZ-GW
+no username opmantek
+DANBURY-VZ-GW(config)#username opmantek privilege 15 secret 0 N0Data4U!
+DANBURY-VZ-GW(config)#end
+DANBURY-VZ-GW#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-003-swac0401 with IP 10.174.33.6IOS Device: hn-003-swac0401
+no username opmantek
+hn-003-swac0401(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-003-swac0401(config)#end
+hn-003-swac0401#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wtae-vz-gw1 with IP 167.173.26.73IOS Device: WTAE-VZ-GW1
+no username opmantek
+WTAE-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WTAE-VZ-GW1(config)#end
+WTAE-VZ-GW1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS ksbw-weather-sw1 with IP 10.149.1.9IOS Device: KSBW-WEATHER-SW1
+no username opmantek
+KSBW-WEATHER-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KSBW-WEATHER-SW1(config)#end
+KSBW-WEATHER-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS usa1031-idf3-mary-swa01 with IP 10.30.4.28IOS Device: USA1031-IDF3-MARY-SWA01
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+USA1031-IDF3-MARY-SW(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                                ^
+% Invalid input detected at '^' marker.
+
+USA1031-IDF3-MARY-SW(config)#end
+USA1031-IDF3-MARY-SWA01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swpe1001 with IP 10.172.1.14IOS Device: hn-001-swpe1001
+no username opmantek
+hn-001-swpe1001(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swpe1001(config)#end
+hn-001-swpe1001#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hsc34-1 with IP 172.19.10.241IOS Device: hsc34-1
+no username opmantek
+hsc34-1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hsc34-1(config)#end
+hsc34-1#Connecting to IOS 27loop-mgr with IP 130.80.150.77Connecting to IOS wdsu-mastercontrol-sw1 with IP 10.140.1.20IOS Device: WDSU-MASTERCONTROL-SW1
+no username opmantek
+WDSU-MASTERCONTROL-S(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WDSU-MASTERCONTROL-S(config)#end
+WDSU-MASTERCONTROL-SW1#Building configuration...
+Compressed configuration from 9431 bytes to 4604 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wptz-bitcentral-sw1 with IP 10.156.1.12Connecting to IOS be-tw-gw with IP 97.77.234.18IOS Device: BE-TW-GW
+no username opmantek
+BE-TW-GW(config)#username opmantek privilege 15 secret 0 N0Data4U!
+BE-TW-GW(config)#end
+BE-TW-GW#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS scborder with IP 204.56.102.1IOS Device: scborder
+no username opmantek
+scborder(config)#username opmantek privilege 15 secret 0 N0Data4U!
+scborder(config)#end
+scborder#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS atu_sw1b1 with IP 167.166.10.103Connecting to IOS hn-001-swac1401 with IP 10.172.3.12IOS Device: hn-001-swac1401
+no username opmantek
+hn-001-swac1401(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac1401(config)#end
+hn-001-swac1401#Building configuration...
+Compressed configuration from 107664 bytes to 26646 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wptz-oldcore-sw2 with IP 10.156.1.4Connecting to IOS wmor-core-sw2 with IP 10.152.0.3Connecting to IOS hn-001-msds1002 with IP 10.168.88.3IOS Device: hn-001-msds1002
+no username opmantek
+hn-001-msds1002(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-msds1002(config)#end
+hn-001-msds1002#Building configuration...
+Compressed configuration from 57149 bytes to 21521 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wpbf-wxswitch-sw1 with IP 10.148.1.7IOS Device: WPBF-WXSWITCH-SW1
+no username opmantek
+WPBF-WXSWITCH-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WPBF-WXSWITCH-SW1(config)#end
+WPBF-WXSWITCH-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wmor-voip-r1-srst with IP 10.152.64.71IOS Device: WMOR-VoIP-R1-SRST
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+WMOR-VoIP-R1-SRST(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                             ^
+% Invalid input detected at '^' marker.
+
+WMOR-VoIP-R1-SRST(config)#end
+WMOR-VoIP-R1-SRST#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swav4203 with IP 10.172.3.144Connecting to IOS kmbc-weather-center-sw1 with IP 10.141.1.30IOS Device: kmbc-weather-center-sw1
+no username opmantek
+kmbc-weather-center-(config)#username opmantek privilege 15 secret 0 N0Data4U!
+kmbc-weather-center-(config)#end
+kmbc-weather-center-sw1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hcmasnetrtr01 with IP 130.80.191.1IOS Device: hcmasnetrtr01
+no username opmantek
+hcmasnetrtr01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hcmasnetrtr01(config)#end
+hcmasnetrtr01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS atu_sw2a1 with IP 167.166.10.201Connecting to IOS atu_sw2e1 with IP 167.166.10.207IOS Device: ATU_SW2e1
+no username opmantek
+ATU_SW2e1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+ATU_SW2e1(config)#end
+ATU_SW2e1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wesh-lab-user-sw2 with IP 10.133.1.23IOS Device: WESH-LAB-USER-SW2
+no username opmantek
+WESH-LAB-USER-SW2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WESH-LAB-USER-SW2(config)#end
+WESH-LAB-USER-SW2#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS be-advertising with IP 192.168.206.243Connecting to IOS hsc-extra with IP 192.168.97.34Connecting to IOS sfcquartr01 with IP 172.31.19.1IOS Device: sfcquartr01
+no username opmantek
+sfcquartr01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+sfcquartr01(config)#end
+sfcquartr01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS chidesk6 with IP 10.13.12.6IOS Device: CHIDESK6
+no username opmantek
+CHIDESK6(config)#username opmantek privilege 15 secret 0 N0Data4U!
+CHIDESK6(config)#end
+CHIDESK6#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swav4304 with IP 10.172.2.39IOS Device: hn-001-swav4304
+no username opmantek
+hn-001-swav4304(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swav4304(config)#end
+hn-001-swav4304#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wjcl-inet1 with IP 167.173.48.16Connecting to IOS ketv-voip-r1 with IP 10.145.64.51IOS Device: KETV-VOIP-R1
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+KETV-VOIP-R1(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                        ^
+% Invalid input detected at '^' marker.
+
+KETV-VOIP-R1(config)#end
+KETV-VOIP-R1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swac3601 with IP 10.172.3.23IOS Device: hn-001-swac3601
+no username opmantek
+hn-001-swac3601(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac3601(config)#end
+hn-001-swac3601#Building configuration...
+Compressed configuration from 169938 bytes to 36127 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS ketv-mgmt-sw2 with IP 10.145.1.14Connecting to IOS wisn-voip-ag3 with IP 10.142.64.73Connecting to IOS wmtw-mgmt-sw2 with IP 10.154.1.22IOS Device: WMTW-MGMT-SW2
+no username opmantek
+WMTW-MGMT-SW2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WMTW-MGMT-SW2(config)#end
+WMTW-MGMT-SW2#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sw5-2-2b-mgr with IP 130.80.250.115Connecting to IOS wlky-voip-r1 with IP 10.137.64.51Connecting to IOS wyff-inet1 with IP 167.173.24.2IOS Device: WYFF-INET1
+no username opmantek
+WYFF-INET1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WYFF-INET1(config)#end
+WYFF-INET1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sm-rtpe01 with IP 204.56.108.1IOS Device: sm-rtpe01
+no username opmantek
+sm-rtpe01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+sm-rtpe01(config)#end
+sm-rtpe01#Building configuration...
+Compressed configuration from 8010 bytes to 4106 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS dt-tcoma-mgr with IP 172.25.0.4Connecting to IOS wlwt-bops-sw1 with IP 10.136.14.254IOS Device: WLWT-BOps-SW1
+no username opmantek
+WLWT-BOps-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WLWT-BOps-SW1(config)#end
+WLWT-BOps-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wbal-vz-gw1 with IP 167.173.16.73IOS Device: WBAL-VZ-GW1
+no username opmantek
+WBAL-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WBAL-VZ-GW1(config)#end
+WBAL-VZ-GW1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hsc-npdr-sw1 with IP 172.19.10.201Connecting to IOS houshdnetrtr01 with IP 130.80.189.1Connecting to IOS dc_2960_tor_cab3 with IP 10.37.99.36Connecting to IOS wjcl-hh-sw1 with IP 10.164.1.4Connecting to IOS usa1016-5-idf02-01-vgw01 with IP 10.90.6.19Connecting to IOS atu_sw2a2 with IP 167.166.10.210Connecting to IOS ksbw-mw-sw1 with IP 10.149.1.15IOS Device: KSBW-MW-SW1
+no username opmantek
+KSBW-MW-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KSBW-MW-SW1(config)#end
+KSBW-MW-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wlky-mgmt-sw1 with IP 10.137.1.52IOS Device: WLKY-MGMT-SW1
+no username opmantek
+WLKY-MGMT-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WLKY-MGMT-SW1(config)#end
+WLKY-MGMT-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swac3401 with IP 10.172.3.22IOS Device: hn-001-swac3401
+no username opmantek
+hn-001-swac3401(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac3401(config)#end
+hn-001-swac3401#Building configuration...
+Compressed configuration from 176690 bytes to 40445 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS ketv-mgmt-sw1 with IP 10.145.1.13Connecting to IOS hbmindswcfgrm with IP 172.28.36.2IOS Device: HBMINDSWCFGRM
+no username opmantek
+HBMINDSWCFGRM(config)#username opmantek privilege 15 secret 0 N0Data4U!
+HBMINDSWCFGRM(config)#end
+HBMINDSWCFGRM#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS 217-vpn-c2811 with IP 10.0.255.22IOS Device: 217-vpn-c2811
+no username opmantek
+217-vpn-c2811(config)#username opmantek privilege 15 secret 0 N0Data4U!
+217-vpn-c2811(config)#end
+217-vpn-c2811#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS koat-gw-sw01 with IP 167.173.232.10IOS Device: KOAT-GW-SW01
+no username opmantek
+KOAT-GW-SW01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KOAT-GW-SW01(config)#end
+KOAT-GW-SW01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sm-swac-005 with IP 10.118.32.9IOS Device: sm-swac-005
+no username opmantek
+sm-swac-005(config)#username opmantek privilege 15 secret 0 N0Data4U!
+sm-swac-005(config)#end
+sm-swac-005#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS kmbc-gw-sw1 with IP 167.173.19.10Connecting to IOS khbs-gw-sw1 with IP 167.173.31.10IOS Device: KHBS-GW-SW1
+no username opmantek
+KHBS-GW-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KHBS-GW-SW1(config)#end
+KHBS-GW-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wyff-server-sw1 with IP 10.159.1.12Connecting to IOS hn-001-swac3501 with IP 10.172.2.23IOS Device: hn-001-swac3501
+no username opmantek
+hn-001-swac3501(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac3501(config)#end
+hn-001-swac3501#Building configuration...
+Compressed configuration from 175542 bytes to 40453 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wapt-server-sw1 with IP 10.158.1.33IOS Device: wapt-server-sw1
+no username opmantek
+wapt-server-sw1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+wapt-server-sw1(config)#end
+wapt-server-sw1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hsc32-1 with IP 172.19.10.221IOS Device: hsc32-1
+no username opmantek
+hsc32-1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hsc32-1(config)#end
+hsc32-1#Connecting to IOS jnb-gw-sw2 with IP 63.97.171.46IOS Device: JNB-GW-SW2
+no username opmantek
+JNB-GW-SW2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+JNB-GW-SW2(config)#end
+JNB-GW-SW2#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS edge-s02-m4fl-3550 with IP 172.18.3.42Connecting to IOS 353-c4506-1 with IP 10.30.4.27IOS Device: 353-c4506-1
+no username opmantek
+353-c4506-1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+353-c4506-1(config)#end
+353-c4506-1#Building configuration...
+Compressed configuration from 76404 bytes to 15769 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wmor-control-sw1 with IP 10.152.1.21IOS Device: WMOR-CONTROL-SW1
+no username opmantek
+WMOR-CONTROL-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WMOR-CONTROL-SW1(config)#end
+WMOR-CONTROL-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wjcl-idf-sw1 with IP 10.164.1.10Connecting to IOS wbal-mdf-sw1 with IP 10.135.1.4IOS Device: WBAL-MDF-SW1
+no username opmantek
+WBAL-MDF-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WBAL-MDF-SW1(config)#end
+WBAL-MDF-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swav4302 with IP 10.172.2.37Connecting to IOS hn-001-mscr1002 with IP 10.172.1.2IOS Device: hn-001-mscr1002
+no username opmantek
+hn-001-mscr1002(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-mscr1002(config)#end
+hn-001-mscr1002#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wcvb-bops-sw1 with IP 10.144.14.254Connecting to IOS windwardrtr01 with IP 172.31.8.1IOS Device: windwardrtr01
+no username opmantek
+windwardrtr01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+windwardrtr01(config)#end
+windwardrtr01#Building configuration...
+Compressed configuration from 6361 bytes to 3712 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wlky-voip-r2 with IP 10.137.64.52Connecting to IOS wyff-vz-gw1 with IP 167.173.24.6IOS Device: WYFF-VZ-GW1
+no username opmantek
+WYFF-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WYFF-VZ-GW1(config)#end
+WYFF-VZ-GW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS houfchnetrtr01 with IP 130.80.188.97IOS Device: houfchnetrtr01
+no username opmantek
+houfchnetrtr01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+houfchnetrtr01(config)#end
+houfchnetrtr01#Building configuration...
+Compressed configuration from 7226 bytes to 4150 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wlky-weather-sw1 with IP 10.137.1.36IOS Device: WLKY-WEATHER-SW1
+no username opmantek
+WLKY-WEATHER-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WLKY-WEATHER-SW1(config)#end
+WLKY-WEATHER-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hbmindrtrtwint with IP 207.250.104.129IOS Device: HBMINDRTRTWINT
+Connecting to IOS wjcl-core-sw1 with IP 10.164.1.2Connecting to IOS tusw2e1 with IP 167.166.10.136Connecting to IOS wlky-inet1 with IP 167.173.37.16IOS Device: WLKY-INET1
+no username opmantek
+WLKY-INET1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WLKY-INET1(config)#end
+WLKY-INET1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS ausconnetrtr01 with IP 130.80.195.1IOS Device: ausconnetrtr01
+no username opmantek
+ausconnetrtr01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+ausconnetrtr01(config)#end
+ausconnetrtr01#Building configuration...
+Compressed configuration from 7055 bytes to 4024 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS kmbc-voip-r2 with IP 10.141.64.52IOS Device: KMBC-VoIP-R2
+no username opmantek
+KMBC-VoIP-R2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KMBC-VoIP-R2(config)#end
+KMBC-VoIP-R2#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hbm-3750-1 with IP 172.19.10.173Connecting to IOS usa1022-mdf01-01-swa02 with IP 130.80.186.253IOS Device: USA1022-MDF01-01-SWA02
+no username opmantek
+USA1022-MDF01-01-SWA(config)#username opmantek privilege 15 secret 0 N0Data4U!
+USA1022-MDF01-01-SWA(config)#end
+USA1022-MDF01-01-SWA02#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wisn-tech-sw2 with IP 10.142.1.11IOS Device: WISN-TECH-SW2
+no username opmantek
+WISN-TECH-SW2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WISN-TECH-SW2(config)#end
+WISN-TECH-SW2#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wmtw-core-sw1 with IP 10.138.14.1IOS Device: WMTW-CORE-SW1
+no username opmantek
+WMTW-CORE-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WMTW-CORE-SW1(config)#end
+WMTW-CORE-SW1##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS 31loop-mgr with IP 130.80.150.242Connecting to IOS kmbc-user-sw1-new with IP 10.141.1.61Connecting to IOS cds-bu-gw with IP 216.161.115.200IOS Device: CDS-BU-GW
+no username opmantek
+CDS-BU-GW(config)#username opmantek privilege 15 secret 0 N0Data4U!
+CDS-BU-GW(config)#end
+CDS-BU-GW#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS ksbw-inet1 with IP 167.173.33.16Connecting to IOS stamford4506-1 with IP 10.224.73.1Connecting to IOS wmtw-w-vz-gw1 with IP 167.173.45.73IOS Device: WMTW-W-VZ-GW1
+no username opmantek
+WMTW-W-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WMTW-W-VZ-GW1(config)#end
+WMTW-W-VZ-GW1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS 217-c7206-3 with IP 10.0.255.250IOS Device: 217-c7206-3
+no username opmantek
+217-c7206-3(config)#username opmantek privilege 15 secret 0 N0Data4U!
+217-c7206-3(config)#end
+217-c7206-3#Building configuration...
+Compressed configuration from 13450 bytes to 6450 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-003-swac503 with IP 10.174.33.5IOS Device: Hn-003-swac503
+no username opmantek
+Hn-003-swac503(config)#username opmantek privilege 15 secret 0 N0Data4U!
+Hn-003-swac503(config)#end
+Hn-003-swac503#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS usa1016-8-idf01-01-swa01 with IP 10.90.0.81IOS Device: USA1016-8-IDF01-01-SWA01
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+USA1016-8-IDF01-01-S(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                                ^
+% Invalid input detected at '^' marker.
+
+USA1016-8-IDF01-01-S(config)#end
+USA1016-8-IDF01-01-SWA01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hbmsfrrtrcore with IP 10.121.79.254Connecting to IOS hsc-tw-gw with IP 206.225.146.97IOS Device: HSC-GW01
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+HSC-GW01(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                    ^
+% Invalid input detected at '^' marker.
+
+HSC-GW01(config)#end
+HSC-GW01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wbal-inet1 with IP 167.173.16.16IOS Device: WBAL-INET1
+no username opmantek
+WBAL-INET1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WBAL-INET1(config)#end
+WBAL-INET1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS indy_6513 with IP 10.121.36.1Connecting to IOS koat-voip-r2 with IP 10.160.64.52Connecting to IOS gm68084 with IP 10.71.224.61Connecting to IOS dc4-4351-vgw01 with IP 10.73.2.20Connecting to IOS ausconnetsw01 with IP 130.80.195.126IOS Device: ausconnetsw01
+no username opmantek
+ausconnetsw01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+ausconnetsw01(config)#end
+ausconnetsw01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS houhwwnetrtr01 with IP 130.80.255.5IOS Device: houhwwnetrtr01
+no username opmantek
+houhwwnetrtr01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+houhwwnetrtr01(config)#end
+houhwwnetrtr01#01#
+houhwwnetrtr01#Connecting to IOS be-vz-gw with IP 152.177.170.70IOS Device: BE-VZ-GW
+no username opmantek
+BE-VZ-GW(config)#username opmantek privilege 15 secret 0 N0Data4U!
+BE-VZ-GW(config)#end
+BE-VZ-GW#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wptz-prodmgmt-sw1 with IP 10.156.1.14Connecting to IOS hn-001-swac1501 with IP 10.172.2.13IOS Device: hn-001-swac1501
+no username opmantek
+hn-001-swac1501(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac1501(config)#end
+hn-001-swac1501#Building configuration...
+Compressed configuration from 142035 bytes to 33292 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-002-mscr0101 with IP 10.174.132.1IOS Device: hn-002-mscr0101
+no username opmantek
+hn-002-mscr0101(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-002-mscr0101(config)#end
+hn-002-mscr0101#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hsc-hcdr-gw1 with IP 207.235.48.242Connecting to IOS 24loop-mgr with IP 130.80.150.73Connecting to IOS wxii-voip-ag1 with IP 10.139.64.61IOS Device: WXII-VOIP-AG1
+no username opmantek
+WXII-VOIP-AG1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WXII-VOIP-AG1(config)#end
+WXII-VOIP-AG1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS gm26991 with IP 10.121.227.6Connecting to IOS kcra-gw-sw1 with IP 167.173.27.10IOS Device: kcra-gw-sw1
+no username opmantek
+kcra-gw-sw1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+kcra-gw-sw1(config)#end
+kcra-gw-sw1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hsc28-1 with IP 172.19.10.181IOS Device: hsc28-1
+no username opmantek
+hsc28-1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hsc28-1(config)#end
+hsc28-1#Connecting to IOS ketv-b-vz-gw1 with IP 167.173.49.6IOS Device: KETV-B-VZ-GW1
+no username opmantek
+KETV-B-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KETV-B-VZ-GW1(config)#end
+KETV-B-VZ-GW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS saen-vz-gw with IP 68.137.213.114IOS Device: SAEN-VZ-GW
+no username opmantek
+SAEN-VZ-GW(config)#username opmantek privilege 15 secret 0 N0Data4U!
+SAEN-VZ-GW(config)#end
+SAEN-VZ-GW#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wxii-voip-r2 with IP 10.139.64.52Connecting to IOS hn-001-swac0601 with IP 10.172.3.41IOS Device: HN-001-SWAC0601
+no username opmantek
+HN-001-SWAC0601(config)#username opmantek privilege 15 secret 0 N0Data4U!
+HN-001-SWAC0601(config)#end
+HN-001-SWAC0601#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swac1101 with IP 10.172.3.11IOS Device: hn-001-swac1101
+no username opmantek
+hn-001-swac1101(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac1101(config)#end
+hn-001-swac1101#Building configuration...
+Compressed configuration from 192679 bytes to 42304 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wptz-vz-gw1 with IP 167.173.43.6IOS Device: WPTZ-VZ-GW1
+no username opmantek
+WPTZ-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WPTZ-VZ-GW1(config)#end
+WPTZ-VZ-GW1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sw4-2-2a-mgr with IP 130.80.250.109Connecting to IOS hn-001-swac3301 with IP 10.172.2.22IOS Device: hn-001-swac3301
+no username opmantek
+hn-001-swac3301(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac3301(config)#end
+hn-001-swac3301#Building configuration...
+Compressed configuration from 142306 bytes to 31586 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS kcci-bops-sw1 with IP 10.147.14.254IOS Device: KCCI-BOps-SW1
+no username opmantek
+KCCI-BOps-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KCCI-BOps-SW1(config)#end
+KCCI-BOps-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS khbs-voip-r1 with IP 10.150.64.50Connecting to IOS houshdnetsw01 with IP 130.80.189.126IOS Device: houshdnetsw01
+no username opmantek
+houshdnetsw01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+houshdnetsw01(config)#end
+houshdnetsw01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swac2101 with IP 10.172.2.16IOS Device: hn-001-swac2101
+no username opmantek
+hn-001-swac2101(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac2101(config)#end
+hn-001-swac2101#Building configuration...
+Compressed configuration from 144776 bytes to 33677 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS khog-gw-sw1 with IP 167.173.32.10Connecting to IOS khog-bops-sw1 with IP 10.187.14.254IOS Device: KHOG-BOps-SW1
+no username opmantek
+KHOG-BOps-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KHOG-BOps-SW1(config)#end
+KHOG-BOps-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS houswnetrtr01 with IP 130.80.255.105IOS Device: houswnetrtr01
+no username opmantek
+houswnetrtr01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+houswnetrtr01(config)#end
+houswnetrtr01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS atu_sw2b2 with IP 167.166.10.203Connecting to IOS dr25loop-mgr with IP 10.189.64.7Connecting to IOS houwpdnetrtr01 with IP 130.80.194.1IOS Device: houwpdnetrtr01
+no username opmantek
+houwpdnetrtr01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+houwpdnetrtr01(config)#end
+houwpdnetrtr01#Building configuration...
+Compressed configuration from 6694 bytes to 3854 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hsc28-bc5-sw1 with IP 172.19.10.155Connecting to IOS wyff-bops-sw1 with IP 10.159.14.254IOS Device: WYFF-BOps-SW1
+no username opmantek
+WYFF-BOps-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WYFF-BOps-SW1(config)#end
+WYFF-BOps-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS ksbw-gw-sw1 with IP 167.173.33.10IOS Device: KSBW-GW-SW1
+no username opmantek
+KSBW-GW-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KSBW-GW-SW1(config)#end
+KSBW-GW-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS jnb-gw-sw1 with IP 63.97.171.45IOS Device: JNB-GW-SW1
+no username opmantek
+JNB-GW-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+JNB-GW-SW1(config)#end
+JNB-GW-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wpbf-vz-gw1 with IP 167.173.22.73IOS Device: WPBF-VZ-GW1
+no username opmantek
+WPBF-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WPBF-VZ-GW1(config)#end
+WPBF-VZ-GW1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS 28loop-mgr with IP 130.80.150.79Connecting to IOS wgal-server-sw1 with IP 10.155.1.4Connecting to IOS wdp-vz-gw with IP 152.177.243.234IOS Device: WDP-VZ-GW
+no username opmantek
+WDP-VZ-GW(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WDP-VZ-GW(config)#end
+WDP-VZ-GW#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS dc_2960_tor_cab7 with IP 10.37.99.40IOS Device: DC_2960_TOR_CAB7
+no username opmantek
+DC_2960_TOR_CAB7(config)#username opmantek privilege 15 secret 0 N0Data4U!
+DC_2960_TOR_CAB7(config)#end
+DC_2960_TOR_CAB7#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS 352-c4506 with IP 10.30.4.34IOS Device: 352-c4506
+no username opmantek
+352-c4506(config)#username opmantek privilege 15 secret 0 N0Data4U!
+352-c4506(config)#end
+352-c4506#Building configuration...
+Compressed configuration from 71450 bytes to 13592 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hc-vz-gw2 with IP 130.80.34.9Connecting to IOS dc4-star01 with IP 167.173.88.15IOS Device: DC4-Star01
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+DC4-Star01(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                      ^
+% Invalid input detected at '^' marker.
+
+DC4-Star01(config)#end
+DC4-Star01#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wlky-tech-sw2 with IP 10.137.1.5Connecting to IOS dalborder with IP 207.71.31.1IOS Device: dalborder
+no username opmantek
+dalborder(config)#username opmantek privilege 15 secret 0 N0Data4U!
+dalborder(config)#end
+dalborder#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS phoneroom3548-2 with IP 10.224.69.16Connecting to IOS yyz-vz-gw with IP 152.185.38.210Connecting to IOS ksbw-mgmt-sw1 with IP 10.149.1.8IOS Device: KSBW-MGMT-SW1
+no username opmantek
+KSBW-MGMT-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KSBW-MGMT-SW1(config)#end
+KSBW-MGMT-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS khog-vz-gw1 with IP 10.187.255.6IOS Device: KHOG-VZ-GW1
+no username opmantek
+KHOG-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KHOG-VZ-GW1(config)#end
+KHOG-VZ-GW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wlwt-xmr1 with IP 192.168.196.130Connecting to IOS hn-001-swac3201 with IP 10.172.3.21IOS Device: hn-001-swac3201
+no username opmantek
+hn-001-swac3201(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac3201(config)#end
+hn-001-swac3201#Building configuration...
+Compressed configuration from 230067 bytes to 48722 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sfc-vz-gw with IP 198.134.145.229IOS Device: sfc-vz-gw
+no username opmantek
+sfc-vz-gw(config)#username opmantek privilege 15 secret 0 N0Data4U!
+sfc-vz-gw(config)#end
+sfc-vz-gw#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS ksbw-oldcore-sw2 with IP 10.149.1.101Connecting to IOS sw2-2-3a-mgr with IP 130.80.250.116IOS Device: SW2-2-3a-mgr
+no username opmantek
+SW2-2-3a-mgr(config)#username opmantek privilege 15 secret 0 N0Data4U!
+SW2-2-3a-mgr(config)#end
+SW2-2-3a-mgr#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS seattle-1a-mgr with IP 192.168.1.3Connecting to IOS wesh-voip-ag5 with IP 10.133.64.75IOS Device: WESH-VOIP-AG5
+no username opmantek
+WESH-VOIP-AG5(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WESH-VOIP-AG5(config)#end
+WESH-VOIP-AG5#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sfcvalrtr01 with IP 172.31.10.254IOS Device: SFCVALRTR01
+no username opmantek
+SFCVALRTR01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+SFCVALRTR01(config)#end
+SFCVALRTR01#Building configuration...
+Compressed configuration from 6822 bytes to 3902 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sw5-2-5a-mgr with IP 130.80.250.118IOS Device: sw5-2-5a-mgr
+no username opmantek
+sw5-2-5a-mgr(config)#username opmantek privilege 15 secret 0 N0Data4U!
+sw5-2-5a-mgr(config)#end
+sw5-2-5a-mgr#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS comproom3548-5 with IP 10.224.69.13Connecting to IOS hbmlossw5fl with IP 172.28.46.3Connecting to IOS wptz-nbcmgmt-sw1 with IP 10.156.1.15Connecting to IOS hn-001-msds1001 with IP 10.172.1.3IOS Device: hn-001-msds1001
+no username opmantek
+hn-001-msds1001(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-msds1001(config)#end
+hn-001-msds1001#Building configuration...
+Compressed configuration from 57137 bytes to 22094 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS seattle-5a-mgr with IP 192.168.1.10IOS Device: seattle-5a-mgr
+no username opmantek
+seattle-5a-mgr(config)#username opmantek privilege 15 secret 0 N0Data4U!
+seattle-5a-mgr(config)#end
+seattle-5a-mgr#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wisn-server-sw2 with IP 10.142.1.12IOS Device: WISN-SERVER-SW2
+no username opmantek
+WISN-SERVER-SW2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WISN-SERVER-SW2(config)#end
+WISN-SERVER-SW2#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS kmbc-voip-r1 with IP 10.141.64.51Connecting to IOS gw2 with IP 172.18.96.1Connecting to IOS houccrtnetrtr01 with IP 130.80.188.129IOS Device: houccrtnetrtr01
+no username opmantek
+houccrtnetrtr01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+houccrtnetrtr01(config)#end
+houccrtnetrtr01#Building configuration...
+Compressed configuration from 6906 bytes to 3971 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wesh-voip-ag3 with IP 10.133.64.73IOS Device: WESH-VOIP-AG3
+no username opmantek
+WESH-VOIP-AG3(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WESH-VOIP-AG3(config)#end
+WESH-VOIP-AG3#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wbal-voip-r1 with IP 10.135.64.50IOS Device: wbal-voip-r1
+no username opmantek
+wbal-voip-r1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+wbal-voip-r1(config)#end
+wbal-voip-r1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wptz-control-sw1 with IP 10.156.1.11Connecting to IOS comp-2a-mgr with IP 130.80.150.122Connecting to IOS comproom3524-1 with IP 10.224.69.7Connecting to IOS alm-c2960 with IP 172.31.2.250IOS Device: alm-c2960
+no username opmantek
+alm-c2960(config)#username opmantek privilege 15 secret 0 N0Data4U!
+alm-c2960(config)#end
+alm-c2960#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS chidesk3 with IP 10.13.12.3IOS Device: CHIDESK3
+no username opmantek
+CHIDESK3(config)#username opmantek privilege 15 secret 0 N0Data4U!
+CHIDESK3(config)#end
+CHIDESK3#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wxii-transmittersite-sw1 with IP 10.139.101.250IOS Device: WXII-TransmitterSite-SW1
+no username opmantek
+WXII-TransmitterSite(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WXII-TransmitterSite(config)#end
+WXII-TransmitterSite-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wesh-voip-ag4 with IP 10.133.64.74IOS Device: WESH-VOIP-AG4
+no username opmantek
+WESH-VOIP-AG4(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WESH-VOIP-AG4(config)#end
+WESH-VOIP-AG4#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wesh-bops-sw1 with IP 10.133.14.254Connecting to IOS hbmlossw4fl-2 with IP 172.28.46.6IOS Device: HBMLOSSW4FL-2
+no username opmantek
+HBMLOSSW4FL-2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+HBMLOSSW4FL-2(config)#end
+HBMLOSSW4FL-2#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swac2301 with IP 10.172.2.17IOS Device: hn-001-swac2301
+no username opmantek
+hn-001-swac2301(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac2301(config)#end
+hn-001-swac2301#Building configuration...
+Compressed configuration from 176843 bytes to 40200 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wbal-voip-ag3 with IP 10.135.64.54Connecting to IOS dc4-gw02 with IP 167.173.88.50IOS Device: DC4-GW02
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+DC4-GW02(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                    ^
+% Invalid input detected at '^' marker.
+
+DC4-GW02(config)#end
+DC4-GW02#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wgal-nexio-sw1 with IP 10.155.1.21Connecting to IOS wbal-voip-ag1 with IP 10.135.64.52IOS Device: wbal-voip-ag1
+no username opmantek
+wbal-voip-ag1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+wbal-voip-ag1(config)#end
+wbal-voip-ag1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS kcci-eng-sw1 with IP 10.147.1.12IOS Device: KCCI-ENG-SW1
+no username opmantek
+KCCI-ENG-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KCCI-ENG-SW1(config)#end
+KCCI-ENG-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS base-1a-mgr with IP 130.80.150.1Connecting to IOS hn-001-swac1201 with IP 10.172.2.12IOS Device: hn-001-swac1201
+no username opmantek
+hn-001-swac1201(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac1201(config)#end
+hn-001-swac1201#Building configuration...
+Compressed configuration from 144318 bytes to 33083 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS usa1016-2-idf02-01-vgw01 with IP 10.90.6.16Connecting to IOS lmtmacswitch1 with IP 192.168.92.116Connecting to IOS wbal-bops-sw1 with IP 10.135.14.254IOS Device: WBAL-BOps-SW1
+no username opmantek
+WBAL-BOps-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WBAL-BOps-SW1(config)#end
+WBAL-BOps-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS dc_2960_tor_cab4 with IP 10.37.99.37Connecting to IOS edge-s01-m1fl-3550 with IP 172.18.3.11Connecting to IOS wmtw-w-voip-r1 with IP 10.138.164.51Connecting to IOS houogrnetsw01 with IP 130.80.196.126IOS Device: houOGRnetSW01
+no username opmantek
+houOGRnetSW01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+houOGRnetSW01(config)#end
+houOGRnetSW01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wmtw-bops-sw1 with IP 10.138.14.254IOS Device: WMTW-BOps-SW1
+no username opmantek
+WMTW-BOps-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WMTW-BOps-SW1(config)#end
+WMTW-BOps-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swpe1002 with IP 10.172.1.15IOS Device: hn-001-swpe1002
+no username opmantek
+hn-001-swpe1002(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swpe1002(config)#end
+hn-001-swpe1002#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS lmt-vz-gw with IP 152.164.86.186IOS Device: LMT-VZ-GW
+no username opmantek
+LMT-VZ-GW(config)#username opmantek privilege 15 secret 0 N0Data4U!
+LMT-VZ-GW(config)#end
+LMT-VZ-GW#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-003-swac0504 with IP 10.174.33.20IOS Device: hn-003-swac0504
+no username opmantek
+hn-003-swac0504(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-003-swac0504(config)#end
+hn-003-swac0504#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swac1001 with IP 10.172.2.11IOS Device: hn-001-swac1001
+no username opmantek
+hn-001-swac1001(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac1001(config)#end
+hn-001-swac1001#Building configuration...
+Compressed configuration from 207033 bytes to 45746 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wcvb-inet1 with IP 167.173.30.16IOS Device: WCVB-INET1
+no username opmantek
+WCVB-INET1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WCVB-INET1(config)#end
+WCVB-INET1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wlwt-old-core1 with IP 10.136.1.4IOS Device: WLWT-OLD-CORE1
+no username opmantek
+WLWT-OLD-CORE1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WLWT-OLD-CORE1(config)#end
+WLWT-OLD-CORE1#Building configuration...
+Compressed configuration from 46955 bytes to 14324 bytes[OK]
+Uncompressed configuration from 14324 bytes to 46955 bytes~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS edge-s03-m3fl-3550 with IP 172.18.3.34Connecting to IOS wbal-mdf-sw2 with IP 10.135.1.5IOS Device: WBAL-MDF-SW2
+no username opmantek
+WBAL-MDF-SW2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WBAL-MDF-SW2(config)#end
+WBAL-MDF-SW2#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wmor-master-sw2 with IP 10.152.1.42Connecting to IOS hn-001-swac4101 with IP 10.172.2.26IOS Device: hn-001-swac4101
+no username opmantek
+hn-001-swac4101(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac4101(config)#end
+hn-001-swac4101#Building configuration...
+Compressed configuration from 173156 bytes to 40938 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS tuswcore2 with IP 167.166.10.3Connecting to IOS wesh-user-sw2 with IP 10.133.1.22IOS Device: WESH-USER-SW2
+no username opmantek
+WESH-USER-SW2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WESH-USER-SW2(config)#end
+WESH-USER-SW2#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wptzc-vz-gw1 with IP 167.173.35.6IOS Device: WPTZC-VZ-GW1
+no username opmantek
+WPTZC-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WPTZC-VZ-GW1(config)#end
+WPTZC-VZ-GW1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS fre-c2960-1 with IP 172.31.20.251Connecting to IOS hmd-cl-jstart-vz-gw with IP 10.163.9.66Connecting to IOS kcci-voip-ag2 with IP 10.147.64.72Connecting to IOS ksbw-bops-sw1 with IP 10.149.14.254IOS Device: KSBW-BOPS-SW1
+no username opmantek
+KSBW-BOPS-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KSBW-BOPS-SW1(config)#end
+KSBW-BOPS-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS edw-inet with IP 208.254.171.33IOS Device: edw-inet
+no username opmantek
+edw-inet(config)#username opmantek privilege 15 secret 0 N0Data4U!
+edw-inet(config)#end
+edw-inet#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS swaa101 with IP 10.118.128.1IOS Device: SWAA101
+no username opmantek
+SWAA101(config)#username opmantek privilege 15 secret 0 N0Data4U!
+SWAA101(config)#end
+SWAA101#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wxii-voip-r1 with IP 10.139.64.51Connecting to IOS hsc29-1 with IP 172.19.10.191IOS Device: hsc29-1
+no username opmantek
+hsc29-1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hsc29-1(config)#end
+hsc29-1#Connecting to IOS hbmindswasains with IP 172.28.34.5Connecting to IOS wdsu-bops-sw1 with IP 10.140.14.254IOS Device: WDSU-BOps-SW1
+no username opmantek
+WDSU-BOps-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WDSU-BOps-SW1(config)#end
+WDSU-BOps-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wdsu-voip-r1 with IP 10.140.64.51IOS Device: WDSU-VOIP-R1
+no username opmantek
+WDSU-VOIP-R1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WDSU-VOIP-R1(config)#end
+WDSU-VOIP-R1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sw-tcoma-mgr with IP 172.25.0.130Connecting to IOS hn-001-swac2201 with IP 10.172.3.16IOS Device: hn-001-swac2201
+no username opmantek
+hn-001-swac2201(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac2201(config)#end
+hn-001-swac2201#Building configuration...
+Compressed configuration from 175783 bytes to 40449 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS 217-c7206-2 with IP 206.169.179.118IOS Device: 217-c7206-2
+no username opmantek
+217-c7206-2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+217-c7206-2(config)#end
+217-c7206-2#Building configuration...
+Compressed configuration from 11490 bytes to 5659 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wmor-core-sw1 with IP 10.152.0.1Connecting to IOS starivnetrtr01 with IP 130.80.255.73IOS Device: STARIVNETRTR01
+no username opmantek
+STARIVNETRTR01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+STARIVNETRTR01(config)#end
+STARIVNETRTR01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS kcra-voip-r1-srst with IP 10.151.64.51IOS Device: KCRA-VoIP-R1-SRST
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+KCRA-VoIP-R1-SRST(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                             ^
+% Invalid input detected at '^' marker.
+
+KCRA-VoIP-R1-SRST(config)#end
+KCRA-VoIP-R1-SRST#Building configuration...
+
+
+  
+  [OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS 6-rgs-mgr with IP 130.80.150.67Connecting to IOS hbmlosswcore with IP 172.28.46.1Connecting to IOS sm-swac-002 with IP 10.118.32.6IOS Device: sm-swac-002
+no username opmantek
+sm-swac-002(config)#username opmantek privilege 15 secret 0 N0Data4U!
+sm-swac-002(config)#end
+sm-swac-002#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS kcra-louth-sw1 with IP 10.151.14.254IOS Device: KCRA-LOUTH-SW1
+no username opmantek
+KCRA-LOUTH-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KCRA-LOUTH-SW1(config)#end
+KCRA-LOUTH-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wmor-voip-r2 with IP 10.152.64.72IOS Device: WMOR-VoIP-R2
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+WMOR-VoIP-R2(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                        ^
+% Invalid input detected at '^' marker.
+
+WMOR-VoIP-R2(config)#end
+WMOR-VoIP-R2#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS bristanetrtr01 with IP 10.220.0.98IOS Device: BRISTANETRTR01
+no username opmantek
+BRISTANETRTR01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+BRISTANETRTR01(config)#end
+BRISTANETRTR01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS np-ssc-gw1 with IP 165.193.234.174IOS Device: np-ssc-gw1
+no username opmantek
+np-ssc-gw1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+np-ssc-gw1(config)#end
+np-ssc-gw1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wlky-graphics-sw1 with IP 10.137.1.37IOS Device: WLKY-GRAPHICS-SW1
+no username opmantek
+WLKY-GRAPHICS-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WLKY-GRAPHICS-SW1(config)#end
+WLKY-GRAPHICS-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swac0203-techrm2 with IP 10.172.3.32Connecting to IOS sc9-gw02 with IP 167.173.72.50IOS Device: SC9-GW02
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+SC9-GW02(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                    ^
+% Invalid input detected at '^' marker.
+
+SC9-GW02(config)#end
+SC9-GW02#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS csunswitch10-4 with IP 10.33.0.3IOS Device: csunswitch10-4
+no username opmantek
+csunswitch10-4(config)#username opmantek privilege 15 secret 0 N0Data4U!
+csunswitch10-4(config)#end
+csunswitch10-4#Building configuration...
+Compressed configuration from 4956 bytes to 2165 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swac2801 with IP 10.172.3.19IOS Device: hn-001-swac2801
+no username opmantek
+hn-001-swac2801(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac2801(config)#end
+hn-001-swac2801#Building configuration...
+Compressed configuration from 175244 bytes to 41122 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS usa1031-mdf01-01-swc01 with IP 10.0.250.0IOS Device: USA1031-MDF01-01-SWC01
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+USA1031-MDF01-01-SWC(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                                ^
+% Invalid input detected at '^' marker.
+
+USA1031-MDF01-01-SWC(config)#end
+USA1031-MDF01-01-SWC01#Building configuration...
+Compressed configuration from 80356 bytes to 25221 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wlwt-voip-r2-cube with IP 10.136.64.52IOS Device: WLWT-VOIP-R2-CUBE
+no username opmantek
+WLWT-VOIP-R2-CUBE(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WLWT-VOIP-R2-CUBE(config)#end
+WLWT-VOIP-R2-CUBE#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS koco-gw-sw1 with IP 167.173.20.36IOS Device: KOCO-GW-SW1
+no username opmantek
+KOCO-GW-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KOCO-GW-SW1(config)#end
+KOCO-GW-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wnb-inet1 with IP 167.173.25.16IOS Device: wnb-inet1
+no username opmantek
+wnb-inet1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+wnb-inet1(config)#end
+wnb-inet1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swac3901 with IP 10.172.2.25IOS Device: hn-001-swac3901
+no username opmantek
+hn-001-swac3901(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac3901(config)#end
+hn-001-swac3901#Building configuration...
+Compressed configuration from 148511 bytes to 32714 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wesh-voip-ag8 with IP 10.133.64.72Connecting to IOS wxii-gw-sw1 with IP 167.173.23.10IOS Device: WXII-GW-SW1
+no username opmantek
+WXII-GW-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WXII-GW-SW1(config)#end
+WXII-GW-SW1#rite memory
+Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wmtw-w-inet1 with IP 167.173.45.16IOS Device: WMTW-W-INET1
+no username opmantek
+WMTW-W-INET1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WMTW-W-INET1(config)#end
+WMTW-W-INET1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS 49_mary-c4503 with IP 10.30.4.28IOS Device: USA1031-IDF3-MARY-SWA01
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+USA1031-IDF3-MARY-SW(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                                ^
+% Invalid input detected at '^' marker.
+
+USA1031-IDF3-MARY-SW(config)#end
+USA1031-IDF3-MARY-SWA01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS kmbc-nmx2 with IP 10.141.1.32Connecting to IOS rtr3 with IP 172.18.10.3Connecting to IOS wcvb-vz-gw1 with IP 167.173.30.73IOS Device: WCVB-VZ-GW1
+no username opmantek
+WCVB-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WCVB-VZ-GW1(config)#end
+WCVB-VZ-GW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS 151-c2960x with IP 10.30.4.29IOS Device: 151-c2960x
+no username opmantek
+151-c2960x(config)#username opmantek privilege 15 secret 0 N0Data4U!
+151-c2960x(config)#end
+151-c2960x#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS usa1031-idf3-53-swa01 with IP 10.30.4.37IOS Device: USA1031-IDF3-53-SWA01
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+USA1031-IDF3-53-SWA0(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                                ^
+% Invalid input detected at '^' marker.
+
+USA1031-IDF3-53-SWA0(config)#end
+USA1031-IDF3-53-SWA01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swac3701 with IP 10.172.2.24IOS Device: hn-001-swac3701
+no username opmantek
+hn-001-swac3701(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac3701(config)#end
+hn-001-swac3701#Building configuration...
+Compressed configuration from 139524 bytes to 31942 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS 10-1b-mgr with IP 130.80.150.101Connecting to IOS hsc28-3750-4 with IP 172.19.10.176IOS Device: hsc28-3750-4
+no username opmantek
+hsc28-3750-4(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hsc28-3750-4(config)#end
+hsc28-3750-4#Connecting to IOS wlwt-voip-ag1 with IP 10.136.64.71Connecting to IOS wisn-bops-sw1 with IP 10.142.14.254IOS Device: wisn-bops-sw1
+no username opmantek
+wisn-bops-sw1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+wisn-bops-sw1(config)#end
+wisn-bops-sw1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS capitol with IP 167.166.80.193Connecting to IOS aa-cd-vz-gw1 with IP 10.106.1.10IOS Device: aa-cd-vz-gw1
+no username opmantek
+aa-cd-vz-gw1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+aa-cd-vz-gw1(config)#end
+aa-cd-vz-gw1#Building configuration...
+
+Compressed configuration from 12399 bytes to 6181 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sc9-star01 with IP 167.173.72.15IOS Device: SC9-Star01
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+SC9-Star01(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                      ^
+% Invalid input detected at '^' marker.
+
+SC9-Star01(config)#end
+SC9-Star01#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS kcci-voip-ag1 with IP 10.147.64.71Connecting to IOS hsc-voip-gw with IP 192.168.106.4IOS Device: hsc-voip-gw
+no username opmantek
+hsc-voip-gw(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hsc-voip-gw(config)#end
+hsc-voip-gw#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wnb-vz-gw1 with IP 167.173.25.73IOS Device: wnb-vz-gw1
+no username opmantek
+wnb-vz-gw1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+wnb-vz-gw1(config)#end
+wnb-vz-gw1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS jaspernewsboy-inet with IP 63.97.171.41IOS Device: jaspernewsboy-inet
+no username opmantek
+jaspernewsboy-inet(config)#username opmantek privilege 15 secret 0 N0Data4U!
+jaspernewsboy-inet(config)#end
+jaspernewsboy-inet#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS mezz-1a-mgr with IP 130.80.150.128Connecting to IOS kmbc-vz-gw1 with IP 167.173.19.6IOS Device: KMBC-VZ-GW1
+no username opmantek
+KMBC-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KMBC-VZ-GW1(config)#end
+KMBC-VZ-GW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wlwt-voip-r1-srst with IP 10.136.64.51Connecting to IOS wgal-mgmt-sw1 with IP 10.155.1.13Connecting to IOS hn-001-mssa1002 with IP 10.172.1.8IOS Device: hn-001-mssa1002
+no username opmantek
+hn-001-mssa1002(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-mssa1002(config)#end
+hn-001-mssa1002#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS nycsw3 with IP 10.13.20.3IOS Device: NYCSW3
+no username opmantek
+NYCSW3(config)#username opmantek privilege 15 secret 0 N0Data4U!
+NYCSW3(config)#end
+NYCSW3#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swac1801 with IP 10.172.3.14IOS Device: hn-001-swac1801
+no username opmantek
+hn-001-swac1801(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac1801(config)#end
+hn-001-swac1801#Building configuration...
+Compressed configuration from 144777 bytes to 32474 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hm-cl-mscr-01 with IP 10.67.9.2IOS Device: hm-cl-mscr-01
+no username opmantek
+hm-cl-mscr-01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hm-cl-mscr-01(config)#end
+hm-cl-mscr-01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swav4303 with IP 10.172.2.43IOS Device: hn-001-swav4303
+no username opmantek
+hn-001-swav4303(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swav4303(config)#end
+hn-001-swav4303#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS usa1016-4-idf02-01-vgw01 with IP 10.90.6.18Connecting to IOS pdh-edge-sw1 with IP 208.180.102.40IOS Device: PDH-EDGE-SW1
+no username opmantek
+PDH-EDGE-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+PDH-EDGE-SW1(config)#end
+PDH-EDGE-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wnb-voip-r1 with IP 10.208.64.51IOS Device: WNB-VOIP-R1
+no username opmantek
+WNB-VOIP-R1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WNB-VOIP-R1(config)#end
+WNB-VOIP-R1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS fre-c3750 with IP 172.31.20.250Connecting to IOS sfc16trtr01 with IP 172.31.11.254IOS Device: SFC16TRTR01
+no username opmantek
+SFC16TRTR01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+SFC16TRTR01(config)#end
+SFC16TRTR01#Building configuration...
+Compressed configuration from 5677 bytes to 3443 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sfcalmnetrtr01 with IP 172.31.2.1IOS Device: sfcalmnetrtr01
+no username opmantek
+sfcalmnetrtr01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+sfcalmnetrtr01(config)#end
+sfcalmnetrtr01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS comproom3548-3 with IP 10.224.69.11Connecting to IOS hbmgsvswcore with IP 192.168.201.1Connecting to IOS khog-voip-r1 with IP 10.187.64.50Connecting to IOS edge-s02-m2fl-3550 with IP 172.18.3.22Connecting to IOS csunswitch1 with IP 10.33.5.2IOS Device: csunswitch1
+no username opmantek
+csunswitch1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+csunswitch1(config)#end
+csunswitch1#Connecting to IOS khog-mgmt-sw1 with IP 10.187.1.52IOS Device: KHOG-MGMT-SW1
+no username opmantek
+KHOG-MGMT-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KHOG-MGMT-SW1(config)#end
+KHOG-MGMT-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hbmsfrswcisfl3 with IP 172.28.48.4Connecting to IOS hn-001-swac4401 with IP 10.172.3.27IOS Device: hn-001-swac4401
+no username opmantek
+hn-001-swac4401(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac4401(config)#end
+hn-001-swac4401#Building configuration...
+Compressed configuration from 166591 bytes to 38179 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS kcra-voip-r2 with IP 10.151.64.52IOS Device: KCRA-VOIP-R2
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+KCRA-VOIP-R2(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                        ^
+% Invalid input detected at '^' marker.
+
+KCRA-VOIP-R2(config)#end
+KCRA-VOIP-R2#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wesh-vz-gw1 with IP 167.173.29.73IOS Device: WESH-VZ-GW1
+no username opmantek
+WESH-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WESH-VZ-GW1(config)#end
+WESH-VZ-GW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wvtm-vz-gw1 with IP 167.173.47.6IOS Device: WVTM-VZ-GW1
+no username opmantek
+WVTM-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WVTM-VZ-GW1(config)#end
+WVTM-VZ-GW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wtae-voip-ag1 with IP 10.134.64.71Connecting to IOS milliman_idf-21 with IP 10.37.99.34Connecting to IOS 35loop-mgr with IP 130.80.150.244Connecting to IOS wmtw-mgmt-sw1 with IP 10.154.1.21Connecting to IOS sw5-2-2a-mgr with IP 130.80.250.114Connecting to IOS koat-tech1-sw2 with IP 10.160.1.13IOS Device: KOAT-TECH1-SW2
+no username opmantek
+KOAT-TECH1-SW2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KOAT-TECH1-SW2(config)#end
+KOAT-TECH1-SW2#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS atu_sw2f2 with IP 167.166.10.108IOS Device: ATU_SW2f1
+no username opmantek
+ATU_SW2f1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+ATU_SW2f1(config)#end
+ATU_SW2f1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hbmlauswcore with IP 10.121.241.1Connecting to IOS kcci-gw-sw1 with IP 167.173.36.10IOS Device: KCCI-GW-SW1
+no username opmantek
+KCCI-GW-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KCCI-GW-SW1(config)#end
+KCCI-GW-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS judson-sw1 with IP 172.18.3.216Connecting to IOS koco-transmitter-sw1 with IP 10.153.1.31IOS Device: KOCO-TRANSMITTER-SW1
+no username opmantek
+KOCO-TRANSMITTER-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KOCO-TRANSMITTER-SW1(config)#end
+KOCO-TRANSMITTER-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wapt-old-core2 with IP 10.158.1.6IOS Device: WAPT-OLD-CORE2
+no username opmantek
+WAPT-OLD-CORE2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WAPT-OLD-CORE2(config)#end
+WAPT-OLD-CORE2#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hbmgrvlightpath with IP 67.220.152.2IOS Device: HBMGRVLIGHTPATH
+no username opmantek
+HBMGRVLIGHTPATH(config)#username opmantek privilege 15 secret 0 N0Data4U!
+HBMGRVLIGHTPATH(config)#end
+HBMGRVLIGHTPATH#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS ksbw-harmonic-sw1 with IP 10.149.16.254Connecting to IOS cab5_4948 with IP 10.37.99.38Connecting to IOS wgal-inet1 with IP 167.173.41.16Connecting to IOS gm26978 with IP 10.189.31.254Connecting to IOS chidesk7 with IP 10.13.12.7IOS Device: CHIDESK7
+no username opmantek
+CHIDESK7(config)#username opmantek privilege 15 secret 0 N0Data4U!
+CHIDESK7(config)#end
+CHIDESK7#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sw4-2-2b-mgr with IP 130.80.250.110Connecting to IOS hmd-clx-swcr01 with IP 10.67.9.4IOS Device: hmd-clx-swcr01
+no username opmantek
+hmd-clx-swcr01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hmd-clx-swcr01(config)#end
+hmd-clx-swcr01#01#write memory
+Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wesh-voip-ag7 with IP 10.133.64.77IOS Device: WESH-VOIP-AG7
+no username opmantek
+WESH-VOIP-AG7(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WESH-VOIP-AG7(config)#end
+WESH-VOIP-AG7#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hsc4900m-01 with IP 172.19.10.162IOS Device: hsc4900M-01
+no username opmantek
+hsc4900M-01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hsc4900M-01(config)#end
+hsc4900M-01#Building configuration...
+Compressed configuration from 4679 bytes to 2681 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wxii-voip-ag2 with IP 10.139.64.62IOS Device: WXII-VOIP-AG2
+no username opmantek
+WXII-VOIP-AG2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WXII-VOIP-AG2(config)#end
+WXII-VOIP-AG2#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wdsu-old-core1 with IP 10.140.1.4IOS Device: WDSU-OLD-CORE1
+no username opmantek
+WDSU-OLD-CORE1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WDSU-OLD-CORE1(config)#end
+WDSU-OLD-CORE1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wbal-voip-ag6 with IP 10.135.64.57Connecting to IOS wxii-vz-gw1 with IP 167.173.23.6IOS Device: WXII-VZ-GW1
+no username opmantek
+WXII-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WXII-VZ-GW1(config)#end
+WXII-VZ-GW1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS ms-sfhf-1201 with IP 192.168.234.2IOS Device: ms-sfhf-1201
+no username opmantek
+ms-sfhf-1201(config)#username opmantek privilege 15 secret 0 N0Data4U!
+ms-sfhf-1201(config)#end
+ms-sfhf-1201#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS seattle-4a-mgr with IP 192.168.1.6Connecting to IOS presscontrol2 with IP 172.18.135.51Connecting to IOS pdhinet with IP 208.180.102.30IOS Device: pdhinet
+no username opmantek
+pdhinet(config)#username opmantek privilege 15 secret 0 N0Data4U!
+pdhinet(config)#end
+pdhinet#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wgal-vz-gw1 with IP 167.173.41.73Connecting to IOS rbma-gw-sw1 with IP 65.222.86.110Connecting to IOS hsc28-2960xr-sw1 with IP 172.19.10.250IOS Device: hsc28-2960XR-sw1
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+hsc28-2960XR-sw1(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                            ^
+% Invalid input detected at '^' marker.
+
+hsc28-2960XR-sw1(config)#end
+hsc28-2960XR-sw1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sw_twt_internet with IP 130.80.250.120Connecting to IOS wptz-inet1 with IP 167.173.43.16IOS Device: WPTZ-INET1
+no username opmantek
+WPTZ-INET1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WPTZ-INET1(config)#end
+WPTZ-INET1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS lar-2a-mgr with IP 192.168.92.3IOS Device: Lar-2a-mgr
+no username opmantek
+Lar-2a-mgr(config)#username opmantek privilege 15 secret 0 N0Data4U!
+Lar-2a-mgr(config)#end
+Lar-2a-mgr#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wcvb-mdf-sw2 with IP 10.144.1.12Connecting to IOS detr-vz-gw with IP 192.168.132.1IOS Device: DETR-VZ-GW1
+no username opmantek
+DETR-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+DETR-VZ-GW1(config)#end
+DETR-VZ-GW1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS resvgw2 with IP 10.196.48.101IOS Device: RESVGW2
+no username opmantek
+RESVGW2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+RESVGW2(config)#end
+RESVGW2#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sm-swac-003 with IP 10.118.32.7IOS Device: sm-swac-003
+no username opmantek
+sm-swac-003(config)#username opmantek privilege 15 secret 0 N0Data4U!
+sm-swac-003(config)#end
+sm-swac-003#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS atu_sw2c1 with IP 167.166.10.204Connecting to IOS ketv-voip-r2 with IP 10.145.64.52IOS Device: KETV-VOIP-R2
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+KETV-VOIP-R2(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                        ^
+% Invalid input detected at '^' marker.
+
+KETV-VOIP-R2(config)#end
+KETV-VOIP-R2#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS edwnetsw01 with IP 192.168.13.1IOS Device: edwnetsw01
+no username opmantek
+edwnetsw01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+edwnetsw01(config)#end
+edwnetsw01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wesh-engineering-sw1 with IP 10.133.1.20IOS Device: WESH-ENGINEERING-SW1
+no username opmantek
+WESH-ENGINEERING-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WESH-ENGINEERING-SW1(config)#end
+WESH-ENGINEERING-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS mrt-gw-sw2 with IP 67.198.55.6IOS Device: MRT-GW-SW2
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+MRT-GW-SW2(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                      ^
+% Invalid input detected at '^' marker.
+
+MRT-GW-SW2(config)#end
+MRT-GW-SW2#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-msds1003 with IP 10.168.20.1IOS Device: hn-001-msds1003
+no username opmantek
+hn-001-msds1003(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-msds1003(config)#end
+hn-001-msds1003#Building configuration...
+Compressed configuration from 57813 bytes to 22022 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sfccityhall with IP 10.32.15.1IOS Device: SFCCityHall
+no username opmantek
+SFCCityHall(config)#username opmantek privilege 15 secret 0 N0Data4U!
+SFCCityHall(config)#end
+SFCCityHall#Building configuration...
+Compressed configuration from 5590 bytes to 3337 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS koat-tech4-sw1 with IP 10.160.1.15IOS Device: KOAT-TECH4-SW1
+no username opmantek
+KOAT-TECH4-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KOAT-TECH4-SW1(config)#end
+KOAT-TECH4-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swav4201 with IP 10.172.3.142Connecting to IOS chi-swac01 with IP 192.168.95.17Connecting to IOS sun-fw-1-x2 with IP 10.33.2.1IOS Device: csunswitch1
+no username opmantek
+csunswitch1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+csunswitch1(config)#end
+csunswitch1#Connecting to IOS san-rafel-c2960 with IP 172.31.8.250IOS Device: San-Rafel-c2960
+no username opmantek
+San-Rafel-c2960(config)#username opmantek privilege 15 secret 0 N0Data4U!
+San-Rafel-c2960(config)#end
+San-Rafel-c2960#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS usa1025-mrt-mdf01-01-vgw02 with IP 192.168.53.254Connecting to IOS beau-1a-mgr with IP 192.168.206.23Connecting to IOS koat-tech2-sw1 with IP 10.160.1.14Connecting to IOS wgal-gw-sw1 with IP 167.173.41.10Connecting to IOS wmtw-a-voip-r1 with IP 10.138.64.51IOS Device: WMTW-A-VOIP-R1
+no username opmantek
+WMTW-A-VOIP-R1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WMTW-A-VOIP-R1(config)#end
+WMTW-A-VOIP-R1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wbal-gw-sw1 with IP 167.173.16.10IOS Device: WBAL-GW-SW1
+no username opmantek
+WBAL-GW-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WBAL-GW-SW1(config)#end
+WBAL-GW-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS csunswitch10-3 with IP 10.33.0.2IOS Device: csunswitch10-3
+no username opmantek
+csunswitch10-3(config)#username opmantek privilege 15 secret 0 N0Data4U!
+csunswitch10-3(config)#end
+csunswitch10-3#Building configuration...
+Compressed configuration from 4974 bytes to 2213 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hsc-vzpip-gw with IP 206.225.158.8IOS Device: hsc-vzpip-gw
+no username opmantek
+hsc-vzpip-gw(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hsc-vzpip-gw(config)#end
+hsc-vzpip-gw#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wbal-voip-ag4 with IP 10.135.64.55Connecting to IOS wlky-voip-ag1 with IP 10.137.64.53Connecting to IOS wlky-gw-sw1 with IP 167.173.37.10IOS Device: WLKY-GW-SW1
+no username opmantek
+WLKY-GW-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WLKY-GW-SW1(config)#end
+WLKY-GW-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swac0602 with IP 10.172.3.42IOS Device: HN-001-SWAC0602
+no username opmantek
+HN-001-SWAC0602(config)#username opmantek privilege 15 secret 0 N0Data4U!
+HN-001-SWAC0602(config)#end
+HN-001-SWAC0602#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS het-voip-agw02 with IP 10.0.252.15Connecting to IOS sfswitch1 with IP 10.118.16.1IOS Device: sfswitch1
+no username opmantek
+sfswitch1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+sfswitch1(config)#end
+sfswitch1#Connecting to IOS tuswcore1 with IP 167.166.10.1Connecting to IOS chidesk2 with IP 10.13.12.2IOS Device: CHIDESK2
+no username opmantek
+CHIDESK2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+CHIDESK2(config)#end
+CHIDESK2#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wmur-bops-sw1 with IP 10.161.14.254IOS Device: WMUR-BOps-SW1
+no username opmantek
+WMUR-BOps-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WMUR-BOps-SW1(config)#end
+WMUR-BOps-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS be-pci-sw2 with IP 10.184.16.5Connecting to IOS kmbc-new-mdf-sw2 with IP 10.141.1.7IOS Device: KMBC-NEW-MDF-SW2
+no username opmantek
+KMBC-NEW-MDF-SW2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KMBC-NEW-MDF-SW2(config)#end
+KMBC-NEW-MDF-SW2#Building configuration...
+Compressed configuration from 53487 bytes to 17101 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swac2901 with IP 10.172.2.20IOS Device: hn-001-swac2901
+no username opmantek
+hn-001-swac2901(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac2901(config)#end
+hn-001-swac2901#Building configuration...
+Compressed configuration from 80319 bytes to 22885 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wesh-inet1 with IP 167.173.29.5IOS Device: WESH-INET1
+no username opmantek
+WESH-INET1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WESH-INET1(config)#end
+WESH-INET1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wesh-voip-ag6 with IP 10.133.64.76IOS Device: WESH-VOIP-AG6
+no username opmantek
+WESH-VOIP-AG6(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WESH-VOIP-AG6(config)#end
+WESH-VOIP-AG6#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS capital2950 with IP 167.166.80.194Connecting to IOS hn-001-swac4201 with IP 10.172.3.26IOS Device: hn-001-swac4201
+no username opmantek
+hn-001-swac4201(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac4201(config)#end
+hn-001-swac4201#Building configuration...
+Compressed configuration from 140341 bytes to 31733 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS mid-tcom-rtr with IP 172.25.1.65Connecting to IOS wlky-vz-gw1 with IP 167.173.37.17IOS Device: WLKY-VZ-GW1
+no username opmantek
+WLKY-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WLKY-VZ-GW1(config)#end
+WLKY-VZ-GW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hsc28-5 with IP 172.19.10.195IOS Device: hsc28-5
+no username opmantek
+hsc28-5(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hsc28-5(config)#end
+hsc28-5#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hourrdnetsw01 with IP 130.80.192.126IOS Device: hourrdnetsw01
+no username opmantek
+hourrdnetsw01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hourrdnetsw01(config)#end
+hourrdnetsw01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hsc-hmg-uu-gw with IP 206.225.158.5IOS Device: HSC-HMG-UU-GW
+Connecting to IOS edge-s03-bmez-3548 with IP 172.18.3.133Connecting to IOS koco-voip-ag2 with IP 10.153.64.54Connecting to IOS fre-c2960-2 with IP 172.31.20.252Connecting to IOS hsc28-3750-7 with IP 172.19.10.178IOS Device: hsc28-3750-7
+no username opmantek
+hsc28-3750-7(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hsc28-3750-7(config)#end
+hsc28-3750-7#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wptzc-core-sw1 with IP 10.189.140.1Connecting to IOS sun-fw-1-x3 with IP 10.33.6.1IOS Device: csunswitch1
+no username opmantek
+csunswitch1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+csunswitch1(config)#end
+csunswitch1#Connecting to IOS wbal-voip-ag5 with IP 10.135.64.56Connecting to IOS edge-s01-m2fl-3550 with IP 172.18.3.21Connecting to IOS koat-voip-ag1 with IP 10.160.64.71Connecting to IOS wjcl-vz-gw1 with IP 167.173.48.6Connecting to IOS bridgeport-gw-sw1 with IP 167.173.204.10IOS Device: BRIDGEPORT-GW-SW1
+no username opmantek
+BRIDGEPORT-GW-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+BRIDGEPORT-GW-SW1(config)#end
+BRIDGEPORT-GW-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hsc28srv-1 with IP 172.19.10.188IOS Device: HSC28srv-1
+no username opmantek
+HSC28srv-1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+HSC28srv-1(config)#end
+HSC28srv-1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wxii-bops-sw1 with IP 10.139.14.254Connecting to IOS wtae-voip-r2 with IP 10.134.64.72Connecting to IOS hbmlossw4fl with IP 172.28.46.8Connecting to IOS hn-001-swac4001 with IP 10.172.3.25IOS Device: hn-001-swac4001
+no username opmantek
+hn-001-swac4001(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac4001(config)#end
+hn-001-swac4001#Building configuration...
+Compressed configuration from 166334 bytes to 36595 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swav4202 with IP 10.172.3.143IOS Device: hn-001-swav4202
+no username opmantek
+hn-001-swav4202(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swav4202(config)#end
+hn-001-swav4202#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sfcquarry-c2960 with IP 172.31.19.253IOS Device: SFCQuarry-C2960
+no username opmantek
+SFCQuarry-C2960(config)#username opmantek privilege 15 secret 0 N0Data4U!
+SFCQuarry-C2960(config)#end
+SFCQuarry-C2960#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wdp-gw-sw with IP 208.49.182.3Connecting to IOS hn-003-swac0502 with IP 10.174.33.4IOS Device: hn-003-swac0502
+no username opmantek
+hn-003-swac0502(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-003-swac0502(config)#end
+hn-003-swac0502#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS usa1031-mdf01-01-swz01 with IP 10.30.4.112IOS Device: USA1031-MDF01-01-SWZ01
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+USA1031-MDF01-01-SWZ(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                                ^
+% Invalid input detected at '^' marker.
+
+USA1031-MDF01-01-SWZ(config)#end
+USA1031-MDF01-01-SWZ01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS gm26925 with IP 10.121.207.6Connecting to IOS usa1025-mrt-mdf01-01-vgw01 with IP 192.168.53.253Connecting to IOS sw5-2-4b-mgr with IP 130.80.249.119IOS Device: sw5-2-4b-mgr
+no username opmantek
+sw5-2-4b-mgr(config)#username opmantek privilege 15 secret 0 N0Data4U!
+sw5-2-4b-mgr(config)#end
+sw5-2-4b-mgr#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS comproom3548-4 with IP 10.224.69.12Connecting to IOS hounepnetrtr01 with IP 130.80.255.17IOS Device: hounepnetrtr01
+no username opmantek
+hounepnetrtr01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hounepnetrtr01(config)#end
+hounepnetrtr01#Building configuration...
+Compressed configuration from 6560 bytes to 3794 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wbal-voip-r2 with IP 10.135.64.59IOS Device: wbal-voip-r2
+no username opmantek
+wbal-voip-r2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+wbal-voip-r2(config)#end
+wbal-voip-r2#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sw3-2-1a-mgr with IP 130.80.250.103IOS Device: SW3-2-1A-MGR
+no username opmantek
+SW3-2-1A-MGR(config)#username opmantek privilege 15 secret 0 N0Data4U!
+SW3-2-1A-MGR(config)#end
+SW3-2-1A-MGR#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS sfhb-inet with IP 64.71.21.190IOS Device: SFHB-inet
+no username opmantek
+SFHB-inet(config)#username opmantek privilege 15 secret 0 N0Data4U!
+SFHB-inet(config)#end
+SFHB-inet#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS koco-voip-ag1 with IP 10.153.64.53Connecting to IOS wlky-voip-ag2 with IP 10.137.64.54Connecting to IOS wmtw-w-bops-sw1 with IP 10.154.14.254IOS Device: WMTW-W-BOPS-SW1
+no username opmantek
+WMTW-W-BOPS-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WMTW-W-BOPS-SW1(config)#end
+WMTW-W-BOPS-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wyff-user-sw1 with IP 10.159.1.22IOS Device: WYFF-USER-SW1
+no username opmantek
+WYFF-USER-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WYFF-USER-SW1(config)#end
+WYFF-USER-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS clv-vz-gw with IP 152.176.10.34Connecting to IOS chivgw1 with IP 10.13.8.2IOS Device: CHIVGW1
+no username opmantek
+CHIVGW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+CHIVGW1(config)#end
+CHIVGW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS kcra-tech-sw1 with IP 10.151.1.10IOS Device: KCRA-TECH-SW1
+no username opmantek
+KCRA-TECH-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KCRA-TECH-SW1(config)#end
+KCRA-TECH-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS koco-voip-cube-r2 with IP 10.153.64.52Connecting to IOS wcvb-gw-sw1 with IP 167.173.30.10Connecting to IOS nycsw4 with IP 10.13.20.4IOS Device: NYCSW4
+no username opmantek
+NYCSW4(config)#username opmantek privilege 15 secret 0 N0Data4U!
+NYCSW4(config)#end
+NYCSW4#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swdz1002 with IP 10.172.1.13IOS Device: hn-001-swdz1002
+no username opmantek
+hn-001-swdz1002(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swdz1002(config)#end
+hn-001-swdz1002#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hc-gw02 with IP 130.80.37.17IOS Device: HC-GW02
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+HC-GW02(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                   ^
+% Invalid input detected at '^' marker.
+
+HC-GW02(config)#end
+HC-GW02#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS kcci-voip-r1-srst with IP 10.147.64.51Connecting to IOS wisn-inet1 with IP 167.173.28.5Connecting to IOS wesh-telco-sw1 with IP 10.133.1.27IOS Device: wesh-telco-sw1
+no username opmantek
+wesh-telco-sw1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+wesh-telco-sw1(config)#end
+wesh-telco-sw1#Building configuration...
+Compressed configuration from 11801 bytes to 5593 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS atu_sw1c1 with IP 167.166.10.105IOS Device: ATU_SW1c1
+no username opmantek
+ATU_SW1c1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+ATU_SW1c1(config)#end
+ATU_SW1c1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wmur-inet1 with IP 167.173.39.2IOS Device: WMUR-INET1
+no username opmantek
+WMUR-INET1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WMUR-INET1(config)#end
+WMUR-INET1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wyff-inet1 with IP 167.173.24.2IOS Device: WYFF-INET1
+no username opmantek
+WYFF-INET1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WYFF-INET1(config)#end
+WYFF-INET1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS koco-vz-gw1 with IP 167.173.20.6IOS Device: KOCO-VZ-GW1
+no username opmantek
+KOCO-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KOCO-VZ-GW1(config)#end
+KOCO-VZ-GW1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wyff-tech-sw1 with IP 10.159.1.4IOS Device: WYFF-TECH-SW1
+no username opmantek
+WYFF-TECH-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WYFF-TECH-SW1(config)#end
+WYFF-TECH-SW1#Building configuration...
+Compressed configuration from 36430 bytes to 11722 bytes[OK]
+Uncompressed configuration from 11722 bytes to 36430 bytes~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wlky-bops-sw1 with IP 10.137.14.254Connecting to IOS 30loop-mgr with IP 130.80.150.246Connecting to IOS comp-srva-mgr with IP 130.80.150.126Connecting to IOS sfcbryrtr01 with IP 10.32.9.1IOS Device: sfcbryrtr01
+no username opmantek
+sfcbryrtr01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+sfcbryrtr01(config)#end
+sfcbryrtr01#Building configuration...
+Compressed configuration from 6126 bytes to 3652 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wnb-gw-sw1 with IP 167.173.25.10IOS Device: wnb-gw-sw1
+no username opmantek
+wnb-gw-sw1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+wnb-gw-sw1(config)#end
+wnb-gw-sw1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wdsu-vz-gw1 with IP 167.173.18.73IOS Device: WDSU-VZ-GW1
+no username opmantek
+WDSU-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WDSU-VZ-GW1(config)#end
+WDSU-VZ-GW1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS edw-1a-mgr with IP 192.168.13.42IOS Device: edw-1a-mgr
+no username opmantek
+edw-1a-mgr(config)#username opmantek privilege 15 secret 0 N0Data4U!
+edw-1a-mgr(config)#end
+edw-1a-mgr#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hbmlossw4fl-e with IP 172.28.46.7Connecting to IOS atu_sw2f1 with IP 167.166.10.108IOS Device: ATU_SW2f1
+no username opmantek
+ATU_SW2f1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+ATU_SW2f1(config)#end
+ATU_SW2f1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS houogrnetsw02 with IP 130.80.196.125IOS Device: houOGRnetsw02
+no username opmantek
+houOGRnetsw02(config)#username opmantek privilege 15 secret 0 N0Data4U!
+houOGRnetsw02(config)#end
+houOGRnetsw02#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS 6-exchclus-mgr with IP 130.80.150.236Connecting to IOS gm26879 with IP 10.121.15.6Connecting to IOS ketv-voip-ag1 with IP 10.145.64.71IOS Device: KETV-VOIP-AG1
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+KETV-VOIP-AG1(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                         ^
+% Invalid input detected at '^' marker.
+
+KETV-VOIP-AG1(config)#end
+KETV-VOIP-AG1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS usa1016-1-idf03-01-vgw01 with IP 10.90.6.15Connecting to IOS wxii-techctrl-sw1 with IP 10.139.1.11Connecting to IOS usa1016-4-idf02-01-swa02 with IP 10.90.0.43Connecting to IOS atu_sw1a1 with IP 167.166.10.101Connecting to IOS usa1016-2-mdf02-01-vgw02 with IP 10.90.6.11Connecting to IOS wpbf-inet1 with IP 167.173.22.16Connecting to IOS dc_2960_tor_cab2 with IP 10.37.99.35Connecting to IOS koco-bops-sw1 with IP 10.153.14.254IOS Device: KOCO-BOps-SW1
+no username opmantek
+KOCO-BOps-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KOCO-BOps-SW1(config)#end
+KOCO-BOps-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hsc-hmg-vz-gw2 with IP 172.19.28.38IOS Device: HSC-HMG-VZ-GW2
+no username opmantek
+HSC-HMG-VZ-GW2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+HSC-HMG-VZ-GW2(config)#end
+HSC-HMG-VZ-GW2#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wisn-eng-sw1 with IP 10.142.1.20Connecting to IOS 24loop2-mgr with IP 130.80.150.74Connecting to IOS wlky-tech-sw1 with IP 10.137.1.4IOS Device: WLKY-TECH-SW1
+no username opmantek
+WLKY-TECH-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WLKY-TECH-SW1(config)#end
+WLKY-TECH-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wmor-phone-sw1 with IP 10.152.1.23Connecting to IOS ksbw1 with IP 192.168.133.60Connecting to IOS danmainetrtr01 with IP 10.228.0.1IOS Device: DANMAINETRTR01
+no username opmantek
+DANMAINETRTR01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+DANMAINETRTR01(config)#end
+DANMAINETRTR01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS gm27132 with IP 10.189.146.30Connecting to IOS khbs-vz-gw1 with IP 167.173.31.6IOS Device: khbs-vz-gw1
+no username opmantek
+khbs-vz-gw1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+khbs-vz-gw1(config)#end
+khbs-vz-gw1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS tusw1wh1 with IP 167.166.10.25Connecting to IOS hsc-htv-vz-gw1 with IP 172.19.39.36IOS Device: hsc-htv-vz-gw1
+no username opmantek
+hsc-htv-vz-gw1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hsc-htv-vz-gw1(config)#end
+hsc-htv-vz-gw1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS kcra-avid-sw1 with IP 10.151.1.25Connecting to IOS chiswitch10 with IP 10.13.12.10IOS Device: chiswitch10
+no username opmantek
+chiswitch10(config)#username opmantek privilege 15 secret 0 N0Data4U!
+chiswitch10(config)#end
+chiswitch10#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS jumpstart-vz-gw with IP 10.103.128.4IOS Device: JUMPSTART-VZ-GW
+no username opmantek
+JUMPSTART-VZ-GW(config)#username opmantek privilege 15 secret 0 N0Data4U!
+JUMPSTART-VZ-GW(config)#end
+JUMPSTART-VZ-GW#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wlwt-mgmt-sw1 with IP 10.136.1.13IOS Device: WLWT-MGMT-SW1
+no username opmantek
+WLWT-MGMT-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WLWT-MGMT-SW1(config)#end
+WLWT-MGMT-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hougrdnetrtr01 with IP 130.80.255.25IOS Device: hougrdnetrtr01
+no username opmantek
+hougrdnetrtr01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hougrdnetrtr01(config)#end
+hougrdnetrtr01#Building configuration...
+Compressed configuration from 6600 bytes to 3809 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS ksbw-voip-r1 with IP 10.149.64.51IOS Device: KSBW-VOIP-R1
+no username opmantek
+KSBW-VOIP-R1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KSBW-VOIP-R1(config)#end
+KSBW-VOIP-R1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wmtw-a-gw-sw1 with IP 167.173.42.10IOS Device: wmtw-a-gw-sw1
+no username opmantek
+wmtw-a-gw-sw1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+wmtw-a-gw-sw1(config)#end
+wmtw-a-gw-sw1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS atu_sw1d1 with IP 167.166.10.107Connecting to IOS wdsu-voip-r2 with IP 10.140.64.52IOS Device: WDSU-VOIP-R2
+no username opmantek
+WDSU-VOIP-R2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WDSU-VOIP-R2(config)#end
+WDSU-VOIP-R2#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS het-voip-gw with IP 10.0.252.11Connecting to IOS wjcl-idf-sw2 with IP 10.164.1.11IOS Device: WJCL-IDF-SW2
+no username opmantek
+WJCL-IDF-SW2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WJCL-IDF-SW2(config)#end
+WJCL-IDF-SW2#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS ketv-b-gw-sw1 with IP 167.173.49.10IOS Device: KETV-B-GW-SW1
+no username opmantek
+KETV-B-GW-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KETV-B-GW-SW1(config)#end
+KETV-B-GW-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wnne-vz-gw1 with IP 167.173.44.73IOS Device: WNNE-VZ-GW1
+no username opmantek
+WNNE-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WNNE-VZ-GW1(config)#end
+WNNE-VZ-GW1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hounepnetsw01 with IP 130.80.190.126IOS Device: hounepnetsw01
+no username opmantek
+hounepnetsw01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hounepnetsw01(config)#end
+hounepnetsw01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wisn-voip-ag2 with IP 10.142.64.72Connecting to IOS hc-vz-gw1 with IP 130.80.34.8Connecting to IOS kcci-weather-sw1 with IP 10.147.1.13IOS Device: KCCI-WEATHER-SW1
+no username opmantek
+KCCI-WEATHER-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KCCI-WEATHER-SW1(config)#end
+KCCI-WEATHER-SW1#Building configuration...
+Compressed configuration from 10826 bytes to 4940 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wgal-master-sw1 with IP 10.155.1.5Connecting to IOS chidesk4 with IP 10.13.12.4IOS Device: CHIDESK4
+no username opmantek
+CHIDESK4(config)#username opmantek privilege 15 secret 0 N0Data4U!
+CHIDESK4(config)#end
+CHIDESK4#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hsc28-6513-2 with IP 172.19.44.3IOS Device: hsc28-6513-2
+no username opmantek
+hsc28-6513-2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hsc28-6513-2(config)#end
+hsc28-6513-2#Building configuration...
+Compressed configuration from 110463 bytes to 33365 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wbal-voip-ag2 with IP 10.135.64.53Connecting to IOS wmtw-w-gw-sw1 with IP 167.173.45.10IOS Device: WMTW-W-GW-SW1
+no username opmantek
+WMTW-W-GW-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WMTW-W-GW-SW1(config)#end
+WMTW-W-GW-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hourrdnetrtr01 with IP 130.80.255.21IOS Device: hourrdnetrtr01
+no username opmantek
+hourrdnetrtr01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hourrdnetrtr01(config)#end
+hourrdnetrtr01#Building configuration...
+Compressed configuration from 6587 bytes to 3799 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS 3-1a-mgr with IP 130.80.150.30Connecting to IOS wmtw-admin-sw1 with IP 10.138.1.22IOS Device: WMTW-ADMIN-SW1
+no username opmantek
+WMTW-ADMIN-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WMTW-ADMIN-SW1(config)#end
+WMTW-ADMIN-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-mssa1001 with IP 10.172.1.7IOS Device: hn-001-mssa1001
+no username opmantek
+hn-001-mssa1001(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-mssa1001(config)#end
+hn-001-mssa1001#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS chiborder with IP 204.56.96.1IOS Device: USA1055-CHG-MDF09-01-INET01
+no username opmantek
+USA1055-CHG-MDF09-01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+USA1055-CHG-MDF09-01(config)#end
+USA1055-CHG-MDF09-01-INET01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS csunswitchten2 with IP 10.33.7.3IOS Device: csunswitchten2
+no username opmantek
+csunswitchten2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+csunswitchten2(config)#end
+csunswitchten2#Building configuration...
+Compressed configuration from 4548 bytes to 2183 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wdsu-tech2-sw1 with IP 10.140.1.23IOS Device: WDSU-TECH2-SW1
+no username opmantek
+WDSU-TECH2-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WDSU-TECH2-SW1(config)#end
+WDSU-TECH2-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS kcra-voip-ag2 with IP 10.151.64.72Connecting to IOS ksbw-eng-sw2 with IP 10.149.1.10IOS Device: KSBW-ENG-SW2
+no username opmantek
+KSBW-ENG-SW2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KSBW-ENG-SW2(config)#end
+KSBW-ENG-SW2#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS kcra-voip-ag1 with IP 10.151.64.71Connecting to IOS wlwt-vz-gw1 with IP 167.173.21.6IOS Device: WLWT-VZ-GW1
+no username opmantek
+WLWT-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WLWT-VZ-GW1(config)#end
+WLWT-VZ-GW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wmor-voip-ag1 with IP 10.152.64.51Connecting to IOS wvtm-inet1 with IP 167.173.47.5IOS Device: WVTM-INET1
+no username opmantek
+WVTM-INET1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WVTM-INET1(config)#end
+WVTM-INET1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hn-001-swacb101 with IP 10.172.2.28IOS Device: hn-001-swacb101
+no username opmantek
+hn-001-swacb101(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swacb101(config)#end
+hn-001-swacb101#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hsc-htv-hub with IP 206.225.144.30Connecting to IOS kcra-vz-gw1 with IP 167.173.27.6IOS Device: kcra-vz-gw1
+no username opmantek
+kcra-vz-gw1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+kcra-vz-gw1(config)#end
+kcra-vz-gw1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS swaa401 with IP 10.118.128.4IOS Device: SWAA401
+no username opmantek
+SWAA401(config)#username opmantek privilege 15 secret 0 N0Data4U!
+SWAA401(config)#end
+SWAA401#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hsc31-1 with IP 172.19.10.211IOS Device: hsc31-1
+no username opmantek
+hsc31-1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hsc31-1(config)#end
+hsc31-1#31-1#Connecting to IOS saturn with IP 130.80.6.2Connecting to IOS ksbw-vz-gw1 with IP 167.173.33.73IOS Device: KSBW-VZ-GW1
+no username opmantek
+KSBW-VZ-GW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KSBW-VZ-GW1(config)#end
+KSBW-VZ-GW1#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS cds-austin with IP 152.161.68.50Connecting to IOS usa1016-7-idf01-01-swa01 with IP 10.90.0.71IOS Device: USA1016-7-IDF01-01-SWA01
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+USA1016-7-IDF01-01-S(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                                ^
+% Invalid input detected at '^' marker.
+
+USA1016-7-IDF01-01-S(config)#end
+USA1016-7-IDF01-01-SWA01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wisn-voip-srst-r1 with IP 10.142.64.51Connecting to IOS wptz-harmonicmgmt-sw1 with IP 10.156.1.22Connecting to IOS usa1016-1-idf02-01-vgw01 with IP 10.90.6.14Connecting to IOS np-svv-sw1 with IP 10.163.9.97IOS Device: np-svv-sw1
+no username opmantek
+np-svv-sw1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+np-svv-sw1(config)#end
+np-svv-sw1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS hsc28-2960XR-sw1 with IP 172.19.10.250IOS Device: hsc28-2960XR-sw1
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+hsc28-2960XR-sw1(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                            ^
+% Invalid input detected at '^' marker.
+
+hsc28-2960XR-sw1(config)#end
+hsc28-2960XR-sw1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS milliman_idf-20 with IP 10.37.99.33IOS Device: Milliman_IDF-20
+no username opmantek
+Milliman_IDF-20(config)#username opmantek privilege 15 secret 0 N0Data4U!
+Milliman_IDF-20(config)#end
+Milliman_IDF-20#20#Connecting to IOS hsc33-1 with IP 172.19.10.231IOS Device: hsc33-1
+no username opmantek
+hsc33-1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hsc33-1(config)#end
+hsc33-1#Connecting to IOS srst_colchester-gw with IP 192.168.69.250IOS Device: SRST_Colchester-GW
+no username opmantek
+SRST_Colchester-GW(config)#username opmantek privilege 15 secret 0 N0Data4U!
+SRST_Colchester-GW(config)#end
+SRST_Colchester-GW#Building configuration...
+
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS ksbw-palo-sw1 with IP 10.149.1.31IOS Device: KSBW-PALO-SW1
+no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+KSBW-PALO-SW1(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                         ^
+% Invalid input detected at '^' marker.
+
+KSBW-PALO-SW1(config)#end
+KSBW-PALO-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wmtw-baldwin-sw1 with IP 10.138.142.254Connecting to IOS sm-mscr-002 with IP 10.118.32.3IOS Device: sm-mscr-002
+no username opmantek
+sm-mscr-002(config)#username opmantek privilege 15 secret 0 N0Data4U!
+sm-mscr-002(config)#end
+sm-mscr-002#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS alm-c2960-24 with IP 172.31.2.251IOS Device: alm-c2950-2
+no username opmantek
+alm-c2950-2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+alm-c2950-2(config)#end
+alm-c2950-2#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS resswitch1 with IP 10.196.63.2IOS Device: resswitch1
+no username opmantek
+resswitch1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+resswitch1(config)#end
+resswitch1#Connecting to IOS wptz-bops-sw1 with IP 10.156.14.254Connecting to I

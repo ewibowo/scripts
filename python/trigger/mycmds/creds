@@ -1,0 +1,44 @@
+In [15]: tacacsrc.get_device_password('ral')
+
+Credentials not found for device/realm 'ral', prompting...
+
+Updating credentials for device/realm 'ral'
+Username: rlaney
+Password:
+Password (again):
+Out[15]: Credentials(username='rlaney', password='ralrox22', realm='ral')
+
+In [18]: tacacsrc.get_device_password('ral')
+Out[18]: Credentials(username='rlaney', password='ralrox22', realm='ral')
+
+In [19]: tc = tacacsrc.Tacacsrc()
+
+In [20]: tc.creds
+Out[42]:
+{'fws': Credentials(username='admin', password='B!gB4ngTh30ry', realm='fws'),
+ 'het': Credentials(username='etnoc', password='circlebackaround', realm='het'),
+ 'hsc': Credentials(username='hsc', password='passtherosywine', realm='hsc'),
+ 'lab': Credentials(username='rlaney', password='ralrox', realm='lab'),
+ 'opk': Credentials(username='opmantek', password='N0Data4U!', realm='opk'),
+ 'opm': Credentials(username='opmon', password='2myAuHvE', realm='opm'),
+ 'ral': Credentials(username='rlaney', password='ralrox22', realm='ral'),
+ 'sso': Credentials(username='rlaney', password='22RalRox$', realm='sso')}
+
+In [43]: tc.data
+Out[43]:
+{('fws', 'pwd'): 'B!gB4ngTh30ry',
+ ('fws', 'uname'): 'admin',
+ ('het', 'pwd'): 'circlebackaround',
+ ('het', 'uname'): 'etnoc',
+ ('hsc', 'pwd'): 'passtherosywine',
+ ('hsc', 'uname'): 'hsc',
+ ('lab', 'pwd'): 'ralrox',
+ ('lab', 'uname'): 'rlaney',
+ ('opk', 'pwd'): 'N0Data4U!',
+ ('opk', 'uname'): 'opmantek',
+ ('opm', 'pwd'): '2myAuHvE',
+ ('opm', 'uname'): 'opmon',
+ ('ral', 'pwd'): 'ralrox22',
+ ('ral', 'uname'): 'rlaney',
+ ('sso', 'pwd'): '22RalRox$',
+ ('sso', 'uname'): 'rlaney'}

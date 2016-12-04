@@ -1,0 +1,21 @@
+from easysnmp import snmp_get, snmp_set, snmp_walk, snmp_get_next, snmp_get_bulk, snmp_set_multiple
+
+#Command 1 - Getting the value of sysName.0
+snmp_get('sysName.0', hostname = '172.16.1.2', community = 'public', version = 2)
+
+#Command 2 - Setting the value of sysName.0
+snmp_set('sysName.0', 'MyLabDev1', hostname = '172.16.1.2', community = 'public', version = 2)
+
+#Command 3 - SNMP Walk on ifDescr, using the OID value
+snmp_walk('1.3.6.1.2.1.2.2.1.2', hostname = '172.16.1.2', community = 'public', version = 2)
+
+#Command 4 - SNMP GET NEXT on several OIDs, specified as a list
+snmp_get_next(['sysDescr.0','sysName.0','sysContact','sysLocation'], hostname = '172.16.1.2', community = 'public', version = 2)
+
+#Command 5 - SNMP GET BULK on several OIDs, specified as a list
+snmp_get_bulk(['sysDescr.0','sysName.0','sysContact','sysLocation'], 1, 1, hostname = '172.16.1.2', community = 'public', version = 2)
+
+Note! "1" and "1" are the non_repeaters and max_repetitions parameters. Read more: http://easysnmp.readthedocs.org/en/latest/easy_api.html#easysnmp.snmp_get_bulk
+
+#Command 6 - SNMP SET on multiple OIDs concurrently, where each SET operation is made on a OID-Value pair specified as tuples where each tuple contains a (oid, value)
+snmp_set_multiple([('sysName.0', 'RouterR1'),('sysContact.0', '999999'),('sysLocation.0', 'North Pole')], hostname = '172.16.1.2', community = 'private', version = 2)

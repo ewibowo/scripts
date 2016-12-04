@@ -1,0 +1,10 @@
+ip access-list extended UseSSH 
+ permit tcp 10.0.0.0 0.255.255.255 any eq 22
+ permit tcp 206.225.144.0 0.0.15.255 any eq 22
+ permit tcp 167.173.0.0 0.0.255.255 any eq 22
+ permit tcp host 83.244.129.66 any eq 22
+ permit tcp 64.178.160.0 0.0.15.255 any eq 22
+ permit tcp host 31.221.41.210 any eq 22
+ permit tcp host 172.18.136.11 any eq 22
+ permit tcp 172.19.0.0 0.0.255.255 any eq 22
+ permit tcp 198.185.164.0 0.0.0.255 any eq 22

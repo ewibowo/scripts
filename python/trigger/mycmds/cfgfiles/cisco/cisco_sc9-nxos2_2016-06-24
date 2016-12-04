@@ -1,0 +1,592 @@
+
+!Command: show running-config
+!Time: Fri Jun 24 17:06:01 2016
+
+version 7.3(0)D1(1)
+power redundancy-mode redundant
+license grace-period
+
+hostname sc9-nxos2
+vdc sc9-nxos2 id 1
+  limit-resource module-type m1 m1xl m2xl f2e 
+  allocate interface Ethernet2/1-48
+  allocate interface Ethernet3/1-48
+  allocate interface Ethernet4/1-48
+  limit-resource vlan minimum 16 maximum 4094
+  limit-resource vrf minimum 2 maximum 4096
+  limit-resource port-channel minimum 0 maximum 768
+  limit-resource u4route-mem minimum 96 maximum 96
+  limit-resource u6route-mem minimum 24 maximum 24
+  limit-resource m4route-mem minimum 58 maximum 58
+  limit-resource m6route-mem minimum 8 maximum 8
+
+feature telnet
+feature ospf
+feature bgp
+
+username admin password 5 $5$iNnT0TXb$pzC.WSmWwX2Dax5GfbubsUuELEzD5rLYdB6.IWDobH2  role network-admin
+username adminbackup password 5 !  role network-operator
+username adminbackup passphrase  lifetime 99999 warntime 14 gracetime 3
+username cisco password 5 $5$QRjxBjzj$GjbzA3cN5.il/a/0PtTWYsHRDOmAQX/VxqlvubnEPl8  role network-operator
+username cisco role network-admin
+username cisco passphrase  lifetime 99999 warntime 14 gracetime 3
+username lab password 5 $5$01jqQYMX$cX7gghBHDazTWqFV/iV18HlFVtul84qQuhNJfk5Wa78  role network-admin
+username lab passphrase  lifetime 99999 warntime 14 gracetime 3
+username rlaney password 5 $5$8W7/sd2L$CEhFbemq2jQBtAr4.zA7OovtkCCL05kDV7ynvIMZbVB  role network-operator
+username rlaney role network-admin
+username rlaney passphrase  lifetime 99999 warntime 14 gracetime 3
+no password strength-check
+ip domain-lookup
+crypto key param rsa label sc9-nxos2 modulus 1024 
+vlan dot1Q tag native
+system default switchport
+system jumbomtu 0
+no logging event trunk-status enable
+copp profile strict
+snmp-server user lab network-admin auth md5 0x5ceb414591539ee35159fca86fdfa101 priv 0x5ceb414591539ee35159fca86fdfa101 localizedkey
+snmp-server user admin network-admin auth md5 0x328945d53e05e8e7207f8c20b142f0b7 priv 0x328945d53e05e8e7207f8c20b142f0b7 localizedkey
+snmp-server user cisco network-admin auth md5 0x55b3c64a53fb95518e75358ee75e82e9 priv 0x55b3c64a53fb95518e75358ee75e82e9 localizedkey
+snmp-server user cisco network-operator
+snmp-server user rlaney network-admin auth md5 0xc902011220235fc66d6ddc62dacfef88 priv 0xc902011220235fc66d6ddc62dacfef88 localizedkey
+snmp-server user rlaney network-operator
+snmp-server user admin auth md5 0x328945d53e05e8e7207f8c20b142f0b7 priv 0x328945d53e05e8e7207f8c20b142f0b7 localizedkey engineID 128:0:0:9:3:0:0:0:0:0:0
+rmon event 1 log trap public description FATAL(1) owner PMON@FATAL
+rmon event 2 log trap public description CRITICAL(2) owner PMON@CRITICAL
+rmon event 3 log trap public description ERROR(3) owner PMON@ERROR
+rmon event 4 log trap public description WARNING(4) owner PMON@WARNING
+rmon event 5 log trap public description INFORMATION(5) owner PMON@INFO
+snmp-server enable traps link
+snmp-server enable traps link cisco-xcvr-mon-status-chg
+
+vlan 1
+
+vrf context management
+  ip route 0.0.0.0/0 172.16.1.1
+hardware forwarding unicast trace
+
+
+interface mgmt0
+  description OOB Management
+  duplex full
+  vrf member management
+  ip address 172.16.1.115/24
+
+interface Ethernet2/1
+  description to sc9-gw2
+  no switchport
+  mac-address fa16.3e00.0010
+  ip address 10.0.128.5/30
+  ip router ospf 1 area 0.0.0.0
+  no shutdown
+
+interface Ethernet2/2
+  description to sc9-eos2
+  no switchport
+  mac-address fa16.3e00.0011
+  ip address 10.0.0.61/30
+  ip router ospf 1 area 0.0.0.0
+  no shutdown
+
+interface Ethernet2/3
+  description to sc9-gw1
+  no switchport
+  mac-address fa16.3e00.0012
+  ip address 10.0.128.1/30
+  ip router ospf 1 area 0.0.0.0
+  no shutdown
+
+interface Ethernet2/4
+  description to sc9-eos1
+  no switchport
+  mac-address fa16.3e00.0013
+  ip address 10.0.0.46/30
+  ip router ospf 1 area 0.0.0.0
+  no shutdown
+
+interface Ethernet2/5
+  switchport
+
+interface Ethernet2/6
+  switchport
+
+interface Ethernet2/7
+  switchport
+
+interface Ethernet2/8
+  switchport
+
+interface Ethernet2/9
+  switchport
+
+interface Ethernet2/10
+  switchport
+
+interface Ethernet2/11
+  switchport
+
+interface Ethernet2/12
+  switchport
+
+interface Ethernet2/13
+  switchport
+
+interface Ethernet2/14
+  switchport
+
+interface Ethernet2/15
+  switchport
+
+interface Ethernet2/16
+  switchport
+
+interface Ethernet2/17
+  switchport
+
+interface Ethernet2/18
+  switchport
+
+interface Ethernet2/19
+  switchport
+
+interface Ethernet2/20
+  switchport
+
+interface Ethernet2/21
+  switchport
+
+interface Ethernet2/22
+  switchport
+
+interface Ethernet2/23
+  switchport
+
+interface Ethernet2/24
+  switchport
+
+interface Ethernet2/25
+  switchport
+
+interface Ethernet2/26
+  switchport
+
+interface Ethernet2/27
+  switchport
+
+interface Ethernet2/28
+  switchport
+
+interface Ethernet2/29
+  switchport
+
+interface Ethernet2/30
+  switchport
+
+interface Ethernet2/31
+  switchport
+
+interface Ethernet2/32
+  switchport
+
+interface Ethernet2/33
+  switchport
+
+interface Ethernet2/34
+  switchport
+
+interface Ethernet2/35
+  switchport
+
+interface Ethernet2/36
+  switchport
+
+interface Ethernet2/37
+  switchport
+
+interface Ethernet2/38
+  switchport
+
+interface Ethernet2/39
+  switchport
+
+interface Ethernet2/40
+  switchport
+
+interface Ethernet2/41
+  switchport
+
+interface Ethernet2/42
+  switchport
+
+interface Ethernet2/43
+  switchport
+
+interface Ethernet2/44
+  switchport
+
+interface Ethernet2/45
+  switchport
+
+interface Ethernet2/46
+  switchport
+
+interface Ethernet2/47
+  switchport
+
+interface Ethernet2/48
+  switchport
+
+interface Ethernet3/1
+  switchport
+
+interface Ethernet3/2
+  switchport
+
+interface Ethernet3/3
+  switchport
+
+interface Ethernet3/4
+  switchport
+
+interface Ethernet3/5
+  switchport
+
+interface Ethernet3/6
+  switchport
+
+interface Ethernet3/7
+  switchport
+
+interface Ethernet3/8
+  switchport
+
+interface Ethernet3/9
+  switchport
+
+interface Ethernet3/10
+  switchport
+
+interface Ethernet3/11
+  switchport
+
+interface Ethernet3/12
+  switchport
+
+interface Ethernet3/13
+  switchport
+
+interface Ethernet3/14
+  switchport
+
+interface Ethernet3/15
+  switchport
+
+interface Ethernet3/16
+  switchport
+
+interface Ethernet3/17
+  switchport
+
+interface Ethernet3/18
+  switchport
+
+interface Ethernet3/19
+  switchport
+
+interface Ethernet3/20
+  switchport
+
+interface Ethernet3/21
+  switchport
+
+interface Ethernet3/22
+  switchport
+
+interface Ethernet3/23
+  switchport
+
+interface Ethernet3/24
+  switchport
+
+interface Ethernet3/25
+  switchport
+
+interface Ethernet3/26
+  switchport
+
+interface Ethernet3/27
+  switchport
+
+interface Ethernet3/28
+  switchport
+
+interface Ethernet3/29
+  switchport
+
+interface Ethernet3/30
+  switchport
+
+interface Ethernet3/31
+  switchport
+
+interface Ethernet3/32
+  switchport
+
+interface Ethernet3/33
+  switchport
+
+interface Ethernet3/34
+  switchport
+
+interface Ethernet3/35
+  switchport
+
+interface Ethernet3/36
+  switchport
+
+interface Ethernet3/37
+  switchport
+
+interface Ethernet3/38
+  switchport
+
+interface Ethernet3/39
+  switchport
+
+interface Ethernet3/40
+  switchport
+
+interface Ethernet3/41
+  switchport
+
+interface Ethernet3/42
+  switchport
+
+interface Ethernet3/43
+  switchport
+
+interface Ethernet3/44
+  switchport
+
+interface Ethernet3/45
+  switchport
+
+interface Ethernet3/46
+  switchport
+
+interface Ethernet3/47
+  switchport
+
+interface Ethernet3/48
+  switchport
+
+interface Ethernet4/1
+  switchport
+
+interface Ethernet4/2
+  switchport
+
+interface Ethernet4/3
+  switchport
+
+interface Ethernet4/4
+  switchport
+
+interface Ethernet4/5
+  switchport
+
+interface Ethernet4/6
+  switchport
+
+interface Ethernet4/7
+  switchport
+
+interface Ethernet4/8
+  switchport
+
+interface Ethernet4/9
+  switchport
+
+interface Ethernet4/10
+  switchport
+
+interface Ethernet4/11
+  switchport
+
+interface Ethernet4/12
+  switchport
+
+interface Ethernet4/13
+  switchport
+
+interface Ethernet4/14
+  switchport
+
+interface Ethernet4/15
+  switchport
+
+interface Ethernet4/16
+  switchport
+
+interface Ethernet4/17
+  switchport
+
+interface Ethernet4/18
+  switchport
+
+interface Ethernet4/19
+  switchport
+
+interface Ethernet4/20
+  switchport
+
+interface Ethernet4/21
+  switchport
+
+interface Ethernet4/22
+  switchport
+
+interface Ethernet4/23
+  switchport
+
+interface Ethernet4/24
+  switchport
+
+interface Ethernet4/25
+  switchport
+
+interface Ethernet4/26
+  switchport
+
+interface Ethernet4/27
+  switchport
+
+interface Ethernet4/28
+  switchport
+
+interface Ethernet4/29
+  switchport
+
+interface Ethernet4/30
+  switchport
+
+interface Ethernet4/31
+  switchport
+
+interface Ethernet4/32
+  switchport
+
+interface Ethernet4/33
+  switchport
+
+interface Ethernet4/34
+  switchport
+
+interface Ethernet4/35
+  switchport
+
+interface Ethernet4/36
+  switchport
+
+interface Ethernet4/37
+  switchport
+
+interface Ethernet4/38
+  switchport
+
+interface Ethernet4/39
+  switchport
+
+interface Ethernet4/40
+  switchport
+
+interface Ethernet4/41
+  switchport
+
+interface Ethernet4/42
+  switchport
+
+interface Ethernet4/43
+  switchport
+
+interface Ethernet4/44
+  switchport
+
+interface Ethernet4/45
+  switchport
+
+interface Ethernet4/46
+  switchport
+
+interface Ethernet4/47
+  switchport
+
+interface Ethernet4/48
+  switchport
+
+interface loopback0
+  description Loopback
+  ip address 192.168.0.14/32
+  ip router ospf 1 area 0.0.0.0
+line console
+line vty
+boot kickstart bootflash:/titanium-d1-kickstart.7.3.0.D1.1.bin
+boot system bootflash:/titanium-d1.7.3.0.D1.1.bin 
+router ospf 1
+  router-id 192.168.0.14
+router bgp 1
+  router-id 192.168.0.14
+  address-family ipv4 unicast
+    network 192.168.0.14/32
+  neighbor 192.168.0.3 remote-as 1
+    description iBGP peer dc4-nxos1
+    update-source loopback0
+    address-family ipv4 unicast
+  neighbor 192.168.0.4 remote-as 1
+    description iBGP peer dc4-gw1
+    update-source loopback0
+    address-family ipv4 unicast
+  neighbor 192.168.0.5 remote-as 1
+    description iBGP peer dc4-edge
+    update-source loopback0
+    address-family ipv4 unicast
+  neighbor 192.168.0.7 remote-as 1
+    description iBGP peer sc9-edge
+    update-source loopback0
+    address-family ipv4 unicast
+  neighbor 192.168.0.8 remote-as 1
+    description iBGP peer dc4-nxos2
+    update-source loopback0
+    address-family ipv4 unicast
+  neighbor 192.168.0.9 remote-as 1
+    description iBGP peer dc4-gw2
+    update-source loopback0
+    address-family ipv4 unicast
+  neighbor 192.168.0.11 remote-as 1
+    description iBGP peer dc4-backhaul
+    update-source loopback0
+    address-family ipv4 unicast
+  neighbor 192.168.0.13 remote-as 1
+    description iBGP peer sc9-nxos1
+    update-source loopback0
+    address-family ipv4 unicast
+  neighbor 192.168.0.16 remote-as 1
+    description iBGP peer sc9-gw1
+    update-source loopback0
+    address-family ipv4 unicast
+  neighbor 192.168.0.17 remote-as 1
+    description iBGP peer sc9-gw2
+    update-source loopback0
+    address-family ipv4 unicast
+  neighbor 192.168.0.18 remote-as 1
+    description iBGP peer sc9-backhaul
+    update-source loopback0
+    address-family ipv4 unicast
+  neighbor 192.168.0.19 remote-as 1
+    description iBGP peer internet1
+    update-source loopback0
+    address-family ipv4 unicast
+  neighbor 192.168.0.20 remote-as 1
+    description iBGP peer internet2
+    update-source loopback0
+    address-family ipv4 unicast
+

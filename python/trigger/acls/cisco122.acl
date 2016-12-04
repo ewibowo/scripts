@@ -1,0 +1,8 @@
+access-list 122 permit tcp 206.225.144.0 0.0.15.255 any eq 22
+access-list 122 permit tcp 167.173.0.0 0.0.255.255 any eq 22
+access-list 122 permit tcp 172.19.0.0 0.0.255.255 any eq 22
+access-list 122 permit tcp 172.16.0.0 0.0.255.255 any eq 22
+access-list 122 permit tcp 100.0.0.0 0.255.255.255 any eq 22
+access-list 122 permit tcp 10.0.0.0 0.255.255.255 any eq 22
+access-list 122 permit tcp 192.168.0.0 0.0.255.255 any eq 22
+access-list 122 deny tcp any any eq 22

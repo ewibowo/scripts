@@ -1,0 +1,204 @@
+
+class Platform(models.Model):
+    name = models.CharField(max_length=50, unique=True)
+    slug = models.SlugField(unique=True)
+    rpc_client = models.CharField(max_length=30, choices=RPC_CLIENT_CHOICES, blank=True, verbose_name='RPC client')
+    net_device_os = models.CharField(max_length=30, choices=NETWORK_DEVICE_OS, blank=True,
+                                     verbose_name="Network Device OS",
+                                     help_text="This field is used for network automation")
+
+
+class DeviceType(models.Model):
+    manufacturer = models.ForeignKey('Manufacturer', related_name='device_types', on_delete=models.PROTECT)
+    model = models.CharField(max_length=50)
+    slug = models.SlugField()
+    u_height = models.PositiveSmallIntegerField(verbose_name='Height (U)', default=1)
+    is_full_depth = models.BooleanField(default=True, verbose_name="Is full depth",
+                                        help_text="Device consumes both front and rear rack faces")
+    is_console_server = models.BooleanField(default=False, verbose_name='Is a console server',
+                                            help_text="This type of device has console server ports")
+    is_pdu = models.BooleanField(default=False, verbose_name='Is a PDU',
+                                 help_text="This type of device has power outlets")
+    is_network_device = models.BooleanField(default=True, verbose_name='Is a network device',
+                                            help_text="This type of device has network interfaces")
+    net_device_type = models.CharField(max_length=30, default=None, choices=NETWORK_DEVICE_TYPES, verbose_name="Network Device Type",
+                                       help_text="This field is used for network automation")
+    net_device_vendor = models.CharField(max_length=30, default=None, choices=NETWORK_DEVICE_VENDORS, verbose_name="Network Device Vendor",
+                                       help_text="Used for network automation and typically identical to manufacturer")
+    subdevice_role = models.NullBooleanField(default=None, verbose_name='Parent/child status',
+                                             choices=SUBDEVICE_ROLE_CHOICES,
+                                             help_text="Parent devices house child devices in device bays. Select "
+                                                       "\"None\" if this device type is neither a parent nor a child.")
+
+
+class Site(CreatedUpdatedModel):
+    name = models.CharField(max_length=50, unique=True)
+    business_unit = models.ForeignKey('BusinessUnit', related_name='sites', blank=True, null=True, on_delete=models.SET_NULL)
+    site_type = models.CharField(max_length=10, blank=False, default='HUB', choices=SITE_TYPE)
+    slug = models.SlugField(unique=True)
+    facility = models.CharField(max_length=50, blank=True)
+    asn = models.PositiveIntegerField(blank=True, null=True, verbose_name='ASN')
+    physical_address = models.CharField(max_length=200, blank=True)
+    shipping_address = models.CharField(max_length=200, blank=True)
+    poc_name = models.CharField(max_length=50, blank=True, null=True, verbose_name='Primary POC')
+    poc_phone = models.CharField(max_length=50, blank=True, null=True, verbose_name='Pri. POC Phone')
+    poc_cell = models.CharField(max_length=50, blank=True, null=True, verbose_name='Pri. POC Cell')
+    poc_email = models.EmailField(blank=True, null=True, verbose_name='Pri. POC Email')
+    spoc_name = models.CharField(max_length=50, blank=True, null=True, verbose_name='Secondary POC')
+    spoc_phone = models.CharField(max_length=50, blank=True, null=True, verbose_name='Sec. POC Phone')
+    spoc_cell = models.CharField(max_length=50, blank=True, null=True, verbose_name='Sec. POC Cell')
+    spoc_email = models.EmailField(blank=True, null=True, verbose_name='Sec. POC Email')
+    comments = models.TextField(blank=True)
+
+    @property
+    def count_prefixes(self):
+        return self.prefixes.count()
+
+    @property
+    def count_vlans(self):
+        return self.vlans.count()
+
+    @property
+    def count_racks(self):
+        return Rack.objects.filter(site=self).count()
+
+    @property
+    def count_devices(self):
+        return Device.objects.filter(rack__site=self).count()
+
+    @property
+    def count_circuits(self):
+        return self.circuits.count()
+
+
+class BusinessUnit(CreatedUpdatedModel):
+    name = models.CharField(max_length=30, blank=True, null=True, choices=BUSINESS_UNIT)
+    slug = models.SlugField(unique=True)
+    managers = models.TextField(blank=True)
+    comments = models.TextField(blank=True)
+
+    @property
+    def sites_owned(self):
+        return Site.objects.filter(business_unit=self)
+
+    @property
+    def count_sites(self):
+        return Site.objects.filter(business_unit=self).count()
+
+    @property
+    def count_circuits(self):
+        return Site.objects.filter(business_unit=self).circuits.count()
+
+    @property
+    def count_devices(self):
+        return Device.objects.filter(rack__site.business_unit(self)).count()
+
+
+HET = 'het'
+HTV = 'htv'
+HNP = 'hnp'
+HBM = 'hbm'
+HSC = 'hsc'
+HMD = 'hmd'
+HMI = 'hmi'
+HCD = 'hcd'
+CDS = 'cds'
+UND = 'und'
+BUSINESS_UNIT = [
+    [HET, 'Hearst Enterprise Technology'],
+    [HTV, 'Hearst Television'],
+    [HNP, 'Hearst Newspapers'],
+    [HBM, 'Hearst Business Media'],
+    [HSC, 'Hearst Service Center'],
+    [HMD, 'Hearst Magazines Division'],
+    [HMI, 'Hearst Magazines International'],
+    [HCD, 'Hearst Corporate Division'],
+    [CDS, 'CDS Global'],
+    [UND, 'Undefined'],
+]
+
+HUB = 'hub'
+REMOTE = 'remote'
+DC = 'dc'
+SITE_TYPE = [
+    [HUB, 'Hub Site'],
+    [REMOTE, 'Remote Site'],
+    [DC, 'DataCenter'],
+]
+
+A10 = 'a10'
+ARISTA = 'arista'
+ARUBA = 'aruba'
+AVOCENT = 'avocent'
+BROCADE = 'brocade'
+CISCO = 'cisco'
+CITRIX = 'citrix'
+DELL = 'dell'
+F5 = 'f5'
+FORCE10 = 'force10'
+FOUNDRY = 'foundry'
+JUNIPER = 'juniper'
+MRV = 'mrv'
+NETSCREEN = 'netscreen'
+PALOALTO = 'paloalto'
+PICA8 = 'pica8'
+NETWORK_DEVICE_VENDORS = [
+    [A10, 'A10'],
+    [ARISTA, 'Arista'],
+    [ARUBA, 'Aruba'],
+    [AVOCENT, 'Avocent'],
+    [BROCADE, 'Brocade'],
+    [CISCO, 'Cisco'],
+    [CITRIX, 'Citrix'],
+    [DELL, 'Dell'],
+    [F5, 'F5'],
+    [FORCE10, 'Force10'],
+    [FOUNDRY, 'Foundry'],
+    [JUNIPER, 'Juniper'],
+    [MRV, 'mrv'],
+    [NETSCREEN, 'NetScreen'],
+    [PALOALTO, 'PaloAlto'],
+    [PICA8, 'Pica8'],
+    [None, 'None'],
+]
+
+CONSOLE = 'console'
+DWDM = 'dwdm'
+FIREWALL = 'firewall'
+LOAD_BALANCER = 'load_balancer'
+ROUTER = 'router'
+SWITCH = 'switch'
+OTHER = 'other'
+NETWORK_DEVICE_TYPES = [
+    [CONSOLE, 'Console'],
+    [DWDM, 'Optical DWDM'],
+    [FIREWALL, 'Firewall'],
+    [LOAD_BALANCER, 'Load Balancer'],
+    [ROUTER, 'Router'],
+    [SWITCH, 'Switch'],
+    [OTHER, 'Other'],
+    [None, 'None'],
+]
+
+IOS = 'ios'
+NXOS = 'nxos'
+IOSXE = 'iosxe'
+IOSXR = 'iosxr'
+EOS = 'eos'
+PANOS = 'panos'
+JUNOS = 'junos'
+FORCE10 = 'force10'
+COMWARE = 'comware'
+NETWORK_DEVICE_OS = [
+    [IOS, 'Cisco IOS'],
+    [NXOS, 'Nexus NX-OS'],
+    [IOSXE, 'Cisco IOS-XE'],
+    [IOSXR, 'Cisco IOS-XR'],
+    [EOS, 'Arista EOS'],
+    [PANOS, 'PaloAlto PANOS'],
+    [JUNOS, 'Juniper JUNOS'],
+    [FORCE10, 'Dell Force10'],
+    [COMWARE, 'HP Comware'],
+    [None, 'None'],
+
+

@@ -1,0 +1,6 @@
+172.16.1.2,cisco,up,router
+172.16.1.3,juniper,up,router
+172.16.1.4,arista,up,switch
+172.16.1.7,netscreen,up,firewall
+172.16.1.100,cisco,up,router
+172.16.1.101,cisco,up,router

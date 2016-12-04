@@ -1,0 +1,8 @@
+IOS Device: sc8-sat2
+snmp-server community 0d71d56ae6 RW
+sc8-sat2(config)#snmp-server host 172.16.1.5 0d71d56ae6
+sc8-sat2(config)#end
+sc8-sat2#Building configuration...
+
+  [OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

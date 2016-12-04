@@ -1,0 +1,86 @@
+#!/Users/rlaney/.virtualenvs/NetEngineerONE/bin/python
+
+# Credentials(username='rlaney', password='ralrox', realm='sso')
+import pprint
+from trigger.cmds import Commando
+from trigger.netdevices import NetDevices
+
+pp = pprint.PrettyPrinter(indent=4)
+nd = NetDevices()
+devices = nd.match(deviceTags='neteng1')
+devs = sorted(devices)
+#devs = [x for x in nd.all() if 'neteng1' in getattr(x, 'deviceTags')]
+newdevs = []
+
+for dev in devs:
+    if dev.is_reachable():
+        newdevs.append(dev)
+    else:
+        print 'Sorry.. %s, was unreachable.' % format(dev)
+
+cmd = Commando(newdevs, commands=[
+    'show ip int brief',
+    'show ip route',
+])
+cmd.run()
+output = cmd.results
+pretty = pp.print(output)
+
+with open('cmd_out.txt', 'w+') as f:
+    f.write(pretty)
+
+
+
+#devsDC4 = [x for x in nd.all() if 'DC4' in getattr(x, 'site')]
+#
+#devsSC9 = [x for x in nd.all() if 'SC9' in getattr(x, 'site')]
+#
+#print devsDC4
+#[<NetDevice: dc4-edge>, <NetDevice: dc4-backhaul>, <NetDevice: dc4-sw1>, <NetDevice: dc4-nxos2>, <NetDevice: dc4-nxos1>, <NetDevice: dc4-gw2>, <NetDevice: dc4-gw1>, <NetDevice: dc4-eos2>, <NetDevice: dc4-eos1>]
+#
+#print devsSC9
+#[<NetDevice: sc9-nxos2>, <NetDevice: sc9-gw2>, <NetDevice: sc9-eos1>, <NetDevice: sc9-eos2>, <NetDevice: sc9-gw1>, <NetDevice: sc9-nxos1>, <NetDevice: sc9-sw1>, <NetDevice: sc9-edge>, <NetDevice: sc9-backhaul>]
+#
+#for dev in devsDC4:
+#    if dev.is_reachable():
+#        print dev
+#
+#dc4-edge
+#dc4-backhaul
+#dc4-sw1
+#dc4-nxos2
+#dc4-nxos1
+#dc4-gw2
+#dc4-gw1
+#dc4-eos2
+#dc4-eos1
+#
+#for dev in devsSC9:
+#    if dev.is_reachable():
+#        print dev
+#
+#sc9-gw2
+#sc9-eos1
+#sc9-eos2
+#sc9-gw1
+#sc9-nxos1
+#sc9-sw1
+#sc9-edge
+#sc9-backhaul
+#def main():
+#    """A simple syntax check and dump of all we see and know!"""
+#    print 'Syntax ok.'
+#    if len(sys.argv) > 1:
+#        from trigger.netdevices import NetDevices
+#        nd = NetDevices()
+#        names = sorted(nd)
+#        for name in names:
+#            dev = nd[name]
+#            if dev.deviceType not in ('ROUTER', 'SWITCH'):
+#                continue
+#            acls = sorted(dev.acls)
+#            print '%-39s %s' % (name, ' '.join(acls))
+#
+#if __name__ == '__main__':
+#    main()
+

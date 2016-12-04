@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Dummy version of netdevices.xml -->
+<NetDevices>
+   <device nodeName="172.16.1.2">
+      <adminStatus>PRODUCTION</adminStatus>
+      <assetID>0000012345</assetID>
+      <authMethod>tacacs</authMethod>
+      <barcode>0101010101</barcode>
+      <budgetCode>1234578</budgetCode>
+      <budgetName>Data Center</budgetName>
+      <coordinate>1234</coordinate>
+      <deviceType>ROUTER</deviceType>
+      <enablePW>somepassword</enablePW>
+      <lastUpdate>2016-04-01 18:01:02.0</lastUpdate>
+      <layer2>1</layer2>
+      <layer3>1</layer3>
+      <layer4>1</layer4>
+      <lifecycleStatus>INSTALLED</lifecycleStatus>
+      <loginPW></loginPW>
+      <make>Cisco 801 BACKBONE ROUTER</make>
+      <manufacturer>CISCO</manufacturer>
+      <model>801</model>
+      <nodeName>172.16.1.2</nodeName>
+      <onCallEmail>nobody@nowhere.net</onCallEmail>
+      <onCallID>17</onCallID>
+      <onCallName>Data Center</onCallName>
+      <owningTeam>Data Center</owningTeam>
+      <OOBTerminalServerConnector>C</OOBTerminalServerConnector>
+      <OOBTerminalServerFQDN>mylab.mihai.com</OOBTerminalServerFQDN>
+      <OOBTerminalServerNodeName>ts1</OOBTerminalServerNodeName>
+      <OOBTerminalServerPort>5</OOBTerminalServerPort>
+      <OOBTerminalServerTCPPort>5005</OOBTerminalServerTCPPort>
+      <operationStatus>MONITORED</operationStatus>
+      <owner>Cisco Network Dept.</owner>
+      <projectName>Test Lab</projectName>
+      <room>ROOM123</room>
+      <serialNumber>987654321</serialNumber>
+      <site>LAB</site>
+   </device>
+   <device nodeName="172.16.1.3">
+      <adminStatus>PRODUCTION</adminStatus>
+      <assetID>0000012346</assetID>
+      <authMethod>tacacs</authMethod>
+      <barcode>0101010102</barcode>
+      <budgetCode>1234578</budgetCode>
+      <budgetName>Data Center</budgetName>
+      <coordinate>1234</coordinate>
+      <deviceType>ROUTER</deviceType>
+      <enablePW>somepassword</enablePW>
+      <lastUpdate>2016-04-01 18:01:02.0</lastUpdate>
+      <layer2>1</layer2>
+      <layer3>1</layer3>
+      <layer4>1</layer4>
+      <lifecycleStatus>INSTALLED</lifecycleStatus>
+      <loginPW></loginPW>
+      <make>JUNIPER INTERNET BACKBONE ROUTER</make>
+      <manufacturer>JUNIPER</manufacturer>
+      <model>SRX100</model>
+      <nodeName>172.16.1.3</nodeName>
+      <onCallEmail>nobody@nowhere.net</onCallEmail>
+      <onCallID>17</onCallID>
+      <onCallName>Data Center</onCallName>
+      <owningTeam>Data Center</owningTeam>
+      <OOBTerminalServerConnector>C</OOBTerminalServerConnector>
+      <OOBTerminalServerFQDN>mylab.mihai.com</OOBTerminalServerFQDN>
+      <OOBTerminalServerNodeName>ts1</OOBTerminalServerNodeName>
+      <OOBTerminalServerPort>6</OOBTerminalServerPort>
+      <OOBTerminalServerTCPPort>5006</OOBTerminalServerTCPPort>
+      <operationStatus>MONITORED</operationStatus>
+      <owner>Juniper JunOS Network Dept.</owner>
+      <projectName>Test Lab</projectName>
+      <room>ROOM123</room>
+      <serialNumber>987654322</serialNumber>
+      <site>LAB</site>
+   </device>
+   <device nodeName="172.16.1.4">
+      <adminStatus>PRODUCTION</adminStatus>
+      <assetID>898989898989</assetID>
+      <authMethod>tacacs</authMethod>
+      <barcode>290340233</barcode>
+      <budgetCode>77748230423</budgetCode>
+      <budgetName>abcd1234</budgetName>
+      <coordinate>1234</coordinate>
+      <deviceType>SWITCH</deviceType>
+      <lastUpdate>2016-04-01 18:01:02.0</lastUpdate>
+      <lifecycleStatus>INSTALLED</lifecycleStatus>
+      <make>ARISTA EOS SERIES</make>
+      <manufacturer>ARISTA</manufacturer>
+      <model>vEOS</model>
+      <nodeName>172.16.1.4</nodeName>
+      <onCallEmail>nobody@nowhere.net</onCallEmail>
+      <onCallID>293042</onCallID>
+      <onCallName>Data Center</onCallName>
+      <OOBTerminalServerConnector></OOBTerminalServerConnector>
+      <OOBTerminalServerFQDN></OOBTerminalServerFQDN>
+      <OOBTerminalServerNodeName></OOBTerminalServerNodeName>
+      <OOBTerminalServerPort></OOBTerminalServerPort>
+      <OOBTerminalServerTCPPort></OOBTerminalServerTCPPort>
+      <operationStatus>MONITORED</operationStatus>
+      <owner>Arista Network Dept.</owner>
+      <owningTeam>Data Center</owningTeam>
+      <projectID>112233</projectID>
+      <projectName>ProjectUdemy</projectName>
+      <room>ROOM123</room>
+      <serialNumber>4234253534</serialNumber>
+      <site>LAB</site>
+   </device>
+   <device nodeName="172.16.1.7">
+      <adminStatus>PRODUCTION</adminStatus>
+      <assetID>0000012345</assetID>
+      <authMethod>tacacs</authMethod>
+      <barcode>0101010101</barcode>
+      <budgetCode>1234578</budgetCode>
+      <budgetName>Data Center</budgetName>
+      <coordinate>1234</coordinate>
+      <deviceType>FIREWALL</deviceType>
+      <enablePW>somepassword</enablePW>
+      <lastUpdate>2016-04-01 18:01:02.0</lastUpdate>
+      <layer2>1</layer2>
+      <layer3>1</layer3>
+      <layer4>1</layer4>
+      <lifecycleStatus>INSTALLED</lifecycleStatus>
+      <loginPW></loginPW>
+      <make>AAABBBCCC</make>
+      <manufacturer>NETSCREEN</manufacturer>
+      <model>5GT</model>
+      <nodeName>172.16.1.7</nodeName>
+      <onCallEmail>nobody@nowhere.net</onCallEmail>
+      <onCallID>17</onCallID>
+      <onCallName>Data Center</onCallName>
+      <owningTeam>Data Center</owningTeam>
+      <OOBTerminalServerConnector>C</OOBTerminalServerConnector>
+      <OOBTerminalServerFQDN>mylab.mihai.com</OOBTerminalServerFQDN>
+      <OOBTerminalServerNodeName>ts1</OOBTerminalServerNodeName>
+      <OOBTerminalServerPort>5</OOBTerminalServerPort>
+      <OOBTerminalServerTCPPort>5005</OOBTerminalServerTCPPort>
+      <operationStatus>MONITORED</operationStatus>
+      <owner>Juniper ScreenOS Network Dept.</owner>
+      <projectName>Test Lab</projectName>
+      <room>ROOM123</room>
+      <serialNumber>2312312312</serialNumber>
+      <site>LAB</site>
+   </device>
+   <device nodeName="172.16.1.100">
+      <adminStatus>PRODUCTION</adminStatus>
+      <assetID>00000124444</assetID>
+      <authMethod>tacacs</authMethod>
+      <barcode>0101010101</barcode>
+      <budgetCode>1234578</budgetCode>
+      <budgetName>Data Center</budgetName>
+      <coordinate>1234</coordinate>
+      <deviceType>ROUTER</deviceType>
+      <enablePW>somepassword</enablePW>
+      <lastUpdate>2016-04-01 18:01:02.0</lastUpdate>
+      <layer2>1</layer2>
+      <layer3>1</layer3>
+      <layer4>1</layer4>
+      <lifecycleStatus>INSTALLED</lifecycleStatus>
+      <loginPW></loginPW>
+      <make>Cisco 2691 BACKBONE ROUTER</make>
+      <manufacturer>CISCO</manufacturer>
+      <model>2691</model>
+      <nodeName>172.16.1.100</nodeName>
+      <onCallEmail>nobody@nowhere.net</onCallEmail>
+      <onCallID>17</onCallID>
+      <onCallName>Data Center</onCallName>
+      <owningTeam>Data Center</owningTeam>
+      <OOBTerminalServerConnector>C</OOBTerminalServerConnector>
+      <OOBTerminalServerFQDN>mylab.mihai.com</OOBTerminalServerFQDN>
+      <OOBTerminalServerNodeName>ts1</OOBTerminalServerNodeName>
+      <OOBTerminalServerPort>5</OOBTerminalServerPort>
+      <OOBTerminalServerTCPPort>5005</OOBTerminalServerTCPPort>
+      <operationStatus>MONITORED</operationStatus>
+      <owner>Cisco Network Dept.</owner>
+      <projectName>Test Lab</projectName>
+      <room>ROOM123</room>
+      <serialNumber>987654321</serialNumber>
+      <site>LAB</site>
+   </device>
+   <device nodeName="172.16.1.101">
+      <adminStatus>PRODUCTION</adminStatus>
+      <assetID>00000124454</assetID>
+      <authMethod>tacacs</authMethod>
+      <barcode>0101010101</barcode>
+      <budgetCode>1234578</budgetCode>
+      <budgetName>Data Center</budgetName>
+      <coordinate>1234</coordinate>
+      <deviceType>ROUTER</deviceType>
+      <enablePW>somepassword</enablePW>
+      <lastUpdate>2016-04-01 18:01:02.0</lastUpdate>
+      <layer2>1</layer2>
+      <layer3>1</layer3>
+      <layer4>1</layer4>
+      <lifecycleStatus>INSTALLED</lifecycleStatus>
+      <loginPW></loginPW>
+      <make>Cisco 2600 BACKBONE ROUTER</make>
+      <manufacturer>CISCO</manufacturer>
+      <model>2600</model>
+      <nodeName>172.16.1.101</nodeName>
+      <onCallEmail>nobody@nowhere.net</onCallEmail>
+      <onCallID>17</onCallID>
+      <onCallName>Data Center</onCallName>
+      <owningTeam>Data Center</owningTeam>
+      <OOBTerminalServerConnector>C</OOBTerminalServerConnector>
+      <OOBTerminalServerFQDN>mylab.mihai.com</OOBTerminalServerFQDN>
+      <OOBTerminalServerNodeName>ts1</OOBTerminalServerNodeName>
+      <OOBTerminalServerPort>5</OOBTerminalServerPort>
+      <OOBTerminalServerTCPPort>5005</OOBTerminalServerTCPPort>
+      <operationStatus>MONITORED</operationStatus>
+      <owner>Cisco Network Dept.</owner>
+      <projectName>Test Lab</projectName>
+      <room>ROOM123</room>
+      <serialNumber>987654321</serialNumber>
+      <site>LAB</site>
+   </device>
+   <device nodeName="172.16.1.9">
+      <adminStatus>PRODUCTION</adminStatus>
+      <assetID>00000124454</assetID>
+      <authMethod>tacacs</authMethod>
+      <barcode>0101010101</barcode>
+      <budgetCode>1234578</budgetCode>
+      <budgetName>Data Center</budgetName>
+      <coordinate>1234</coordinate>
+      <deviceType>ROUTER</deviceType>
+      <enablePW>somepassword</enablePW>
+      <lastUpdate>2016-04-01 18:01:02.0</lastUpdate>
+      <layer2>1</layer2>
+      <layer3>1</layer3>
+      <layer4>1</layer4>
+      <lifecycleStatus>INSTALLED</lifecycleStatus>
+      <loginPW></loginPW>
+      <make>Cisco IOS XE ROUTER</make>
+      <manufacturer>CISCO</manufacturer>
+      <model>2600</model>
+      <nodeName>172.16.1.9</nodeName>
+      <onCallEmail>nobody@nowhere.net</onCallEmail>
+      <onCallID>17</onCallID>
+      <onCallName>Data Center</onCallName>
+      <owningTeam>Data Center</owningTeam>
+      <OOBTerminalServerConnector>C</OOBTerminalServerConnector>
+      <OOBTerminalServerFQDN>mylab.mihai.com</OOBTerminalServerFQDN>
+      <OOBTerminalServerNodeName>ts1</OOBTerminalServerNodeName>
+      <OOBTerminalServerPort>5</OOBTerminalServerPort>
+      <OOBTerminalServerTCPPort>5005</OOBTerminalServerTCPPort>
+      <operationStatus>MONITORED</operationStatus>
+      <owner>Cisco Network Dept.</owner>
+      <projectName>Test Lab</projectName>
+      <room>ROOM123</room>
+      <serialNumber>987654321</serialNumber>
+      <site>LAB</site>
+   </device>
+   <device nodeName="172.16.1.8">
+      <adminStatus>PRODUCTION</adminStatus>
+      <assetID>00000124454</assetID>
+      <authMethod>tacacs</authMethod>
+      <barcode>0101010101</barcode>
+      <budgetCode>1234578</budgetCode>
+      <budgetName>Data Center</budgetName>
+      <coordinate>1234</coordinate>
+      <deviceType>ROUTER</deviceType>
+      <enablePW>somepassword</enablePW>
+      <lastUpdate>2016-04-01 18:01:02.0</lastUpdate>
+      <layer2>1</layer2>
+      <layer3>1</layer3>
+      <layer4>1</layer4>
+      <lifecycleStatus>INSTALLED</lifecycleStatus>
+      <loginPW></loginPW>
+      <make>Cisco IOS XR ROUTER</make>
+      <manufacturer>CISCO</manufacturer>
+      <model>2600</model>
+      <nodeName>172.16.1.8</nodeName>
+      <onCallEmail>nobody@nowhere.net</onCallEmail>
+      <onCallID>17</onCallID>
+      <onCallName>Data Center</onCallName>
+      <owningTeam>Data Center</owningTeam>
+      <OOBTerminalServerConnector>C</OOBTerminalServerConnector>
+      <OOBTerminalServerFQDN>mylab.mihai.com</OOBTerminalServerFQDN>
+      <OOBTerminalServerNodeName>ts1</OOBTerminalServerNodeName>
+      <OOBTerminalServerPort>5</OOBTerminalServerPort>
+      <OOBTerminalServerTCPPort>5005</OOBTerminalServerTCPPort>
+      <operationStatus>MONITORED</operationStatus>
+      <owner>Cisco Network Dept.</owner>
+      <projectName>Test Lab</projectName>
+      <room>ROOM123</room>
+      <serialNumber>987654321</serialNumber>
+      <site>LAB</site>
+   </device>
+</NetDevices>

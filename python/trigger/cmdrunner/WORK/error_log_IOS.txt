@@ -1,0 +1,489 @@
+Failed on IP: 10.133.14.254 
+Error: Authentication failure: unable to connect cisco_ios 10.133.14.254:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.133.64.72 
+Error: Connection to device timed-out: cisco_ios 10.133.64.72:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.134.1.34 
+Error: Authentication failure: unable to connect cisco_ios 10.134.1.34:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.134.64.51 
+Error: Authentication failure: unable to connect cisco_ios 10.134.64.51:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.134.64.71 
+Error: Connection to device timed-out: cisco_ios 10.134.64.71:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.134.64.72 
+Error: Authentication failure: unable to connect cisco_ios 10.134.64.72:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.135.64.53 
+Error: Connection to device timed-out: cisco_ios 10.135.64.53:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.135.64.54 
+Error: Connection to device timed-out: cisco_ios 10.135.64.54:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.135.64.55 
+Error: Connection to device timed-out: cisco_ios 10.135.64.55:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.135.64.56 
+Error: Connection to device timed-out: cisco_ios 10.135.64.56:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.135.64.57 
+Error: Connection to device timed-out: cisco_ios 10.135.64.57:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.135.64.58 
+Error: Connection to device timed-out: cisco_ios 10.135.64.58:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.136.64.51 
+Error: Authentication failure: unable to connect cisco_ios 10.136.64.51:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.136.64.71 
+Error: Connection to device timed-out: cisco_ios 10.136.64.71:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.137.1.5 
+Error: Authentication failure: unable to connect cisco_ios 10.137.1.5:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.137.1.52 
+Error: Authentication failure: unable to connect cisco_ios 10.137.1.52:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.137.1.53 
+Error: Authentication failure: unable to connect cisco_ios 10.137.1.53:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.137.14.254 
+Error: Authentication failure: unable to connect cisco_ios 10.137.14.254:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.137.64.53 
+Error: Connection to device timed-out: cisco_ios 10.137.64.53:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.137.64.54 
+Error: Connection to device timed-out: cisco_ios 10.137.64.54:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.138.1.23 
+Error: Connection to device timed-out: cisco_ios 10.138.1.23:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.138.142.253 
+Error: Connection to device timed-out: cisco_ios 10.138.142.253:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.138.142.254 
+Error: Connection to device timed-out: cisco_ios 10.138.142.254:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.138.164.51 
+Error: Connection to device timed-out: cisco_ios 10.138.164.51:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.139.1.11 
+Error: Connection to device timed-out: cisco_ios 10.139.1.11:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.139.14.254 
+Error: Authentication failure: unable to connect cisco_ios 10.139.14.254:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.140.1.4 
+Error: Connection to device timed-out: cisco_ios 10.140.1.4:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.140.64.53 
+Error: Authentication failure: unable to connect cisco_ios 10.140.64.53:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.141.1.31 
+Error: Connection to device timed-out: cisco_ios 10.141.1.31:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.141.1.32 
+Error: Connection to device timed-out: cisco_ios 10.141.1.32:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.141.1.61 
+Error: Connection to device timed-out: cisco_ios 10.141.1.61:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.141.64.51 
+Error: Authentication failure: unable to connect cisco_ios 10.141.64.51:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.142.1.20 
+Error: Connection to device timed-out: cisco_ios 10.142.1.20:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.142.1.6 
+Error: Authentication failure: unable to connect cisco_ios 10.142.1.6:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.142.64.51 
+Error: Authentication failure: unable to connect cisco_ios 10.142.64.51:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.142.64.52 
+Error: Authentication failure: unable to connect cisco_ios 10.142.64.52:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.142.64.71 
+Error: Connection to device timed-out: cisco_ios 10.142.64.71:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.142.64.72 
+Error: Connection to device timed-out: cisco_ios 10.142.64.72:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.142.64.73 
+Error: Connection to device timed-out: cisco_ios 10.142.64.73:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.144.1.11 
+Error: Connection to device timed-out: cisco_ios 10.144.1.11:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.144.1.12 
+Error: Connection to device timed-out: cisco_ios 10.144.1.12:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.144.1.26 
+Error: Authentication failure: unable to connect cisco_ios 10.144.1.26:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.144.1.40 
+Error: Authentication failure: unable to connect cisco_ios 10.144.1.40:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.144.14.254 
+Error: Authentication failure: unable to connect cisco_ios 10.144.14.254:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.145.1.13 
+Error: Authentication failure: unable to connect cisco_ios 10.145.1.13:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.147.64.51 
+Error: Authentication failure: unable to connect cisco_ios 10.147.64.51:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.147.64.52 
+Error: Authentication failure: unable to connect cisco_ios 10.147.64.52:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.147.64.71 
+Error: Connection to device timed-out: cisco_ios 10.147.64.71:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.147.64.72 
+Error: Connection to device timed-out: cisco_ios 10.147.64.72:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.149.1.101 
+Error: Connection to device timed-out: cisco_ios 10.149.1.101:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.149.1.11 
+Error: Connection to device timed-out: cisco_ios 10.149.1.11:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.149.1.12 
+Error: Connection to device timed-out: cisco_ios 10.149.1.12:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.149.1.14 
+Error: Error reading SSH protocol banner 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.149.16.253 
+Error: Connection to device timed-out: cisco_ios 10.149.16.253:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.149.16.254 
+Error: Connection to device timed-out: cisco_ios 10.149.16.254:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.149.64.51 
+Error: Authentication failure: unable to connect cisco_ios 10.149.64.51:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.149.64.61 
+Error: Connection to device timed-out: cisco_ios 10.149.64.61:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.149.64.62 
+Error: Connection to device timed-out: cisco_ios 10.149.64.62:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.150.64.50 
+Error: Authentication failure: unable to connect cisco_ios 10.150.64.50:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.151.1.25 
+Error: Connection to device timed-out: cisco_ios 10.151.1.25:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.151.64.71 
+Error: Incompatible version (1.5 instead of 2.0) 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.151.64.72 
+Error: Incompatible version (1.5 instead of 2.0) 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.152.0.1 
+Error: Connection to device timed-out: cisco_ios 10.152.0.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.152.0.3 
+Error: Authentication failure: unable to connect cisco_ios 10.152.0.3:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.152.1.23 
+Error: Authentication failure: unable to connect cisco_ios 10.152.1.23:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.152.1.31 
+Error: Connection to device timed-out: cisco_ios 10.152.1.31:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.152.1.41 
+Error: Authentication failure: unable to connect cisco_ios 10.152.1.41:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.152.1.42 
+Error: Authentication failure: unable to connect cisco_ios 10.152.1.42:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.152.14.254 
+Error: Authentication failure: unable to connect cisco_ios 10.152.14.254:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.152.64.51 
+Error: Connection to device timed-out: cisco_ios 10.152.64.51:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.153.64.51 
+Error: Authentication failure: unable to connect cisco_ios 10.153.64.51:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.153.64.52 
+Error: Authentication failure: unable to connect cisco_ios 10.153.64.52:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.153.64.53 
+Error: Connection to device timed-out: cisco_ios 10.153.64.53:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.153.64.54 
+Error: Connection to device timed-out: cisco_ios 10.153.64.54:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.154.1.21 
+Error: Authentication failure: unable to connect cisco_ios 10.154.1.21:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.155.1.13 
+Error: Authentication failure: unable to connect cisco_ios 10.155.1.13:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.155.1.21 
+Error: Authentication failure: unable to connect cisco_ios 10.155.1.21:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.155.1.4 
+Error: Connection to device timed-out: cisco_ios 10.155.1.4:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.155.1.5 
+Error: Connection to device timed-out: cisco_ios 10.155.1.5:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.156.1.11 
+Error: Connection to device timed-out: cisco_ios 10.156.1.11:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.156.1.13 
+Error: Authentication failure: unable to connect cisco_ios 10.156.1.13:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.156.1.14 
+Error: Authentication failure: unable to connect cisco_ios 10.156.1.14:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.156.1.15 
+Error: Authentication failure: unable to connect cisco_ios 10.156.1.15:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.156.1.22 
+Error: Authentication failure: unable to connect cisco_ios 10.156.1.22:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.156.1.4 
+Error: Authentication failure: unable to connect cisco_ios 10.156.1.4:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.156.14.254 
+Error: Authentication failure: unable to connect cisco_ios 10.156.14.254:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.157.64.1 
+Error: Connection to device timed-out: cisco_ios 10.157.64.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.158.1.7 
+Error: Connection to device timed-out: cisco_ios 10.158.1.7:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.159.1.12 
+Error: Authentication failure: unable to connect cisco_ios 10.159.1.12:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.159.101.254 
+Error: Authentication failure: unable to connect cisco_ios 10.159.101.254:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.160.1.14 
+Error: Authentication failure: unable to connect cisco_ios 10.160.1.14:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.160.64.51 
+Error: Authentication failure: unable to connect cisco_ios 10.160.64.51:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.160.64.52 
+Error: Authentication failure: unable to connect cisco_ios 10.160.64.52:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.160.64.71 
+Error: Connection to device timed-out: cisco_ios 10.160.64.71:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.160.64.72 
+Error: Connection to device timed-out: cisco_ios 10.160.64.72:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.161.64.51 
+Error: Authentication failure: unable to connect cisco_ios 10.161.64.51:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.161.64.53 
+Error: Connection to device timed-out: cisco_ios 10.161.64.53:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.161.64.54 
+Error: Connection to device timed-out: cisco_ios 10.161.64.54:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.161.64.55 
+Error: Connection to device timed-out: cisco_ios 10.161.64.55:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.163.9.66 
+Error: Connection to device timed-out: cisco_ios 10.163.9.66:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.164.1.10 
+Error: Authentication failure: unable to connect cisco_ios 10.164.1.10:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.164.1.2 
+Error: Authentication failure: unable to connect cisco_ios 10.164.1.2:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.164.1.3 
+Error: Authentication failure: unable to connect cisco_ios 10.164.1.3:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.164.1.4 
+Error: Authentication failure: unable to connect cisco_ios 10.164.1.4:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.164.14.254 
+Error: Authentication failure: unable to connect cisco_ios 10.164.14.254:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.187.1.52 
+Error: Authentication failure: unable to connect cisco_ios 10.187.1.52:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.187.64.50 
+Error: Authentication failure: unable to connect cisco_ios 10.187.64.50:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.189.140.1 
+Error: Connection to device timed-out: cisco_ios 10.189.140.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on IP: 10.208.64.51 
+Error: Authentication failure: unable to connect cisco_ios 10.208.64.51:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

@@ -1,0 +1,39 @@
+Device: dc3-gw1 - Command #1:
+
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  11.0.0.41               -   fa16.3e76.1236  ARPA   GigabitEthernet0/3
+Internet  11.0.0.42              13   fa16.3e00.000c  ARPA   GigabitEthernet0/3
+Internet  11.0.128.33            15   fa16.3e43.2fc7  ARPA   GigabitEthernet0/1
+Internet  11.0.128.34             -   fa16.3eae.d89f  ARPA   GigabitEthernet0/1
+Internet  11.0.128.57             -   fa16.3ea0.fe89  ARPA   GigabitEthernet0/2
+Internet  11.0.128.58            13   fa16.3e00.0005  ARPA   GigabitEthernet0/2
+Internet  172.16.1.1             15   8890.8d1b.17c1  ARPA   GigabitEthernet0/0
+Internet  172.16.1.127            -   fa16.3ec2.4668  ARPA   GigabitEthernet0/0
+Internet  172.16.1.144            0   fa16.3efd.793e  ARPA   GigabitEthernet0/0
+
+Device: dc3-gw1 - Command #2:
+
+show mac address-table
+        ^
+% Invalid input detected at '^' marker.
+
+
+Device: dc3-gw2 - Command #1:
+
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  11.0.0.33              13   fa16.3e00.0007  ARPA   GigabitEthernet0/4
+Internet  11.0.0.34               -   fa16.3e1e.9928  ARPA   GigabitEthernet0/4
+Internet  11.0.128.1             13   fa16.3e00.000a  ARPA   GigabitEthernet0/2
+Internet  11.0.128.2              -   fa16.3ef0.def2  ARPA   GigabitEthernet0/2
+Internet  11.0.128.41            15   fa16.3ef0.7c2c  ARPA   GigabitEthernet0/1
+Internet  11.0.128.42             -   fa16.3e7d.1803  ARPA   GigabitEthernet0/1
+Internet  172.16.1.1             15   8890.8d1b.17c1  ARPA   GigabitEthernet0/0
+Internet  172.16.1.128            -   fa16.3ee9.e651  ARPA   GigabitEthernet0/0
+Internet  172.16.1.144            0   fa16.3efd.793e  ARPA   GigabitEthernet0/0
+
+Device: dc3-gw2 - Command #2:
+
+show mac address-table
+        ^
+% Invalid input detected at '^' marker.
+

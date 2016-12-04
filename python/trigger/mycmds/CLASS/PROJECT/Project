@@ -1,0 +1,22 @@
+Network Programming Project
+- Homework -
+
+Your job is to create a Python script (interactive or not) that can connect to a network device - choose a vendor other than Cisco - and perform the operations below:
+
+1.	Connect over SSH version 2. Hint: you choose whether to use Trigger or Netmiko for the job. However, if you choose Trigger, pay special attention to the necessary files.
+
+2.	Successfully log in to the device. Hint: remember to configure and enable SSHv2 on the device and to add your username (and the needed privileges) and password.
+
+3.	Extract the running configuration of the device. Hint: use the necessary command.
+
+4.	Save the running configuration to a text file on your Ubuntu VM.
+
+5.	Parse the running configuration file and find all the interfaces on that device.
+
+6.	For each interface which does not have an interface description (the “description” command (or equivalent)) as its child, add a description (the same for all interfaces) and save the new configuration to another text file in the same directory. 
+
+7.	Compare the two files - you should not have missed any interface, no matter if it has an IP address configured, if it is a Loopback interface or any other kind of interface. For comparison, use the proper Python module to read both files, compare them and highlight the differences. Each “description” command should be highlighted with a “+” sign to represent it’s addition to the file. Create a report file which stores the differences as the final task of this project. Add relevant comments to your code!
+
+You can find the Cisco IOS solution to this project in the next lecture. However, I strongly advise you to look at the solution only when you really get stuck with your coding and if the test you are doing fail repeatedly. You can check out the “Testing The Solution” lecture to see how your app should work. 
+
+I wish you: easy coding & testing!

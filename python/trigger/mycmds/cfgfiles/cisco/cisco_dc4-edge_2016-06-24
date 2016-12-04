@@ -1,0 +1,226 @@
+Building configuration...
+
+  
+Current configuration : 6191 bytes
+!
+! Last configuration change at 15:34:26 UTC Fri Jun 24 2016
+!
+version 15.6
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname dc4-edge
+!
+boot-start-marker
+boot-end-marker
+!
+!
+!
+no aaa new-model
+ethernet lmi ce
+!
+!
+!
+mmi polling-interval 60
+no mmi auto-configure
+no mmi pvc
+mmi snmp-timeout 180
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+no ip domain lookup
+ip domain name virl.info
+ip cef
+ipv6 unicast-routing
+ipv6 cef
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+username rlaney privilege 15 secret 5 $1$MnP8$4L8UcsdCS9rM4F9u56VXg/
+username cisco privilege 15 secret 5 $1$QvFv$EgKLxK9rDPRW/rX0vpMUn1
+!
+redundancy
+!
+no cdp run
+!
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Loopback0
+ description Loopback
+ ip address 192.168.0.5 255.255.255.255
+!
+interface GigabitEthernet0/0
+ description OOB Management
+ ip address 172.16.1.108 255.255.255.0
+ duplex full
+ speed auto
+ media-type rj45
+!
+interface GigabitEthernet0/1
+ description to internet1
+ ip address 10.0.0.49 255.255.255.252
+ ip ospf cost 1
+ duplex full
+ speed auto
+ media-type rj45
+!
+interface GigabitEthernet0/2
+ description to dc4-gw1
+ ip address 10.0.128.33 255.255.255.252
+ ip ospf cost 1
+ duplex full
+ speed auto
+ media-type rj45
+!
+interface GigabitEthernet0/3
+ description to dc4-gw2
+ ip address 10.0.128.45 255.255.255.252
+ ip ospf cost 1
+ duplex full
+ speed auto
+ media-type rj45
+!
+router ospf 1
+ passive-interface Loopback0
+ network 10.0.0.48 0.0.0.3 area 0
+ network 10.0.128.32 0.0.0.3 area 0
+ network 10.0.128.44 0.0.0.3 area 0
+ network 192.168.0.5 0.0.0.0 area 0
+!
+router bgp 1
+ bgp router-id 192.168.0.5
+ bgp log-neighbor-changes
+ neighbor 192.168.0.3 remote-as 1
+ neighbor 192.168.0.3 description iBGP peer dc4-nxos1
+ neighbor 192.168.0.3 update-source Loopback0
+ neighbor 192.168.0.4 remote-as 1
+ neighbor 192.168.0.4 description iBGP peer dc4-gw1
+ neighbor 192.168.0.4 update-source Loopback0
+ neighbor 192.168.0.7 remote-as 1
+ neighbor 192.168.0.7 description iBGP peer sc9-edge
+ neighbor 192.168.0.7 update-source Loopback0
+ neighbor 192.168.0.8 remote-as 1
+ neighbor 192.168.0.8 description iBGP peer dc4-nxos2
+ neighbor 192.168.0.8 update-source Loopback0
+ neighbor 192.168.0.9 remote-as 1
+ neighbor 192.168.0.9 description iBGP peer dc4-gw2
+ neighbor 192.168.0.9 update-source Loopback0
+ neighbor 192.168.0.11 remote-as 1
+ neighbor 192.168.0.11 description iBGP peer dc4-backhaul
+ neighbor 192.168.0.11 update-source Loopback0
+ neighbor 192.168.0.13 remote-as 1
+ neighbor 192.168.0.13 description iBGP peer sc9-nxos1
+ neighbor 192.168.0.13 update-source Loopback0
+ neighbor 192.168.0.14 remote-as 1
+ neighbor 192.168.0.14 description iBGP peer sc9-nxos2
+ neighbor 192.168.0.14 update-source Loopback0
+ neighbor 192.168.0.16 remote-as 1
+ neighbor 192.168.0.16 description iBGP peer sc9-gw1
+ neighbor 192.168.0.16 update-source Loopback0
+ neighbor 192.168.0.17 remote-as 1
+ neighbor 192.168.0.17 description iBGP peer sc9-gw2
+ neighbor 192.168.0.17 update-source Loopback0
+ neighbor 192.168.0.18 remote-as 1
+ neighbor 192.168.0.18 description iBGP peer sc9-backhaul
+ neighbor 192.168.0.18 update-source Loopback0
+ neighbor 192.168.0.19 remote-as 1
+ neighbor 192.168.0.19 description iBGP peer internet1
+ neighbor 192.168.0.19 update-source Loopback0
+ neighbor 192.168.0.20 remote-as 1
+ neighbor 192.168.0.20 description iBGP peer internet2
+ neighbor 192.168.0.20 update-source Loopback0
+ !
+ address-family ipv4
+  network 192.168.0.5 mask 255.255.255.255
+  neighbor 192.168.0.3 activate
+  neighbor 192.168.0.4 activate
+  neighbor 192.168.0.7 activate
+  neighbor 192.168.0.8 activate
+  neighbor 192.168.0.9 activate
+  neighbor 192.168.0.11 activate
+  neighbor 192.168.0.13 activate
+  neighbor 192.168.0.14 activate
+  neighbor 192.168.0.16 activate
+  neighbor 192.168.0.17 activate
+  neighbor 192.168.0.18 activate
+  neighbor 192.168.0.19 activate
+  neighbor 192.168.0.20 activate
+ exit-address-family
+!
+ip forward-protocol nd
+!
+!
+no ip http server
+no ip http secure-server
+ip route 10.0.22.0 255.255.255.0 172.16.1.1
+ip route 172.16.20.0 255.255.255.0 172.16.1.1
+ip route 192.168.22.0 255.255.255.0 172.16.1.1
+ip ssh version 2
+ip ssh server algorithm authentication password
+!
+!
+!
+!
+control-plane
+!
+banner exec ^C
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************^C
+banner incoming ^C
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************^C
+banner login ^C
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************^C
+!
+line con 0
+line aux 0
+line vty 0 4
+ exec-timeout 0 0
+ login local
+ transport input telnet ssh
+!
+no scheduler allocate
+!
+end

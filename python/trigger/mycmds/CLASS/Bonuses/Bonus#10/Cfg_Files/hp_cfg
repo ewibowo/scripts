@@ -1,0 +1,38 @@
+; J4899A Configuration Editor; Created on release #H.10.117
+
+hostname "HP ProCurve Switch 2650" 
+cdp run 
+interface 11 
+   name "PORT11" 
+   speed-duplex 10-half 
+exit
+interface 22 
+   name "PORT22" 
+   speed-duplex 100-half 
+exit
+interface 23 
+   name "PORT23" 
+   speed-duplex 10-full 
+exit
+interface 39 
+   name "PORT39" 
+   speed-duplex 100-half 
+exit
+interface 44 
+   name "PORT44" 
+   speed-duplex 10-full 
+exit
+interface 50 
+   name "PORT50" 
+   speed-duplex auto-1000 
+exit
+snmp-server community "public" Unrestricted 
+vlan 1 
+   name "DEFAULT_VLAN" 
+   untagged 1-50 
+   ip address 172.16.1.5 255.255.255.0 
+   exit 
+ip ssh
+ip ssh key-size 1024
+password manager
+

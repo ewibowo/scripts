@@ -1,0 +1,45 @@
+#!/Users/rlaney/.virtualenvs/NetEngineerONE/bin/python
+
+import pprint
+from trigger.cmds import Commando
+from trigger.netdevices import NetDevices
+
+pp = pprint.PrettyPrinter(indent=4)
+nd = NetDevices()
+device_list = nd.match(vendor='cisco')
+
+class ShowClock(Commando):
+    """Execute 'show clock' on a list of Cisco devices."""
+    vendors = ['cisco']
+    commands = ['show clock', 'show int status', 'show ip int brief',
+                'show cdp neigh']
+
+if __name__ == '__main__':
+    showclock = ShowClock(devices=device_list)
+    showclock.run() # Commando exposes this to start the event loop
+
+    output = showclock.results
+    print '\nResults not formatted:'
+    print(output)
+
+    print '\nResults formatted:'
+    pp.pprint(output)
+
+
+#def main():
+#    """A simple syntax check and dump of all we see and know!"""
+#    print 'Syntax ok.'
+#    if len(sys.argv) > 1:
+#        from trigger.netdevices import NetDevices
+#        nd = NetDevices()
+#        names = sorted(nd)
+#        for name in names:
+#            dev = nd[name]
+#            if dev.deviceType not in ('ROUTER', 'SWITCH'):
+#                continue
+#            acls = sorted(dev.acls)
+#            print '%-39s %s' % (name, ' '.join(acls))
+#
+#if __name__ == '__main__':
+#    main()
+

@@ -1,0 +1,19 @@
+#!/Users/rlaney/.virtualenvs/NetEngineerONE/bin/python
+
+#def main():
+#    """A simple syntax check and dump of all we see and know!"""
+#    print 'Syntax ok.'
+#    if len(sys.argv) > 1:
+#        from trigger.netdevices import NetDevices
+#        nd = NetDevices()
+#        names = sorted(nd)
+#        for name in names:
+#            dev = nd[name]
+#            if dev.deviceType not in ('ROUTER', 'SWITCH'):
+#                continue
+#            acls = sorted(dev.acls)
+#            print '%-39s %s' % (name, ' '.join(acls))
+#
+#if __name__ == '__main__':
+#    main()
+

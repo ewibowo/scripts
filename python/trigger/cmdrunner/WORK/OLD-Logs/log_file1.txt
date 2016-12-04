@@ -1,0 +1,592 @@
+Total IOS devices unsanitized: 821
+Total sanitized IOS devices: 818
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wnne-gw-sw1 with IP 167.173.44.10Failed on wnne-gw-sw1 with IP: 167.173.44.10 
+Error: Connection to device timed-out: cisco_ios 167.173.44.10:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wnne-inet1 with IP 167.173.44.16Failed on wnne-inet1 with IP: 167.173.44.16 
+Error: Connection to device timed-out: cisco_ios 167.173.44.16:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wcvb-exec-sw1 with IP 10.144.1.26Failed on wcvb-exec-sw1 with IP: 10.144.1.26 
+Error: Authentication failure: unable to connect cisco_ios 10.144.1.26:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS hn-001-swac3801 with IP 10.172.3.24IOS Device: hn-001-swac3801
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+hn-001-swac3801(config)#no username opmantek
+hn-001-swac3801(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac3801(config)#end
+hn-001-swac3801#Building configuration...
+Failed on hn-001-swac3801 with IP: 10.172.3.24 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wbal-voip-ag7 with IP 10.135.64.58Failed on wbal-voip-ag7 with IP: 10.135.64.58 
+Error: Connection to device timed-out: cisco_ios 10.135.64.58:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS tu_cap_rtr with IP 167.166.224.58Failed on tu_cap_rtr with IP: 167.166.224.58 
+Error: Connection to device timed-out: cisco_ios 167.166.224.58:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS np-svv-gw1 with IP 167.173.80.36Failed on np-svv-gw1 with IP: 167.173.80.36 
+Error: Connection to device timed-out: cisco_ios 167.173.80.36:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wjcl-gw-sw1 with IP 167.173.48.10Failed on wjcl-gw-sw1 with IP: 167.173.48.10 
+Error: Connection to device timed-out: cisco_ios 167.173.48.10:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS atu_sw1b2 with IP 167.166.10.104Failed on atu_sw1b2 with IP: 167.166.10.104 
+Error: Authentication failure: unable to connect cisco_ios 167.166.10.104:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS hsc28-bc2-sw2 with IP 172.19.10.207Failed on hsc28-bc2-sw2 with IP: 172.19.10.207 
+Error: Connection to device timed-out: cisco_ios 172.19.10.207:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wdlnd-1a-mgr with IP 130.80.186.254IOS Device: USA1022-MDF01-01-SWA01
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+USA1022-MDF01-01-SWA(config)#no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+USA1022-MDF01-01-SWA(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                                ^
+% Invalid input detected at '^' marker.
+
+USA1022-MDF01-01-SWA(config)#end
+USA1022-MDF01-01-SWA01#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS kmbc-nmx1 with IP 10.141.1.31Failed on kmbc-nmx1 with IP: 10.141.1.31 
+Error: Connection to device timed-out: cisco_ios 10.141.1.31:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS 25loop-mgr with IP 130.80.150.75Failed on 25loop-mgr with IP: 130.80.150.75 
+Error: Connection to device timed-out: cisco_ios 130.80.150.75:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS hn-001-swdz1001 with IP 10.172.1.12Failed on hn-001-swdz1001 with IP: 10.172.1.12 
+Error: Connection to device timed-out: cisco_ios 10.172.1.12:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS hc-gw01 with IP 130.80.37.16IOS Device: HC-GW01
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+HC-GW01(config)#no username opmantek
+This operation will remove all username related configurations with same name.Do you want to continue? [confirm]u
+HC-GW01(config)#sername opmantek privilege 15 secret 0 N0Data4U!
+                   ^
+% Invalid input detected at '^' marker.
+
+HC-GW01(config)#end
+HC-GW01#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS sw2-2-1a-mgr with IP 130.80.250.102IOS Device: SW2-2-1A-MGR
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2-2-1A-MGR(config)#no username opmantek
+SW2-2-1A-MGR(config)#username opmantek privilege 15 secret 0 N0Data4U!
+SW2-2-1A-MGR(config)#end
+SW2-2-1A-MGR#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wnne-core-sw1 with IP 10.157.64.1Failed on wnne-core-sw1 with IP: 10.157.64.1 
+Error: Connection to device timed-out: cisco_ios 10.157.64.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS koat-voip-ag2 with IP 10.160.64.72Failed on koat-voip-ag2 with IP: 10.160.64.72 
+Error: Connection to device timed-out: cisco_ios 10.160.64.72:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS hn-001-swac0201 with IP 10.172.3.28IOS Device: hn-001-swac0201
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+hn-001-swac0201(config)#no username opmantek
+hn-001-swac0201(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac0201(config)#end
+hn-001-swac0201#Building configuration...
+Failed on hn-001-swac0201 with IP: 10.172.3.28 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS gm26995 with IP 10.211.255.6Failed on gm26995 with IP: 10.211.255.6 
+Error: Connection to device timed-out: cisco_ios 10.211.255.6:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS mcg_mdf_stack with IP 10.37.3.1IOS Device: MCG_MDF_Stack
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+MCG_MDF_Stack(config)#no username opmantek
+MCG_MDF_Stack(config)#username opmantek privilege 15 secret 0 N0Data4U!
+MCG_MDF_Stack(config)#end
+MCG_MDF_Stack#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wmor-master-sw1 with IP 10.152.1.41Failed on wmor-master-sw1 with IP: 10.152.1.41 
+Error: Authentication failure: unable to connect cisco_ios 10.152.1.41:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wmor-inet1 with IP 167.173.34.16Failed on wmor-inet1 with IP: 167.173.34.16 
+Error: Connection to device timed-out: cisco_ios 167.173.34.16:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wmtw-portland-sw1 with IP 10.138.142.253IOS Device: WMTW-PORTLAND-SW1
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+WMTW-PORTLAND-SW1(config)#no username opmantek
+WMTW-PORTLAND-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WMTW-PORTLAND-SW1(config)#end
+WMTW-PORTLAND-SW1#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS bridgeport-vz-gw with IP 167.173.204.2Failed on bridgeport-vz-gw with IP: 167.173.204.2 
+Error: Connection to device timed-out: cisco_ios 167.173.204.2:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS hsc28-bc3-sw2 with IP 172.19.10.152IOS Device: HSC28-BC3-SW2
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+HSC28-BC3-SW2(config)#no username opmantek
+HSC28-BC3-SW2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+HSC28-BC3-SW2(config)#end
+HSC28-BC3-SW2#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wptzc-gw-sw1 with IP 167.173.35.10Failed on wptzc-gw-sw1 with IP: 167.173.35.10 
+Error: Connection to device timed-out: cisco_ios 167.173.35.10:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS nycsw6 with IP 10.13.20.6IOS Device: NYCSW6
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+NYCSW6(config)#no username opmantek
+NYCSW6(config)#username opmantek privilege 15 secret 0 N0Data4U!
+NYCSW6(config)#end
+NYCSW6#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wesh-voip-r1 with IP 10.133.64.51IOS Device: WESH-VOIP-R1
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+WESH-VOIP-R1(config)#no username opmantek
+WESH-VOIP-R1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WESH-VOIP-R1(config)#end
+WESH-VOIP-R1#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS nyc-ts-rtr with IP 10.171.8.250IOS Device: NYC-TS-RTR
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+NYC-TS-RTR(config)#no username opmantek
+NYC-TS-RTR(config)#username opmantek privilege 15 secret 0 N0Data4U!
+NYC-TS-RTR(config)#end
+NYC-TS-RTR#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS cat3550 with IP 172.31.19.252IOS Device: cat3550
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+cat3550(config)#no username opmantek
+cat3550(config)#username opmantek privilege 15 secret 0 N0Data4U!
+cat3550(config)#end
+cat3550#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS sm-swac-006 with IP 10.118.32.14IOS Device: sm-swac-006
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+sm-swac-006(config)#no username opmantek
+sm-swac-006(config)#username opmantek privilege 15 secret 0 N0Data4U!
+sm-swac-006(config)#end
+sm-swac-006#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS ksbw-femont-sw1 with IP 10.149.1.32IOS Device: KSBW-FEMONT-SW1
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSBW-FEMONT-SW1(config)#no username opmantek
+KSBW-FEMONT-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KSBW-FEMONT-SW1(config)#end
+KSBW-FEMONT-SW1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wisn-voip-ag1 with IP 10.142.64.71Failed on wisn-voip-ag1 with IP: 10.142.64.71 
+Error: Connection to device timed-out: cisco_ios 10.142.64.71:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS ksbw-voip-r2 with IP 10.149.64.52IOS Device: KSBW-VOIP-R2
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSBW-VOIP-R2(config)#no username opmantek
+KSBW-VOIP-R2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KSBW-VOIP-R2(config)#end
+KSBW-VOIP-R2#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS sm-mscr-001 with IP 10.118.32.2IOS Device: sm-mscr-001
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+sm-mscr-001(config)#no username opmantek
+sm-mscr-001(config)#username opmantek privilege 15 secret 0 N0Data4U!
+sm-mscr-001(config)#end
+sm-mscr-001#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS kcci-inet1 with IP 167.173.36.16Failed on kcci-inet1 with IP: 167.173.36.16 
+Error: Connection to device timed-out: cisco_ios 167.173.36.16:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS hsc28-6513-1 with IP 172.19.35.3IOS Device: hsc28-6513-1
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+hsc28-6513-1(config)#no username opmantek
+hsc28-6513-1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hsc28-6513-1(config)#end
+hsc28-6513-1#Building configuration...
+Failed on hsc28-6513-1 with IP: 172.19.35.3 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wesh-techcore-sw1 with IP 10.133.1.26IOS Device: WESH-TECHCORE-SW1
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+WESH-TECHCORE-SW1(config)#no username opmantek
+WESH-TECHCORE-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WESH-TECHCORE-SW1(config)#end
+WESH-TECHCORE-SW1#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS ctpost_production with IP 192.168.3.251IOS Device: CTPOST_PRODUCTION
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+CTPOST_PRODUCTION(config)#no username opmantek
+CTPOST_PRODUCTION(config)#username opmantek privilege 15 secret 0 N0Data4U!
+CTPOST_PRODUCTION(config)#end
+CTPOST_PRODUCTION#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wesh-gw-sw1 with IP 167.173.29.10Failed on wesh-gw-sw1 with IP: 167.173.29.10 
+Error: Connection to device timed-out: cisco_ios 167.173.29.10:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS atu-vz-gw with IP 68.138.43.34Failed on atu-vz-gw with IP: 68.138.43.34 
+Error: Connection to device timed-out: cisco_ios 68.138.43.34:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS phoneroom3548-1 with IP 10.224.69.15Failed on phoneroom3548-1 with IP: 10.224.69.15 
+Error: Connection to device timed-out: cisco_ios 10.224.69.15:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wmur-voip-ag1 with IP 10.161.64.53Failed on wmur-voip-ag1 with IP: 10.161.64.53 
+Error: Connection to device timed-out: cisco_ios 10.161.64.53:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS hn-002-swac1001 with IP 10.174.129.4Failed on hn-002-swac1001 with IP: 10.174.129.4 
+Error: Connection to device timed-out: cisco_ios 10.174.129.4:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS srst_whiteriver-gw with IP 10.157.64.51IOS Device: SRST_WhiteRiver-GW
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+SRST_WhiteRiver-GW(config)#no username opmantek
+SRST_WhiteRiver-GW(config)#username opmantek privilege 15 secret 0 N0Data4U!
+SRST_WhiteRiver-GW(config)#end
+SRST_WhiteRiver-GW#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS nyswitch1 with IP 10.13.16.1IOS Device: nyswitch1
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+nyswitch1(config)#no username opmantek
+nyswitch1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+nyswitch1(config)#end
+nyswitch1#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS mezz-1b-mgr with IP 130.80.150.129Failed on mezz-1b-mgr with IP: 130.80.150.129 
+Error: Connection to device timed-out: cisco_ios 130.80.150.129:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS sw5-2-4a-mgr with IP 130.80.249.118IOS Device: sw5-2-4a-mgr
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+sw5-2-4a-mgr(config)#no username opmantek
+sw5-2-4a-mgr(config)#username opmantek privilege 15 secret 0 N0Data4U!
+sw5-2-4a-mgr(config)#end
+sw5-2-4a-mgr#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS 36loop-mgr with IP 130.80.150.245Failed on 36loop-mgr with IP: 130.80.150.245 
+Error: Connection to device timed-out: cisco_ios 130.80.150.245:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS np-ssc-sw1 with IP 10.66.1.1IOS Device: np-ssc-sw1
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+np-ssc-sw1(config)#no username opmantek
+np-ssc-sw1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+np-ssc-sw1(config)#end
+np-ssc-sw1#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS sfborder with IP 204.56.98.1Failed on sfborder with IP: 204.56.98.1 
+Error: Connection to device timed-out: cisco_ios 204.56.98.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS koco-management-sw1 with IP 10.153.1.11IOS Device: KOCO-MANAGEMENT-SW1
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+KOCO-MANAGEMENT-SW1(config)#no username opmantek
+KOCO-MANAGEMENT-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KOCO-MANAGEMENT-SW1(config)#end
+KOCO-MANAGEMENT-SW1#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wjcl-core-sw2 with IP 10.164.1.3Failed on wjcl-core-sw2 with IP: 10.164.1.3 
+Error: Authentication failure: unable to connect cisco_ios 10.164.1.3:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wmor-louth-sw1 with IP 10.152.1.31Failed on wmor-louth-sw1 with IP: 10.152.1.31 
+Error: Connection to device timed-out: cisco_ios 10.152.1.31:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS hbmrchswcore with IP 10.189.31.249IOS Device: HBMRCHSWCORE
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+HBMRCHSWCORE(config)#no username opmantek
+HBMRCHSWCORE(config)#username opmantek privilege 15 secret 0 N0Data4U!
+end
+HBMRCHSWCORE#Building configuration...
+Failed on hbmrchswcore with IP: 10.189.31.249 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS stl-rtr-02 with IP 66.193.39.66Failed on stl-rtr-02 with IP: 66.193.39.66 
+Error: Connection to device timed-out: cisco_ios 66.193.39.66:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS hsc28-3750-9 with IP 172.19.10.208IOS Device: hsc28-3750-9
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+hsc28-3750-9(config)#no username opmantek
+hsc28-3750-9(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hsc28-3750-9(config)#end
+hsc28-3750-9#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS koat-inet01 with IP 167.173.232.5Failed on koat-inet01 with IP: 167.173.232.5 
+Error: Connection to device timed-out: cisco_ios 167.173.232.5:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wisn-vz-gw1 with IP 167.173.28.73Failed on wisn-vz-gw1 with IP: 167.173.28.73 
+Error: Connection to device timed-out: cisco_ios 167.173.28.73:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS ketv-b-radar-sw1 with IP 10.145.101.253IOS Device: KETV-B-RADAR-SW1
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+KETV-B-RADAR-SW1(config)#no username opmantek
+KETV-B-RADAR-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KETV-B-RADAR-SW1(config)#end
+KETV-B-RADAR-SW1#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS greenwich3548-1 with IP 10.232.100.81IOS Device: Greenwich3548-1
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+Greenwich3548-1(config)#no username opmantek
+Greenwich3548-1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+Greenwich3548-1(config)#end
+Greenwich3548-1#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wmur-vz-gw1 with IP 167.173.39.6Failed on wmur-vz-gw1 with IP: 167.173.39.6 
+Error: Connection to device timed-out: cisco_ios 167.173.39.6:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS hn-001-swac1901 with IP 10.172.2.15IOS Device: hn-001-swac1901
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+hn-001-swac1901(config)#no username opmantek
+hn-001-swac1901(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac1901(config)#end
+hn-001-swac1901#Building configuration...
+Failed on hn-001-swac1901 with IP: 10.172.2.15 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wyff-vz-gw1 with IP 167.173.24.6Failed on wyff-vz-gw1 with IP: 167.173.24.6 
+Error: Connection to device timed-out: cisco_ios 167.173.24.6:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS usa1217-swac-301 with IP 172.28.48.3IOS Device: USA1217-SWAC-301
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+USA1217-SWAC-301(config)#no username opmantek
+USA1217-SWAC-301(config)#username opmantek privilege 15 secret 0 N0Data4U!
+USA1217-SWAC-301(config)#end
+USA1217-SWAC-301#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS 25loop2-mgr with IP 130.80.150.76Failed on 25loop2-mgr with IP: 130.80.150.76 
+Error: Connection to device timed-out: cisco_ios 130.80.150.76:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wtae-gw-sw1 with IP 167.173.26.10Failed on wtae-gw-sw1 with IP: 167.173.26.10 
+Error: Connection to device timed-out: cisco_ios 167.173.26.10:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wmur-voip-ag3 with IP 10.161.64.55Failed on wmur-voip-ag3 with IP: 10.161.64.55 
+Error: Connection to device timed-out: cisco_ios 10.161.64.55:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS hn-001-msia1001 with IP 10.172.1.9IOS Device: hn-001-msia1001
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+hn-001-msia1001(config)#no username opmantek
+hn-001-msia1001(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-msia1001(config)#end
+hn-001-msia1001#Building configuration...
+Compressed configuration from 30440 bytes to 12142 bytes[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS sw7-1-1a-mgr with IP 130.80.250.107Failed on sw7-1-1a-mgr with IP: 130.80.250.107 
+Error: Connection to device timed-out: cisco_ios 130.80.250.107:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wisn-gw-sw1 with IP 167.173.28.10Failed on wisn-gw-sw1 with IP: 167.173.28.10 
+Error: Connection to device timed-out: cisco_ios 167.173.28.10:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wisn-eng-sw1-old with IP 10.142.1.6IOS Device: WISN-ENG-SW1-OLD
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+WISN-ENG-SW1-OLD(config)#no username opmantek
+WISN-ENG-SW1-OLD(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WISN-ENG-SW1-OLD(config)#end
+WISN-ENG-SW1-OLD#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS kmbc-inet1 with IP 167.173.19.5IOS Device: KMBC-INET1
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+KMBC-INET1(config)#no username opmantek
+KMBC-INET1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KMBC-INET1(config)#end
+KMBC-INET1#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS hn-001-swac0202 with IP 10.172.3.29IOS Device: hn-001-swac0202
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+hn-001-swac0202(config)#no username opmantek
+hn-001-swac0202(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac0202(config)#end
+hn-001-swac0202#Building configuration...
+Failed on hn-001-swac0202 with IP: 10.172.3.29 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wtae-voip-r1 with IP 10.134.64.51Failed on wtae-voip-r1 with IP: 10.134.64.51 
+Error: Authentication failure: unable to connect cisco_ios 10.134.64.51:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wmur-mcr-sw1 with IP 10.161.1.5IOS Device: WMUR-MCR-SW1
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+WMUR-MCR-SW1(config)#no username opmantek
+WMUR-MCR-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WMUR-MCR-SW1(config)#end
+WMUR-MCR-SW1#Building configuration...
+Failed on wmur-mcr-sw1 with IP: 10.161.1.5 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS atu-gw-sw with IP 167.166.208.7Failed on atu-gw-sw with IP: 167.166.208.7 
+Error: Connection to device timed-out: cisco_ios 167.166.208.7:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS kcra-server-sw1 with IP 10.151.1.121IOS Device: KCRA-SERVER-SW1
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+KCRA-SERVER-SW1(config)#no username opmantek
+KCRA-SERVER-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+KCRA-SERVER-SW1(config)#end
+KCRA-SERVER-SW1#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS 6-hearstcl-mgr with IP 130.80.150.207Failed on 6-hearstcl-mgr with IP: 130.80.150.207 
+Error: Connection to device timed-out: cisco_ios 130.80.150.207:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wdsu-utility-sw1 with IP 10.140.1.30IOS Device: wdsu-utility-sw1
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+wdsu-utility-sw1(config)#no username opmantek
+wdsu-utility-sw1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+wdsu-utility-sw1(config)#end
+wdsu-utility-sw1#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wesh-voip-ag2 with IP 10.133.64.78IOS Device: WESH-VOIP-AG2
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+WESH-VOIP-AG2(config)#no username opmantek
+WESH-VOIP-AG2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WESH-VOIP-AG2(config)#end
+WESH-VOIP-AG2#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS hsc28-bc4-sw2 with IP 172.19.10.154IOS Device: HSC28-BC4-SW2
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+HSC28-BC4-SW2(config)#no username opmantek
+HSC28-BC4-SW2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+HSC28-BC4-SW2(config)#end
+HSC28-BC4-SW2#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS hsc28-3750-8 with IP 172.19.10.174IOS Device: hsc28-3750-8
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+hsc28-3750-8(config)#no username opmantek
+hsc28-3750-8(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hsc28-3750-8(config)#end
+hsc28-3750-8#Failed on hsc28-3750-8 with IP: 172.19.10.174 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS neptune with IP 10.90.0.3Failed on neptune with IP: 10.90.0.3 
+Error: Connection to device timed-out: cisco_ios 10.90.0.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS gm27001 with IP 10.121.79.14Failed on gm27001 with IP: 10.121.79.14 
+Error: Connection to device timed-out: cisco_ios 10.121.79.14:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS hbmgrvswiscsi with IP 10.210.2.2Failed on hbmgrvswiscsi with IP: 10.210.2.2 
+Error: Authentication failure: unable to connect cisco_ios 10.210.2.2:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS chidesk5 with IP 10.13.12.5IOS Device: CHIDESK5
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+CHIDESK5(config)#no username opmantek
+CHIDESK5(config)#username opmantek privilege 15 secret 0 N0Data4U!
+CHIDESK5(config)#end
+CHIDESK5#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS ksbw-harmonics-sw2 with IP 10.149.16.253Failed on ksbw-harmonics-sw2 with IP: 10.149.16.253 
+Error: Connection to device timed-out: cisco_ios 10.149.16.253:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS sw-tcoma-rtr with IP 172.25.0.129Failed on sw-tcoma-rtr with IP: 172.25.0.129 
+Error: Connection to device timed-out: cisco_ios 172.25.0.129:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS jstart-royaloaks-core with IP 192.168.201.1Failed on jstart-royaloaks-core with IP: 192.168.201.1 
+Error: Authentication failure: unable to connect cisco_ios 192.168.201.1:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS usa1359-mdf01-swa03 with IP 10.1.2.53Failed on usa1359-mdf01-swa03 with IP: 10.1.2.53 
+Error: Connection to device timed-out: cisco_ios 10.1.2.53:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wxii-inet1 with IP 167.173.23.16IOS Device: WXII-INET1
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+WXII-INET1(config)#no username opmantek
+WXII-INET1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WXII-INET1(config)#end
+WXII-INET1#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wmtw-a-vz-gw1 with IP 167.173.42.73Failed on wmtw-a-vz-gw1 with IP: 167.173.42.73 
+Error: Connection to device timed-out: cisco_ios 167.173.42.73:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS hbmgrvlightower with IP 67.220.152.3Failed on hbmgrvlightower with IP: 67.220.152.3 
+Error: Connection to device timed-out: cisco_ios 67.220.152.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS het-voip-agw01 with IP 10.0.252.14Failed on het-voip-agw01 with IP: 10.0.252.14 
+Error: Authentication failure: unable to connect cisco_ios 10.0.252.14:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS jupiter with IP 130.80.150.61Failed on jupiter with IP: 130.80.150.61 
+Error: Connection to device timed-out: cisco_ios 130.80.150.61:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS hougrdnetsw01 with IP 130.80.193.126IOS Device: hougrdnetsw01
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+hougrdnetsw01(config)#no username opmantek
+hougrdnetsw01(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hougrdnetsw01(config)#end
+hougrdnetsw01#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS hdt-gw01 with IP 50.206.193.81Failed on hdt-gw01 with IP: 50.206.193.81 
+Error: Connection to device timed-out: cisco_ios 50.206.193.81:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS hn-001-swac2501 with IP 10.172.2.18IOS Device: hn-001-swac2501
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+hn-001-swac2501(config)#no username opmantek
+hn-001-swac2501(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac2501(config)#end
+hn-001-swac2501#Building configuration...
+Failed on hn-001-swac2501 with IP: 10.172.2.18 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wmtw-news-sw1 with IP 10.138.1.21IOS Device: WMTW-NEWS-SW1
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+WMTW-NEWS-SW1(config)#no username opmantek
+WMTW-NEWS-SW1(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WMTW-NEWS-SW1(config)#end
+WMTW-NEWS-SW1#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wdsu-tech1-sw2 with IP 10.140.1.22IOS Device: WDSU-TECH1-SW2
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+WDSU-TECH1-SW2(config)#no username opmantek
+WDSU-TECH1-SW2(config)#username opmantek privilege 15 secret 0 N0Data4U!
+WDSU-TECH1-SW2(config)#end
+WDSU-TECH1-SW2#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS hn-001-swac4301 with IP 10.172.2.27IOS Device: hn-001-swac4301
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+hn-001-swac4301(config)#no username opmantek
+hn-001-swac4301(config)#username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac4301(config)#end
+hn-001-swac4301#Building configuration...
+Failed on hn-001-swac4301 with IP: 10.172.2.27 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS wlky-mgmt-sw2 with IP 10.137.1.53Failed on wlky-mgmt-sw2 with IP: 10.137.1.53 
+Error: Authentication failure: unable to connect cisco_ios 10.137.1.53:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS sfcconcord with IP 10.32.12.1IOS Device: SFCConcord
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+SFCConcord(config)#no username opmantek
+SFCConcord(config)#username opmantek privilege 15 secret 0 N0Data4U!
+SFCConcord(config)#end
+SFCConcord#Building configuration...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Connecting to IOS ksbw-eng-sw1 with IP 10.149.1.14

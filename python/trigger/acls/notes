@@ -1,0 +1,63 @@
+####################################################################################################
+
+/Users/rlaney/.virtualenvs/NetEngineerONE/lib/python2.7/site-packages/trigger/acl/support.pyc in output_ios(self, replace)
+    645             x = int(self.name)
+    646             if not (100 <= x <= 199 or 2000 <= x <= 2699):
+--> 647                 raise exceptions.BadACLName('IOS ACLs are 100-199 or 2000-2699')
+    648         except (TypeError, ValueError):
+    649             raise exceptions.BadACLName('IOS format requires a number as name')
+
+BadACLName: IOS ACLs are 100-199 or 2000-2699
+
+####################################################################################################
+
+acl_script --acl=test.acl -s 10.0.22.0 -P 22 --insert-defined
+
+Options:
+  -h, --help
+  -a ACL, --acl=ACL     specify the acl file
+  -n, --no-changes      don't make the changes
+  --show-mods           show modifications being made in a simple format.
+  --no-worklog          don't make a worklog entry
+  -N, --no-input        require no input (good for scripts)
+  -s SOURCE_ADDRESS, --source-address=SOURCE_ADDRESS
+                        define a source address
+  -d DESTINATION_ADDRESS, --destination-address=DESTINATION_ADDRESS
+                        define a destination address
+  --destination-address-from-file=DESTINATION_ADDRESS_FROM_FILE
+                        read a set of destination-addresses from a file
+  --source-address-from-file=SOURCE_ADDRESS_FROM_FILE
+                        read a set of source-addresses from a file
+  --protocol=PROTOCOL   define a protocol
+  -p SOURCE_PORT, --source-port=SOURCE_PORT
+                        define a source-port
+  --source-port-range=SOURCE_PORT_RANGE
+                        define a source-port range
+  --destination-port-range=DESTINATION_PORT_RANGE
+                        define a destination-port range
+  -P DESTINATION_PORT, --destination-port=DESTINATION_PORT
+                        define a destination port
+  -t MODIFY_SPECIFIC_TERM, --modify-specific-term=MODIFY_SPECIFIC_TERM
+                        When modifying a JUNOS type ACL, you may specify this
+                        option one or more times to define a specific JUNOS
+                        term you want to modify. This takes one argument which
+                        should be the name of term.
+  -c MODIFY_BETWEEN_COMMENTS, --modify-between-comments=MODIFY_BETWEEN_COMMENTS
+                        When modifying a IOS type ACL, you may specify this
+                        option one or more times to define a specific AREA of
+                        the ACL you want to modify. You must have at least 2
+                        comments defined in the ACL prior to running. This
+                        requires two arguments, the start comment, and the end
+                        comment. Your modifications will be done between the
+                        two.
+  -C COMMENT, --comment=COMMENT
+                        Add a comment when making the modification.
+  --insert-defined      This option works differently based on the type of ACL
+                        we are modifying. The one similar characteristic is
+                        that this will never remove any access already
+                        defined, just append.
+  --replace-defined     This option works differently based on the type of ACL
+                        we are modifying. The one similar characteristic is
+                        that access can be removed, since this replaces whole
+                        sets of defined data.
+

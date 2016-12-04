@@ -1,0 +1,1423 @@
+Failed on wcvb-exec-sw1 with IP: 10.144.1.26 
+Error: Authentication failure: unable to connect cisco_ios 10.144.1.26:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wbal-voip-ag7 with IP: 10.135.64.58 
+Error: Connection to device timed-out: cisco_ios 10.135.64.58:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on tu_cap_rtr with IP: 167.166.224.58 
+Error: Connection to device timed-out: cisco_ios 167.166.224.58:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wjcl-gw-sw1 with IP: 167.173.48.10 
+Error: Authentication failure: unable to connect cisco_ios 167.173.48.10:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hsc28-bc2-sw2 with IP: 172.19.10.207 
+Error: Connection to device timed-out: cisco_ios 172.19.10.207:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on kmbc-nmx1 with IP: 10.141.1.31 
+Error: Connection to device timed-out: cisco_ios 10.141.1.31:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on 25loop-mgr with IP: 130.80.150.75 
+Error: Connection to device timed-out: cisco_ios 130.80.150.75:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wnne-core-sw1 with IP: 10.157.64.1 
+Error: Connection to device timed-out: cisco_ios 10.157.64.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on koat-voip-ag2 with IP: 10.160.64.72 
+Error: Connection to device timed-out: cisco_ios 10.160.64.72:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on gm26995 with IP: 10.211.255.6 
+Error: Connection to device timed-out: cisco_ios 10.211.255.6:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wmor-master-sw1 with IP: 10.152.1.41 
+Error: Authentication failure: unable to connect cisco_ios 10.152.1.41:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wmor-inet1 with IP: 167.173.34.16 
+Error: Authentication failure: unable to connect cisco_ios 167.173.34.16:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wmtw-portland-sw1 with IP: 10.138.142.253 
+Error: Connection to device timed-out: cisco_ios 10.138.142.253:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hsc28-bc3-sw2 with IP: 172.19.10.152 
+Error: Connection to device timed-out: cisco_ios 172.19.10.152:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wptzc-gw-sw1 with IP: 167.173.35.10 
+Error: Authentication failure: unable to connect cisco_ios 167.173.35.10:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wisn-voip-ag1 with IP: 10.142.64.71 
+Error: Connection to device timed-out: cisco_ios 10.142.64.71:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on phoneroom3548-1 with IP: 10.224.69.15 
+Error: Connection to device timed-out: cisco_ios 10.224.69.15:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wmur-voip-ag1 with IP: 10.161.64.53 
+Error: Connection to device timed-out: cisco_ios 10.161.64.53:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on mezz-1b-mgr with IP: 130.80.150.129 
+Error: Connection to device timed-out: cisco_ios 130.80.150.129:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on 36loop-mgr with IP: 130.80.150.245 
+Error: Connection to device timed-out: cisco_ios 130.80.150.245:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wjcl-core-sw2 with IP: 10.164.1.3 
+Error: Authentication failure: unable to connect cisco_ios 10.164.1.3:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wmor-louth-sw1 with IP: 10.152.1.31 
+Error: Connection to device timed-out: cisco_ios 10.152.1.31:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on stl-rtr-02 with IP: 66.193.39.66 
+Error: Connection to device timed-out: cisco_ios 66.193.39.66:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on 25loop2-mgr with IP: 130.80.150.76 
+Error: Connection to device timed-out: cisco_ios 130.80.150.76:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wmur-voip-ag3 with IP: 10.161.64.55 
+Error: Connection to device timed-out: cisco_ios 10.161.64.55:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sw7-1-1a-mgr with IP: 130.80.250.107 
+Error: Connection to device timed-out: cisco_ios 130.80.250.107:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wisn-gw-sw1 with IP: 167.173.28.10 
+Error: Authentication failure: unable to connect cisco_ios 167.173.28.10:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wtae-voip-r1 with IP: 10.134.64.51 
+Error: Authentication failure: unable to connect cisco_ios 10.134.64.51:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on atu-gw-sw with IP: 167.166.208.7 
+Error: Connection to device timed-out: cisco_ios 167.166.208.7:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on 6-hearstcl-mgr with IP: 130.80.150.207 
+Error: Connection to device timed-out: cisco_ios 130.80.150.207:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hsc28-bc4-sw2 with IP: 172.19.10.154 
+Error: Connection to device timed-out: cisco_ios 172.19.10.154:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on neptune with IP: 10.90.0.3 
+Error: Connection to device timed-out: cisco_ios 10.90.0.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on gm27001 with IP: 10.121.79.14 
+Error: Connection to device timed-out: cisco_ios 10.121.79.14:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hbmgrvswiscsi with IP: 10.210.2.2 
+Error: Authentication failure: unable to connect cisco_ios 10.210.2.2:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on ksbw-harmonics-sw2 with IP: 10.149.16.253 
+Error: Connection to device timed-out: cisco_ios 10.149.16.253:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sw-tcoma-rtr with IP: 172.25.0.129 
+Error: Connection to device timed-out: cisco_ios 172.25.0.129:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on jstart-royaloaks-core with IP: 192.168.201.1 
+Error: Authentication failure: unable to connect cisco_ios 192.168.201.1:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on usa1359-mdf01-swa03 with IP: 10.1.2.53 
+Error: Connection to device timed-out: cisco_ios 10.1.2.53:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on het-voip-agw01 with IP: 10.0.252.14 
+Error: Authentication failure: unable to connect cisco_ios 10.0.252.14:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on jupiter with IP: 130.80.150.61 
+Error: Connection to device timed-out: cisco_ios 130.80.150.61:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wlky-mgmt-sw2 with IP: 10.137.1.53 
+Error: Authentication failure: unable to connect cisco_ios 10.137.1.53:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on ksbw-eng-sw1 with IP: 10.149.1.14 
+Error: Error reading SSH protocol banner 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sun-fw-1-x4 with IP: 10.33.7.1 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on ksbw-voip-ag2 with IP: 10.149.64.62 
+Error: Connection to device timed-out: cisco_ios 10.149.64.62:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wmur-voip-r1-srst with IP: 10.161.64.51 
+Error: Authentication failure: unable to connect cisco_ios 10.161.64.51:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on be-pci-sw1 with IP: 10.184.16.4 
+Error: Connection to device timed-out: cisco_ios 10.184.16.4:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on be-gw-sw2 with IP: 97.77.235.10 
+Error: Failed to enter configuration mode. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on gm26928 with IP: 10.121.175.6 
+Error: Connection to device timed-out: cisco_ios 10.121.175.6:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on chic-vz-gw with IP: 192.168.95.1 
+Error: Connection to device timed-out: cisco_ios 192.168.95.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on edge-s01-bmez-3550 with IP: 172.18.3.131 
+Error: Connection to device timed-out: cisco_ios 172.18.3.131:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hsc28-bc2-sw1 with IP: 172.19.10.206 
+Error: Connection to device timed-out: cisco_ios 172.19.10.206:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on 29loop-mgr with IP: 130.80.150.78 
+Error: Connection to device timed-out: cisco_ios 130.80.150.78:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on 217-c7206-1 with IP: 10.40.0.5 
+Error: Connection to device timed-out: cisco_ios 10.40.0.5:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on chic1 with IP: 192.168.95.4 
+Error: Connection to device timed-out: cisco_ios 192.168.95.4:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hbmgrvswcore with IP: 10.210.10.1 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on edge-s03-m2fl-3550 with IP: 172.18.3.23 
+Error: Connection to device timed-out: cisco_ios 172.18.3.23:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on scswitch1 with IP: 10.13.48.1 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hsc34-1 with IP: 172.19.10.241 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on 27loop-mgr with IP: 130.80.150.77 
+Error: Connection to device timed-out: cisco_ios 130.80.150.77:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wptz-bitcentral-sw1 with IP: 10.156.1.12 
+Error: Error reading SSH protocol banner 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on atu_sw1b1 with IP: 167.166.10.103 
+Error: Authentication failure: unable to connect cisco_ios 167.166.10.103:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wptz-oldcore-sw2 with IP: 10.156.1.4 
+Error: Authentication failure: unable to connect cisco_ios 10.156.1.4:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wmor-core-sw2 with IP: 10.152.0.3 
+Error: Authentication failure: unable to connect cisco_ios 10.152.0.3:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hn-001-swav4203 with IP: 10.172.3.144 
+Error: Authentication failure: unable to connect cisco_ios 10.172.3.144:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on atu_sw2a1 with IP: 167.166.10.201 
+Error: Authentication failure: unable to connect cisco_ios 167.166.10.201:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on be-advertising with IP: 192.168.206.243 
+Error: Connection to device timed-out: cisco_ios 192.168.206.243:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hsc-extra with IP: 192.168.97.34 
+Error: Connection to device timed-out: cisco_ios 192.168.97.34:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wjcl-inet1 with IP: 167.173.48.16 
+Error: Authentication failure: unable to connect cisco_ios 167.173.48.16:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wisn-voip-ag3 with IP: 10.142.64.73 
+Error: Connection to device timed-out: cisco_ios 10.142.64.73:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sw5-2-2b-mgr with IP: 130.80.250.115 
+Error: Connection to device timed-out: cisco_ios 130.80.250.115:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wlky-voip-r1 with IP: 10.137.64.51 
+Error: Authentication failure: unable to connect cisco_ios 10.137.64.51:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on dt-tcoma-mgr with IP: 172.25.0.4 
+Error: Connection to device timed-out: cisco_ios 172.25.0.4:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hsc-npdr-sw1 with IP: 172.19.10.201 
+Error: Connection to device timed-out: cisco_ios 172.19.10.201:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on houshdnetrtr01 with IP: 130.80.189.1 
+Error: Incompatible version (1.5 instead of 2.0) 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on dc_2960_tor_cab3 with IP: 10.37.99.36 
+Error: Authentication failure: unable to connect cisco_ios 10.37.99.36:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wjcl-hh-sw1 with IP: 10.164.1.4 
+Error: Authentication failure: unable to connect cisco_ios 10.164.1.4:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on usa1016-5-idf02-01-vgw01 with IP: 10.90.6.19 
+Error: Connection to device timed-out: cisco_ios 10.90.6.19:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on atu_sw2a2 with IP: 167.166.10.210 
+Error: Authentication failure: unable to connect cisco_ios 167.166.10.210:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on ketv-mgmt-sw1 with IP: 10.145.1.13 
+Error: Authentication failure: unable to connect cisco_ios 10.145.1.13:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on kmbc-gw-sw1 with IP: 167.173.19.10 
+Error: Authentication failure: unable to connect cisco_ios 167.173.19.10:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wyff-server-sw1 with IP: 10.159.1.12 
+Error: Authentication failure: unable to connect cisco_ios 10.159.1.12:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hsc32-1 with IP: 172.19.10.221 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on edge-s02-m4fl-3550 with IP: 172.18.3.42 
+Error: Connection to device timed-out: cisco_ios 172.18.3.42:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wjcl-idf-sw1 with IP: 10.164.1.10 
+Error: Authentication failure: unable to connect cisco_ios 10.164.1.10:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hn-001-swav4302 with IP: 10.172.2.37 
+Error: Authentication failure: unable to connect cisco_ios 10.172.2.37:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wcvb-bops-sw1 with IP: 10.144.14.254 
+Error: Authentication failure: unable to connect cisco_ios 10.144.14.254:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wlky-voip-r2 with IP: 10.137.64.52 
+Error: Authentication failure: unable to connect cisco_ios 10.137.64.52:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hbmindrtrtwint with IP: 207.250.104.129 
+Error: Failed to enter configuration mode. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wjcl-core-sw1 with IP: 10.164.1.2 
+Error: Authentication failure: unable to connect cisco_ios 10.164.1.2:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on tusw2e1 with IP: 167.166.10.136 
+Error: Connection to device timed-out: cisco_ios 167.166.10.136:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hbm-3750-1 with IP: 172.19.10.173 
+Error: Connection to device timed-out: cisco_ios 172.19.10.173:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on 31loop-mgr with IP: 130.80.150.242 
+Error: Connection to device timed-out: cisco_ios 130.80.150.242:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on kmbc-user-sw1-new with IP: 10.141.1.61 
+Error: Connection to device timed-out: cisco_ios 10.141.1.61:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on ksbw-inet1 with IP: 167.173.33.16 
+Error: Authentication failure: unable to connect cisco_ios 167.173.33.16:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on stamford4506-1 with IP: 10.224.73.1 
+Error: Connection to device timed-out: cisco_ios 10.224.73.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hbmsfrrtrcore with IP: 10.121.79.254 
+Error: Connection to device timed-out: cisco_ios 10.121.79.254:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on koat-voip-r2 with IP: 10.160.64.52 
+Error: Authentication failure: unable to connect cisco_ios 10.160.64.52:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on gm68084 with IP: 10.71.224.61 
+Error: Connection to device timed-out: cisco_ios 10.71.224.61:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on dc4-4351-vgw01 with IP: 10.73.2.20 
+Error: Connection to device timed-out: cisco_ios 10.73.2.20:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wptz-prodmgmt-sw1 with IP: 10.156.1.14 
+Error: Authentication failure: unable to connect cisco_ios 10.156.1.14:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hsc-hcdr-gw1 with IP: 207.235.48.242 
+Error: Connection to device timed-out: cisco_ios 207.235.48.242:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on 24loop-mgr with IP: 130.80.150.73 
+Error: Connection to device timed-out: cisco_ios 130.80.150.73:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on gm26991 with IP: 10.121.227.6 
+Error: Connection to device timed-out: cisco_ios 10.121.227.6:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hsc28-1 with IP: 172.19.10.181 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wxii-voip-r2 with IP: 10.139.64.52 
+Error: Authentication failure: unable to connect cisco_ios 10.139.64.52:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sw4-2-2a-mgr with IP: 130.80.250.109 
+Error: Connection to device timed-out: cisco_ios 130.80.250.109:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on khbs-voip-r1 with IP: 10.150.64.50 
+Error: Authentication failure: unable to connect cisco_ios 10.150.64.50:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on atu_sw2b2 with IP: 167.166.10.203 
+Error: Authentication failure: unable to connect cisco_ios 167.166.10.203:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on dr25loop-mgr with IP: 10.189.64.7 
+Error: Connection to device timed-out: cisco_ios 10.189.64.7:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hsc28-bc5-sw1 with IP: 172.19.10.155 
+Error: Connection to device timed-out: cisco_ios 172.19.10.155:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on 28loop-mgr with IP: 130.80.150.79 
+Error: Connection to device timed-out: cisco_ios 130.80.150.79:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wgal-server-sw1 with IP: 10.155.1.4 
+Error: Connection to device timed-out: cisco_ios 10.155.1.4:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hc-vz-gw2 with IP: 130.80.34.9 
+Error: Connection to device timed-out: cisco_ios 130.80.34.9:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wlky-tech-sw2 with IP: 10.137.1.5 
+Error: Authentication failure: unable to connect cisco_ios 10.137.1.5:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on phoneroom3548-2 with IP: 10.224.69.16 
+Error: Connection to device timed-out: cisco_ios 10.224.69.16:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on yyz-vz-gw with IP: 152.185.38.210 
+Error: Connection to device timed-out: cisco_ios 152.185.38.210:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wlwt-xmr1 with IP: 192.168.196.130 
+Error: Connection to device timed-out: cisco_ios 192.168.196.130:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on ksbw-oldcore-sw2 with IP: 10.149.1.101 
+Error: Connection to device timed-out: cisco_ios 10.149.1.101:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on seattle-1a-mgr with IP: 192.168.1.3 
+Error: Connection to device timed-out: cisco_ios 192.168.1.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on comproom3548-5 with IP: 10.224.69.13 
+Error: Connection to device timed-out: cisco_ios 10.224.69.13:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hbmlossw5fl with IP: 172.28.46.3 
+Error: Authentication failure: unable to connect cisco_ios 172.28.46.3:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wptz-nbcmgmt-sw1 with IP: 10.156.1.15 
+Error: Authentication failure: unable to connect cisco_ios 10.156.1.15:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on kmbc-voip-r1 with IP: 10.141.64.51 
+Error: Authentication failure: unable to connect cisco_ios 10.141.64.51:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on gw2 with IP: 172.18.96.1 
+Error: Authentication failure: unable to connect cisco_ios 172.18.96.1:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wptz-control-sw1 with IP: 10.156.1.11 
+Error: Connection to device timed-out: cisco_ios 10.156.1.11:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on comp-2a-mgr with IP: 130.80.150.122 
+Error: Connection to device timed-out: cisco_ios 130.80.150.122:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on comproom3524-1 with IP: 10.224.69.7 
+Error: Connection to device timed-out: cisco_ios 10.224.69.7:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wesh-bops-sw1 with IP: 10.133.14.254 
+Error: Authentication failure: unable to connect cisco_ios 10.133.14.254:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wbal-voip-ag3 with IP: 10.135.64.54 
+Error: Connection to device timed-out: cisco_ios 10.135.64.54:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wgal-nexio-sw1 with IP: 10.155.1.21 
+Error: Authentication failure: unable to connect cisco_ios 10.155.1.21:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on base-1a-mgr with IP: 130.80.150.1 
+Error: Connection to device timed-out: cisco_ios 130.80.150.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on usa1016-2-idf02-01-vgw01 with IP: 10.90.6.16 
+Error: Connection to device timed-out: cisco_ios 10.90.6.16:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on lmtmacswitch1 with IP: 192.168.92.116 
+Error: Connection to device timed-out: cisco_ios 192.168.92.116:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on dc_2960_tor_cab4 with IP: 10.37.99.37 
+Error: Authentication failure: unable to connect cisco_ios 10.37.99.37:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on edge-s01-m1fl-3550 with IP: 172.18.3.11 
+Error: Connection to device timed-out: cisco_ios 172.18.3.11:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wmtw-w-voip-r1 with IP: 10.138.164.51 
+Error: Connection to device timed-out: cisco_ios 10.138.164.51:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on edge-s03-m3fl-3550 with IP: 172.18.3.34 
+Error: Connection to device timed-out: cisco_ios 172.18.3.34:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wmor-master-sw2 with IP: 10.152.1.42 
+Error: Authentication failure: unable to connect cisco_ios 10.152.1.42:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on fre-c2960-1 with IP: 172.31.20.251 
+Error: Connection to device timed-out: cisco_ios 172.31.20.251:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hmd-cl-jstart-vz-gw with IP: 10.163.9.66 
+Error: Connection to device timed-out: cisco_ios 10.163.9.66:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on kcci-voip-ag2 with IP: 10.147.64.72 
+Error: Connection to device timed-out: cisco_ios 10.147.64.72:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wxii-voip-r1 with IP: 10.139.64.51 
+Error: Authentication failure: unable to connect cisco_ios 10.139.64.51:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hsc29-1 with IP: 172.19.10.191 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hbmindswasains with IP: 172.28.34.5 
+Error: Connection to device timed-out: cisco_ios 172.28.34.5:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sw-tcoma-mgr with IP: 172.25.0.130 
+Error: Connection to device timed-out: cisco_ios 172.25.0.130:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wmor-core-sw1 with IP: 10.152.0.1 
+Error: Connection to device timed-out: cisco_ios 10.152.0.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on 6-rgs-mgr with IP: 130.80.150.67 
+Error: Connection to device timed-out: cisco_ios 130.80.150.67:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hn-001-swac0203-techrm2 with IP: 10.172.3.32 
+Error: Connection to device timed-out: cisco_ios 10.172.3.32:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wlwt-voip-r2-cube with IP: 10.136.64.52 
+Error: Authentication failure: unable to connect cisco_ios 10.136.64.52:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wesh-voip-ag8 with IP: 10.133.64.72 
+Error: Connection to device timed-out: cisco_ios 10.133.64.72:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on kmbc-nmx2 with IP: 10.141.1.32 
+Error: Connection to device timed-out: cisco_ios 10.141.1.32:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on rtr3 with IP: 172.18.10.3 
+Error: Connection to device timed-out: cisco_ios 172.18.10.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on 10-1b-mgr with IP: 130.80.150.101 
+Error: Connection to device timed-out: cisco_ios 130.80.150.101:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hsc28-3750-4 with IP: 172.19.10.176 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wlwt-voip-ag1 with IP: 10.136.64.71 
+Error: Connection to device timed-out: cisco_ios 10.136.64.71:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on capitol with IP: 167.166.80.193 
+Error: Connection to device timed-out: cisco_ios 167.166.80.193:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on kcci-voip-ag1 with IP: 10.147.64.71 
+Error: Connection to device timed-out: cisco_ios 10.147.64.71:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on mezz-1a-mgr with IP: 130.80.150.128 
+Error: Connection to device timed-out: cisco_ios 130.80.150.128:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wlwt-voip-r1-srst with IP: 10.136.64.51 
+Error: Authentication failure: unable to connect cisco_ios 10.136.64.51:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wgal-mgmt-sw1 with IP: 10.155.1.13 
+Error: Authentication failure: unable to connect cisco_ios 10.155.1.13:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on usa1016-4-idf02-01-vgw01 with IP: 10.90.6.18 
+Error: Connection to device timed-out: cisco_ios 10.90.6.18:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on fre-c3750 with IP: 172.31.20.250 
+Error: Connection to device timed-out: cisco_ios 172.31.20.250:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on comproom3548-3 with IP: 10.224.69.11 
+Error: Connection to device timed-out: cisco_ios 10.224.69.11:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hbmgsvswcore with IP: 192.168.201.1 
+Error: Authentication failure: unable to connect cisco_ios 192.168.201.1:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on khog-voip-r1 with IP: 10.187.64.50 
+Error: Authentication failure: unable to connect cisco_ios 10.187.64.50:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on edge-s02-m2fl-3550 with IP: 172.18.3.22 
+Error: Connection to device timed-out: cisco_ios 172.18.3.22:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on csunswitch1 with IP: 10.33.5.2 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on khog-mgmt-sw1 with IP: 10.187.1.52 
+Error: Authentication failure: unable to connect cisco_ios 10.187.1.52:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hbmsfrswcisfl3 with IP: 172.28.48.4 
+Error: Connection to device timed-out: cisco_ios 172.28.48.4:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wtae-voip-ag1 with IP: 10.134.64.71 
+Error: Connection to device timed-out: cisco_ios 10.134.64.71:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on milliman_idf-21 with IP: 10.37.99.34 
+Error: Authentication failure: unable to connect cisco_ios 10.37.99.34:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on 35loop-mgr with IP: 130.80.150.244 
+Error: Connection to device timed-out: cisco_ios 130.80.150.244:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sw5-2-2a-mgr with IP: 130.80.250.114 
+Error: Connection to device timed-out: cisco_ios 130.80.250.114:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hbmlauswcore with IP: 10.121.241.1 
+Error: Authentication failure: unable to connect cisco_ios 10.121.241.1:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on judson-sw1 with IP: 172.18.3.216 
+Error: Connection to device timed-out: cisco_ios 172.18.3.216:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on ksbw-harmonic-sw1 with IP: 10.149.16.254 
+Error: Connection to device timed-out: cisco_ios 10.149.16.254:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on cab5_4948 with IP: 10.37.99.38 
+Error: Connection to device timed-out: cisco_ios 10.37.99.38:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wgal-inet1 with IP: 167.173.41.16 
+Error: Authentication failure: unable to connect cisco_ios 167.173.41.16:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on gm26978 with IP: 10.189.31.254 
+Error: Connection to device timed-out: cisco_ios 10.189.31.254:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sw4-2-2b-mgr with IP: 130.80.250.110 
+Error: Connection to device timed-out: cisco_ios 130.80.250.110:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wbal-voip-ag6 with IP: 10.135.64.57 
+Error: Connection to device timed-out: cisco_ios 10.135.64.57:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on seattle-4a-mgr with IP: 192.168.1.6 
+Error: Connection to device timed-out: cisco_ios 192.168.1.6:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on presscontrol2 with IP: 172.18.135.51 
+Error: Connection to device timed-out: cisco_ios 172.18.135.51:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wgal-vz-gw1 with IP: 167.173.41.73 
+Error: Authentication failure: unable to connect cisco_ios 167.173.41.73:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on rbma-gw-sw1 with IP: 65.222.86.110 
+Error: Authentication failure: unable to connect cisco_ios 65.222.86.110:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sw_twt_internet with IP: 130.80.250.120 
+Error: Connection to device timed-out: cisco_ios 130.80.250.120:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wcvb-mdf-sw2 with IP: 10.144.1.12 
+Error: Connection to device timed-out: cisco_ios 10.144.1.12:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on atu_sw2c1 with IP: 167.166.10.204 
+Error: Authentication failure: unable to connect cisco_ios 167.166.10.204:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hn-001-swav4201 with IP: 10.172.3.142 
+Error: Authentication failure: unable to connect cisco_ios 10.172.3.142:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on chi-swac01 with IP: 192.168.95.17 
+Error: Connection to device timed-out: cisco_ios 192.168.95.17:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sun-fw-1-x2 with IP: 10.33.2.1 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on usa1025-mrt-mdf01-01-vgw02 with IP: 192.168.53.254 
+Error: Connection to device timed-out: cisco_ios 192.168.53.254:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on beau-1a-mgr with IP: 192.168.206.23 
+Error: Connection to device timed-out: cisco_ios 192.168.206.23:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on koat-tech2-sw1 with IP: 10.160.1.14 
+Error: Authentication failure: unable to connect cisco_ios 10.160.1.14:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wgal-gw-sw1 with IP: 167.173.41.10 
+Error: Authentication failure: unable to connect cisco_ios 167.173.41.10:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wbal-voip-ag4 with IP: 10.135.64.55 
+Error: Connection to device timed-out: cisco_ios 10.135.64.55:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wlky-voip-ag1 with IP: 10.137.64.53 
+Error: Connection to device timed-out: cisco_ios 10.137.64.53:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on het-voip-agw02 with IP: 10.0.252.15 
+Error: Authentication failure: unable to connect cisco_ios 10.0.252.15:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sfswitch1 with IP: 10.118.16.1 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on tuswcore1 with IP: 167.166.10.1 
+Error: Authentication failure: unable to connect cisco_ios 167.166.10.1:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on be-pci-sw2 with IP: 10.184.16.5 
+Error: Connection to device timed-out: cisco_ios 10.184.16.5:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on capital2950 with IP: 167.166.80.194 
+Error: Connection to device timed-out: cisco_ios 167.166.80.194:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on mid-tcom-rtr with IP: 172.25.1.65 
+Error: Connection to device timed-out: cisco_ios 172.25.1.65:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hsc-hmg-uu-gw with IP: 206.225.158.5 
+Error: Failed to enter configuration mode. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on edge-s03-bmez-3548 with IP: 172.18.3.133 
+Error: Connection to device timed-out: cisco_ios 172.18.3.133:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on koco-voip-ag2 with IP: 10.153.64.54 
+Error: Connection to device timed-out: cisco_ios 10.153.64.54:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on fre-c2960-2 with IP: 172.31.20.252 
+Error: Connection to device timed-out: cisco_ios 172.31.20.252:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wptzc-core-sw1 with IP: 10.189.140.1 
+Error: Connection to device timed-out: cisco_ios 10.189.140.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sun-fw-1-x3 with IP: 10.33.6.1 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wbal-voip-ag5 with IP: 10.135.64.56 
+Error: Connection to device timed-out: cisco_ios 10.135.64.56:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on edge-s01-m2fl-3550 with IP: 172.18.3.21 
+Error: Connection to device timed-out: cisco_ios 172.18.3.21:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on koat-voip-ag1 with IP: 10.160.64.71 
+Error: Connection to device timed-out: cisco_ios 10.160.64.71:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wjcl-vz-gw1 with IP: 167.173.48.6 
+Error: Authentication failure: unable to connect cisco_ios 167.173.48.6:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wxii-bops-sw1 with IP: 10.139.14.254 
+Error: Authentication failure: unable to connect cisco_ios 10.139.14.254:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wtae-voip-r2 with IP: 10.134.64.72 
+Error: Authentication failure: unable to connect cisco_ios 10.134.64.72:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hbmlossw4fl with IP: 172.28.46.8 
+Error: Authentication failure: unable to connect cisco_ios 172.28.46.8:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wdp-gw-sw with IP: 208.49.182.3 
+Error: Connection to device timed-out: cisco_ios 208.49.182.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on gm26925 with IP: 10.121.207.6 
+Error: Connection to device timed-out: cisco_ios 10.121.207.6:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on usa1025-mrt-mdf01-01-vgw01 with IP: 192.168.53.253 
+Error: Signature verification (ssh-rsa) failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on comproom3548-4 with IP: 10.224.69.12 
+Error: Connection to device timed-out: cisco_ios 10.224.69.12:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on koco-voip-ag1 with IP: 10.153.64.53 
+Error: Connection to device timed-out: cisco_ios 10.153.64.53:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wlky-voip-ag2 with IP: 10.137.64.54 
+Error: Connection to device timed-out: cisco_ios 10.137.64.54:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on clv-vz-gw with IP: 152.176.10.34 
+Error: Connection to device timed-out: cisco_ios 152.176.10.34:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on koco-voip-cube-r2 with IP: 10.153.64.52 
+Error: Authentication failure: unable to connect cisco_ios 10.153.64.52:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wcvb-gw-sw1 with IP: 167.173.30.10 
+Error: Authentication failure: unable to connect cisco_ios 167.173.30.10:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wlky-bops-sw1 with IP: 10.137.14.254 
+Error: Authentication failure: unable to connect cisco_ios 10.137.14.254:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on 30loop-mgr with IP: 130.80.150.246 
+Error: Connection to device timed-out: cisco_ios 130.80.150.246:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on comp-srva-mgr with IP: 130.80.150.126 
+Error: Connection to device timed-out: cisco_ios 130.80.150.126:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on 6-exchclus-mgr with IP: 130.80.150.236 
+Error: Connection to device timed-out: cisco_ios 130.80.150.236:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on gm26879 with IP: 10.121.15.6 
+Error: Connection to device timed-out: cisco_ios 10.121.15.6:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on usa1016-1-idf03-01-vgw01 with IP: 10.90.6.15 
+Error: Connection to device timed-out: cisco_ios 10.90.6.15:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wxii-techctrl-sw1 with IP: 10.139.1.11 
+Error: Connection to device timed-out: cisco_ios 10.139.1.11:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on usa1016-4-idf02-01-swa02 with IP: 10.90.0.43 
+Error: Connection to device timed-out: cisco_ios 10.90.0.43:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on atu_sw1a1 with IP: 167.166.10.101 
+Error: Authentication failure: unable to connect cisco_ios 167.166.10.101:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on usa1016-2-mdf02-01-vgw02 with IP: 10.90.6.11 
+Error: Signature verification (ssh-rsa) failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wpbf-inet1 with IP: 167.173.22.16 
+Error: Authentication failure: unable to connect cisco_ios 167.173.22.16:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on dc_2960_tor_cab2 with IP: 10.37.99.35 
+Error: Authentication failure: unable to connect cisco_ios 10.37.99.35:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wisn-eng-sw1 with IP: 10.142.1.20 
+Error: Connection to device timed-out: cisco_ios 10.142.1.20:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on 24loop2-mgr with IP: 130.80.150.74 
+Error: Connection to device timed-out: cisco_ios 130.80.150.74:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wmor-phone-sw1 with IP: 10.152.1.23 
+Error: Authentication failure: unable to connect cisco_ios 10.152.1.23:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on ksbw1 with IP: 192.168.133.60 
+Error: Connection to device timed-out: cisco_ios 192.168.133.60:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on gm27132 with IP: 10.189.146.30 
+Error: Connection to device timed-out: cisco_ios 10.189.146.30:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on tusw1wh1 with IP: 167.166.10.25 
+Error: Connection to device timed-out: cisco_ios 167.166.10.25:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on kcra-avid-sw1 with IP: 10.151.1.25 
+Error: Connection to device timed-out: cisco_ios 10.151.1.25:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on atu_sw1d1 with IP: 167.166.10.107 
+Error: Authentication failure: unable to connect cisco_ios 167.166.10.107:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on het-voip-gw with IP: 10.0.252.11 
+Error: Connection to device timed-out: cisco_ios 10.0.252.11:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wisn-voip-ag2 with IP: 10.142.64.72 
+Error: Connection to device timed-out: cisco_ios 10.142.64.72:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hc-vz-gw1 with IP: 130.80.34.8 
+Error: Connection to device timed-out: cisco_ios 130.80.34.8:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wgal-master-sw1 with IP: 10.155.1.5 
+Error: Connection to device timed-out: cisco_ios 10.155.1.5:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wbal-voip-ag2 with IP: 10.135.64.53 
+Error: Connection to device timed-out: cisco_ios 10.135.64.53:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on 3-1a-mgr with IP: 130.80.150.30 
+Error: Connection to device timed-out: cisco_ios 130.80.150.30:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on kcra-voip-ag2 with IP: 10.151.64.72 
+Error: Incompatible version (1.5 instead of 2.0) 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on kcra-voip-ag1 with IP: 10.151.64.71 
+Error: Incompatible version (1.5 instead of 2.0) 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wmor-voip-ag1 with IP: 10.152.64.51 
+Error: Connection to device timed-out: cisco_ios 10.152.64.51:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hsc-htv-hub with IP: 206.225.144.30 
+Error: Connection to device timed-out: cisco_ios 206.225.144.30:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hsc31-1 with IP: 172.19.10.211 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on saturn with IP: 130.80.6.2 
+Error: Connection to device timed-out: cisco_ios 130.80.6.2:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on cds-austin with IP: 152.161.68.50 
+Error: Connection to device timed-out: cisco_ios 152.161.68.50:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wisn-voip-srst-r1 with IP: 10.142.64.51 
+Error: Authentication failure: unable to connect cisco_ios 10.142.64.51:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wptz-harmonicmgmt-sw1 with IP: 10.156.1.22 
+Error: Authentication failure: unable to connect cisco_ios 10.156.1.22:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on usa1016-1-idf02-01-vgw01 with IP: 10.90.6.14 
+Error: Connection to device timed-out: cisco_ios 10.90.6.14:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on milliman_idf-20 with IP: 10.37.99.33 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hsc33-1 with IP: 172.19.10.231 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wmtw-baldwin-sw1 with IP: 10.138.142.254 
+Error: Connection to device timed-out: cisco_ios 10.138.142.254:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on resswitch1 with IP: 10.196.63.2 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wptz-bops-sw1 with IP: 10.156.14.254 
+Error: Authentication failure: unable to connect cisco_ios 10.156.14.254:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on koco-inet1 with IP: 10.153.255.5 
+Error: Authentication failure: unable to connect cisco_ios 10.153.255.5:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on jstart-ro-switch2 with IP: 10.105.0.3 
+Error: Connection to device timed-out: cisco_ios 10.105.0.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on edge-s01-m3fl-3550 with IP: 172.18.3.31 
+Error: Connection to device timed-out: cisco_ios 172.18.3.31:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on annarbor-rt-inet-gw with IP: 204.11.141.41 
+Error: Connection to device timed-out: cisco_ios 204.11.141.41:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on usa1141-veretech-swa101 with IP: 192.168.200.2 
+Error: Connection to device timed-out: cisco_ios 192.168.200.2:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hfmro-rt with IP: 147.225.57.22 
+Error: Connection to device timed-out: cisco_ios 147.225.57.22:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wisn-voip-cube-r2 with IP: 10.142.64.52 
+Error: Authentication failure: unable to connect cisco_ios 10.142.64.52:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wvtm-gw-sw1 with IP: 167.173.47.10 
+Error: Authentication failure: unable to connect cisco_ios 167.173.47.10:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on koco-voip-cube-r1 with IP: 10.153.64.51 
+Error: Authentication failure: unable to connect cisco_ios 10.153.64.51:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hsc28-bc3-sw1 with IP: 172.19.10.151 
+Error: Connection to device timed-out: cisco_ios 172.19.10.151:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on swaa201 with IP: 10.118.128.2 
+Error: Connection to device timed-out: cisco_ios 10.118.128.2:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on tusw2e2 with IP: 167.166.10.137 
+Error: Connection to device timed-out: cisco_ios 167.166.10.137:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wmtw-cs-sw1 with IP: 10.138.1.23 
+Error: Connection to device timed-out: cisco_ios 10.138.1.23:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hsc28-bc5-sw2 with IP: 172.19.10.156 
+Error: Connection to device timed-out: cisco_ios 172.19.10.156:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on tuswcr1 with IP: 167.166.10.191 
+Error: Connection to device timed-out: cisco_ios 167.166.10.191:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on dc_2960_tor_cab2_2 with IP: 10.37.99.41 
+Error: Authentication failure: unable to connect cisco_ios 10.37.99.41:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hn-003-mscr0501 with IP: 10.174.33.1 
+Error: Authentication failure: unable to connect cisco_ios 10.174.33.1:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wmor-bops-sw1 with IP: 10.152.14.254 
+Error: Authentication failure: unable to connect cisco_ios 10.152.14.254:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wptz-controlmgmt-sw1 with IP: 10.156.1.13 
+Error: Authentication failure: unable to connect cisco_ios 10.156.1.13:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on atu_sw1a2 with IP: 167.166.10.102 
+Error: Authentication failure: unable to connect cisco_ios 167.166.10.102:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on pdh-bc1 with IP: 208.180.102.47 
+Error: Connection to device timed-out: cisco_ios 208.180.102.47:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hbmbocswcore with IP: 192.168.200.1 
+Error: Connection to device timed-out: cisco_ios 192.168.200.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on comp-srvb-mgr with IP: 130.80.150.127 
+Error: Connection to device timed-out: cisco_ios 130.80.150.127:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on edge-s02-m3fl-3550 with IP: 172.18.3.32 
+Error: Connection to device timed-out: cisco_ios 172.18.3.32:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wyff-gw-sw1 with IP: 167.173.24.10 
+Error: Authentication failure: unable to connect cisco_ios 167.173.24.10:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wmor-vz-gw1 with IP: 167.173.34.6 
+Error: Authentication failure: unable to connect cisco_ios 167.173.34.6:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sw4-2-1a-mgr with IP: 130.80.250.104 
+Error: Connection to device timed-out: cisco_ios 130.80.250.104:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hcdr-vz-gw with IP: 206.225.146.105 
+Error: Connection to device timed-out: cisco_ios 206.225.146.105:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on ksbw-tech-sw2 with IP: 10.149.1.12 
+Error: Connection to device timed-out: cisco_ios 10.149.1.12:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wapt-old-tech1 with IP: 10.158.1.7 
+Error: Connection to device timed-out: cisco_ios 10.158.1.7:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on kcra-news-sw1 with IP: 10.151.1.111 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on rated-red-gw1 with IP: 4.14.88.226 
+Error: Authentication failure: unable to connect cisco_ios 4.14.88.226:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on 353-c3560 with IP: 10.30.4.22 
+Error: Connection to device timed-out: cisco_ios 10.30.4.22:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on swac-sfhf1201 with IP: 192.168.234.4 
+Error: Connection to device timed-out: cisco_ios 192.168.234.4:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on 207-235-48-242 with IP: 207.235.48.242 
+Error: Connection to device timed-out: cisco_ios 207.235.48.242:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hn-003-swac0501 with IP: 10.174.33.3 
+Error: Connection to device timed-out: cisco_ios 10.174.33.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on khog-tech-sw1 with IP: 10.187.1.23 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hn-001-swac3902 with IP: 10.172.22.1 
+Error: Connection to device timed-out: cisco_ios 10.172.22.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on ent-fw-1 with IP: 10.33.1.1 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hbmlawswcore with IP: 10.121.104.1 
+Error: Authentication failure: unable to connect cisco_ios 10.121.104.1:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on gm67644 with IP: 10.112.254.6 
+Error: Connection to device timed-out: cisco_ios 10.112.254.6:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on het-voip-gw2 with IP: 10.0.252.17 
+Error: Authentication failure: unable to connect cisco_ios 10.0.252.17:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hsc28-bc1-sw2 with IP: 172.19.10.205 
+Error: Connection to device timed-out: cisco_ios 172.19.10.205:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hsc28-3750-lab1 with IP: 172.19.10.199 
+Error: Connection to device timed-out: cisco_ios 172.19.10.199:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wjcl-bops-sw1 with IP: 10.164.14.254 
+Error: Authentication failure: unable to connect cisco_ios 10.164.14.254:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wyff-transmitter-sw1 with IP: 10.159.101.254 
+Error: Authentication failure: unable to connect cisco_ios 10.159.101.254:22
+Authentication failed. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wcvb-mdf-sw1 with IP: 10.144.1.11 
+Error: Connection to device timed-out: cisco_ios 10.144.1.11:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on ksbw-oldcore-sw1 with IP: 10.149.1.100 
+Error: Timed-out reading channel, data not available. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on be-gw-sw1 with IP: 97.77.235.9 
+Error: Search pattern never detected in send_command_expect: BE\-GW\-SW1\# 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS wtae-bops-sw1 with IP 10.134.14.254
+Connecting to IOS ketv-mgmt-sw4 with IP 10.145.1.16
+Connecting to IOS wpbf-bops-sw1 with IP 10.148.14.254
+Connecting to IOS wtae-gw-sw1 with IP 167.173.26.10
+Connecting to IOS gw1 with IP 172.18.96.2
+Connecting to IOS houwpdnetsw01 with IP 130.80.194.126
+Connecting to IOS wdsu-tech1-sw1 with IP 10.140.1.21
+Connecting to IOS wcvb-techcore-sw1 with IP 10.144.1.40
+Connecting to IOS concord2960 with IP 10.32.12.250
+Connecting to IOS gm68448 with IP 10.73.224.61
+Connecting to IOS nycsw2 with IP 10.13.20.2
+Connecting to IOS wesh-voip-ag1 with IP 10.133.64.71
+Connecting to IOS wapt-vz-gw1 with IP 167.173.17.6
+Connecting to IOS hsc-3750-edge with IP 172.19.10.160
+Connecting to IOS wgal-bops-sw1 with IP 10.155.14.254
+Connecting to IOS resvgw1 with IP 10.196.48.100
+Connecting to IOS nyc-bu-gw with IP 198.185.162.7
+Connecting to IOS kcci-voip-r2-cube with IP 10.147.64.52
+Connecting to IOS hsc-uu-gw with IP 206.225.145.132
+Connecting to IOS wdsu-inet1 with IP 167.173.18.16
+Connecting to IOS rtr1 with IP 172.18.10.1
+Connecting to IOS wlwt-inet1 with IP 167.173.21.16
+Connecting to IOS khog-inet1 with IP 167.173.32.16
+Connecting to IOS ketv-mgmt-sw3 with IP 10.145.1.15
+Connecting to IOS ksbw-voip-ag1 with IP 10.149.64.61
+Connecting to IOS dalswitch1 with IP 10.118.40.1
+Connecting to IOS kmbc-bops-sw1 with IP 10.141.14.254
+Connecting to IOS wtae-mgmt-sw1 with IP 10.134.1.34
+Connecting to IOS hsc28-3750-lab2 with IP 172.19.10.214
+Connecting to IOS ksbw-tech-sw1 with IP 10.149.1.11
+Connecting to IOS houmasnetsw01 with IP 130.80.191.126
+Connecting to IOS cityhall-c2960 with IP 10.32.15.252
+Connecting to IOS ausconnetsw02 with IP 130.80.195.125
+Connecting to IOS wbal-radio-uu-gw with IP 65.195.229.194
+Connecting to IOS dc_2960_tor_cab6 with IP 10.37.99.39
+Connecting to IOS edge-s01-h2fl-3550 with IP 172.18.3.201
+Connecting to IOS hsc28-bc4-sw1 with IP 172.19.10.153
+Connecting to IOS hbm-gr-sw1 with IP 67.220.152.15
+Connecting to IOS usa1055-chg-mdf09-01-inet01 with IP 204.56.96.1
+Connecting to IOS wapt-inet1 with IP 167.173.17.5
+Connecting to IOS gm28664 with IP 10.121.107.6
+Connecting to IOS gm26962 with IP 10.121.243.6
+Connecting to IOS hsc-gw01 with IP 206.225.146.98
+Connecting to IOS houogrnetrtr01 with IP 172.25.47.1
+Connecting to IOS sw4-2-1b-mgr with IP 130.80.250.108
+Connecting to IOS hn-003-swac0201 with IP 10.174.33.7
+Connecting to IOS hn-001-swav4301 with IP 10.172.2.36
+Connecting to IOS tuswcr2 with IP 167.166.10.192
+Connecting to IOS sm-swac-001 with IP 10.118.32.5
+Connecting to IOS wmtw-a-inet1 with IP 167.173.42.16
+Connecting to IOS usa1016-3-idf02-01-swa01 with IP 10.90.0.32
+Connecting to IOS hsc-hmg-vz-gw1 with IP 172.19.28.37
+Connecting to IOS annarbor-cd-inet-gw with IP 208.75.18.244
+Connecting to IOS wmur-voip-ag2 with IP 10.161.64.54
+Connecting to IOS pdh-host10 with IP 208.180.102.44
+Connecting to IOS hbmsdgswcore with IP 10.121.227.254
+Connecting to IOS wmur-voip-r2-cube with IP 10.161.64.52
+Connecting to IOS wmtw-control-sw1 with IP 10.138.1.11
+Connecting to IOS cds-vz-gw with IP 216.161.115.199
+Connecting to IOS sw5-2-1a-mgr with IP 130.80.250.105
+Connecting to IOS mid-tcom-mgr with IP 172.25.1.66
+Connecting to IOS 217-c2811-bgpr with IP 10.30.12.4
+Connecting to IOS hsc28-bc1-sw1 with IP 172.19.10.204
+Connecting to IOS wdlnds-rem-rtr with IP 130.80.186.1
+Connecting to IOS hn-001-swac2701 with IP 10.172.2.19
+Connecting to IOS mrt-inet with IP 67.198.55.1
+Connecting to IOS atu_sw2b1 with IP 167.166.10.202
+

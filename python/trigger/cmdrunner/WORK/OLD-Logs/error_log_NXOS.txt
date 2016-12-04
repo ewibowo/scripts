@@ -1,0 +1,385 @@
+Failed on wlwt-core-sw2 with IP: 10.136.1.3 
+Error: Connection to device timed-out: cisco_nxos 10.136.1.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on dc4-n7710-sw1-otv with IP: 10.73.238.8 
+Error: Connection to device timed-out: cisco_nxos 10.73.238.8:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on dc4-n5k-sw1 with IP: 10.73.238.12 
+Error: Connection to device timed-out: cisco_nxos 10.73.238.12:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on dc4-n7710-sw1-core with IP: 10.73.238.6 
+Error: Connection to device timed-out: cisco_nxos 10.73.238.6:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wyff-core-sw1 with IP: 10.159.0.1 
+Error: Connection to device timed-out: cisco_nxos 10.159.0.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sc9-n7710-sw2-core with IP: 10.71.238.7 
+Error: Connection to device timed-out: cisco_nxos 10.71.238.7:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on koco-core-sw2 with IP: 10.153.0.3 
+Error: Connection to device timed-out: cisco_nxos 10.153.0.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wdsu-core-sw1 with IP: 10.140.14.1 
+Error: Connection to device timed-out: cisco_nxos 10.140.14.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on kmbc-core-sw2 with IP: 10.141.1.3 
+Error: Connection to device timed-out: cisco_nxos 10.141.1.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sc9-n7710-sw1-core with IP: 10.71.238.6 
+Error: Connection to device timed-out: cisco_nxos 10.71.238.6:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wmtw-w-core-sw2 with IP: 10.138.142.3 
+Error: Connection to device timed-out: cisco_nxos 10.138.142.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wisn-core-sw1 with IP: 10.142.0.1 
+Error: Connection to device timed-out: cisco_nxos 10.142.0.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wyff-core-sw2 with IP: 10.159.14.3 
+Error: Connection to device timed-out: cisco_nxos 10.159.14.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on khog-core-sw1 with IP: 10.187.0.1 
+Error: Connection to device timed-out: cisco_nxos 10.187.0.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sc9-n7710-sw1-ext with IP: 10.71.238.10 
+Error: Connection to device timed-out: cisco_nxos 10.71.238.10:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on kcra-core-sw2 with IP: 172.28.2.253 
+Error: Connection to device timed-out: cisco_nxos 172.28.2.253:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wptz-core-sw1 with IP: 10.156.0.2 
+Error: Connection to device timed-out: cisco_nxos 10.156.0.2:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wlky-core-sw1 with IP: 10.137.254.1 
+Error: Connection to device timed-out: cisco_nxos 10.137.254.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on koco-core-sw1 with IP: 10.153.254.3 
+Error: Connection to device timed-out: cisco_nxos 10.153.254.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wtae-core-sw2 with IP: 10.134.1.3 
+Error: Connection to device timed-out: cisco_nxos 10.134.1.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sc9-n5k-sw2 with IP: 10.71.238.13 
+Error: Connection to device timed-out: cisco_nxos 10.71.238.13:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sc9-n7710-sw1 with IP: 10.71.238.4 
+Error: Connection to device timed-out: cisco_nxos 10.71.238.4:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on dc4-n7710-sw2-OTV with IP: 10.73.238.9 
+Error: Connection to device timed-out: cisco_nxos 10.73.238.9:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sc9-n7710-sw2-otv with IP: 10.71.238.9 
+Error: Connection to device timed-out: cisco_nxos 10.71.238.9:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on dc4-n7710-sw2-ext with IP: 10.73.238.11 
+Error: Connection to device timed-out: cisco_nxos 10.73.238.11:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on dc4-n7710-sw2 with IP: 10.73.238.5 
+Error: Connection to device timed-out: cisco_nxos 10.73.238.5:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wesh-core-sw1 with IP: 10.133.0.1 
+Error: Connection to device timed-out: cisco_nxos 10.133.0.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on dc4-n7710-sw1-ext with IP: 10.73.238.10 
+Error: Connection to device timed-out: cisco_nxos 10.73.238.10:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on dc4-n7710-sw1 with IP: 10.73.238.4 
+Error: Connection to device timed-out: cisco_nxos 10.73.238.4:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hn-001-nxsa1002 with IP: 10.172.1.31 
+Error: Connection to device timed-out: cisco_nxos 10.172.1.31:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wesh-core-sw2 with IP: 10.133.254.4 
+Error: Connection to device timed-out: cisco_nxos 10.133.254.4:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wnb-core-sw1 with IP: 10.208.64.1 
+Error: Connection to device timed-out: cisco_nxos 10.208.64.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wapt-core-sw2 with IP: 10.158.0.3 
+Error: Connection to device timed-out: cisco_nxos 10.158.0.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on kcci-core-sw1 with IP: 10.147.0.1 
+Error: Connection to device timed-out: cisco_nxos 10.147.0.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sc9-n7710-sw2-ext with IP: 10.71.238.11 
+Error: Connection to device timed-out: cisco_nxos 10.71.238.11:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hn-001-nxsa1001 with IP: 10.172.1.30 
+Error: Connection to device timed-out: cisco_nxos 10.172.1.30:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wpbf-core-sw1 with IP: 10.148.0.1 
+Error: Connection to device timed-out: cisco_nxos 10.148.0.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wvtm-core-sw2 with IP: 10.162.1.3 
+Error: Connection to device timed-out: cisco_nxos 10.162.1.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sc9-n7710-sw1-otv with IP: 10.71.238.8 
+Error: Connection to device timed-out: cisco_nxos 10.71.238.8:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wlwt-core-sw1 with IP: 10.136.0.2 
+Error: Connection to device timed-out: cisco_nxos 10.136.0.2:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on kcci-core-sw2 with IP: 10.147.0.3 
+Error: Connection to device timed-out: cisco_nxos 10.147.0.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on koat-core-sw1 with IP: 10.160.0.1 
+Error: Connection to device timed-out: cisco_nxos 10.160.0.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on kcra-core-sw1 with IP: 172.28.2.1 
+Error: Connection to device timed-out: cisco_nxos 172.28.2.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wptz-core-sw2 with IP: 10.156.0.3 
+Error: Connection to device timed-out: cisco_nxos 10.156.0.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sc9-n7710-sw2 with IP: 10.71.238.5 
+Error: Connection to device timed-out: cisco_nxos 10.71.238.5:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sc9-n5k-sw1 with IP: 10.71.238.12 
+Error: Connection to device timed-out: cisco_nxos 10.71.238.12:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wmur-core-sw1 with IP: 10.161.1.2 
+Error: Connection to device timed-out: cisco_nxos 10.161.1.2:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wapt-core-sw1 with IP: 10.158.4.1 
+Error: Connection to device timed-out: cisco_nxos 10.158.4.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wpbf-core-sw2 with IP: 10.148.1.3 
+Error: Connection to device timed-out: cisco_nxos 10.148.1.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on dc4-n5k-sw2 with IP: 10.73.238.13 
+Error: Connection to device timed-out: cisco_nxos 10.73.238.13:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on dc4-n7710-sw2-otv with IP: 10.73.238.9 
+Error: Connection to device timed-out: cisco_nxos 10.73.238.9:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wnb-core-sw2 with IP: 10.208.0.3 
+Error: Connection to device timed-out: cisco_nxos 10.208.0.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wmur-core-sw2 with IP: 10.161.1.3 
+Error: Connection to device timed-out: cisco_nxos 10.161.1.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wxii-core-sw2 with IP: 10.139.1.3 
+Error: Connection to device timed-out: cisco_nxos 10.139.1.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on dc4-n7710-sw2-core with IP: 10.73.238.7 
+Error: Connection to device timed-out: cisco_nxos 10.73.238.7:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on khog-core-sw2 with IP: 10.187.254.4 
+Error: Connection to device timed-out: cisco_nxos 10.187.254.4:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on ksbw-core-sw1 with IP: 10.149.1.2 
+Error: Connection to device timed-out: cisco_nxos 10.149.1.2:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on ketv-core-sw1 with IP: 10.145.1.2 
+Error: Connection to device timed-out: cisco_nxos 10.145.1.2:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wvtm-core-sw1 with IP: 10.162.1.2 
+Error: Connection to device timed-out: cisco_nxos 10.162.1.2:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wgal-core-sw1 with IP: 10.155.0.1 
+Error: Connection to device timed-out: cisco_nxos 10.155.0.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wisn-core-sw2 with IP: 10.142.0.3 
+Error: Connection to device timed-out: cisco_nxos 10.142.0.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wmtw-w-core-sw1 with IP: 10.154.254.3 
+Error: Connection to device timed-out: cisco_nxos 10.154.254.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wtae-core-sw1 with IP: 10.134.0.2 
+Error: Connection to device timed-out: cisco_nxos 10.134.0.2:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wlky-core-sw2 with IP: 10.137.1.3 
+Error: Connection to device timed-out: cisco_nxos 10.137.1.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wbal-core-sw1 with IP: 10.135.0.1 
+Error: Connection to device timed-out: cisco_nxos 10.135.0.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wcvb-core-sw2 with IP: 10.144.1.3 
+Error: Connection to device timed-out: cisco_nxos 10.144.1.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wdsu-core-sw2 with IP: 10.140.0.3 
+Error: Connection to device timed-out: cisco_nxos 10.140.0.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on ketv-core-sw2 with IP: 10.145.1.3 
+Error: Connection to device timed-out: cisco_nxos 10.145.1.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on hbmindnexus10g with IP: 172.28.34.9 
+Error: Connection to device timed-out: cisco_nxos 172.28.34.9:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on koat-core-sw2 with IP: 10.160.4.3 
+Error: Connection to device timed-out: cisco_nxos 10.160.4.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wxii-core-sw1 with IP: 10.139.64.1 
+Error: Connection to device timed-out: cisco_nxos 10.139.64.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wcvb-core-sw1 with IP: 10.144.4.1 
+Error: Connection to device timed-out: cisco_nxos 10.144.4.1:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wgal-core-sw2 with IP: 192.168.100.3 
+Error: Connection to device timed-out: cisco_nxos 192.168.100.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on ksbw-core-sw2 with IP: 192.168.133.2 
+Error: Connection to device timed-out: cisco_nxos 192.168.133.2:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on kmbc-core-sw1 with IP: 10.141.101.2 
+Error: Connection to device timed-out: cisco_nxos 10.141.101.2:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on sc9-n7710-sw1-OTV with IP: 10.71.238.8 
+Error: Connection to device timed-out: cisco_nxos 10.71.238.8:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Failed on wbal-core-sw2 with IP: 10.135.1.3 
+Error: Connection to device timed-out: cisco_nxos 10.135.1.3:22 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to NXOS wlwt-core-sw2 with IP 10.136.1.3
+Connecting to NXOS dc4-n7710-sw1-otv with IP 10.73.238.8
+Connecting to NXOS dc4-n5k-sw1 with IP 10.73.238.12
+Connecting to NXOS dc4-n7710-sw1-core with IP 10.73.238.6
+Connecting to NXOS wyff-core-sw1 with IP 10.159.0.1
+Connecting to NXOS sc9-n7710-sw2-core with IP 10.71.238.7
+Connecting to NXOS koco-core-sw2 with IP 10.153.0.3
+Connecting to NXOS wdsu-core-sw1 with IP 10.140.14.1
+Connecting to NXOS kmbc-core-sw2 with IP 10.141.1.3
+Connecting to NXOS sc9-n7710-sw1-core with IP 10.71.238.6
+Connecting to NXOS wmtw-w-core-sw2 with IP 10.138.142.3
+Connecting to NXOS wisn-core-sw1 with IP 10.142.0.1
+Connecting to NXOS wyff-core-sw2 with IP 10.159.14.3
+Connecting to NXOS khog-core-sw1 with IP 10.187.0.1
+Connecting to NXOS sc9-n7710-sw1-ext with IP 10.71.238.10
+Connecting to NXOS kcra-core-sw2 with IP 172.28.2.253
+Connecting to NXOS wptz-core-sw1 with IP 10.156.0.2
+Connecting to NXOS wlky-core-sw1 with IP 10.137.254.1
+Connecting to NXOS koco-core-sw1 with IP 10.153.254.3
+Connecting to NXOS wtae-core-sw2 with IP 10.134.1.3
+Connecting to NXOS sc9-n5k-sw2 with IP 10.71.238.13
+Connecting to NXOS sc9-n7710-sw1 with IP 10.71.238.4
+Connecting to NXOS dc4-n7710-sw2-OTV with IP 10.73.238.9
+Connecting to NXOS sc9-n7710-sw2-otv with IP 10.71.238.9
+Connecting to NXOS dc4-n7710-sw2-ext with IP 10.73.238.11
+Connecting to NXOS dc4-n7710-sw2 with IP 10.73.238.5
+Connecting to NXOS wesh-core-sw1 with IP 10.133.0.1
+Connecting to NXOS dc4-n7710-sw1-ext with IP 10.73.238.10
+Connecting to NXOS dc4-n7710-sw1 with IP 10.73.238.4
+Connecting to NXOS hn-001-nxsa1002 with IP 10.172.1.31
+Connecting to NXOS wesh-core-sw2 with IP 10.133.254.4
+Connecting to NXOS wnb-core-sw1 with IP 10.208.64.1
+Connecting to NXOS wapt-core-sw2 with IP 10.158.0.3
+Connecting to NXOS kcci-core-sw1 with IP 10.147.0.1
+Connecting to NXOS sc9-n7710-sw2-ext with IP 10.71.238.11
+Connecting to NXOS hn-001-nxsa1001 with IP 10.172.1.30
+Connecting to NXOS wpbf-core-sw1 with IP 10.148.0.1
+Connecting to NXOS wvtm-core-sw2 with IP 10.162.1.3
+Connecting to NXOS sc9-n7710-sw1-otv with IP 10.71.238.8
+Connecting to NXOS wlwt-core-sw1 with IP 10.136.0.2
+Connecting to NXOS kcci-core-sw2 with IP 10.147.0.3
+Connecting to NXOS koat-core-sw1 with IP 10.160.0.1
+Connecting to NXOS kcra-core-sw1 with IP 172.28.2.1
+Connecting to NXOS wptz-core-sw2 with IP 10.156.0.3
+Connecting to NXOS sc9-n7710-sw2 with IP 10.71.238.5
+Connecting to NXOS sc9-n5k-sw1 with IP 10.71.238.12
+Connecting to NXOS wmur-core-sw1 with IP 10.161.1.2
+Connecting to NXOS wapt-core-sw1 with IP 10.158.4.1
+Connecting to NXOS wpbf-core-sw2 with IP 10.148.1.3
+Connecting to NXOS dc4-n5k-sw2 with IP 10.73.238.13
+Connecting to NXOS dc4-n7710-sw2-otv with IP 10.73.238.9
+Connecting to NXOS wnb-core-sw2 with IP 10.208.0.3
+Connecting to NXOS wmur-core-sw2 with IP 10.161.1.3
+Connecting to NXOS wxii-core-sw2 with IP 10.139.1.3
+Connecting to NXOS dc4-n7710-sw2-core with IP 10.73.238.7
+Connecting to NXOS khog-core-sw2 with IP 10.187.254.4
+Connecting to NXOS ksbw-core-sw1 with IP 10.149.1.2
+Connecting to NXOS ketv-core-sw1 with IP 10.145.1.2
+Connecting to NXOS wvtm-core-sw1 with IP 10.162.1.2
+Connecting to NXOS wgal-core-sw1 with IP 10.155.0.1
+Connecting to NXOS wisn-core-sw2 with IP 10.142.0.3
+Connecting to NXOS wmtw-w-core-sw1 with IP 10.154.254.3
+Connecting to NXOS wtae-core-sw1 with IP 10.134.0.2
+Connecting to NXOS wlky-core-sw2 with IP 10.137.1.3
+Connecting to NXOS wbal-core-sw1 with IP 10.135.0.1
+Connecting to NXOS wcvb-core-sw2 with IP 10.144.1.3
+Connecting to NXOS wdsu-core-sw2 with IP 10.140.0.3
+Connecting to NXOS ketv-core-sw2 with IP 10.145.1.3
+Connecting to NXOS hbmindnexus10g with IP 172.28.34.9
+Connecting to NXOS koat-core-sw2 with IP 10.160.4.3
+Connecting to NXOS wxii-core-sw1 with IP 10.139.64.1
+Connecting to NXOS wcvb-core-sw1 with IP 10.144.4.1
+Connecting to NXOS wgal-core-sw2 with IP 192.168.100.3
+Connecting to NXOS ksbw-core-sw2 with IP 192.168.133.2
+Connecting to NXOS kmbc-core-sw1 with IP 10.141.101.2
+Connecting to NXOS sc9-n7710-sw1-OTV with IP 10.71.238.8
+Connecting to NXOS wbal-core-sw2 with IP 10.135.1.3

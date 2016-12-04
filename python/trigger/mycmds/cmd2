@@ -1,0 +1,51 @@
+#!/Users/rlaney/.virtualenvs/NetEngineerONE/bin/python
+
+from __future__ import absolute_import, division, print_function
+
+import json
+from trigger.cmds import Commando
+from trigger.netdevices import NetDevices
+import signal
+
+signal.signal(signal.SIGPIPE, signal.SIG_DFL)  # IOError: Broken pipe
+signal.signal(signal.SIGINT, signal.SIG_DFL)  # KeyboardInterrupt: Ctrl-C
+
+
+nd = NetDevices()
+device_list = nd.match(site='Hearst Service Center')
+
+
+class ShowMeTheMoney(Commando):
+    """Execute the following on a list of Cisco devices:
+    """
+    vendors = ['cisco']
+    commands = ['show clock']
+
+
+if __name__ == '__main__':
+    showstuff = ShowMeTheMoney(devices=device_list)
+    showstuff.run() # Commando exposes this to start the event loop
+
+    print('\nUnparsed Results:\n')
+    json.dumps(showstuff.results, indent=4)
+
+    print('\nParsed Results:\n')
+    json.dumps(showstuff.parsed_results, indent=4)
+
+#def main():
+#    """A simple syntax check and dump of all we see and know!"""
+#    print 'Syntax ok.'
+#    if len(sys.argv) > 1:
+#        from trigger.netdevices import NetDevices
+#        nd = NetDevices()
+#        names = sorted(nd)
+#        for name in names:
+#            dev = nd[name]
+#            if dev.deviceType not in ('ROUTER', 'SWITCH'):
+#                continue
+#            acls = sorted(dev.acls)
+#            print '%-39s %s' % (name, ' '.join(acls))
+#
+#if __name__ == '__main__':
+#    main()
+

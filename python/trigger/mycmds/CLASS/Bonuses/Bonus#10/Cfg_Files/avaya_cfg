@@ -1,0 +1,288 @@
+! Embedded ASCII Configuration Generator Script
+! NOTE:  This file may be split into multiple files.
+!        It is noted at the end of this file if this
+!        is the case.
+! Base model = Ethernet Routing Switch 3550T-PWR+
+! Base Software version = v5.3.1.033
+!Stack Base Unit = 1
+! Stack info: 
+!Unit# Switch Model     Pluggable Pluggable Pluggable Pluggable SW Version
+!                         Port      Port      Port      Port              
+!----- ---------------- --------- --------- --------- --------- ----------
+!1     3550T-PWR+       (49) None (50) None                     v5.3.1.033
+!2     3524GT           (21) None (22) None (23) SX   (24) SX   v5.3.1.033
+!
+! Displaying only parameters different to default
+!================================================
+enable
+configure terminal
+!
+! *** CORE ***
+!
+tftp-server 10.100.100.15
+!
+! *** RADIUS ***
+!
+radius server host 10.100.77.170 
+!
+! *** RADIUS Dynamic Server ***
+!
+!
+! *** TACACS+ ***
+!
+!
+! *** SNMP ***
+!
+snmp-server enable
+snmp-server name "DUT3.1"
+!
+! *** IP  ***
+!
+ip default-gateway 10.105.57.1
+ip address stack 10.105.57.31
+!
+! *** IP Manager ***
+!
+!
+! *** ASSET ID ***
+!
+!
+! *** System Logging ***
+!
+!
+! *** STACK ***
+!
+!
+! *** Custom Banner ***
+!
+!
+! *** SSH ***
+!
+!
+! *** SSL ***
+!
+!
+! *** SSHC ***
+!
+!
+! *** STP (Phase 1) ***
+!
+!
+! *** LACP (Phase 1) ***
+!
+!LACP mode is set to OFF on all interfaces to enable manipulation of
+!ports with LACP enabled
+interface Ethernet ALL
+lacp mode port 1/ALL,2/ALL off
+exit
+!
+! *** VLAN ***
+!
+vlan create 12-16,57 type port
+vlan ports 1/13-15 tagging tagAll 
+vlan ports 1/19 tagging unTagPvidOnly 
+vlan configcontrol flexible
+vlan members 1 1/2-12,1/16-18,1/20-24,1/28-32,1/36-40,1/43-50,2/2-8,2/12-18,2/21-24
+vlan members 12 1/41-42,2/19-20
+vlan members 13 1/13-15
+vlan members 14 2/9-11
+vlan members 15 1/25-27
+vlan members 16 1/33-35
+vlan members 57 1/1,1/19,2/1
+vlan ports 1/1 pvid 57
+vlan ports 1/13-15 pvid 13
+vlan ports 1/19 pvid 57
+vlan ports 1/25-27 pvid 15
+vlan ports 1/33-35 pvid 16
+vlan ports 1/41-42 pvid 12
+vlan ports 2/1 pvid 57
+vlan ports 2/9-11 pvid 14
+vlan ports 2/19-20 pvid 12
+vlan configcontrol automatic
+!
+! *** EAP ***
+!
+!
+! *** EAP Guest VLAN ***
+!
+!
+! *** EAP Fail Open VLAN ***
+!
+!
+! *** EAP Voip VLAN ***
+!
+!
+! *** 802.1ab ***
+!
+interface Ethernet ALL
+lldp tx-tlv port 1/ALL,2/ALL dot3 mac-phy-config-status
+exit
+!
+! *** 802.1ab vendor-specific Avaya TLVs config ***
+!
+!
+! *** 802.1AB MED Voice Network Policies ***
+!
+!
+! *** RMON ***
+!
+!
+! *** Interface ***
+!
+interface Ethernet ALL
+shutdown port 1/48,2/1,2/23-24 
+exit
+!
+! *** Rate-Limit ***
+!
+!
+! *** MLT (Phase 1) ***
+!
+mlt 2 name "MLT121" enable member 1/41-42,2/19-20 
+mlt 3 name "Trunk #3" enable member 1/13-15 
+mlt 4 name "MLT141" enable member 2/9-11 
+mlt 5 name "MLT151" enable member 1/25-27 
+mlt 6 name "MLT161" enable member 1/33-35 
+!
+! *** MAC-Based Security ***
+!
+!
+! *** LACP (Phase 2) ***
+!
+!
+! *** ADAC ***
+!
+!
+! *** STP (Phase 2) ***
+!
+interface Ethernet ALL
+spanning-tree port 1/1-18,1/20-50 learning disable
+spanning-tree port 2/ALL learning disable
+exit
+!
+! *** Port Mirroring ***
+!
+!
+! *** VLAN Phase 2***
+!
+vlan mgmt 57
+!
+! *** MLT (Phase 2) ***
+!
+mlt 2 learning disable
+mlt 3 learning disable
+mlt 4 learning disable
+mlt 5 learning disable
+mlt 6 learning disable
+!
+! *** PoE ***
+!
+!
+! *** RTC ***
+!
+!
+! *** Avaya Energy Saver ***
+!
+!
+! *** AUR ***
+!
+!
+! *** AAUR ***
+!
+!
+! *** L3 ***
+!
+interface vlan 12
+ip address 205.1.20.31 255.255.255.0 3
+interface vlan 13
+ip address 205.1.30.31 255.255.255.0 4
+interface vlan 14
+ip address 205.1.40.31 255.255.255.0 5
+interface vlan 15
+ip address 205.1.50.31 255.255.255.0 6
+interface vlan 16
+ip address 205.1.60.31 255.255.255.0 7
+exit
+ip route 0.0.0.0 0.0.0.0 10.105.57.1 10
+ip route 10.100.0.0 255.255.0.0 10.105.57.1 10
+ip route 204.0.0.0 255.0.0.0 205.112.131.3 1
+ip route 205.2.60.0 255.255.255.0 205.1.20.32 5
+ip route 205.3.70.0 255.255.255.0 205.1.30.33 1
+ip route 205.4.70.0 255.255.255.0 205.1.40.34 5
+ip route 205.4.80.0 255.255.255.0 205.1.40.34 1
+ip route 205.5.80.0 255.255.255.0 205.1.50.35 5
+ip route 205.33.1.0 255.255.255.0 205.1.30.33 5
+ip route 205.36.1.0 255.255.255.0 205.1.20.32 5
+ip route 205.37.1.0 255.255.255.0 205.1.30.33 10
+ip route 205.37.1.0 255.255.255.0 205.1.40.34 5
+ip route 205.38.1.0 255.255.255.0 205.1.40.34 5
+ip route 205.38.1.0 255.255.255.0 205.1.50.35 10
+ip route 206.0.0.0 255.0.0.0 205.112.131.3 1
+!
+ip routing
+!
+!
+! *** IPV6 ***
+!
+!
+! *** VLACP ***
+!
+!
+! *** DHCP Relay ***
+!
+no ip dhcp-relay
+!
+! *** QOS ***
+!
+!
+! *** L3 Protocols ***
+!
+!
+! --- IP Directed Broadcast ---
+!
+!
+! --- Proxy ARP ---
+!
+!
+! --- UDP Broadcast Forwarding --- 
+!
+!
+! *** DHCP SNOOPING ***
+!
+!
+! *** ARP INSPECTION ***
+!
+!
+! *** IP SOURCE GUARD ***
+!
+!
+! *** IGMP ***
+!
+!
+! *** STACK MONITOR ***
+!
+!
+! *** SLPP-guard ***
+!
+!
+! *** DHCP Server ***
+!
+!
+! *** SLAMON ***
+!
+!
+! *** STORM CONTROL ***
+!
+!
+! *** Fabric Attach ***
+!
+fa standalone-proxy
+fa uplink trunk 3
+! i-sid 0 vlan 400 ==> created by FA Client
+! i-sid 0 vlan 500 ==> created by FA Client
+! i-sid 0 vlan 600 ==> created by FA Client
+
+!
+! ACG configuration generation completed
+!
+

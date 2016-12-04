@@ -1,0 +1,814 @@
+Device: sc8-gw1 - Command #1:
+
+Interface                  IP-Address      OK? Method Status                Protocol
+GigabitEthernet0/0         172.16.1.136    YES NVRAM  up                    up      
+GigabitEthernet0/1         11.0.128.50     YES NVRAM  up                    up      
+GigabitEthernet0/2         11.0.0.21       YES NVRAM  up                    up      
+GigabitEthernet0/3         11.0.128.9      YES NVRAM  up                    up      
+Loopback0                  192.168.1.12    YES NVRAM  up                    up      
+
+Device: sc8-gw1 - Command #2:
+
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  11.0.0.21               -   fa16.3e8a.c998  ARPA   GigabitEthernet0/2
+Internet  11.0.0.22              15   fa16.3e00.0013  ARPA   GigabitEthernet0/2
+Internet  11.0.128.9              -   fa16.3e28.2e31  ARPA   GigabitEthernet0/3
+Internet  11.0.128.10            15   fa16.3e00.0022  ARPA   GigabitEthernet0/3
+Internet  11.0.128.49            17   fa16.3ed5.0752  ARPA   GigabitEthernet0/1
+Internet  11.0.128.50             -   fa16.3e17.c867  ARPA   GigabitEthernet0/1
+Internet  172.16.1.1             17   8890.8d1b.17c1  ARPA   GigabitEthernet0/0
+Internet  172.16.1.136            -   fa16.3eb0.6b33  ARPA   GigabitEthernet0/0
+Internet  172.16.1.144            0   fa16.3efd.793e  ARPA   GigabitEthernet0/0
+
+Device: sc8-gw1 - Command #3:
+
+-------------------------
+Device ID: sc8-edge.virl.info
+Entry address(es): 
+  IP address: 172.16.1.138
+Platform: Cisco ,  Capabilities: Router Source-Route-Bridge 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 176 sec
+
+Version :
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.138
+
+-------------------------
+Device ID: sc8-edge.virl.info
+Entry address(es): 
+  IP address: 11.0.128.49
+Platform: Cisco ,  Capabilities: Router Source-Route-Bridge 
+Interface: GigabitEthernet0/1,  Port ID (outgoing port): GigabitEthernet0/2
+Holdtime : 165 sec
+
+Version :
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 11.0.128.49
+
+-------------------------
+Device ID: dc3-edge.virl.info
+Entry address(es): 
+  IP address: 172.16.1.129
+Platform: Cisco ,  Capabilities: Router Source-Route-Bridge 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 145 sec
+
+Version :
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.129
+
+-------------------------
+Device ID: cloudmon-sw2.icloudmon.local
+Entry address(es): 
+  IP address: 100.0.0.2
+Platform: cisco WS-C3750G-48TS,  Capabilities: Switch IGMP 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet1/0/17
+Holdtime : 127 sec
+
+Version :
+Cisco IOS Software, C3750 Software (C3750-IPSERVICESK9-M), Version 15.0(2)SE8, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Wed 13-May-15 23:39 by prod_rel_team
+
+advertisement version: 2
+Protocol Hello:  OUI=0x00000C, Protocol ID=0x0112; payload len=27, value=00000000FFFFFFFF010221FF000000000000001201D19080FF0000
+VTP Management Domain: 'icloudmon'
+Native VLAN: 101
+Duplex: full
+Management address(es): 
+  IP address: 100.0.0.2
+
+-------------------------
+Device ID: sc8-gw2.virl.info
+Entry address(es): 
+  IP address: 172.16.1.137
+Platform: Cisco ,  Capabilities: Router Source-Route-Bridge 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 162 sec
+
+Version :
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.137
+
+-------------------------
+Device ID: sc8-core-nxos1(TB3E0CD745B)
+Entry address(es): 
+  IP address: 172.16.1.132
+Platform: N7K-C7018,  Capabilities: Router Switch CVTA phone port 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): mgmt0
+Holdtime : 164 sec
+
+Version :
+Cisco Nexus Operating System (NX-OS) Software, Version 7.3(0)D1(1)
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.132
+
+-------------------------
+Device ID: sc8-core-nxos2(TB3EFB15EAB)
+Entry address(es): 
+  IP address: 172.16.1.133
+Platform: N7K-C7018,  Capabilities: Router Switch CVTA phone port 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): mgmt0
+Holdtime : 169 sec
+
+Version :
+Cisco Nexus Operating System (NX-OS) Software, Version 7.3(0)D1(1)
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.133
+
+-------------------------
+Device ID: dc3-sw1
+Entry address(es): 
+  IP address: 172.16.1.122
+Platform: Cisco ,  Capabilities: Router Switch IGMP 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 125 sec
+
+Version :
+Cisco IOS Software, vios_l2 Software (vios_l2-ADVENTERPRISEK9-M), Version 15.2(4.0.55)E, TEST ENGINEERING ESTG_WEEKLY BUILD, synced to  END_OF_FLO_ISP
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Tue 28-Jul-15 18:52 by sasyamal
+
+advertisement version: 2
+VTP Management Domain: 'virl.lab'
+Duplex: half (Mismatch)
+Management address(es): 
+  IP address: 172.16.1.122
+
+-------------------------
+Device ID: sc8-sw1
+Entry address(es): 
+  IP address: 172.16.1.131
+Platform: Cisco ,  Capabilities: Router Switch IGMP 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 178 sec
+
+Version :
+Cisco IOS Software, vios_l2 Software (vios_l2-ADVENTERPRISEK9-M), Version 15.2(4.0.55)E, TEST ENGINEERING ESTG_WEEKLY BUILD, synced to  END_OF_FLO_ISP
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Tue 28-Jul-15 18:52 by sasyamal
+
+advertisement version: 2
+VTP Management Domain: 'virl.lab'
+Duplex: half (Mismatch)
+Management address(es): 
+  IP address: 172.16.1.131
+
+-------------------------
+Device ID: dc3-core-nxos1(TB3E15C4C4B)
+Entry address(es): 
+  IP address: 172.16.1.123
+Platform: N7K-C7018,  Capabilities: Router Switch CVTA phone port 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): mgmt0
+Holdtime : 156 sec
+
+Version :
+Cisco Nexus Operating System (NX-OS) Software, Version 7.3(0)D1(1)
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.123
+
+-------------------------
+Device ID: dc3-gw2.virl.info
+Entry address(es): 
+  IP address: 172.16.1.128
+Platform: Cisco ,  Capabilities: Router Source-Route-Bridge 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 162 sec
+
+Version :
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.128
+
+-------------------------
+Device ID: dc3-gw1.virl.info
+Entry address(es): 
+  IP address: 172.16.1.127
+Platform: Cisco ,  Capabilities: Router Source-Route-Bridge 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 121 sec
+
+Version :
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.127
+
+-------------------------
+Device ID: dc3-core-nxos2(TB3E3EDE21B)
+Entry address(es): 
+  IP address: 172.16.1.124
+Platform: N7K-C7018,  Capabilities: Router Switch CVTA phone port 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): mgmt0
+Holdtime : 163 sec
+
+Version :
+Cisco Nexus Operating System (NX-OS) Software, Version 7.3(0)D1(1)
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.124
+
+-------------------------
+Device ID: dc3-sat1.virl.info
+Entry address(es): 
+  IP address: 172.16.1.130
+Platform: Cisco ,  Capabilities: Router Source-Route-Bridge 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 174 sec
+
+Version :
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.130
+
+-------------------------
+Device ID: dc3-sat2.virl.info
+Entry address(es): 
+  IP address: 172.16.1.140
+Platform: Cisco ,  Capabilities: Router Source-Route-Bridge 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 130 sec
+
+Version :
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.140
+
+-------------------------
+Device ID: sc8-sat1.virl.info
+Entry address(es): 
+  IP address: 172.16.1.139
+Platform: Cisco ,  Capabilities: Router Source-Route-Bridge 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 143 sec
+
+Version :
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.139
+
+-------------------------
+Device ID: sc8-sat2.virl.info
+Entry address(es): 
+  IP address: 172.16.1.141
+Platform: Cisco ,  Capabilities: Router Source-Route-Bridge 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 130 sec
+
+Version :
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.141
+
+-------------------------
+Device ID: sc8-nxos2(TB3E6E3035B)
+Entry address(es): 
+  IP address: 172.16.1.135
+Platform: N7K-C7018,  Capabilities: Router Switch CVTA phone port 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): mgmt0
+Holdtime : 149 sec
+
+Version :
+Cisco Nexus Operating System (NX-OS) Software, Version 7.3(0)D1(1)
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.135
+
+-------------------------
+Device ID: sc8-nxos2(TB3E6E3035B)
+Entry address(es): 
+  IP address: 11.0.128.10
+Platform: N7K-C7018,  Capabilities: Router Switch CVTA phone port 
+Interface: GigabitEthernet0/3,  Port ID (outgoing port): Ethernet2/3
+Holdtime : 147 sec
+
+Version :
+Cisco Nexus Operating System (NX-OS) Software, Version 7.3(0)D1(1)
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.135
+
+-------------------------
+Device ID: sc8-nxos1(TB3E8662E9B)
+Entry address(es): 
+  IP address: 172.16.1.134
+Platform: N7K-C7018,  Capabilities: Router Switch CVTA phone port 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): mgmt0
+Holdtime : 144 sec
+
+Version :
+Cisco Nexus Operating System (NX-OS) Software, Version 7.3(0)D1(1)
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.134
+
+-------------------------
+Device ID: sc8-nxos1(TB3E8662E9B)
+Entry address(es): 
+  IP address: 11.0.0.22
+Platform: N7K-C7018,  Capabilities: Router Switch CVTA phone port 
+Interface: GigabitEthernet0/2,  Port ID (outgoing port): Ethernet2/1
+Holdtime : 141 sec
+
+Version :
+Cisco Nexus Operating System (NX-OS) Software, Version 7.3(0)D1(1)
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.134
+
+
+Total cdp entries displayed : 21
+
+Device: sc8-gw2 - Command #1:
+
+Interface                  IP-Address      OK? Method Status                Protocol
+GigabitEthernet0/0         172.16.1.137    YES NVRAM  up                    up      
+GigabitEthernet0/1         11.0.128.54     YES NVRAM  up                    up      
+GigabitEthernet0/2         11.0.128.30     YES NVRAM  up                    up      
+GigabitEthernet0/3         unassigned      YES unset  up                    up      
+GigabitEthernet0/4         11.0.128.14     YES NVRAM  up                    up      
+Loopback0                  192.168.1.17    YES NVRAM  up                    up      
+
+Device: sc8-gw2 - Command #2:
+
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  11.0.128.13            15   fa16.3e00.0015  ARPA   GigabitEthernet0/4
+Internet  11.0.128.14             -   fa16.3e6e.b366  ARPA   GigabitEthernet0/4
+Internet  11.0.128.29            15   fa16.3e00.0020  ARPA   GigabitEthernet0/2
+Internet  11.0.128.30             -   fa16.3ee1.cd8d  ARPA   GigabitEthernet0/2
+Internet  11.0.128.53            17   fa16.3e26.099d  ARPA   GigabitEthernet0/1
+Internet  11.0.128.54             -   fa16.3e87.7c6a  ARPA   GigabitEthernet0/1
+Internet  172.16.1.1             17   8890.8d1b.17c1  ARPA   GigabitEthernet0/0
+Internet  172.16.1.137            -   fa16.3e3f.eef3  ARPA   GigabitEthernet0/0
+Internet  172.16.1.144            0   fa16.3efd.793e  ARPA   GigabitEthernet0/0
+
+Device: sc8-gw2 - Command #3:
+
+-------------------------
+Device ID: sc8-edge.virl.info
+Entry address(es): 
+  IP address: 172.16.1.138
+Platform: Cisco ,  Capabilities: Router Source-Route-Bridge 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 176 sec
+
+Version :
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.138
+
+-------------------------
+Device ID: sc8-edge.virl.info
+Entry address(es): 
+  IP address: 11.0.128.53
+Platform: Cisco ,  Capabilities: Router Source-Route-Bridge 
+Interface: GigabitEthernet0/1,  Port ID (outgoing port): GigabitEthernet0/3
+Holdtime : 128 sec
+
+Version :
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 11.0.128.53
+
+-------------------------
+Device ID: dc3-edge.virl.info
+Entry address(es): 
+  IP address: 172.16.1.129
+Platform: Cisco ,  Capabilities: Router Source-Route-Bridge 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 145 sec
+
+Version :
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.129
+
+-------------------------
+Device ID: cloudmon-sw2.icloudmon.local
+Entry address(es): 
+  IP address: 100.0.0.2
+Platform: cisco WS-C3750G-48TS,  Capabilities: Switch IGMP 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet1/0/17
+Holdtime : 127 sec
+
+Version :
+Cisco IOS Software, C3750 Software (C3750-IPSERVICESK9-M), Version 15.0(2)SE8, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Wed 13-May-15 23:39 by prod_rel_team
+
+advertisement version: 2
+Protocol Hello:  OUI=0x00000C, Protocol ID=0x0112; payload len=27, value=00000000FFFFFFFF010221FF000000000000001201D19080FF0000
+VTP Management Domain: 'icloudmon'
+Native VLAN: 101
+Duplex: full
+Management address(es): 
+  IP address: 100.0.0.2
+
+-------------------------
+Device ID: sc8-core-nxos1(TB3E0CD745B)
+Entry address(es): 
+  IP address: 172.16.1.132
+Platform: N7K-C7018,  Capabilities: Router Switch CVTA phone port 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): mgmt0
+Holdtime : 164 sec
+
+Version :
+Cisco Nexus Operating System (NX-OS) Software, Version 7.3(0)D1(1)
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.132
+
+-------------------------
+Device ID: sc8-gw1.virl.info
+Entry address(es): 
+  IP address: 172.16.1.136
+Platform: Cisco ,  Capabilities: Router Source-Route-Bridge 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 170 sec
+
+Version :
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.136
+
+-------------------------
+Device ID: sc8-core-nxos2(TB3EFB15EAB)
+Entry address(es): 
+  IP address: 172.16.1.133
+Platform: N7K-C7018,  Capabilities: Router Switch CVTA phone port 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): mgmt0
+Holdtime : 169 sec
+
+Version :
+Cisco Nexus Operating System (NX-OS) Software, Version 7.3(0)D1(1)
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.133
+
+-------------------------
+Device ID: dc3-sw1
+Entry address(es): 
+  IP address: 172.16.1.122
+Platform: Cisco ,  Capabilities: Router Switch IGMP 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 125 sec
+
+Version :
+Cisco IOS Software, vios_l2 Software (vios_l2-ADVENTERPRISEK9-M), Version 15.2(4.0.55)E, TEST ENGINEERING ESTG_WEEKLY BUILD, synced to  END_OF_FLO_ISP
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Tue 28-Jul-15 18:52 by sasyamal
+
+advertisement version: 2
+VTP Management Domain: 'virl.lab'
+Duplex: half (Mismatch)
+Management address(es): 
+  IP address: 172.16.1.122
+
+-------------------------
+Device ID: sc8-sw1
+Entry address(es): 
+  IP address: 172.16.1.131
+Platform: Cisco ,  Capabilities: Router Switch IGMP 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 178 sec
+
+Version :
+Cisco IOS Software, vios_l2 Software (vios_l2-ADVENTERPRISEK9-M), Version 15.2(4.0.55)E, TEST ENGINEERING ESTG_WEEKLY BUILD, synced to  END_OF_FLO_ISP
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Tue 28-Jul-15 18:52 by sasyamal
+
+advertisement version: 2
+VTP Management Domain: 'virl.lab'
+Duplex: half (Mismatch)
+Management address(es): 
+  IP address: 172.16.1.131
+
+-------------------------
+Device ID: dc3-core-nxos1(TB3E15C4C4B)
+Entry address(es): 
+  IP address: 172.16.1.123
+Platform: N7K-C7018,  Capabilities: Router Switch CVTA phone port 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): mgmt0
+Holdtime : 156 sec
+
+Version :
+Cisco Nexus Operating System (NX-OS) Software, Version 7.3(0)D1(1)
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.123
+
+-------------------------
+Device ID: dc3-gw2.virl.info
+Entry address(es): 
+  IP address: 172.16.1.128
+Platform: Cisco ,  Capabilities: Router Source-Route-Bridge 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 162 sec
+
+Version :
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.128
+
+-------------------------
+Device ID: dc3-gw1.virl.info
+Entry address(es): 
+  IP address: 172.16.1.127
+Platform: Cisco ,  Capabilities: Router Source-Route-Bridge 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 121 sec
+
+Version :
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.127
+
+-------------------------
+Device ID: dc3-core-nxos2(TB3E3EDE21B)
+Entry address(es): 
+  IP address: 172.16.1.124
+Platform: N7K-C7018,  Capabilities: Router Switch CVTA phone port 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): mgmt0
+Holdtime : 163 sec
+
+Version :
+Cisco Nexus Operating System (NX-OS) Software, Version 7.3(0)D1(1)
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.124
+
+-------------------------
+Device ID: dc3-sat1.virl.info
+Entry address(es): 
+  IP address: 172.16.1.130
+Platform: Cisco ,  Capabilities: Router Source-Route-Bridge 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 174 sec
+
+Version :
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.130
+
+-------------------------
+Device ID: dc3-sat2.virl.info
+Entry address(es): 
+  IP address: 172.16.1.140
+Platform: Cisco ,  Capabilities: Router Source-Route-Bridge 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 130 sec
+
+Version :
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.140
+
+-------------------------
+Device ID: sc8-sat1.virl.info
+Entry address(es): 
+  IP address: 172.16.1.139
+Platform: Cisco ,  Capabilities: Router Source-Route-Bridge 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 143 sec
+
+Version :
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.139
+
+-------------------------
+Device ID: sc8-sat2.virl.info
+Entry address(es): 
+  IP address: 172.16.1.141
+Platform: Cisco ,  Capabilities: Router Source-Route-Bridge 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 130 sec
+
+Version :
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.141
+
+-------------------------
+Device ID: sc8-nxos2(TB3E6E3035B)
+Entry address(es): 
+  IP address: 172.16.1.135
+Platform: N7K-C7018,  Capabilities: Router Switch CVTA phone port 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): mgmt0
+Holdtime : 149 sec
+
+Version :
+Cisco Nexus Operating System (NX-OS) Software, Version 7.3(0)D1(1)
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.135
+
+-------------------------
+Device ID: sc8-nxos2(TB3E6E3035B)
+Entry address(es): 
+  IP address: 11.0.128.29
+Platform: N7K-C7018,  Capabilities: Router Switch CVTA phone port 
+Interface: GigabitEthernet0/2,  Port ID (outgoing port): Ethernet2/1
+Holdtime : 147 sec
+
+Version :
+Cisco Nexus Operating System (NX-OS) Software, Version 7.3(0)D1(1)
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.135
+
+-------------------------
+Device ID: sc8-nxos1(TB3E8662E9B)
+Entry address(es): 
+  IP address: 172.16.1.134
+Platform: N7K-C7018,  Capabilities: Router Switch CVTA phone port 
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): mgmt0
+Holdtime : 144 sec
+
+Version :
+Cisco Nexus Operating System (NX-OS) Software, Version 7.3(0)D1(1)
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.134
+
+-------------------------
+Device ID: sc8-nxos1(TB3E8662E9B)
+Entry address(es): 
+  IP address: 11.0.128.13
+Platform: N7K-C7018,  Capabilities: Router Switch CVTA phone port 
+Interface: GigabitEthernet0/4,  Port ID (outgoing port): Ethernet2/3
+Holdtime : 141 sec
+
+Version :
+Cisco Nexus Operating System (NX-OS) Software, Version 7.3(0)D1(1)
+
+advertisement version: 2
+Duplex: full
+Management address(es): 
+  IP address: 172.16.1.134
+
+
+Total cdp entries displayed : 21

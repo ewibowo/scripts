@@ -1,0 +1,8 @@
+access-list 1101 permit tcp 206.225.144.0 0.0.15.255 any eq snmp
+access-list 1101 permit tcp 167.173.0.0 0.0.255.255 any eq snmp
+access-list 1101 permit tcp 172.19.0.0 0.0.255.255 any eq snmp
+access-list 1101 permit tcp 10.77.0.0 0.0.255.255 any eq snmp
+access-list 1101 permit tcp 10.76.0.0 0.0.255.255 any eq snmp
+access-list 1101 permit tcp 10.70.0.0 0.0.255.255 any eq snmp
+access-list 1101 permit tcp 10.72.0.0 0.0.255.255 any eq snmp
+access-list 1101 deny tcp any any eq snmp

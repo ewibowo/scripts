@@ -1,0 +1,64 @@
+ip access-list extended Protect-DC4-Routers
+ remark ICMP to SC9-GW01 allowed from anywhere
+ deny   icmp any host 205.218.33.78
+ deny   icmp any host 152.177.103.234
+ deny   icmp any host 199.220.54.130
+ deny   icmp any host 152.162.111.122
+ deny   icmp any host 167.173.88.2
+ deny   icmp any host 167.173.88.49
+ remark ICMP to SC9-GW02 allowed from anywhere
+ deny   icmp any host 205.218.33.90
+ deny   icmp any host 68.136.46.42
+ deny   icmp any host 152.177.121.254
+ deny   icmp any host 68.136.59.246
+ deny   icmp any host 167.173.88.3
+ deny   icmp any host 167.173.88.50
+ deny   icmp any host 167.173.88.20
+ remark NTP allowed from known servers
+ deny   udp host 192.5.41.40 host 167.173.88.2 eq ntp
+ deny   udp host 130.207.244.240 host 167.173.88.2 eq ntp
+ deny   udp host 192.5.41.209 host 167.173.88.2 eq ntp
+ deny   udp host 167.173.72.3 host 167.173.88.2 eq ntp
+ deny   udp host 192.5.41.40 host 167.173.88.3 eq ntp
+ deny   udp host 130.207.244.240 host 167.173.88.3 eq ntp
+ deny   udp host 192.5.41.209 host 167.173.88.3 eq ntp
+ deny   udp host 167.173.72.2 host 167.173.88.3 eq ntp
+ remark BGP allowed from our peers
+ deny   tcp host 205.218.33.77 host 205.218.33.78 eq bgp
+ deny   tcp host 205.218.33.89 host 205.218.33.90 eq bgp
+ remark allow SSH from known sources
+ deny   tcp 167.173.0.0 0.0.255.255 any eq 22
+ deny   tcp 206.225.144.0 0.0.15.255 any eq 22
+ deny   tcp host 207.71.31.2 any eq 22
+ deny   tcp 204.56.96.0 0.0.31.255 any eq 22
+ remark allow SNMP from known sources
+ deny   udp 167.173.0.0 0.0.255.255 any eq snmp
+ deny   udp 206.225.144.0 0.0.15.255 any eq snmp
+ remark allow DNS from known sources
+ deny   udp host 8.8.8.8 host 167.173.88.2 eq domain
+ deny   tcp host 8.8.8.8 host 167.173.88.2 eq domain
+ deny   udp host 8.8.8.8 host 167.173.88.3 eq domain
+ deny   tcp host 8.8.8.8 host 167.173.88.3 eq domain
+ remark allow TACACS+ from known sources
+ deny   udp host 206.225.148.137 host 167.173.88.2 eq tacacs
+ deny   tcp host 206.225.148.137 host 167.173.88.2 eq tacacs
+ deny   udp host 206.225.148.137 host 167.173.88.3 eq tacacs
+ deny   tcp host 206.225.148.137 host 167.173.88.3 eq tacacs
+ remark Zscaler GRE
+ deny   gre host 104.129.194.32 host 167.173.88.50
+ deny   gre host 199.168.151.131 host 167.173.88.50
+ deny   gre host 104.129.194.32 host 167.173.88.49
+ deny   gre host 199.168.151.131 host 167.173.88.49
+ remark No other access allowed to SC9-GW01 from anywhere
+ permit ip any host 205.218.33.78
+ permit ip any host 152.177.103.234
+ permit ip any host 199.220.54.130
+ permit ip any host 152.162.111.122
+ permit ip any host 167.173.88.2
+ permit ip any host 167.173.88.49
+ permit ip any host 205.218.33.90
+ permit ip any host 68.136.46.42
+ permit ip any host 152.177.121.254
+ permit ip any host 68.136.59.246
+ permit ip any host 167.173.88.3
+ permit ip any host 167.173.88.50

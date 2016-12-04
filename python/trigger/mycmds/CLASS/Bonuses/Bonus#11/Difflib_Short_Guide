@@ -1,0 +1,72 @@
+​#Difflib Short Guide
+
+
+There are mainly 4 cases which we should address in the code (if/elif block):
+
+
+1. A command exists in the old file version (yesterday), but doesn't exist in the new one (today) -> the line starts with "-" in diff_file and the next line does NOT start with "?" or "+".
+
+Example:
+
+Was in old version, not there anymore: 
+
+- version 10.2R3.999;
+
+
+2. A command does NOT exist in the old file version (yesterday), but exists in the new one (today) -> the line starts with "+" in diff_file and the next line does NOT start with "?".
+
+Example:
+
+Was not in old version, is there now:
+
+...
+
+  interface Loopback105
+
+   ip address 100.100.100.105 255.255.255.255
+
++  duplex full
+
+  interface Loopback106
+
+...
+
+
+3. A command has been changed between versions, having more characters in the new version -> the line starts with "-" in diff_file and the next two lines start with "+" and "?", respectively.
+
+Example:
+
+Change detected here:
+
+-                 192.168.1.;
+
++                 192.168.1.1;
+
+?                           +
+
+
+4. A command has been changed between versions, having equal or less characters in the new version -> the line starts with "-" in diff_file and the next three lines start with "?", "+" and "?", respectively.
+
+Examples:
+
+Change detected here:
+
+-  ip address 100.100.100.100 255.255.255.255
+
+?                          ^^
+
++  ip address 100.100.100.199 255.255.255.255
+
+?        
+
+or:
+
+Change detected here:
+
+-                 192.168.1.22;
+
+?                           ^^
+
++                 192.168.1.1;
+
+?                           ^

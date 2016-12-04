@@ -1,0 +1,2250 @@
+
+Was not in old version, is there now: 
+
+...
++ !
++ end
++ Building configuration...
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ end
++ Building configuration...
++ 
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ Building configuration...
++ 
++   
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ 
++   
++ Current configuration : 6191 bytes
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++   
++ Current configuration : 6191 bytes
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ Current configuration : 6191 bytes
++ !
++ ! Last configuration change at 15:34:26 UTC Fri Jun 24 2016
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ ! Last configuration change at 15:34:26 UTC Fri Jun 24 2016
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ ! Last configuration change at 15:34:26 UTC Fri Jun 24 2016
++ !
++ version 15.6
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ version 15.6
++ service timestamps debug datetime msec
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ version 15.6
++ service timestamps debug datetime msec
++ service timestamps log datetime msec
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ service timestamps debug datetime msec
++ service timestamps log datetime msec
++ no service password-encryption
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ service timestamps log datetime msec
++ no service password-encryption
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ no service password-encryption
++ !
++ hostname dc4-edge
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ hostname dc4-edge
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ hostname dc4-edge
++ !
++ boot-start-marker
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ boot-start-marker
++ boot-end-marker
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ boot-start-marker
++ boot-end-marker
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ boot-end-marker
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ no aaa new-model
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ no aaa new-model
++ ethernet lmi ce
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ no aaa new-model
++ ethernet lmi ce
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ ethernet lmi ce
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ mmi polling-interval 60
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ mmi polling-interval 60
++ no mmi auto-configure
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ mmi polling-interval 60
++ no mmi auto-configure
++ no mmi pvc
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ no mmi auto-configure
++ no mmi pvc
++ mmi snmp-timeout 180
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ no mmi pvc
++ mmi snmp-timeout 180
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ mmi snmp-timeout 180
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ no ip domain lookup
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ no ip domain lookup
++ ip domain name virl.info
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ no ip domain lookup
++ ip domain name virl.info
++ ip cef
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ ip domain name virl.info
++ ip cef
++ ipv6 unicast-routing
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ ip cef
++ ipv6 unicast-routing
++ ipv6 cef
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ ipv6 unicast-routing
++ ipv6 cef
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ ipv6 cef
++ !
++ multilink bundle-name authenticated
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ multilink bundle-name authenticated
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ multilink bundle-name authenticated
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ username rlaney privilege 15 secret 5 $1$MnP8$4L8UcsdCS9rM4F9u56VXg/
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ username rlaney privilege 15 secret 5 $1$MnP8$4L8UcsdCS9rM4F9u56VXg/
++ username cisco privilege 15 secret 5 $1$QvFv$EgKLxK9rDPRW/rX0vpMUn1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ username rlaney privilege 15 secret 5 $1$MnP8$4L8UcsdCS9rM4F9u56VXg/
++ username cisco privilege 15 secret 5 $1$QvFv$EgKLxK9rDPRW/rX0vpMUn1
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ username cisco privilege 15 secret 5 $1$QvFv$EgKLxK9rDPRW/rX0vpMUn1
++ !
++ redundancy
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ redundancy
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ redundancy
++ !
++ no cdp run
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ no cdp run
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ no cdp run
++ !
++ ! 
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ ! 
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ ! 
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ interface Loopback0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ interface Loopback0
++  description Loopback
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ interface Loopback0
++  description Loopback
++  ip address 192.168.0.5 255.255.255.255
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  description Loopback
++  ip address 192.168.0.5 255.255.255.255
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  ip address 192.168.0.5 255.255.255.255
++ !
++ interface GigabitEthernet0/0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ interface GigabitEthernet0/0
++  description OOB Management
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ interface GigabitEthernet0/0
++  description OOB Management
++  ip address 172.16.1.108 255.255.255.0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  description OOB Management
++  ip address 172.16.1.108 255.255.255.0
++  duplex full
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  ip address 172.16.1.108 255.255.255.0
++  duplex full
++  speed auto
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  duplex full
++  speed auto
++  media-type rj45
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  speed auto
++  media-type rj45
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  media-type rj45
++ !
++ interface GigabitEthernet0/1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ interface GigabitEthernet0/1
++  description to internet1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ interface GigabitEthernet0/1
++  description to internet1
++  ip address 10.0.0.49 255.255.255.252
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  description to internet1
++  ip address 10.0.0.49 255.255.255.252
++  ip ospf cost 1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  ip address 10.0.0.49 255.255.255.252
++  ip ospf cost 1
++  duplex full
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  ip ospf cost 1
++  duplex full
++  speed auto
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  duplex full
++  speed auto
++  media-type rj45
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  speed auto
++  media-type rj45
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  media-type rj45
++ !
++ interface GigabitEthernet0/2
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ interface GigabitEthernet0/2
++  description to dc4-gw1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ interface GigabitEthernet0/2
++  description to dc4-gw1
++  ip address 10.0.128.33 255.255.255.252
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  description to dc4-gw1
++  ip address 10.0.128.33 255.255.255.252
++  ip ospf cost 1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  ip address 10.0.128.33 255.255.255.252
++  ip ospf cost 1
++  duplex full
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  ip ospf cost 1
++  duplex full
++  speed auto
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  duplex full
++  speed auto
++  media-type rj45
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  speed auto
++  media-type rj45
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  media-type rj45
++ !
++ interface GigabitEthernet0/3
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ interface GigabitEthernet0/3
++  description to dc4-gw2
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ interface GigabitEthernet0/3
++  description to dc4-gw2
++  ip address 10.0.128.45 255.255.255.252
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  description to dc4-gw2
++  ip address 10.0.128.45 255.255.255.252
++  ip ospf cost 1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  ip address 10.0.128.45 255.255.255.252
++  ip ospf cost 1
++  duplex full
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  ip ospf cost 1
++  duplex full
++  speed auto
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  duplex full
++  speed auto
++  media-type rj45
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  speed auto
++  media-type rj45
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  media-type rj45
++ !
++ router ospf 1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ router ospf 1
++  passive-interface Loopback0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ router ospf 1
++  passive-interface Loopback0
++  network 10.0.0.48 0.0.0.3 area 0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  passive-interface Loopback0
++  network 10.0.0.48 0.0.0.3 area 0
++  network 10.0.128.32 0.0.0.3 area 0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  network 10.0.0.48 0.0.0.3 area 0
++  network 10.0.128.32 0.0.0.3 area 0
++  network 10.0.128.44 0.0.0.3 area 0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  network 10.0.128.32 0.0.0.3 area 0
++  network 10.0.128.44 0.0.0.3 area 0
++  network 192.168.0.5 0.0.0.0 area 0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  network 10.0.128.44 0.0.0.3 area 0
++  network 192.168.0.5 0.0.0.0 area 0
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  network 192.168.0.5 0.0.0.0 area 0
++ !
++ router bgp 1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ router bgp 1
++  bgp router-id 192.168.0.5
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ router bgp 1
++  bgp router-id 192.168.0.5
++  bgp log-neighbor-changes
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  bgp router-id 192.168.0.5
++  bgp log-neighbor-changes
++  neighbor 192.168.0.3 remote-as 1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  bgp log-neighbor-changes
++  neighbor 192.168.0.3 remote-as 1
++  neighbor 192.168.0.3 description iBGP peer dc4-nxos1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.3 remote-as 1
++  neighbor 192.168.0.3 description iBGP peer dc4-nxos1
++  neighbor 192.168.0.3 update-source Loopback0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.3 description iBGP peer dc4-nxos1
++  neighbor 192.168.0.3 update-source Loopback0
++  neighbor 192.168.0.4 remote-as 1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.3 update-source Loopback0
++  neighbor 192.168.0.4 remote-as 1
++  neighbor 192.168.0.4 description iBGP peer dc4-gw1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.4 remote-as 1
++  neighbor 192.168.0.4 description iBGP peer dc4-gw1
++  neighbor 192.168.0.4 update-source Loopback0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.4 description iBGP peer dc4-gw1
++  neighbor 192.168.0.4 update-source Loopback0
++  neighbor 192.168.0.7 remote-as 1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.4 update-source Loopback0
++  neighbor 192.168.0.7 remote-as 1
++  neighbor 192.168.0.7 description iBGP peer sc9-edge
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.7 remote-as 1
++  neighbor 192.168.0.7 description iBGP peer sc9-edge
++  neighbor 192.168.0.7 update-source Loopback0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.7 description iBGP peer sc9-edge
++  neighbor 192.168.0.7 update-source Loopback0
++  neighbor 192.168.0.8 remote-as 1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.7 update-source Loopback0
++  neighbor 192.168.0.8 remote-as 1
++  neighbor 192.168.0.8 description iBGP peer dc4-nxos2
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.8 remote-as 1
++  neighbor 192.168.0.8 description iBGP peer dc4-nxos2
++  neighbor 192.168.0.8 update-source Loopback0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.8 description iBGP peer dc4-nxos2
++  neighbor 192.168.0.8 update-source Loopback0
++  neighbor 192.168.0.9 remote-as 1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.8 update-source Loopback0
++  neighbor 192.168.0.9 remote-as 1
++  neighbor 192.168.0.9 description iBGP peer dc4-gw2
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.9 remote-as 1
++  neighbor 192.168.0.9 description iBGP peer dc4-gw2
++  neighbor 192.168.0.9 update-source Loopback0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.9 description iBGP peer dc4-gw2
++  neighbor 192.168.0.9 update-source Loopback0
++  neighbor 192.168.0.11 remote-as 1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.9 update-source Loopback0
++  neighbor 192.168.0.11 remote-as 1
++  neighbor 192.168.0.11 description iBGP peer dc4-backhaul
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.11 remote-as 1
++  neighbor 192.168.0.11 description iBGP peer dc4-backhaul
++  neighbor 192.168.0.11 update-source Loopback0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.11 description iBGP peer dc4-backhaul
++  neighbor 192.168.0.11 update-source Loopback0
++  neighbor 192.168.0.13 remote-as 1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.11 update-source Loopback0
++  neighbor 192.168.0.13 remote-as 1
++  neighbor 192.168.0.13 description iBGP peer sc9-nxos1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.13 remote-as 1
++  neighbor 192.168.0.13 description iBGP peer sc9-nxos1
++  neighbor 192.168.0.13 update-source Loopback0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.13 description iBGP peer sc9-nxos1
++  neighbor 192.168.0.13 update-source Loopback0
++  neighbor 192.168.0.14 remote-as 1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.13 update-source Loopback0
++  neighbor 192.168.0.14 remote-as 1
++  neighbor 192.168.0.14 description iBGP peer sc9-nxos2
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.14 remote-as 1
++  neighbor 192.168.0.14 description iBGP peer sc9-nxos2
++  neighbor 192.168.0.14 update-source Loopback0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.14 description iBGP peer sc9-nxos2
++  neighbor 192.168.0.14 update-source Loopback0
++  neighbor 192.168.0.16 remote-as 1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.14 update-source Loopback0
++  neighbor 192.168.0.16 remote-as 1
++  neighbor 192.168.0.16 description iBGP peer sc9-gw1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.16 remote-as 1
++  neighbor 192.168.0.16 description iBGP peer sc9-gw1
++  neighbor 192.168.0.16 update-source Loopback0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.16 description iBGP peer sc9-gw1
++  neighbor 192.168.0.16 update-source Loopback0
++  neighbor 192.168.0.17 remote-as 1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.16 update-source Loopback0
++  neighbor 192.168.0.17 remote-as 1
++  neighbor 192.168.0.17 description iBGP peer sc9-gw2
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.17 remote-as 1
++  neighbor 192.168.0.17 description iBGP peer sc9-gw2
++  neighbor 192.168.0.17 update-source Loopback0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.17 description iBGP peer sc9-gw2
++  neighbor 192.168.0.17 update-source Loopback0
++  neighbor 192.168.0.18 remote-as 1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.17 update-source Loopback0
++  neighbor 192.168.0.18 remote-as 1
++  neighbor 192.168.0.18 description iBGP peer sc9-backhaul
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.18 remote-as 1
++  neighbor 192.168.0.18 description iBGP peer sc9-backhaul
++  neighbor 192.168.0.18 update-source Loopback0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.18 description iBGP peer sc9-backhaul
++  neighbor 192.168.0.18 update-source Loopback0
++  neighbor 192.168.0.19 remote-as 1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.18 update-source Loopback0
++  neighbor 192.168.0.19 remote-as 1
++  neighbor 192.168.0.19 description iBGP peer internet1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.19 remote-as 1
++  neighbor 192.168.0.19 description iBGP peer internet1
++  neighbor 192.168.0.19 update-source Loopback0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.19 description iBGP peer internet1
++  neighbor 192.168.0.19 update-source Loopback0
++  neighbor 192.168.0.20 remote-as 1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.19 update-source Loopback0
++  neighbor 192.168.0.20 remote-as 1
++  neighbor 192.168.0.20 description iBGP peer internet2
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.20 remote-as 1
++  neighbor 192.168.0.20 description iBGP peer internet2
++  neighbor 192.168.0.20 update-source Loopback0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.20 description iBGP peer internet2
++  neighbor 192.168.0.20 update-source Loopback0
++  !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  neighbor 192.168.0.20 update-source Loopback0
++  !
++  address-family ipv4
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  !
++  address-family ipv4
++   network 192.168.0.5 mask 255.255.255.255
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  address-family ipv4
++   network 192.168.0.5 mask 255.255.255.255
++   neighbor 192.168.0.3 activate
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++   network 192.168.0.5 mask 255.255.255.255
++   neighbor 192.168.0.3 activate
++   neighbor 192.168.0.4 activate
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++   neighbor 192.168.0.3 activate
++   neighbor 192.168.0.4 activate
++   neighbor 192.168.0.7 activate
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++   neighbor 192.168.0.4 activate
++   neighbor 192.168.0.7 activate
++   neighbor 192.168.0.8 activate
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++   neighbor 192.168.0.7 activate
++   neighbor 192.168.0.8 activate
++   neighbor 192.168.0.9 activate
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++   neighbor 192.168.0.8 activate
++   neighbor 192.168.0.9 activate
++   neighbor 192.168.0.11 activate
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++   neighbor 192.168.0.9 activate
++   neighbor 192.168.0.11 activate
++   neighbor 192.168.0.13 activate
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++   neighbor 192.168.0.11 activate
++   neighbor 192.168.0.13 activate
++   neighbor 192.168.0.14 activate
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++   neighbor 192.168.0.13 activate
++   neighbor 192.168.0.14 activate
++   neighbor 192.168.0.16 activate
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++   neighbor 192.168.0.14 activate
++   neighbor 192.168.0.16 activate
++   neighbor 192.168.0.17 activate
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++   neighbor 192.168.0.16 activate
++   neighbor 192.168.0.17 activate
++   neighbor 192.168.0.18 activate
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++   neighbor 192.168.0.17 activate
++   neighbor 192.168.0.18 activate
++   neighbor 192.168.0.19 activate
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++   neighbor 192.168.0.18 activate
++   neighbor 192.168.0.19 activate
++   neighbor 192.168.0.20 activate
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++   neighbor 192.168.0.19 activate
++   neighbor 192.168.0.20 activate
++  exit-address-family
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++   neighbor 192.168.0.20 activate
++  exit-address-family
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  exit-address-family
++ !
++ ip forward-protocol nd
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ ip forward-protocol nd
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ ip forward-protocol nd
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ no ip http server
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ no ip http server
++ no ip http secure-server
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ no ip http server
++ no ip http secure-server
++ ip route 10.0.22.0 255.255.255.0 172.16.1.1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ no ip http secure-server
++ ip route 10.0.22.0 255.255.255.0 172.16.1.1
++ ip route 172.16.20.0 255.255.255.0 172.16.1.1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ ip route 10.0.22.0 255.255.255.0 172.16.1.1
++ ip route 172.16.20.0 255.255.255.0 172.16.1.1
++ ip route 192.168.22.0 255.255.255.0 172.16.1.1
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ ip route 172.16.20.0 255.255.255.0 172.16.1.1
++ ip route 192.168.22.0 255.255.255.0 172.16.1.1
++ ip ssh version 2
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ ip route 192.168.22.0 255.255.255.0 172.16.1.1
++ ip ssh version 2
++ ip ssh server algorithm authentication password
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ ip ssh version 2
++ ip ssh server algorithm authentication password
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ ip ssh server algorithm authentication password
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ !
++ control-plane
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ control-plane
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ control-plane
++ !
++ banner exec ^C
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ banner exec ^C
++ **************************************************************************
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ banner exec ^C
++ **************************************************************************
++ * IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ **************************************************************************
++ * IOSv is strictly limited to use for evaluation, demonstration and IOS  *
++ * education. IOSv is provided as-is and is not supported by Cisco's      *
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ * IOSv is strictly limited to use for evaluation, demonstration and IOS  *
++ * education. IOSv is provided as-is and is not supported by Cisco's      *
++ * Technical Advisory Center. Any use or disclosure, in whole or in part, *
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ * education. IOSv is provided as-is and is not supported by Cisco's      *
++ * Technical Advisory Center. Any use or disclosure, in whole or in part, *
++ * of the IOSv Software or Documentation to any third party for any       *
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ * Technical Advisory Center. Any use or disclosure, in whole or in part, *
++ * of the IOSv Software or Documentation to any third party for any       *
++ * purposes is expressly prohibited except as otherwise authorized by     *
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ * of the IOSv Software or Documentation to any third party for any       *
++ * purposes is expressly prohibited except as otherwise authorized by     *
++ * Cisco in writing.                                                      *
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ * purposes is expressly prohibited except as otherwise authorized by     *
++ * Cisco in writing.                                                      *
++ **************************************************************************^C
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ * Cisco in writing.                                                      *
++ **************************************************************************^C
++ banner incoming ^C
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ **************************************************************************^C
++ banner incoming ^C
++ **************************************************************************
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ banner incoming ^C
++ **************************************************************************
++ * IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ **************************************************************************
++ * IOSv is strictly limited to use for evaluation, demonstration and IOS  *
++ * education. IOSv is provided as-is and is not supported by Cisco's      *
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ * IOSv is strictly limited to use for evaluation, demonstration and IOS  *
++ * education. IOSv is provided as-is and is not supported by Cisco's      *
++ * Technical Advisory Center. Any use or disclosure, in whole or in part, *
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ * education. IOSv is provided as-is and is not supported by Cisco's      *
++ * Technical Advisory Center. Any use or disclosure, in whole or in part, *
++ * of the IOSv Software or Documentation to any third party for any       *
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ * Technical Advisory Center. Any use or disclosure, in whole or in part, *
++ * of the IOSv Software or Documentation to any third party for any       *
++ * purposes is expressly prohibited except as otherwise authorized by     *
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ * of the IOSv Software or Documentation to any third party for any       *
++ * purposes is expressly prohibited except as otherwise authorized by     *
++ * Cisco in writing.                                                      *
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ * purposes is expressly prohibited except as otherwise authorized by     *
++ * Cisco in writing.                                                      *
++ **************************************************************************^C
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ * Cisco in writing.                                                      *
++ **************************************************************************^C
++ banner login ^C
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ **************************************************************************^C
++ banner login ^C
++ **************************************************************************
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ banner login ^C
++ **************************************************************************
++ * IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ **************************************************************************
++ * IOSv is strictly limited to use for evaluation, demonstration and IOS  *
++ * education. IOSv is provided as-is and is not supported by Cisco's      *
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ * IOSv is strictly limited to use for evaluation, demonstration and IOS  *
++ * education. IOSv is provided as-is and is not supported by Cisco's      *
++ * Technical Advisory Center. Any use or disclosure, in whole or in part, *
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ * education. IOSv is provided as-is and is not supported by Cisco's      *
++ * Technical Advisory Center. Any use or disclosure, in whole or in part, *
++ * of the IOSv Software or Documentation to any third party for any       *
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ * Technical Advisory Center. Any use or disclosure, in whole or in part, *
++ * of the IOSv Software or Documentation to any third party for any       *
++ * purposes is expressly prohibited except as otherwise authorized by     *
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ * of the IOSv Software or Documentation to any third party for any       *
++ * purposes is expressly prohibited except as otherwise authorized by     *
++ * Cisco in writing.                                                      *
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ * purposes is expressly prohibited except as otherwise authorized by     *
++ * Cisco in writing.                                                      *
++ **************************************************************************^C
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ * Cisco in writing.                                                      *
++ **************************************************************************^C
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ **************************************************************************^C
++ !
++ line con 0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ line con 0
++ line aux 0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ line con 0
++ line aux 0
++ line vty 0 4
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ line aux 0
++ line vty 0 4
++  exec-timeout 0 0
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ line vty 0 4
++  exec-timeout 0 0
++  login local
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  exec-timeout 0 0
++  login local
++  transport input telnet ssh
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  login local
++  transport input telnet ssh
++ !
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++  transport input telnet ssh
++ !
++ no scheduler allocate
+...
+
+-------
+
+Was not in old version, is there now: 
+
+...
++ !
++ no scheduler allocate
++ !
+...
+
+-------

@@ -1,0 +1,15 @@
+config sync
+switch-profile CORE
+!
+no ip access-list extended SSH-ONLY
+no ip access-list extended SSH-Only
+no ip access-list extended Use-SSH
+no ip access-list extended UseSSH
+!
+!
+line vty 0 15
+ no access-class UseSSH in
+!
+commit
+!
+end

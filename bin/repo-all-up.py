@@ -24,7 +24,7 @@ mess = "The git-update script pushed these"
 git_add = ('git add -A')
 git_commit = ('git commit -a -m "The git-update script pushed these"')
 git_sync = ('git push -u origin master')
-git_pull = ('git pull --stat --depth=1')
+git_pull = ('git pull')
 
 system_repos = [
             '/Users/rlaney/.atom',

@@ -1,0 +1,4 @@
+# File to activate virtualenv for the current project
+
+source ~/.zshrc
+source ~/.virtualenvs/NetEngineerONE/bin/activate

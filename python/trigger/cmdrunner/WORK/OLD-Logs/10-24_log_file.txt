@@ -1,0 +1,421 @@
+Connecting to IOS IP 10.118.128.2 
+Connecting to IOS IP 10.118.32.2 
+IOS Device: sm-mscr-001
+username opmantek privilege 15 secret 0 N0Data4U!
+sm-mscr-001(config)#end
+sm-mscr-001#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.1.1 
+IOS Device: hn-001-mscr1001
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-mscr1001(config)#end
+hn-001-mscr1001#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.1.12 
+IOS Device: hn-001-swdz1001
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swdz1001(config)#end
+hn-001-swdz1001#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.1.13 
+IOS Device: hn-001-swdz1002
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swdz1002(config)#end
+hn-001-swdz1002#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.1.14 
+IOS Device: hn-001-swpe1001
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swpe1001(config)#end
+hn-001-swpe1001#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.1.15 
+IOS Device: hn-001-swpe1002
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swpe1002(config)#end
+hn-001-swpe1002#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.1.2 
+IOS Device: hn-001-mscr1002
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-mscr1002(config)#end
+hn-001-mscr1002#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.1.3 
+IOS Device: hn-001-msds1001
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-msds1001(config)#end
+hn-001-msds1001#Building configuration...
+Compressed configuration from 56999 bytes to 21827 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.1.4 
+IOS Device: hn-001-msds1002
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-msds1002(config)#end
+hn-001-msds1002#Building configuration...
+Compressed configuration from 57011 bytes to 20918 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.1.40 
+IOS Device: hn-002-mscr0101
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-002-mscr0101(config)#end
+hn-002-mscr0101#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.1.5 
+IOS Device: hn-001-msds1003
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-msds1003(config)#end
+hn-001-msds1003#Building configuration...
+Compressed configuration from 57675 bytes to 21480 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.1.6 
+IOS Device: hn-001-msds1004
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-msds1004(config)#end
+hn-001-msds1004#Building configuration...
+Compressed configuration from 55983 bytes to 20343 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.1.7 
+IOS Device: hn-001-mssa1001
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-mssa1001(config)#end
+hn-001-mssa1001#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.1.8 
+IOS Device: hn-001-mssa1002
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-mssa1002(config)#end
+hn-001-mssa1002#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.2.11 
+IOS Device: hn-001-swac1001
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac1001(config)#end
+hn-001-swac1001#Building configuration...
+Compressed configuration from 206971 bytes to 46007 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.2.12 
+IOS Device: hn-001-swac1201
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac1201(config)#end
+hn-001-swac1201#Building configuration...
+Compressed configuration from 144180 bytes to 32686 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.2.13 
+IOS Device: hn-001-swac1501
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac1501(config)#end
+hn-001-swac1501#Building configuration...
+Compressed configuration from 141897 bytes to 33244 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.2.14 
+IOS Device: hn-001-swac1701
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac1701(config)#end
+hn-001-swac1701#Building configuration...
+Compressed configuration from 175011 bytes to 39037 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.2.15 
+IOS Device: hn-001-swac1901
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac1901(config)#end
+hn-001-swac1901#Building configuration...
+Compressed configuration from 165746 bytes to 36842 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.2.16 
+IOS Device: hn-001-swac2101
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac2101(config)#end
+hn-001-swac2101#Building configuration...
+Compressed configuration from 144638 bytes to 33347 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.2.17 
+IOS Device: hn-001-swac2301
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac2301(config)#end
+hn-001-swac2301#Building configuration...
+Compressed configuration from 176705 bytes to 39930 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.2.18 
+IOS Device: hn-001-swac2501
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac2501(config)#end
+hn-001-swac2501#Building configuration...
+Compressed configuration from 175331 bytes to 36926 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.2.19 
+IOS Device: hn-001-swac2701
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac2701(config)#end
+hn-001-swac2701#Building configuration...
+Compressed configuration from 175996 bytes to 40584 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.2.20 
+IOS Device: hn-001-swac2901
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac2901(config)#end
+hn-001-swac2901#Building configuration...
+Compressed configuration from 80196 bytes to 22635 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.2.22 
+IOS Device: hn-001-swac3301
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac3301(config)#end
+hn-001-swac3301#Building configuration...
+Compressed configuration from 142168 bytes to 30711 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.2.23 
+IOS Device: hn-001-swac3501
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac3501(config)#end
+hn-001-swac3501#Building configuration...
+Compressed configuration from 175404 bytes to 40251 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.2.24 
+IOS Device: hn-001-swac3701
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac3701(config)#end
+hn-001-swac3701#Building configuration...
+Compressed configuration from 139386 bytes to 31946 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.2.25 
+IOS Device: hn-001-swac3901
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac3901(config)#end
+hn-001-swac3901#Building configuration...
+Compressed configuration from 148373 bytes to 32542 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.2.26 
+IOS Device: hn-001-swac4101
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac4101(config)#end
+hn-001-swac4101#Building configuration...
+Compressed configuration from 173018 bytes to 39606 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.2.27 
+IOS Device: hn-001-swac4301
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac4301(config)#end
+hn-001-swac4301#Building configuration...
+Compressed configuration from 140837 bytes to 33555 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.2.28 
+IOS Device: hn-001-swacb101
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swacb101(config)#end
+hn-001-swacb101#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.3.11 
+IOS Device: hn-001-swac1101
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac1101(config)#end
+hn-001-swac1101#Building configuration...
+Compressed configuration from 192561 bytes to 43530 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.3.12 
+IOS Device: hn-001-swac1401
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac1401(config)#end
+hn-001-swac1401#Building configuration...
+Compressed configuration from 107718 bytes to 26486 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.3.13 
+IOS Device: hn-001-swac1601
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac1601(config)#end
+hn-001-swac1601#Building configuration...
+Compressed configuration from 178333 bytes to 40367 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.3.14 
+IOS Device: hn-001-swac1801
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac1801(config)#end
+hn-001-swac1801#Building configuration...
+Compressed configuration from 144639 bytes to 31884 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.3.15 
+IOS Device: hn-001-swac2001
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac2001(config)#end
+hn-001-swac2001#Building configuration...
+Compressed configuration from 194764 bytes to 42003 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.3.16 
+IOS Device: hn-001-swac2201
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac2201(config)#end
+hn-001-swac2201#Building configuration...
+Compressed configuration from 175645 bytes to 40218 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.3.17 
+IOS Device: hn-001-swac2401
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac2401(config)#end
+hn-001-swac2401#Building configuration...
+Compressed configuration from 173861 bytes to 37099 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.3.18 
+IOS Device: hn-001-swac2601
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac2601(config)#end
+hn-001-swac2601#Building configuration...
+Compressed configuration from 208643 bytes to 47475 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.3.19 
+IOS Device: hn-001-swac2801
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac2801(config)#end
+hn-001-swac2801#Building configuration...
+Compressed configuration from 175106 bytes to 39307 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.3.21 
+IOS Device: hn-001-swac3201
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac3201(config)#end
+hn-001-swac3201#Building configuration...
+Compressed configuration from 229929 bytes to 50570 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.3.22 
+IOS Device: hn-001-swac3401
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac3401(config)#end
+hn-001-swac3401#Building configuration...
+Compressed configuration from 176552 bytes to 41587 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.3.23 
+IOS Device: hn-001-swac3601
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac3601(config)#end
+hn-001-swac3601#Building configuration...
+Compressed configuration from 169800 bytes to 36047 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.3.25 
+IOS Device: hn-001-swac4001
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac4001(config)#end
+hn-001-swac4001#Building configuration...
+Compressed configuration from 166196 bytes to 35111 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.3.26 
+IOS Device: hn-001-swac4201
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac4201(config)#end
+hn-001-swac4201#Building configuration...
+Compressed configuration from 140203 bytes to 33715 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.3.27 
+IOS Device: hn-001-swac4401
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac4401(config)#end
+hn-001-swac4401#Building configuration...
+Compressed configuration from 166453 bytes to 38152 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.3.28 
+IOS Device: hn-001-swac0201
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac0201(config)#end
+hn-001-swac0201#Building configuration...
+Compressed configuration from 100755 bytes to 27045 bytes
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.3.29 
+IOS Device: hn-001-swac0202
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac0202(config)#end
+hn-001-swac0202#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.3.31 
+IOS Device: hn-001-swac0204-techrm
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-001-swac0204-tech(config)#end
+hn-001-swac0204-techrm#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.3.41 
+IOS Device: HN-001-SWAC0601
+username opmantek privilege 15 secret 0 N0Data4U!
+HN-001-SWAC0601(config)#end
+HN-001-SWAC0601#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.172.3.42 
+IOS Device: HN-001-SWAC0602
+username opmantek privilege 15 secret 0 N0Data4U!
+HN-001-SWAC0602(config)#end
+HN-001-SWAC0602#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.174.129.4 
+IOS Device: hn-002-swac1001
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-002-swac1001(config)#end
+hn-002-swac1001#001#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.174.33.3 
+Connecting to IOS IP 10.174.33.4 
+IOS Device: hn-003-swac0502
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-003-swac0502(config)#end
+hn-003-swac0502#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.174.33.5 
+IOS Device: Hn-003-swac503
+username opmantek privilege 15 secret 0 N0Data4U!
+Hn-003-swac503(config)#end
+Hn-003-swac503#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connecting to IOS IP 10.174.33.6 
+IOS Device: hn-003-swac0401
+username opmantek privilege 15 secret 0 N0Data4U!
+hn-003-swac0401(config)#end
+hn-003-swac0401#Building configuration...
+[OK]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

@@ -1,0 +1,63 @@
+
+dc3-core-nxos1,dc3-core-nxos2,dc3-edge,dc3-gw1,dc3-gw2,dc3-nxos1,dc3-nxos2,dc3-sw1
+dc3-core-nxos1 dc3-core-nxos2 dc3-edge dc3-gw1 dc3-gw2 dc3-nxos1 dc3-nxos2 dc3-sw1
+
+DEVICE: dc3-gw1
+| Interface          | Addresses    | Subnets        | ACLs IN | ACLs OUT | Description    |
++--------------------+--------------+----------------+---------+----------+----------------+
+| GigabitEthernet0/0 | 172.16.1.127 | 172.16.1.0/24  |         |          | OOB Management |
+| GigabitEthernet0/1 | 11.0.128.34  | 11.0.128.32/30 |         |          | to dc3-edge    |
+| GigabitEthernet0/2 | 11.0.128.57  | 11.0.128.56/30 |         |          | to dc3-nxos1   |
+| GigabitEthernet0/3 | 11.0.0.41    | 11.0.0.40/30   |         |          | to dc3-nxos2   |
+| Loopback0          | 192.168.1.6  | 192.168.1.6    |         |          | Loopback       |
+
+DEVICE: dc3-gw2
+| Interface          | Addresses    | Subnets        | ACLs IN | ACLs OUT | Description    |
++--------------------+--------------+----------------+---------+----------+----------------+
+| GigabitEthernet0/0 | 172.16.1.128 | 172.16.1.0/24  |         |          | OOB Management |
+| GigabitEthernet0/1 | 11.0.128.42  | 11.0.128.40/30 |         |          | to dc3-edge    |
+| GigabitEthernet0/2 | 11.0.128.2   | 11.0.128.0/30  |         |          | to dc3-nxos2   |
+| GigabitEthernet0/4 | 11.0.0.34    | 11.0.0.32/30   |         |          | to dc3-nxos1   |
+| Loopback0          | 192.168.1.9  | 192.168.1.9    |         |          | Loopback       |
+
+DEVICE: dc3-sw1
+| Interface          | Addresses    | Subnets       | ACLs IN | ACLs OUT | Description    |
++--------------------+--------------+---------------+---------+----------+----------------+
+| GigabitEthernet0/0 | 172.16.1.122 | 172.16.1.0/24 |         |          | OOB management |
+
+DEVICE: dc3-edge
+| Interface          | Addresses    | Subnets        | ACLs IN | ACLs OUT | Description    |
++--------------------+--------------+----------------+---------+----------+----------------+
+| GigabitEthernet0/0 | 172.16.1.129 | 172.16.1.0/24  |         |          | OOB Management |
+| GigabitEthernet0/1 | 11.0.128.37  | 11.0.128.36/30 |         |          | to dc3-sat1    |
+| GigabitEthernet0/2 | 11.0.128.33  | 11.0.128.32/30 |         |          | to dc3-gw1     |
+| GigabitEthernet0/3 | 11.0.128.41  | 11.0.128.40/30 |         |          | to dc3-gw2     |
+| Loopback0          | 192.168.1.1  | 192.168.1.1    |         |          | Loopback       |
+
+DEVICE: dc3-core-nxos2
+| Interface   | Addresses    | Subnets        | ACLs IN | ACLs OUT | Description    |
++-------------+--------------+----------------+---------+----------+----------------+
+| Ethernet2/1 | 11.0.128.21  | 11.0.128.20/30 |         |          | to dc3-nxos2   |
+| Ethernet2/2 | 11.0.0.46    | 11.0.0.44/30   |         |          | to dc3-nxos1   |
+| Ethernet2/3 | 11.0.0.10    | 11.0.0.8/29    |         |          | to dc3-sw1     |
+| loopback0   | 192.168.1.10 | 192.168.1.10   |         |          | Loopback       |
+| mgmt0       | 172.16.1.124 | 172.16.1.0/24  |         |          | OOB Management |
+
+DEVICE: dc3-core-nxos1
+| Interface   | Addresses    | Subnets        | ACLs IN | ACLs OUT | Description    |
++-------------+--------------+----------------+---------+----------+----------------+
+| Ethernet2/1 | 11.0.128.61  | 11.0.128.60/30 |         |          | to dc3-nxos1   |
+| Ethernet2/2 | 11.0.0.37    | 11.0.0.36/30   |         |          | to dc3-nxos2   |
+| Ethernet2/3 | 11.0.0.9     | 11.0.0.8/29    |         |          | to dc3-sw1     |
+| loopback0   | 192.168.1.4  | 192.168.1.4    |         |          | Loopback       |
+| mgmt0       | 172.16.1.123 | 172.16.1.0/24  |         |          | OOB Management |
+
+DEVICE: dc3-nxos2
+| Interface   | Addresses    | Subnets        | ACLs IN | ACLs OUT | Description       |
++-------------+--------------+----------------+---------+----------+-------------------+
+| Ethernet2/1 | 11.0.128.1   | 11.0.128.0/30  |         |          | to dc3-gw2        |
+| Ethernet2/2 | 11.0.128.22  | 11.0.128.20/30 |         |          | to dc3-core-nxos2 |
+| Ethernet2/3 | 11.0.0.42    | 11.0.0.40/30   |         |          | to dc3-gw1        |
+| Ethernet2/4 | 11.0.0.38    | 11.0.0.36/30   |         |          | to dc3-core-nxos1 |
+| loopback0   | 192.168.1.8  | 192.168.1.8    |         |          | Loopback          |
+| mgmt0       | 172.16.1.126 | 172.16.1.0/24  |         |          | OOB Management    |

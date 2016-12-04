@@ -1,0 +1,3 @@
+access-list 100 deny   ip 10.0.0.0 0.255.255.255 172.16.1.0 0.0.0.255
+access-list 100 deny   ip 11.0.0.0 0.255.255.255 172.16.1.0 0.0.0.255
+access-list 100 permit ip any any

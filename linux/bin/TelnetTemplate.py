@@ -1,0 +1,58 @@
+#Open telnet connection to devices
+def open_telnet_conn(ip):
+    #Change exception message
+    try:
+        #Define telnet parameters
+        username = 'teopy'
+        password = 'python'
+        telnet_port = 23
+        telnet_timeout = 5
+        reading_timeout = 5
+        
+        #Logging into device
+        connection = telnetlib.Telnet(ip, telnet_port, telnet_timeout)
+        
+        #Waiting for the username prompt and sending the username
+		output = connection.read_until("name:", reading_timeout)
+        connection.write(username + "\n")
+        
+		#Waiting for the password prompt and sending the password
+        output = connection.read_until("word:", reading_timeout)
+        connection.write(password + "\n")
+        time.sleep(1)	
+        
+        #Setting terminal length for entire output - no pagination
+        connection.write("terminal length 0\n")
+        time.sleep(1)
+        
+        #Entering global config mode
+        connection.write("\n")
+        connection.write("configure terminal\n")
+        time.sleep(1)
+        
+        #Open user selected file for reading
+        selected_cmd_file = open(cmd_file, 'r')
+            
+        #Starting from the beginning of the file
+        selected_cmd_file.seek(0)
+        
+        #Writing each line in the file to the device
+        for each_line in selected_cmd_file.readlines():
+            connection.write(each_line + '\n')
+            time.sleep(1)
+    
+        #Closing the file
+        selected_cmd_file.close()
+        
+        #Test for reading command output
+        #output = connection.read_very_eager()
+        #print output
+        
+        #Closing the connection
+        connection.close()
+        
+    except IOError:
+        print "Input parameter error! Please check username, password and file name."
+		
+#Calling the Telnet function
+open_telnet_conn(ip)

@@ -19,4 +19,4 @@ ln -s ~/.dotfiles/vimrc.bundles                   ~/.vimrc.bundles
 ln -s ~/.dotfiles/zshenv                          ~/.zshenv
 ln -s ~/.dotfiles/zshrc                           ~/.zshrc
 
-sudo cat ~/.dotfiles/hosts >> /etc/hosts
+#sudo cat ~/.dotfiles/hosts >> /etc/hosts

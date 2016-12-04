@@ -40,12 +40,12 @@ system_repos = [
             ]
 
 my_projects = [
-            '/Users/rlane/Dropbox (Personal)/cheaters',
-            '/Users/rlane/Projects/neteng1',
-            '/Users/rlane/Projects/NetEngineerONE',
-            '/Users/rlane/Projects/oxidized',
-            '/Users/rlane/Projects/trigger',
-            '/Users/rlane/Projects/VIRL_Projects',
+            '/Users/rlaney/Dropbox\ \(Personal\)/cheaters',
+            '/Users/rlaney/Projects/neteng1',
+            '/Users/rlaney/Projects/NetEngineerONE',
+            '/Users/rlaney/Projects/oxidized',
+            '/Users/rlaney/Projects/trigger',
+            '/Users/rlaney/Projects/VIRL_Projects',
             '/Users/rlaney/Projects/SNMP'
             ]
 
@@ -55,9 +55,8 @@ other_repos = [
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/GateOne',
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/netbox',
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/oxidized',
+            '/Users/rlaney/Projects/NetEngineerONE/other/repos/rconfig',
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/trigger',
-            '/Users/rlaney/Projects/Network_Automation/ansible-modules-core',
-            '/Users/rlaney/Projects/Network_Automation/ansible-modules-extras',
             '/Users/rlaney/Projects/Network_Automation/bsn-ansible',
             '/Users/rlaney/Projects/Network_Automation/napalm',
             '/Users/rlaney/Projects/Network_Automation/napalm-ansible',
@@ -101,10 +100,12 @@ other_repos = [
             '/Users/rlaney/Projects/CiscoDevNet/ydk-py',
             '/Users/rlaney/Projects/CiscoDevNet/ydk-py-samples',
             '/Users/rlaney/Projects/GateOne',
-            '/Users/rlaney/Projects/Openstack_DevToolBox/app-catalog-ui',
+            '/Users/rlaney/Projects/Openstack_DevToolBox/dragonflow'
+            '/Users/rlaney/Projects/Openstack_DevToolBox/grafyaml'
+            '/Users/rlaney/Projects/Openstack_DevToolBox/kolla'
+            '/Users/rlaney/Projects/Openstack_DevToolBox/magnum'
             '/Users/rlaney/Projects/pynet',
             '/Users/rlaney/Projects/Python/PythonDropboxUploader',
-            '/Users/rlaney/Projects/python-guide',
             '/Users/rlaney/Projects/recon/recon-ng',
             '/Users/rlaney/Projects/tornado',
             '/Users/rlaney/Projects/trigger-dev'

@@ -100,10 +100,10 @@ other_repos = [
             '/Users/rlaney/Projects/CiscoDevNet/ydk-py',
             '/Users/rlaney/Projects/CiscoDevNet/ydk-py-samples',
             '/Users/rlaney/Projects/GateOne',
-            '/Users/rlaney/Projects/Openstack_DevToolBox/dragonflow'
-            '/Users/rlaney/Projects/Openstack_DevToolBox/grafyaml'
-            '/Users/rlaney/Projects/Openstack_DevToolBox/kolla'
-            '/Users/rlaney/Projects/Openstack_DevToolBox/magnum'
+            '/Users/rlaney/Projects/Openstack_DevToolBox/dragonflow',
+            '/Users/rlaney/Projects/Openstack_DevToolBox/grafyaml',
+            '/Users/rlaney/Projects/Openstack_DevToolBox/kolla',
+            '/Users/rlaney/Projects/Openstack_DevToolBox/magnum',
             '/Users/rlaney/Projects/pynet',
             '/Users/rlaney/Projects/Python/PythonDropboxUploader',
             '/Users/rlaney/Projects/recon/recon-ng',

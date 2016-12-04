@@ -40,7 +40,7 @@ system_repos = [
             ]
 
 my_projects = [
-            '/Users/rlaney/Dropbox\ \(Personal\)/cheaters',
+            '/Users/rlaney/Dropbox (Personal)/cheaters',
             '/Users/rlaney/Projects/neteng1',
             '/Users/rlaney/Projects/NetEngineerONE',
             '/Users/rlaney/Projects/oxidized',

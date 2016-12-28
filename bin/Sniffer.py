@@ -1,5 +1,5 @@
     ############# Application #6 - Basic Network Sniffer #############
-    
+
 #In Scapy, we will use the sniff() function to capture network packets.
 #To see a list of what commands Scapy has available, run the lsc() function.
 #Run the ls() command to see ALL the supported protocols.
@@ -53,7 +53,7 @@ except ImportError:
     print "Scapy package for Python is not installed on your system."
     print "Get it from https://pypi.python.org/pypi/scapy and try again."
     sys.exit()
-    
+
 
 
 #Asking the user for some parameters: interface on which to sniff, the number of packets to sniff, the time interval to sniff, the protocol
@@ -95,8 +95,8 @@ time_to_sniff = raw_input("* Enter the number of seconds to run the capture: ")
 if int(time_to_sniff) != 0:
     print "\nThe program will capture packets for %d seconds." % int(time_to_sniff)
     print
-    
-    
+
+
 #Asking the user for any protocol filter he might want to apply to the sniffing process
 #For this example I chose three protocols: ARP, BOOTP, ICMP
 #You can customize this to add your own desired protocols
@@ -112,7 +112,8 @@ elif int(proto_sniff) == 0:
 
 
 #Creating an external file for packet logging
-file_name = raw_input("* Please give a name to the log file: ")
+log_name = raw_input("* Please give a name to the log file: ")
+file_name = "~/Logs/" + log_name
 sniffer_log = open(file_name, "w")
 
 
@@ -124,13 +125,13 @@ packet_no = 0
 def packet_log(pkt):
     #The packet index
     global packet_no
-    
-    #Filtering the packets based on the protocol. Using the lower() method to ignore the case when searching for the protocol in the packet.    
+
+    #Filtering the packets based on the protocol. Using the lower() method to ignore the case when searching for the protocol in the packet.
     if proto_sniff.lower() in pkt[0][1].summary().lower():
         packet_no = packet_no + 1
         #Writing the data for each packet to the external file
         print >>sniffer_log, "Packet " + str(packet_no) + ": " + "SMAC: " + pkt[0].src + " DMAC: " + pkt[0].dst
-    
+
 
 print "\n* Starting the capture... Waiting for %s seconds..." % time_to_sniff
 

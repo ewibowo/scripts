@@ -20,7 +20,7 @@ git_add = ('git add -A')
 git_commit = ('git commit -a -m "The git-update script pushed these"')
 git_sync = ('git push -u origin master')
 system_repos = ['/Users/rlaney/.atom', '/Users/rlaney/.config', '/Users/rlaney/.dotfiles', '/Users/rlaney/.tmux', '/Users/rlaney/.tmuxinator',
-                '/Users/rlaney/.vim', '/Users/rlaney/.zplug', '/Users/rlaney/.zsh', '/Users/rlaney/scripts', '/Users/rlaney/vimwiki']
+                '/Users/rlaney/.vim', '/Users/rlaney/.zplug', '/Users/rlaney/.zsh', '/Users/rlaney/scripts', '/Users/rlaney/cheaters', '/Users/rlaney/vimwiki']
 
 
 #try:

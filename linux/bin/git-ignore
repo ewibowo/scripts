@@ -1,5 +1,0 @@
-#!/bin/sh
-
-set -e
-
-ln -s $HOME/.dotfiles/gitignore .gitignore

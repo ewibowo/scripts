@@ -1,0 +1,43 @@
+cp bin/Sniffer.py linux/bin/Sniffer.py
+cp bin/backupDotfiles.sh         linux/bin/backupDotfiles.sh
+cp bin/docker-completion.sh      linux/bin/docker-completion.sh
+cp bin/dot_update.sh             linux/bin/dot_update.sh
+cp bin/json                      linux/bin/json
+cp bin/linkBatch.sh linux/bin/linkBatch.sh
+cp bin/linkdots.sh linux/bin/linkdots.sh
+cp bin/prettify_json.sh          linux/bin/prettify_json.sh
+cp bin/repo-up.py linux/bin/repo-up.py
+Only in linux/bin: .DS_Store
+Common subdirectories: bin/.ropeproject and linux/bin/.ropeproject
+Only in bin: SetupMAC.sh
+Only in bin: SetupSingleRun.sh
+Only in bin: brewUninstall.sh
+Only in bin: brewUpdate.sh
+Only in bin: clrcache.sh
+Only in bin: di-xquartz.sh
+Only in bin: flushdns
+Only in bin: godocker
+Only in bin: goftp
+Only in bin: gomongo
+Only in bin: goneteng
+Only in bin: gonix
+Only in bin: gopostg
+Only in bin: goredis
+Only in bin: goretna
+Only in bin: gotfredmon
+Only in bin: gotftp
+Only in bin: gotrp
+Only in bin: nodocker
+Only in bin: noftp
+Only in bin: nomongo
+Only in bin: nonix
+Only in bin: nopostg
+Only in bin: noredis
+Only in bin: noretna
+Only in bin: notfredmon
+Only in bin: notftp
+Only in bin: notrp
+Only in bin: osx-for-hackers.sh
+Only in bin: renix
+Only in bin: retftp
+Only in bin: tweakosx.sh

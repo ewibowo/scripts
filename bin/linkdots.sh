@@ -33,5 +33,4 @@ ln -s ~/.dotfiles/zshrc                           ~/.zshrc
 ln -s ~/.dotfiles/iterm2_shell_integration.zsh    ~/.iterm2_shell_integration.zsh
 
 ln -s ~/.dotfiles/iterm2/                          ~/.iterm2
-ln -s ~/.dotfiles/karabiner.d/                     ~/.karabiner.d
 sudo cp ~/.dotfiles/hosts /private/etc/hosts

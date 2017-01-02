@@ -36,7 +36,8 @@ system_repos = [
             '/Users/rlaney/.zplug',
             '/Users/rlaney/.zsh',
             '/Users/rlaney/scripts',
-            '/Users/rlaney/vimwiki'
+            '/Users/rlaney/vimwiki',
+            '/Users/rlaney/repos/hosts',
             ]
 
 my_projects = [

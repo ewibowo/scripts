@@ -38,6 +38,7 @@ system_repos = [
             '/Users/rlaney/scripts',
             '/Users/rlaney/vimwiki',
             '/Users/rlaney/repos/hosts',
+            '/Users/rlaney/lib',
             ]
 
 my_projects = [

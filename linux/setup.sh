@@ -29,6 +29,7 @@ git clone https://github.com/rlaneyjr/dotfiles.git ~/.dotfiles
 #git clone https://github.com/rlaneyjr/scripts.git ~/scripts
 git clone https://github.com/rlaneyjr/vim.git ~/.vim
 git clone https://github.com/rlaneyjr/zsh.git ~/.zsh
+git clone https://github.com/rlaneyjr/lib.git ~/lib
 git clone https://github.com/rlaneyjr/zplug.git ~/.zplug
 git clone https://github.com/rlaneyjr/config.git ~/.config
 

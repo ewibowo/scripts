@@ -36,5 +36,5 @@ git clone https://github.com/rlaneyjr/config.git ~/.config
 mkdir -p ~/Projects
 mkdir -p ~/.virtualenvs
 
-./bin/linkBatch.sh
-./bin/linkdots.sh
+source ~/scripts/bin/linkBatch.sh
+source ~/scripts/bin/linkdots.sh

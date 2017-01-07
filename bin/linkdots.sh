@@ -1,36 +1,36 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-ln -s ~/.dotfiles/admin-openrc.sh                 ~/.admin-openrc.sh
-ln -s ~/.dotfiles/agignore                        ~/.agignore
-ln -s ~/.dotfiles/aliases                         ~/.aliases
-ln -s ~/.dotfiles/apmrc                           ~/.apmrc
-ln -s ~/.dotfiles/bashrc                          ~/.bashrc
-ln -s ~/.dotfiles/demo-openrc.sh                  ~/.demo-openrc.sh
-ln -s ~/.dotfiles/gemrc                           ~/.gemrc
-ln -s ~/.dotfiles/gitconfig                       ~/.gitconfig
-ln -s ~/.dotfiles/gitignore                       ~/.gitignore
-ln -s ~/.dotfiles/gitignore_global                ~/.gitignore_global
-ln -s ~/.dotfiles/gitmessage                      ~/.gitmessage
-ln -s ~/.dotfiles/hgignore_global                 ~/.hgignore_global
-ln -s ~/.dotfiles/ideavimrc                       ~/.ideavimrc
-ln -s ~/.dotfiles/LESS_TERMCAP                    ~/.LESS_TERMCAP
-ln -s ~/.dotfiles/macos                           ~/.macos
-ln -s ~/.dotfiles/mongo_hacker.js                 ~/.mongo_hacker.js
-ln -s ~/.dotfiles/mongorc.js                      ~/.mongorc.js
-ln -s ~/.dotfiles/myshutils.sh                    ~/.myshutils.sh
-ln -s ~/.dotfiles/netrc                           ~/.netrc
-ln -s ~/.dotfiles/powerlevel9k                    ~/.powerlevel9k
-ln -s ~/.dotfiles/psqlrc                          ~/.psqlrc
-ln -s ~/.dotfiles/psqlrc.local                    ~/.psqlrc.local
-ln -s ~/.dotfiles/rspec                           ~/.rspec
-ln -s ~/.dotfiles/rvmrc                           ~/.rvmrc
-ln -s ~/.dotfiles/sbtconfig                       ~/.sbtconfig
-ln -s ~/.dotfiles/tmux.conf                       ~/.tmux.conf
-ln -s ~/.dotfiles/vimrc                           ~/.vimrc
-ln -s ~/.dotfiles/vimrc.bundles                   ~/.vimrc.bundles
-ln -s ~/.dotfiles/zshenv                          ~/.zshenv
-ln -s ~/.dotfiles/zshrc                           ~/.zshrc
-ln -s ~/.dotfiles/iterm2_shell_integration.zsh    ~/.iterm2_shell_integration.zsh
+# List of my dotfiles for MAC OS
+my_dotfiles="admin-openrc.sh agignore aliases apmrc bashrc demo-openrc.sh gemrc gitconfig gitignore gitignore_global gitmessage hgignore_global ideavimrc LESS_TERMCAP macos mongo_hacker.js mongorc.js myshutils.sh netrc powerlevel9k psqlrc psqlrc.local rspec rvmrc sbtconfig tmux.conf vimrc vimrc.bundles zshenv zshrc iterm2_shell_integration.zsh iterm2"
 
-ln -s ~/.dotfiles/iterm2/                          ~/.iterm2
-sudo cp ~/.dotfiles/hosts /private/etc/hosts
+# List of my dotfiles for Linux
+mylinux_dotfiles="admin-openrc.sh agignore aliases apmrc bashrc demo-openrc.sh gemrc gitconfig gitignore gitignore_global gitmessage hgignore_global LESS_TERMCAP mongo_hacker.js mongorc.js myshutils.sh netrc powerlevel9k psqlrc psqlrc.local rspec rvmrc sbtconfig tmux.conf vimrc vimrc.bundles zshenv zshrc"
+
+
+# get and store OS type
+ostype=$(uname -s)
+
+echo "You are on a $ostype machine."
+if [[ $ostype == "Darwin" ]]; then
+    for i in $my_dotfiles; do
+        if ! [[ -f ~/.$i ]]; then
+            ln -s ~/.dotfiles/$i ~/.$i
+        fi
+        sudo cp ~/.dotfiles/hosts /private/etc/hosts
+    done
+    exit 0
+elif [[ $ostype == "Linux" ]]; then
+    for i in $mylinux_dotfiles; do
+        if ! [[ -f ~/.$i ]]; then
+            if [[ -f ~/.dotfiles/linux/$i ]]; then
+                ln -s ~/.dotfiles/linux/$i ~/.$i
+            else ln -s ~/.dotfiles/$i ~/.$i
+            fi
+        fi
+        sudo cp ~/.dotfiles/hosts /etc/hosts
+    done
+    exit 0
+else echo "Cannot run on this system"
+exit 0
+fi    
+

@@ -33,6 +33,9 @@ git clone https://github.com/rlaneyjr/lib.git ~/lib
 git clone https://github.com/rlaneyjr/zplug.git ~/.zplug
 git clone https://github.com/rlaneyjr/config.git ~/.config
 
+mkdir -p ~/.vim/backups
+mkdir -p ~/.vim/swaps
+mkdir -p ~/.vim/undo
 mkdir -p ~/Projects
 mkdir -p ~/.virtualenvs
 

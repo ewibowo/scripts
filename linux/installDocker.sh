@@ -40,7 +40,7 @@ sudo systemctl enable docker
 echo "Edit this file for docker DNS"
 sudo vim /etc/docker/daemon.json
 {
-    "dns": ["8.8.8.8", "8.8.4.4"]
+    "dns": ["10.72.3.16", "10.72.3.17", "4.2.2.6"]
 }
 echo "Restart docker"
 sudo service docker restart

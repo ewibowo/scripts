@@ -20,16 +20,16 @@ Trusty="deb https://apt.dockerproject.org/repo ubuntu-trusty main"
 Wily="deb https://apt.dockerproject.org/repo ubuntu-wily main"
 Xenial="deb https://apt.dockerproject.org/repo ubuntu-xenial main"
 
-echo "$(Xenial)" | sudo tee /etc/apt/sources.list.d/docker.list
+echo "($Xenial)" | sudo tee /etc/apt/sources.list.d/docker.list
 
 sudo apt-get update
 echo "Verify APT is using the correct repos"
 apt-cache policy docker-engine
 echo "Install the linux-image-extra-* packages"
-sudo apt-get install linux-image-extra-$(uname -r) linux-image-extra-virtual
+sudo apt-get install -y linux-image-extra-$(uname -r) linux-image-extra-virtual
 echo "Installing docker"
 sudo apt-get update
-sudo apt-get install docker-engine
+sudo apt-get install -y docker-engine
 echo "Starting docker"
 sudo service docker start
 echo "Use docker without sudo perms"

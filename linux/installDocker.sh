@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env zsh
 
 set e
 
@@ -37,10 +37,20 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 echo "Enable autostart docker service"
 sudo systemctl enable docker
-echo "Edit this file for docker DNS"
-sudo vim /etc/docker/daemon.json
-{
-    "dns": ["10.72.3.16", "10.72.3.17", "4.2.2.6"]
-}
-echo "Restart docker"
-sudo service docker restart
+#echo "Edit this file for docker DNS"
+#sudo vim /etc/docker/daemon.json
+#{
+#    "dns": ["10.72.3.16", "10.72.3.17", "4.2.2.6"]
+#}
+#echo "Restart docker"
+#sudo service docker restart
+echo "Install docker-compose"
+sudo curl -L "https://github.com/docker/compose/releases/download/1.9.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+echo "Install command completion"
+if ! [[ -d ~/.zsh/completion ]]; then
+    mkdir -p ~/.zsh/completion
+fi
+curl -L https://raw.githubusercontent.com/docker/compose/$(docker-compose version --short)/contrib/completion/zsh/_docker-compose > ~/.zsh/completion/_docker-compose
+autoload -Uz compinit -u && compinit -i
+

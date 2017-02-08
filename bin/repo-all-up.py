@@ -42,16 +42,19 @@ system_repos = [
             ]
 
 my_projects = [
+            '/Users/rlaney/Projects/ansible1',
             '/Users/rlaney/Dropbox (Personal)/cheaters',
             '/Users/rlaney/Projects/neteng1',
             '/Users/rlaney/Projects/NetEngineerONE',
             '/Users/rlaney/Projects/oxidized',
             '/Users/rlaney/Projects/trigger',
             '/Users/rlaney/Projects/VIRL_Projects',
-            '/Users/rlaney/Projects/SNMP'
+            '/Users/rlaney/Projects/py-snmp/SNMP',
             ]
 
 other_repos = [
+            '/Users/rlaney/Projects/ansible/openstack-ansible',
+            '/Users/rlaney/Projects/osv-apps',
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/django-wiki',
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/django-wiki-project-template',
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/GateOne',
@@ -59,10 +62,28 @@ other_repos = [
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/oxidized',
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/rconfig',
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/trigger',
+            '/Users/rlaney/Projects/Network_Automation/Automation',
+            '/Users/rlaney/Projects/Network_Automation/autonet',
+            '/Users/rlaney/Projects/Network_Automation/bosun',
             '/Users/rlaney/Projects/Network_Automation/bsn-ansible',
+            '/Users/rlaney/Projects/Network_Automation/cisco_netmiko',
+            '/Users/rlaney/Projects/Network_Automation/dns-crawl',
             '/Users/rlaney/Projects/Network_Automation/napalm',
             '/Users/rlaney/Projects/Network_Automation/napalm-ansible',
+            '/Users/rlaney/Projects/Network_Automation/net-config',
+            '/Users/rlaney/Projects/Network_Automation/netman',
+            '/Users/rlaney/Projects/Network_Automation/netmiko',
             '/Users/rlaney/Projects/Network_Automation/Netmiko training',
+            '/Users/rlaney/Projects/Network_Automation/netmiko-ansible',
+            '/Users/rlaney/Projects/Network_Automation/netmiko-cisco-playground',
+            '/Users/rlaney/Projects/Network_Automation/netmiko-ppaskowsky',
+            '/Users/rlaney/Projects/Network_Automation/netmiko_test',
+            '/Users/rlaney/Projects/Network_Automation/netmiko_tools',
+            '/Users/rlaney/Projects/Network_Automation/NetSpark-Scripts',
+            '/Users/rlaney/Projects/Network_Automation/network-automation',
+            '/Users/rlaney/Projects/Network_Automation/NetworkAutomation',
+            '/Users/rlaney/Projects/Network_Automation/NetworkAutomationProject',
+            '/Users/rlaney/Projects/Network_Automation/NetworkAutomationUsingPython',
             '/Users/rlaney/Projects/Network_Automation/ntc-ansible',
             '/Users/rlaney/Projects/Network_Automation/ntc-ansible-docs',
             '/Users/rlaney/Projects/Network_Automation/ntc-templates',
@@ -106,11 +127,12 @@ other_repos = [
             '/Users/rlaney/Projects/Openstack_DevToolBox/grafyaml',
             '/Users/rlaney/Projects/Openstack_DevToolBox/kolla',
             '/Users/rlaney/Projects/Openstack_DevToolBox/magnum',
+            '/Users/rlaney/Projects/Openstack_DevToolBox/tricircle',
             '/Users/rlaney/Projects/pynet',
             '/Users/rlaney/Projects/Python/PythonDropboxUploader',
             '/Users/rlaney/Projects/recon/recon-ng',
             '/Users/rlaney/Projects/tornado',
-            '/Users/rlaney/Projects/trigger-dev'
+            '/Users/rlaney/Projects/trigger',
             ]
 
 

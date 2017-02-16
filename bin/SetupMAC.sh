@@ -310,8 +310,8 @@ brew install bash
 #append_to_zshrc '# To use the new coreutils:' 1
 #append_to_zshrc 'export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"' 1
 #append_to_zshrc 'export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"' 1
-export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
-export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+#export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+#export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
 brew_tap 'homebrew/fuse'
 brew_tap 'samueljohn/python'
@@ -807,7 +807,7 @@ brew cask audit
 
 #echo "Running system tweeks with tweakosx.sh"
 #source ~/bin/tweakosx.sh
-/bin/sh $HOME/bin/tweakosx.sh
+#/bin/sh $HOME/bin/tweakosx.sh
 
 #echo "Running system tweeks with .macos"
 #source ./.macos

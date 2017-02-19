@@ -43,7 +43,6 @@ system_repos = [
 
 my_projects = [
             '/Users/rlaney/Dropbox (Personal)/cheaters',
-            '/Users/rlaney/Projects/VIRL/virl_packet',
             '/Users/rlaney/Projects/VIRL_Projects',
             '/Users/rlaney/Projects/ansible',
             '/Users/rlaney/Projects/trigger',
@@ -81,6 +80,11 @@ other_repos = [
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/oxidized',
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/rconfig',
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/trigger',
+            '/Users/rlaney/Projects/VIRL/virl-salt',
+            '/Users/rlaney/Projects/VIRL/virl_packet',
+            '/Users/rlaney/Projects/VIRL/virl_cluster',
+            '/Users/rlaney/Projects/VIRL/virl_boxcutter',
+            '/Users/rlaney/Projects/VIRL/virl-bootstrap',
             '/Users/rlaney/Projects/Python/PythonDropboxUploader',
             '/Users/rlaney/Projects/APIs/ax_metrics',
             '/Users/rlaney/Projects/APIs/grequests',

@@ -42,7 +42,7 @@ system_repos = [
             ]
 
 my_projects = [
-            '/Users/rlaney/Projects/ansible1',
+            '/Users/rlaney/Projects/ansible',
             '/Users/rlaney/Projects/neteng1',
             '/Users/rlaney/Projects/NetEngineerONE',
             '/Users/rlaney/Projects/oxidized',
@@ -57,7 +57,13 @@ my_projects = [
             ]
 
 other_repos = [
-            '/Users/rlaney/Projects/ansible/repo',
+            '/Users/rlaney/Projects/ansible/repo-osa',
+            '/Users/rlaney/Projects/ansible/repo-odl',
+            '/Users/rlaney/Projects/APIs/records',
+            '/Users/rlaney/Projects/APIs/requests',
+            '/Users/rlaney/Projects/APIs/ax_metrics',
+            '/Users/rlaney/Projects/APIs/wwwclient',
+            '/Users/rlaney/Projects/AzureAPIs/azure-sdk-for-python',
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/django-wiki',
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/django-wiki-project-template',
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/GateOne',
@@ -66,6 +72,7 @@ other_repos = [
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/rconfig',
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/trigger',
             '/Users/rlaney/Projects/Network_Automation/ansible-trigger',
+            '/Users/rlaney/Projects/Network_Automation/bgpranking-redis-api',
             '/Users/rlaney/Projects/Network_Automation/Automation',
             '/Users/rlaney/Projects/Network_Automation/autonet',
             '/Users/rlaney/Projects/Network_Automation/bosun',
@@ -164,6 +171,8 @@ other_repos = [
             '/Users/rlaney/repos/HariSekhon/styleguide',
             '/Users/rlaney/repos/HariSekhon/tools',
             '/Users/rlaney/repos/LinuxONLY/blueprint',
+            '/Users/rlaney/repos/legit',
+            '/Users/rlaney/repos/pipenv',
             ]
 
 

@@ -35,35 +35,45 @@ system_repos = [
             '/Users/rlaney/.vim',
             '/Users/rlaney/.zplug',
             '/Users/rlaney/.zsh',
+            '/Users/rlaney/lib',
             '/Users/rlaney/scripts',
             '/Users/rlaney/vimwiki',
             '/Users/rlaney/repos/hosts',
-            '/Users/rlaney/lib',
             ]
 
 my_projects = [
-            '/Users/rlaney/Projects/ansible',
-            '/Users/rlaney/Projects/neteng1',
-            '/Users/rlaney/Projects/NetEngineerONE',
-            '/Users/rlaney/Projects/oxidized',
-            '/Users/rlaney/Projects/trigger',
-            '/Users/rlaney/Projects/VIRL_Projects',
-            '/Users/rlaney/Projects/py-snmp/SNMP',
-            '/Users/rlaney/Projects/ansible/osa',
-            '/Users/rlaney/.virtualenvs/neteng/project',
             '/Users/rlaney/Dropbox (Personal)/cheaters',
-            '/Users/rlaney/Dropbox (Personal)/HELP',
-            '/Users/rlaney/Dropbox (Personal)/VIRL_Projects',
+            '/Users/rlaney/Projects/VIRL/virl_packet',
+            '/Users/rlaney/Projects/VIRL_Projects',
+            '/Users/rlaney/Projects/ansible',
+            '/Users/rlaney/Projects/trigger',
+            '/Users/rlaney/Projects/neteng1',
+            '/Users/rlaney/.virtualenvs/neteng/project',
+            '/Users/rlaney/Projects/NetEngineerONE',
             ]
 
 other_repos = [
-            '/Users/rlaney/Projects/ansible/repo-osa',
+            '/Users/rlaney/Projects/django-todo',
+            '/Users/rlaney/Projects/dotfiles',
+            '/Users/rlaney/Projects/GateOne',
+            '/Users/rlaney/Projects/ghsync',
+            '/Users/rlaney/Projects/newspaper',
+            '/Users/rlaney/Projects/osv-apps',
+            '/Users/rlaney/Projects/ovs',
+            '/Users/rlaney/Projects/oxidized',
+            '/Users/rlaney/Projects/pep8.org',
+            '/Users/rlaney/Projects/procs',
+            '/Users/rlaney/Projects/psycopg2',
+            '/Users/rlaney/Projects/pynet',
+            '/Users/rlaney/Projects/py-snmp/SNMP',
+            '/Users/rlaney/Projects/pyandoc',
+            '/Users/rlaney/Projects/pyflix2',
+            '/Users/rlaney/Projects/recon/recon-ng',
+            '/Users/rlaney/Projects/showme',
+            '/Users/rlaney/Projects/tornado',
+            '/Users/rlaney/Projects/trigger-repo',
             '/Users/rlaney/Projects/ansible/repo-odl',
-            '/Users/rlaney/Projects/APIs/records',
-            '/Users/rlaney/Projects/APIs/requests',
-            '/Users/rlaney/Projects/APIs/ax_metrics',
-            '/Users/rlaney/Projects/APIs/wwwclient',
-            '/Users/rlaney/Projects/AzureAPIs/azure-sdk-for-python',
+            '/Users/rlaney/Projects/ansible/repo-osa',
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/django-wiki',
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/django-wiki-project-template',
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/GateOne',
@@ -71,36 +81,14 @@ other_repos = [
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/oxidized',
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/rconfig',
             '/Users/rlaney/Projects/NetEngineerONE/other/repos/trigger',
-            '/Users/rlaney/Projects/Network_Automation/ansible-trigger',
-            '/Users/rlaney/Projects/Network_Automation/bgpranking-redis-api',
-            '/Users/rlaney/Projects/Network_Automation/Automation',
-            '/Users/rlaney/Projects/Network_Automation/autonet',
-            '/Users/rlaney/Projects/Network_Automation/bosun',
-            '/Users/rlaney/Projects/Network_Automation/bsn-ansible',
-            '/Users/rlaney/Projects/Network_Automation/cisco_netmiko',
-            '/Users/rlaney/Projects/Network_Automation/dns-crawl',
-            '/Users/rlaney/Projects/Network_Automation/napalm',
-            '/Users/rlaney/Projects/Network_Automation/napalm-ansible',
-            '/Users/rlaney/Projects/Network_Automation/net-config',
-            '/Users/rlaney/Projects/Network_Automation/netman',
-            '/Users/rlaney/Projects/Network_Automation/netmiko',
-            '/Users/rlaney/Projects/Network_Automation/Netmiko training',
-            '/Users/rlaney/Projects/Network_Automation/netmiko-ansible',
-            '/Users/rlaney/Projects/Network_Automation/netmiko-cisco-playground',
-            '/Users/rlaney/Projects/Network_Automation/netmiko-ppaskowsky',
-            '/Users/rlaney/Projects/Network_Automation/netmiko_test',
-            '/Users/rlaney/Projects/Network_Automation/netmiko_tools',
-            '/Users/rlaney/Projects/Network_Automation/NetSpark-Scripts',
-            '/Users/rlaney/Projects/Network_Automation/network-automation',
-            '/Users/rlaney/Projects/Network_Automation/NetworkAutomation',
-            '/Users/rlaney/Projects/Network_Automation/NetworkAutomationProject',
-            '/Users/rlaney/Projects/Network_Automation/NetworkAutomationUsingPython',
-            '/Users/rlaney/Projects/Network_Automation/ntc-ansible',
-            '/Users/rlaney/Projects/Network_Automation/ntc-ansible-docs',
-            '/Users/rlaney/Projects/Network_Automation/ntc-templates',
-            '/Users/rlaney/Projects/Network_Automation/pyntc',
-            '/Users/rlaney/Projects/Network_Automation/pynxos',
-            '/Users/rlaney/Projects/Network_Automation/test-network-modules',
+            '/Users/rlaney/Projects/Python/PythonDropboxUploader',
+            '/Users/rlaney/Projects/APIs/ax_metrics',
+            '/Users/rlaney/Projects/APIs/grequests',
+            '/Users/rlaney/Projects/APIs/records',
+            '/Users/rlaney/Projects/APIs/requests',
+            '/Users/rlaney/Projects/APIs/wwwclient',
+            '/Users/rlaney/Projects/AzureAPIs/azure-sdk-for-python',
+            '/Users/rlaney/Projects/AzureAPIs/python-azureml-client',
             '/Users/rlaney/Projects/CiscoDevNet/aci-learning-labs',
             '/Users/rlaney/Projects/CiscoDevNet/api-design-guide',
             '/Users/rlaney/Projects/CiscoDevNet/apic-em-samples-aradford',
@@ -133,27 +121,68 @@ other_repos = [
             '/Users/rlaney/Projects/CiscoDevNet/ydk-gen-bundles',
             '/Users/rlaney/Projects/CiscoDevNet/ydk-py',
             '/Users/rlaney/Projects/CiscoDevNet/ydk-py-samples',
-            '/Users/rlaney/Projects/GateOne',
+            '/Users/rlaney/Projects/Network_Automation/ansible-trigger',
+            '/Users/rlaney/Projects/Network_Automation/Automation',
+            '/Users/rlaney/Projects/Network_Automation/autonet',
+            '/Users/rlaney/Projects/Network_Automation/bgpranking-redis-api',
+            '/Users/rlaney/Projects/Network_Automation/bosun',
+            '/Users/rlaney/Projects/Network_Automation/bsn-ansible',
+            '/Users/rlaney/Projects/Network_Automation/cisco_netmiko',
+            '/Users/rlaney/Projects/Network_Automation/cpauto',
+            '/Users/rlaney/Projects/Network_Automation/cpcloud',
+            '/Users/rlaney/Projects/Network_Automation/dns-crawl',
+            '/Users/rlaney/Projects/Network_Automation/napalm',
+            '/Users/rlaney/Projects/Network_Automation/napalm-ansible',
+            '/Users/rlaney/Projects/Network_Automation/net-config',
+            '/Users/rlaney/Projects/Network_Automation/netman',
+            '/Users/rlaney/Projects/Network_Automation/netmiko',
+            '/Users/rlaney/Projects/Network_Automation/Netmiko training',
+            '/Users/rlaney/Projects/Network_Automation/netmiko-ansible',
+            '/Users/rlaney/Projects/Network_Automation/netmiko-cisco-playground',
+            '/Users/rlaney/Projects/Network_Automation/netmiko-ppaskowsky',
+            '/Users/rlaney/Projects/Network_Automation/netmiko_test',
+            '/Users/rlaney/Projects/Network_Automation/netmiko_tools',
+            '/Users/rlaney/Projects/Network_Automation/NetSpark-Scripts',
+            '/Users/rlaney/Projects/Network_Automation/network-automation',
+            '/Users/rlaney/Projects/Network_Automation/NetworkAutomation',
+            '/Users/rlaney/Projects/Network_Automation/NetworkAutomationProject',
+            '/Users/rlaney/Projects/Network_Automation/NetworkAutomationUsingPython',
+            '/Users/rlaney/Projects/Network_Automation/ntc-ansible',
+            '/Users/rlaney/Projects/Network_Automation/ntc-ansible-docs',
+            '/Users/rlaney/Projects/Network_Automation/ntc-templates',
+            '/Users/rlaney/Projects/Network_Automation/pyntc',
+            '/Users/rlaney/Projects/Network_Automation/pynxos',
+            '/Users/rlaney/Projects/Network_Automation/test-network-modules',
             '/Users/rlaney/Projects/Openstack_DevToolBox/dragonflow',
             '/Users/rlaney/Projects/Openstack_DevToolBox/grafyaml',
             '/Users/rlaney/Projects/Openstack_DevToolBox/kolla',
             '/Users/rlaney/Projects/Openstack_DevToolBox/magnum',
             '/Users/rlaney/Projects/Openstack_DevToolBox/tricircle',
-            '/Users/rlaney/Projects/ovs',
-            '/Users/rlaney/Projects/osv-apps',
-            '/Users/rlaney/Projects/pynet',
-            '/Users/rlaney/Projects/Python/PythonDropboxUploader',
-            '/Users/rlaney/Projects/recon/recon-ng',
-            '/Users/rlaney/Projects/tornado',
-            '/Users/rlaney/Projects/trigger',
-            '/Users/rlaney/Projects/VIRL/virl_packet',
-            '/Users/rlaney/Dropbox (Hearst Corporation)/Code/PythonDropboxUploader',
-            '/Users/rlaney/Dropbox (Hearst Corporation)/Code/dropbox',
-            '/Users/rlaney/Dropbox (Personal)/MyDocs/Learn/MayccollUtils',
-            '/Users/rlaney/repos/HariSekhon/DataScienceResources',
-            '/Users/rlaney/repos/HariSekhon/Dockerfiles',
+            '/Users/rlaney/repos/KennethReitz/args',
+            '/Users/rlaney/repos/KennethReitz/blindspin',
+            '/Users/rlaney/repos/KennethReitz/bucketstore',
+            '/Users/rlaney/repos/KennethReitz/clint',
+            '/Users/rlaney/repos/KennethReitz/crayons',
+            '/Users/rlaney/repos/KennethReitz/delegator.py',
+            '/Users/rlaney/repos/KennethReitz/dj-database-url',
+            '/Users/rlaney/repos/KennethReitz/dj-static',
+            '/Users/rlaney/repos/KennethReitz/django-postgrespool',
+            '/Users/rlaney/repos/KennethReitz/docker-python',
+            '/Users/rlaney/repos/KennethReitz/envoy',
+            '/Users/rlaney/repos/KennethReitz/goldenarch',
+            '/Users/rlaney/repos/KennethReitz/legit',
+            '/Users/rlaney/repos/KennethReitz/markdownplease.com',
+            '/Users/rlaney/repos/KennethReitz/maya',
+            '/Users/rlaney/repos/KennethReitz/ovaltine',
+            '/Users/rlaney/repos/KennethReitz/pip-pop',
+            '/Users/rlaney/repos/KennethReitz/pip-purge',
+            '/Users/rlaney/repos/KennethReitz/pipenv',
+            '/Users/rlaney/repos/KennethReitz/tablib',
+            '/Users/rlaney/repos/KennethReitz/xerox',
             '/Users/rlaney/repos/HariSekhon/bash-tools',
+            '/Users/rlaney/repos/HariSekhon/DataScienceResources',
             '/Users/rlaney/repos/HariSekhon/dockerfile_lint',
+            '/Users/rlaney/repos/HariSekhon/Dockerfiles',
             '/Users/rlaney/repos/HariSekhon/hosts',
             '/Users/rlaney/repos/HariSekhon/lib',
             '/Users/rlaney/repos/HariSekhon/lib-java',
@@ -171,8 +200,6 @@ other_repos = [
             '/Users/rlaney/repos/HariSekhon/styleguide',
             '/Users/rlaney/repos/HariSekhon/tools',
             '/Users/rlaney/repos/LinuxONLY/blueprint',
-            '/Users/rlaney/repos/legit',
-            '/Users/rlaney/repos/pipenv',
             ]
 
 
@@ -190,10 +217,8 @@ with open('/Users/rlaney/Logs/system_repos.log', 'w') as log_file:
                 log_file.write('~'*79 + '\n\n')
             else:
                 print >>sys.stderr, "Child returned", retcode
-                print('Child returned: {} \n'.format(retcode))
-                log_file.write('Child returned: {} \n'.format(retcode))
+                print('Success!! returned: {} \n'.format(retcode))
                 print('~'*79 + '\n\n')
-                log_file.write('~'*79 + '\n\n')
     except OSError, e:
         print >>sys.stderr, "Execution failed:", e
         print('Execution failed: {} \n'.format(e))
@@ -216,10 +241,8 @@ with open('/Users/rlaney/Logs/my_projects.log', 'w') as log_file:
                 log_file.write('~'*79 + '\n\n')
             else:
                 print >>sys.stderr, "Child returned", retcode
-                print('Child returned: {} \n'.format(retcode))
-                log_file.write('Child returned: {} \n'.format(retcode))
+                print('Success!! returned: {} \n'.format(retcode))
                 print('~'*79 + '\n\n')
-                log_file.write('~'*79 + '\n\n')
     except OSError, e:
         print >>sys.stderr, "Execution failed:", e
         print('Execution failed: {} \n'.format(e))
@@ -240,48 +263,11 @@ with open('/Users/rlaney/Logs/other_repos.log', 'w') as log_file:
                 log_file.write('~'*79 + '\n\n')
             else:
                 print >>sys.stderr, "Child returned", retcode
-                print('Child returned: {} \n'.format(retcode))
-                log_file.write('Child returned: {} \n'.format(retcode))
+                print('Success!! returned: {} \n'.format(retcode))
                 print('~'*79 + '\n\n')
-                log_file.write('~'*79 + '\n\n')
     except OSError, e:
         print >>sys.stderr, "Execution failed:", e
         print('Execution failed: {} \n'.format(e))
         log_file.write('Execution failed: {} \n'.format(e))
         print('~'*79 + '\n\n')
         log_file.write('~'*79 + '\n\n')
-
-
-
-
-##Get Command Line Arguments
-#def main(sys.argv):
-#    input_file = ''
-#    output_file = ''
-#    format = ''
-#    try:
-#        opts, args = getopt.getopt(argv,"hi:o:f:",["ifile=","ofile=","format="])
-#    except getopt.GetoptError:
-#        print 'csv_json.py -i <path to inputfile> -o <path to outputfile> -f <dump/pretty>'
-#        sys.exit(2)
-#    for opt, arg in opts:
-#        if opt == '-h':
-#            print 'csv_json.py -i <path to inputfile> -o <path to outputfile> -f <dump/pretty>'
-#            sys.exit()
-#        elif opt in ("-i", "--ifile"):
-#            input_file = arg
-#        elif opt in ("-o", "--ofile"):
-#            output_file = arg
-#        elif opt in ("-f", "--format"):
-#            format = arg
-#    read_csv(input_file, output_file, format)
-#
-#if __name__ == "__main__":
-#   main(sys.argv[1:])
-#
-#
-#alias gaa='git add -A'
-#alias gcam='git commit -a -m'
-#alias gpom='git push -u origin master'
-#alias gacap='gaa && gcam "Auto Push" && gpom'
-#git add -A && git commit -a -m "Git-update script pushed these" && git push -u origin master

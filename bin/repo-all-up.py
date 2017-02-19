@@ -46,7 +46,6 @@ my_projects = [
             '/Users/rlaney/Projects/VIRL_Projects',
             '/Users/rlaney/Projects/ansible',
             '/Users/rlaney/Projects/trigger',
-            '/Users/rlaney/Projects/neteng1',
             '/Users/rlaney/.virtualenvs/neteng/project',
             '/Users/rlaney/Projects/NetEngineerONE',
             ]

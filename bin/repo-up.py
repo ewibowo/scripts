@@ -37,7 +37,6 @@ system_repos = [
 
 my_projects = [
             '/Users/rlaney/Dropbox (Personal)/cheaters',
-            '/Users/rlaney/Projects/VIRL/virl_packet',
             '/Users/rlaney/Projects/VIRL_Projects',
             '/Users/rlaney/Projects/ansible',
             '/Users/rlaney/Projects/trigger',

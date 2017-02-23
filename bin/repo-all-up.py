@@ -25,6 +25,7 @@ git_add = ('git add -A')
 git_commit = ('git commit -a -m "The git-update script pushed these"')
 git_sync = ('git push -u origin master')
 git_pull = ('git pull')
+git_remote = ('git remote show origin')
 
 system_repos = [
             '/Users/rlaney/.atom',
@@ -113,7 +114,6 @@ other_repos = [
             '/Users/rlaney/Projects/CiscoDevNet/yang-explorer',
             '/Users/rlaney/Projects/CiscoDevNet/yangman',
             '/Users/rlaney/Projects/CiscoDevNet/ydk-gen',
-            '/Users/rlaney/Projects/CiscoDevNet/ydk-gen-bundles',
             '/Users/rlaney/Projects/CiscoDevNet/ydk-py',
             '/Users/rlaney/Projects/CiscoDevNet/ydk-py-samples',
             '/Users/rlaney/Projects/GateOne',
@@ -313,13 +313,10 @@ with open('/Users/rlaney/Logs/other_repos.log', 'w') as log_file:
                 print('~'*79 + '\n\n')
                 log_file.write('~'*79 + '\n\n')
             if retcode == 128:
-                print >>sys.stderr, "Child was terminated by signal", -retcode
-                print('Child was terminated by signal: {} \n'.format(-retcode))
-                log_file.write('Child was terminated by signal: {} \n'.format(-retcode))
+                newcode = call(git_remote, cwd=d, stdout=log_file, stderr=STDOUT, shell=True)
+                print >>sys.stderr, "Child was terminated by signal", -newcode
+                log_file.write('Child was terminated by signal: {} \n'.format(-newcode))
                 log_file.write('Repo location: {} \n'.format(d))
-                log_file.write("Standard in: {} \n".format(str(sys.stdin)))
-                log_file.write("Standard out: {} \n".format(str(sys.stdout)))
-                log_file.write("Standard error: {} \n".format(str(sys.stderr)))
                 print('~'*79 + '\n\n')
                 log_file.write('~'*79 + '\n\n')
             else:

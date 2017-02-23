@@ -317,9 +317,9 @@ with open('/Users/rlaney/Logs/other_repos.log', 'w') as log_file:
                 print('Child was terminated by signal: {} \n'.format(-retcode))
                 log_file.write('Child was terminated by signal: {} \n'.format(-retcode))
                 log_file.write('Repo location: {} \n'.format(d))
-                log_file.write("Standard in: {} \n".format(sys.stdin))
-                log_file.write("Standard out: {} \n".format(sys.stdout))
-                log_file.write("Standard error: {} \n".format(sys.stderr))
+                log_file.write("Standard in: {} \n".format(str(sys.stdin)))
+                log_file.write("Standard out: {} \n".format(str(sys.stdout)))
+                log_file.write("Standard error: {} \n".format(str(sys.stderr)))
                 print('~'*79 + '\n\n')
                 log_file.write('~'*79 + '\n\n')
             else:

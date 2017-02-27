@@ -1,0 +1,14 @@
+#!/bin/bash
+
+set -e
+
+echo 'Opening file with these commands:'
+echo ':profile start profile.log'
+echo ':profile func *'
+echo ':profile file *'
+echo 'At this point do slow actions then run these:'
+echo ':profile pause'
+echo ':noautocmd qall!'
+sleep 10
+
+vim $1 -c ':profile start profile.log' -c ':profile func *' -c ':profile file *'

@@ -182,6 +182,7 @@ other_repos = [
             '/Users/rlaney/Projects/datacenter/aws-transit-vpc',
             '/Users/rlaney/Projects/django-todo',
             '/Users/rlaney/Projects/dotfiles',
+            '/Users/rlaney/Projects/exscript',
             '/Users/rlaney/Projects/ghsync',
             '/Users/rlaney/Projects/go-netbox',
             '/Users/rlaney/Projects/het-ansible/utils/NetSpark-Scripts',

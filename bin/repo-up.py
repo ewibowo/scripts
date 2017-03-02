@@ -27,7 +27,8 @@ git_sync = ('git push -u origin master')
 git_pull = ('git pull')
 git_remote = ('git remote show origin')
 
-system_repos = [
+
+my_projects = [
             '/Users/rlaney/.atom',
             '/Users/rlaney/.config',
             '/Users/rlaney/.dotfiles',
@@ -40,15 +41,13 @@ system_repos = [
             '/Users/rlaney/scripts',
             '/Users/rlaney/vimwiki',
             '/Users/rlaney/repos/hosts',
-            ]
-
-my_projects = [
             '/Users/rlaney/Dropbox (Personal)/cheaters',
             '/Users/rlaney/Projects/VIRL_Projects',
             '/Users/rlaney/Projects/ansible',
             '/Users/rlaney/Projects/trigger',
-            '/Users/rlaney/.virtualenvs/neteng/project',
             '/Users/rlaney/Projects/NetEngineerONE',
+            '/Users/rlaney/Projects/py-snmp',
+            '/Users/rlaney/.virtualenvs/neteng/project',
             ]
 
 other_repos = [
@@ -197,7 +196,6 @@ other_repos = [
             '/Users/rlaney/repos/pep8.org',
             '/Users/rlaney/repos/procs',
             '/Users/rlaney/repos/psycopg2',
-            '/Users/rlaney/repos/py-snmp/SNMP',
             '/Users/rlaney/repos/pyandoc',
             '/Users/rlaney/repos/pyflix2',
             '/Users/rlaney/repos/pynet',
@@ -249,30 +247,6 @@ other_repos = [
             '/Users/rlaney/repos/HariSekhon/tools',
             '/Users/rlaney/repos/LinuxONLY/blueprint',
             ]
-
-
-with open('/Users/rlaney/Logs/system_repos.log', 'w') as log_file:
-    try:
-        for d in system_repos:
-            retcode = call(git_add, cwd=d, shell=True)
-            retcode = call(git_commit, cwd=d, shell=True)
-            retcode = call(git_sync, cwd=d, shell=True)
-            if retcode < 0:
-                print >>sys.stderr, "Child was terminated by signal", -retcode
-                print('Child was terminated by signal: {} \n'.format(-retcode))
-                log_file.write('Child was terminated by signal: {} \n'.format(-retcode))
-                print('~'*79 + '\n\n')
-                log_file.write('~'*79 + '\n\n')
-            else:
-                print >>sys.stderr, "Child returned", retcode
-                print('Success!! returned: {} \n'.format(retcode))
-                print('~'*79 + '\n\n')
-    except OSError, e:
-        print >>sys.stderr, "Execution failed:", e
-        print('Execution failed: {} \n'.format(e))
-        log_file.write('Execution failed: {} \n'.format(e))
-        print('~'*79 + '\n\n')
-        log_file.write('~'*79 + '\n\n')
 
 
 with open('/Users/rlaney/Logs/my_projects.log', 'w') as log_file:

@@ -51,6 +51,8 @@ my_projects = [
             ]
 
 other_repos = [
+            '/Users/rlaney/Projects/ansible/repo-odl',
+            '/Users/rlaney/Projects/ansible/repo-osa',
             '/Users/rlaney/repos/ansible-odl',
             '/Users/rlaney/repos/ansible-osa',
             '/Users/rlaney/repos/APIs/requests',
@@ -234,7 +236,6 @@ other_repos = [
             '/Users/rlaney/repos/Openstack_DevToolBox/kolla',
             '/Users/rlaney/repos/Openstack_DevToolBox/magnum',
             '/Users/rlaney/repos/Openstack_DevToolBox/networking-cisco',
-            '/Users/rlaney/repos/Openstack_DevToolBox/networking-odl',
             '/Users/rlaney/repos/Openstack_DevToolBox/neutron',
             '/Users/rlaney/repos/Openstack_DevToolBox/tricircle',
             '/Users/rlaney/repos/osv-apps',

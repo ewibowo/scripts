@@ -57,6 +57,7 @@ other_repos = [
             '/Users/rlaney/repos/ansible-osa',
             '/Users/rlaney/repos/APIs/requests',
             '/Users/rlaney/repos/APIs/wwwclient',
+            '/Users/rlaney/repos/APIs/python-slackclient',
             '/Users/rlaney/repos/bird',
             '/Users/rlaney/repos/CiscoDevNet/ACI',
             '/Users/rlaney/repos/CiscoDevNet/aci-ansible',

@@ -42,7 +42,7 @@ my_projects = [
             '/Users/rlaney/vimwiki',
             '/Users/rlaney/repos/hosts',
             '/Users/rlaney/Dropbox (Personal)/cheaters',
-            '/Users/rlaney/Projects/VIRL_Projects',
+            '/Users/rlaney/Dropbox (Personal)/VIRL_Projects',
             '/Users/rlaney/Projects/ansible',
             '/Users/rlaney/Projects/trigger',
             '/Users/rlaney/Projects/NetEngineerONE',
@@ -51,6 +51,7 @@ my_projects = [
             ]
 
 other_repos = [
+            '/Users/rlaney/Projects/VIRL_Projects',
             '/Users/rlaney/Projects/ansible/repo-odl',
             '/Users/rlaney/Projects/ansible/repo-osa',
             '/Users/rlaney/repos/ansible-odl',
@@ -300,7 +301,7 @@ with open('/Users/rlaney/Logs/other_repos.log', 'w') as log_file:
                 log_file.write('Child was terminated by signal: {} \n'.format(-retcode))
                 print('~'*79 + '\n\n')
                 log_file.write('~'*79 + '\n\n')
-            if retcode == 128:
+            elif retcode == 128:
                 newcode = call(git_remote, cwd=d, stdout=log_file, stderr=STDOUT, shell=True)
                 print >>sys.stderr, "Child was terminated by signal", -newcode
                 log_file.write('Child was terminated by signal: {} \n'.format(-newcode))

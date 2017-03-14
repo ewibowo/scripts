@@ -42,7 +42,7 @@ my_projects = [
             '/Users/rlaney/vimwiki',
             '/Users/rlaney/repos/hosts',
             '/Users/rlaney/Dropbox (Personal)/cheaters',
-            '/Users/rlaney/Dropbox (Personal)/VIRL_Projects',
+            '/Users/rlaney/Dropbox (Personal)/Projects/VIRL_Projects',
             '/Users/rlaney/Projects/ansible',
             '/Users/rlaney/Projects/trigger',
             '/Users/rlaney/Projects/NetEngineerONE',
@@ -291,30 +291,30 @@ with open('/Users/rlaney/Logs/my_projects.log', 'w') as log_file:
         log_file.write('~'*79 + '\n\n')
 
 
-with open('/Users/rlaney/Logs/other_repos.log', 'w') as log_file:
-    try:
-        for d in other_repos:
-            retcode = call(git_pull, cwd=d, shell=True)
-            if retcode < 0:
-                print >>sys.stderr, "Child was terminated by signal", -retcode
-                print('Child was terminated by signal: {} \n'.format(-retcode))
-                log_file.write('Child was terminated by signal: {} \n'.format(-retcode))
-                print('~'*79 + '\n\n')
-                log_file.write('~'*79 + '\n\n')
-            elif retcode == 128:
-                newcode = call(git_remote, cwd=d, stdout=log_file, stderr=STDOUT, shell=True)
-                print >>sys.stderr, "Child was terminated by signal", -newcode
-                log_file.write('Child was terminated by signal: {} \n'.format(-newcode))
-                log_file.write('Repo location: {} \n'.format(d))
-                print('~'*79 + '\n\n')
-                log_file.write('~'*79 + '\n\n')
-            else:
-                print >>sys.stderr, "Child returned", retcode
-                print('Success!! returned: {} \n'.format(retcode))
-                print('~'*79 + '\n\n')
-    except OSError, e:
-        print >>sys.stderr, "Execution failed:", e
-        print('Execution failed: {} \n'.format(e))
-        log_file.write('Execution failed: {} \n'.format(e))
-        print('~'*79 + '\n\n')
-        log_file.write('~'*79 + '\n\n')
+#with open('/Users/rlaney/Logs/other_repos.log', 'w') as log_file:
+#    try:
+#        for d in other_repos:
+#            retcode = call(git_pull, cwd=d, shell=True)
+#            if retcode < 0:
+#                print >>sys.stderr, "Child was terminated by signal", -retcode
+#                print('Child was terminated by signal: {} \n'.format(-retcode))
+#                log_file.write('Child was terminated by signal: {} \n'.format(-retcode))
+#                print('~'*79 + '\n\n')
+#                log_file.write('~'*79 + '\n\n')
+#            elif retcode == 128:
+#                newcode = call(git_remote, cwd=d, stdout=log_file, stderr=STDOUT, shell=True)
+#                print >>sys.stderr, "Child was terminated by signal", -newcode
+#                log_file.write('Child was terminated by signal: {} \n'.format(-newcode))
+#                log_file.write('Repo location: {} \n'.format(d))
+#                print('~'*79 + '\n\n')
+#                log_file.write('~'*79 + '\n\n')
+#            else:
+#                print >>sys.stderr, "Child returned", retcode
+#                print('Success!! returned: {} \n'.format(retcode))
+#                print('~'*79 + '\n\n')
+#    except OSError, e:
+#        print >>sys.stderr, "Execution failed:", e
+#        print('Execution failed: {} \n'.format(e))
+#        log_file.write('Execution failed: {} \n'.format(e))
+#        print('~'*79 + '\n\n')
+#        log_file.write('~'*79 + '\n\n')

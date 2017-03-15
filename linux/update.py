@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/env python
 
 '''
 Program to update/push/pull all repos
@@ -29,21 +29,21 @@ git_remote = ('git remote show origin')
 
 
 my_projects = [
-            '/Users/rlaney/.config-linux',
-            '/Users/rlaney/.dotfiles',
-            '/Users/rlaney/.tmux',
-            '/Users/rlaney/.tmuxinator',
-            '/Users/rlaney/.vim',
-            '/Users/rlaney/.zplug',
-            '/Users/rlaney/.zsh',
-            '/Users/rlaney/lib',
-            '/Users/rlaney/scripts',
-            '/Users/rlaney/vimwiki',
+            '/home/virl/.config-linux',
+            '/home/virl/.dotfiles',
+            '/home/virl/.tmux',
+            '/home/virl/.tmuxinator',
+            '/home/virl/.vim',
+            '/home/virl/.zplug',
+            '/home/virl/.zsh',
+            '/home/virl/lib',
+            '/home/virl/scripts',
+            '/home/virl/vimwiki',
             ]
 
 
 
-with open('/Users/rlaney/Logs/my_projects.log', 'w') as log_file:
+with open('/home/virl/Logs/my_projects.log', 'w+') as log_file:
     try:
         for d in my_projects:
             retcode = call(git_pull, cwd=d, shell=True)

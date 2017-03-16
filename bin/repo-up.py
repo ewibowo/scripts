@@ -261,6 +261,7 @@ other_repos = [
             '/Users/rlaney/repos/trigger-repo',
             '/Users/rlaney/repos/virl-bootstrap',
             '/Users/rlaney/repos/virl-salt',
+            '/Users/rlaney/repos/virl-utils',
             '/Users/rlaney/repos/virl_boxcutter',
             '/Users/rlaney/repos/virl_cluster',
             '/Users/rlaney/repos/virl_packet',

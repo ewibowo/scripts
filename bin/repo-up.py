@@ -51,6 +51,7 @@ my_projects = [
             '/Users/rlaney/.virtualenvs/neteng/project',
             ]
 
+
 other_repos = [
             '/Users/rlaney/Projects/VIRL_Projects',
             '/Users/rlaney/Projects/ansible/repo-odl',
@@ -232,6 +233,15 @@ other_repos = [
             '/Users/rlaney/repos/odl/networking-odl',
             '/Users/rlaney/repos/onie',
             '/Users/rlaney/repos/onos',
+            '/Users/rlaney/repos/opencord/composer',
+            '/Users/rlaney/repos/opencord/cord',
+            '/Users/rlaney/repos/opencord/exampleservice',
+            '/Users/rlaney/repos/opencord/maas',
+            '/Users/rlaney/repos/opencord/platform-install',
+            '/Users/rlaney/repos/opencord/service-profile',
+            '/Users/rlaney/repos/opencord/voltha',
+            '/Users/rlaney/repos/opencord/vrouter',
+            '/Users/rlaney/repos/opencord/xos',
             '/Users/rlaney/repos/Openstack_DevToolBox/dragonflow',
             '/Users/rlaney/repos/Openstack_DevToolBox/grafyaml',
             '/Users/rlaney/repos/Openstack_DevToolBox/horizon',

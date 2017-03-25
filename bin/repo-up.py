@@ -264,6 +264,7 @@ other_repos = [
             '/Users/rlaney/repos/PythonDropboxUploader',
             '/Users/rlaney/repos/rconfig',
             '/Users/rlaney/repos/recon-ng',
+            '/Users/rlaney/repos/ryu',
             '/Users/rlaney/repos/scapy',
             '/Users/rlaney/repos/showme',
             '/Users/rlaney/repos/tornado',

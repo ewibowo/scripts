@@ -1,19 +1,19 @@
-#!/usr/local/bin/expect -f
+#!/usr/bin/expect -f
 
-spawn ssh-add -k /Users/rlaney/.ssh/cloud_id
-expect "Enter passphrase for /Users/rlaney/.ssh/cloud_id:"
+spawn ssh-add -k /home/rlaney/.ssh/cloud_id
+expect "Enter passphrase for /home/rlaney/.ssh/cloud_id:"
 send "LetMeIn22\r";
-expect "Identity added: /Users/rlaney/.ssh/cloud_id (/Users/rlaney/.ssh/cloud_id)"
+expect "Identity added: /home/rlaney/.ssh/cloud_id (/home/rlaney/.ssh/cloud_id)"
 
-spawn ssh-add -k /Users/rlaney/.ssh/ssh_rsa
-expect "Enter passphrase for /Users/rlaney/.ssh/ssh_rsa:"
+spawn ssh-add -k /home/rlaney/.ssh/ssh_rsa
+expect "Enter passphrase for /home/rlaney/.ssh/ssh_rsa:"
 send "atdSw6t!D\$h2L9De\r"; # The $ must be backslashed to send the literal $.
-expect "Identity added: /Users/rlaney/.ssh/ssh_rsa (/Users/rlaney/.ssh/ssh_rsa)"
+expect "Identity added: /home/rlaney/.ssh/ssh_rsa (/home/rlaney/.ssh/ssh_rsa)"
 
-spawn ssh-add -k /Users/rlaney/.ssh/het_rsa
-expect "Enter passphrase for /Users/rlaney/.ssh/het_rsa:"
+spawn ssh-add -k /home/rlaney/.ssh/het_rsa
+expect "Enter passphrase for /home/rlaney/.ssh/het_rsa:"
 send "2dRR4aAcRndj=!E%\r"; # The $ must be backslashed to send the literal $.
-expect "Identity added: /Users/rlaney/.ssh/het_rsa (/Users/rlaney/.ssh/het_rsa)"
+expect "Identity added: /home/rlaney/.ssh/het_rsa (/home/rlaney/.ssh/het_rsa)"
 
 interact
 

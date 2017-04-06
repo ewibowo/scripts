@@ -223,6 +223,7 @@ other_repos = [
             '/Users/rlaney/repos/Openstack_DevToolBox/grafyaml',
             '/Users/rlaney/repos/Openstack_DevToolBox/horizon',
             '/Users/rlaney/repos/Openstack_DevToolBox/kolla',
+            '/Users/rlaney/repos/Openstack_DevToolBox/kolla-ansible',
             '/Users/rlaney/repos/Openstack_DevToolBox/magnum',
             '/Users/rlaney/repos/Openstack_DevToolBox/networking-cisco',
             '/Users/rlaney/repos/Openstack_DevToolBox/networking-odl',

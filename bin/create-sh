@@ -1,0 +1,68 @@
+#!/usr/bin/env sh
+#title           :script.sh
+#description     :This will create a header for a Apple's bash script. Older version of bash.
+#author          :RAL
+#date            :20170414
+#version         :0.1
+#usage           :sh script.sh or ./script.sh
+#notes           :
+#sh_version      :3.2.57
+#==============================================================================
+
+# Import the modules needed to run the script.
+from os.path import exists
+from time import strftime
+import os
+
+title = raw_input("Enter a title for your script: ")
+
+# Add .py to the end of the script.
+title = title + '.sh'
+
+# Convert all letters to lower case.
+title = title.lower()
+
+# Remove spaces from the title.
+title = title.replace(' ', '_')
+
+# Check to see if the file exists to not overwrite it.
+if exists(title):
+    print "\nA script with this name already exists."
+    exit(1)
+
+descrpt = raw_input("Enter a description: ")
+name = raw_input("Enter your name: ")
+ver = raw_input("Enter the version number: ")
+div = '======================================='
+
+# Create a file that can be written to.
+filename = open(title, 'w')
+
+# Set the date automatically.
+date = strftime("%Y%m%d")
+
+# Write the data to the file.
+filename.write('#!/usr/bin/env sh')
+filename.write('\n#title\t\t\t:' + title)
+filename.write('\n#description\t:' + descrpt)
+filename.write('\n#author\t\t\t:' + name)
+filename.write('\n#date\t\t\t:' + date)
+filename.write('\n#version\t\t:' + ver)
+filename.write('\n#usage\t\t\t:' + 'sh ' + title + ' or ./' + title)
+filename.write('\n#notes\t\t\t:')
+filename.write('\n#sh_version\t\t :3.2.57')
+filename.write('\n#' + div * 2 + '\n')
+filename.write('\n')
+filename.write('\n')
+
+# Close the file after writing to it.
+filename.close()
+
+# Clear the screen. This line of code will not work on Windows.
+os.system("clear")
+
+# Open the file with Vim.
+os.system("vim +12 " + title)
+exit()
+
+

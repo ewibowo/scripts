@@ -28,6 +28,13 @@ elif [[ $ostype == "Linux" ]]; then
         fi
     done
     exit 0
+elif [[ $ostype == "FreeBSD" ]]; then
+    for i in $mylinux_scripts; do
+        if ! [[ -f ~/bin/$i ]]; then
+            ln -s ~/scripts/bin/$i ~/bin/$i
+        fi
+    done
+    exit 0
 else echo "Cannot run on this system"
 exit 0
 fi    

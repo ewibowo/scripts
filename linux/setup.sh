@@ -37,7 +37,7 @@ rm -rf ~/.tmux
 rm -rf ~/.tmuxinator
 rm -rf ~/bin
 
-git clone https://github.com/rlaneyjr/dotfiles.git ~/.dotfiles
+git clone -b linux https://github.com/rlaneyjr/dotfiles.git ~/.dotfiles
 #git clone https://github.com/rlaneyjr/scripts.git ~/scripts
 git clone https://github.com/rlaneyjr/vim.git ~/.vim
 git clone https://github.com/rlaneyjr/zsh.git ~/.zsh

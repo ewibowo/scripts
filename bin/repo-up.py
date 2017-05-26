@@ -163,7 +163,7 @@ other_repos = [
             '/Users/rlaney/repos/KennethReitz/dj-database-url',
             '/Users/rlaney/repos/KennethReitz/dj-static',
             '/Users/rlaney/repos/KennethReitz/django-postgrespool',
-            '/Users/rlaney/repos/KennethReitz/docker-python-image',
+            '/Users/rlaney/repos/KennethReitz/python-docker-image',
             '/Users/rlaney/repos/KennethReitz/envoy',
             '/Users/rlaney/repos/KennethReitz/goldenarch',
             '/Users/rlaney/repos/KennethReitz/legit',

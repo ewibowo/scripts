@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 # List of my written and collected scripts for MAC OS
-my_scripts="get-ansible-cfg ConfigFileComp.py DHCPSim_Final.py FixAll.env NetMonSQL_Final.py OSPF_SNMP_Final.py SNMPTemplate.py SSHConfig.py SSHTemplate.py SetupLXC.sh SetupMAC.sh SetupSingleRun.sh Sniffer.py SubnetCalc.py TelnetTemplate.py activate.env backupDotfiles.sh brewUninstall.sh brewUpdate.sh bundler-search cleanupResurrect.sh clrcache.sh convox csv-json.py di-xquartz.sh dot_update.sh docker-completion.sh flushdns git-ca git-churn git-co-pr git-create-branch git-ctags git-current-branch git-delete-branch git-ignore git-merge-branch git-pr git-re-pull git-rename-branch git-up godocker goftp gomongo goneteng gonix gopostg goredis goretna gotfredmon gotftp gotrp install-mininet-vm.sh linkBatch.sh linkdots.sh nodocker noftp nomongo nonix nopostg noredis noretna notfredmon notftp notrp osx-for-hackers.sh pip-freeze-require.py printjsonAll.js ralssh.exp randpass.py remote-rsync.py renix repo-up.py rplc retftp shut.js slowvim ssh-copy-id.sh ssh-multi.sh ssh-multi2.sh tColors.sh tat traceroute.py tweakosx.sh ubuFontInstSrcCodePro.sh ubuInstall.sh ubuInstall_ohmyzsh.sh ubuInstallxRDPlxqt.sh ubuInstallxRDPxfce.sh ubuJava8.sh upgradePythonTools.sh vimPluginUpdate.sh vimfix.sh prettify_json.sh json"
+my_scripts="get-ansible-cfg ConfigFileComp.py DHCPSim_Final.py FixAll.env NetMonSQL_Final.py OSPF_SNMP_Final.py SNMPTemplate.py SSHConfig.py SSHTemplate.py SetupLXC.sh SetupMAC.sh SetupSingleRun.sh Sniffer.py SubnetCalc.py TelnetTemplate.py activate.env backupDotfiles.sh brewUninstall.sh brewUpdate.sh bundler-search cleanupResurrect.sh clrcache.sh convox csv-json.py di-xquartz.sh dot_update.sh docker-completion.sh flushdns git-ca git-churn git-co-pr git-create-branch git-ctags git-current-branch git-delete-branch git-ignore git-merge-branch git-pr git-re-pull git-rename-branch git-up godocker goftp gomongo goneteng gonix gopostg goredis goretna gotfredmon gotftp gotrp install-mininet-vm.sh linkBatch.sh linkdots.sh nodocker noftp nomongo nonix nopostg noredis noretna notfredmon notftp notrp osx-for-hackers.sh pip-freeze-require.py printjsonAll.js ralssh.exp randpass.py remote-rsync.py renix repo-up.py rplc retftp shut.js slowvim ssh-copy-id.sh ssh-multi.sh ssh-multi2.sh tColors.sh tat traceroute.py tweakosx.sh ubuFontInstSrcCodePro.sh ubuInstall.sh ubuInstall_ohmyzsh.sh ubuInstallxRDPlxqt.sh ubuInstallxRDPxfce.sh ubuJava8.sh upgradePythonTools.sh vimPluginUpdate.sh vimfix.sh prettify_json.sh json create-py create-bash create-sh mac-diag"
 
 # List of my written and collected scripts for Linux
-mylinux_scripts="get-ansible-cfg activate.env backupDotfiles.sh bundler-search cleanupResurrect.sh ConfigFileComp.py convox csv-json.py DHCPSim_Final.py docker-completion.sh dot_update.sh FixAll.env git-ca git-churn git-co-pr git-create-branch git-ctags git-current-branch git-delete-branch git-ignore git-merge-branch git-pr git-re-pull git-rename-branch git-up install-mininet-vm.sh json linkBatch.sh linkdots.sh NetMonSQL_Final.py OSPF_SNMP_Final.py pip-freeze-require.py prettify_json.sh printjsonAll.js ralssh.exp randpass.py remote-rsync.py repo-all-up.py repo-up.py rplc SetupLXC.sh shut.js Sniffer.py SNMPTemplate.py slowvim ssh-copy-id.sh ssh-multi.sh ssh-multi2.sh SSHConfig.py SSHTemplate.py SubnetCalc.py tat tColors.sh TelnetTemplate.py traceroute.py ubuFontInstSrcCodePro.sh ubuInstall.sh ubuInstall_ohmyzsh.sh ubuInstallxRDPlxqt.sh ubuInstallxRDPxfce.sh ubuJava8.sh upgradePythonTools.sh vimfix.sh vimPluginUpdate.sh"
+mylinux_scripts="get-ansible-cfg activate.env backupDotfiles.sh bundler-search cleanupResurrect.sh ConfigFileComp.py convox csv-json.py DHCPSim_Final.py docker-completion.sh dot_update.sh FixAll.env git-ca git-churn git-co-pr git-create-branch git-ctags git-current-branch git-delete-branch git-ignore git-merge-branch git-pr git-re-pull git-rename-branch git-up install-mininet-vm.sh json linkBatch.sh linkdots.sh NetMonSQL_Final.py OSPF_SNMP_Final.py pip-freeze-require.py prettify_json.sh printjsonAll.js ralssh.exp randpass.py remote-rsync.py  repo-up.py rplc SetupLXC.sh shut.js Sniffer.py SNMPTemplate.py slowvim ssh-copy-id.sh ssh-multi.sh ssh-multi2.sh SSHConfig.py SSHTemplate.py SubnetCalc.py tat tColors.sh TelnetTemplate.py traceroute.py ubuFontInstSrcCodePro.sh ubuInstall.sh ubuInstall_ohmyzsh.sh ubuInstallxRDPlxqt.sh ubuInstallxRDPxfce.sh ubuJava8.sh upgradePythonTools.sh vimfix.sh vimPluginUpdate.sh create-py create-bash create-sh"
 
 if ! [[ -d ~/bin ]]; then
     mkdir -p ~/bin
@@ -22,6 +22,13 @@ if [[ $ostype == "Darwin" ]]; then
     done
     exit 0
 elif [[ $ostype == "Linux" ]]; then
+    for i in $mylinux_scripts; do
+        if ! [[ -f ~/bin/$i ]]; then
+            ln -s ~/scripts/bin/$i ~/bin/$i
+        fi
+    done
+    exit 0
+elif [[ $ostype == "FreeBSD" ]]; then
     for i in $mylinux_scripts; do
         if ! [[ -f ~/bin/$i ]]; then
             ln -s ~/scripts/bin/$i ~/bin/$i

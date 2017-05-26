@@ -11,7 +11,7 @@ sudo -v
 #sudo service sudo restart
 #
 ## Install packages
-general_package="git git-core zsh tmux wget curl vim python-distribute python-setuptools python-pip python3-pip fontconfig ruby expect virtualenv virtualenvwrapper vim-nox-py2 vim-python-jedi vim-syntastic vim-khuno python3.5-dbg python3.5-dev python3.5-doc python3.5-examples python-dbg python-dev python-doc python-examples"
+general_package="git git-core zsh tmux wget curl vim build-essential libssl-dev libffi-dev python-distribute python-setuptools python-pip python3-pip python-openssl fontconfig ruby expect virtualenv virtualenvwrapper vim-nox-py2 vim-python-jedi vim-syntastic vim-khuno python3.5-dbg python3.5-dev python3.5-doc python3.5-examples python-dbg python-dev python-doc python-examples"
 
 #develop_package = "vnstat vde2 sqlite3 mongodb tkmib tcpick tcpreplay tcpspy tcpstat tcptrack ansible  tcpxtract tgn speedometer snort smokeping ipcalc scli redis-server qemu qemu-utils python3.4 python3.4-venv python3-pysnmp4 python3-networkx python3-ipaddr python3-ipy python3-lxc python3-netaddr python-scapy python-twisted python-pysnmp4 python-redis python-pynetsnmp python-netsnmp python-networkx python-nemu python-netaddr python-ipaddr python-ipy python-ipcalc"
 

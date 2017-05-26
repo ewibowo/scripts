@@ -40,6 +40,9 @@ fi
 
 { eval "$GET_ID" ; } | ssh $1 "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys; test -x /sbin/restorecon && /sbin/restorecon .ssh .ssh/authorized_keys" || exit 1
 
+# VMware ESXi Keys (DISABLE the line above!!!)
+#{ eval "$GET_ID" ; } | ssh $1 "umask 077; test -d /etc/ssh/keys-root || mkdir /etc/ssh/keys-root ; cat >> /etc/ssh/keys-root/authorized_keys; test -x /sbin/restorecon && /sbin/restorecon .ssh /etc/ssh/keys-root/authorized_keys" || exit 1
+
 cat <<EOF
 Now try logging into the machine, with "ssh '$1'", and check in:
 

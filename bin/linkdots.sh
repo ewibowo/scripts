@@ -30,6 +30,17 @@ elif [[ $ostype == "Linux" ]]; then
         sudo cp ~/.dotfiles/hosts /etc/hosts
     done
     exit 0
+elif [[ $ostype == "FreeBSD" ]]; then
+    for i in $mylinux_dotfiles; do
+        if ! [[ -f ~/.$i ]]; then
+            if [[ -f ~/.dotfiles/linux/$i ]]; then
+                ln -s ~/.dotfiles/linux/$i ~/.$i
+            else ln -s ~/.dotfiles/$i ~/.$i
+            fi
+        fi
+        sudo cp ~/.dotfiles/hosts /etc/hosts
+    done
+    exit 0
 else echo "Cannot run on this system"
 exit 0
 fi    

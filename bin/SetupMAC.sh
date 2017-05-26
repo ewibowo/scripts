@@ -189,7 +189,7 @@ gem_install_or_update() {
   else
     fancy_echo "Installing %s ..." "$1"
     gem install "$@"
-    rbenv rehash
+    rvm reload
   fi
 }
 
@@ -261,7 +261,7 @@ brew cask update
 ##################################################
 
 brew_install_or_upgrade 'ruby'
-brew_install_or_upgrade 'rbenv'
+#brew_install_or_upgrade 'rbenv'
 brew_install_or_upgrade 'ruby-build'
 
 # shellcheck disable=SC2016
@@ -269,14 +269,14 @@ brew_install_or_upgrade 'ruby-build'
 
 ruby_version="$(curl -sSL http://ruby.thoughtbot.com/latest)"
 
-eval "$(rbenv init - zsh)"
+#eval "$(rbenv init - zsh)"
 
-if ! rbenv versions | grep -Fq "$ruby_version"; then
-  rbenv install -s "$ruby_version"
+if ! rvm list | grep -Fq "$ruby_version"; then
+  rvm install -s "$ruby_version"
 fi
 
-rbenv global "$ruby_version"
-rbenv shell "$ruby_version"
+rvm default "$ruby_version"
+rvm use "$ruby_version"
 
 gem update --system
 

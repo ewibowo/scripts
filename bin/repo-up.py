@@ -24,7 +24,7 @@ mess = "The git-update script pushed these"
 git_add = ('git add -A')
 git_commit = ('git commit -a -m "The git-update script pushed these"')
 git_sync_master = ('git push -u origin master')
-git_sync_osx = ('git push -u origin osx')
+#git_sync_osx = ('git push -u origin osx')
 git_pull = ('git pull')
 git_remote = ('git remote show origin')
 
@@ -39,6 +39,7 @@ my_projects_master = [
             '/Users/rlaney/.zplug',
             '/Users/rlaney/.zsh',
             '/Users/rlaney/lib',
+            '/Users/rlaney/scripts',
             '/Users/rlaney/vimwiki',
             '/Users/rlaney/repos/hosts',
             '/Users/rlaney/Dropbox (Personal)/cheaters',
@@ -51,9 +52,9 @@ my_projects_master = [
             '/Users/rlaney/.virtualenvs/neteng/project',
             ]
 
-my_projects_osx = [
-            '/Users/rlaney/scripts',
-            ]
+#my_projects_osx = [
+#            '/Users/rlaney/scripts',
+#            ]
 
 other_repos = [
             '/Users/rlaney/Projects/VIRL_Projects',
@@ -310,20 +311,20 @@ with open('/Users/rlaney/Logs/my_projects.log', 'w') as log_file:
                 print >>sys.stderr, "Child returned", retcode
                 print('Success!! returned: {} \n'.format(retcode))
                 print('~'*79 + '\n\n')
-        for d in my_projects_osx:
-            retcode = call(git_add, cwd=d, shell=True)
-            retcode = call(git_commit, cwd=d, shell=True)
-            retcode = call(git_sync_osx, cwd=d, shell=True)
-            if retcode < 0:
-                print >>sys.stderr, "Child was terminated by signal", -retcode
-                print('Child was terminated by signal: {} \n'.format(-retcode))
-                log_file.write('Child was terminated by signal: {} \n'.format(-retcode))
-                print('~'*79 + '\n\n')
-                log_file.write('~'*79 + '\n\n')
-            else:
-                print >>sys.stderr, "Child returned", retcode
-                print('Success!! returned: {} \n'.format(retcode))
-                print('~'*79 + '\n\n')
+#        for d in my_projects_osx:
+#            retcode = call(git_add, cwd=d, shell=True)
+#            retcode = call(git_commit, cwd=d, shell=True)
+#            retcode = call(git_sync_osx, cwd=d, shell=True)
+#            if retcode < 0:
+#                print >>sys.stderr, "Child was terminated by signal", -retcode
+#                print('Child was terminated by signal: {} \n'.format(-retcode))
+#                log_file.write('Child was terminated by signal: {} \n'.format(-retcode))
+#                print('~'*79 + '\n\n')
+#                log_file.write('~'*79 + '\n\n')
+#            else:
+#                print >>sys.stderr, "Child returned", retcode
+#                print('Success!! returned: {} \n'.format(retcode))
+#                print('~'*79 + '\n\n')
     except OSError, e:
         print >>sys.stderr, "Execution failed:", e
         print('Execution failed: {} \n'.format(e))

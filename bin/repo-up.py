@@ -57,7 +57,6 @@ my_projects_master = [
 #            ]
 
 other_repos = [
-            '/Users/rlaney/Projects/VIRL_Projects',
             '/Users/rlaney/Projects/ansible/repo-odl',
             '/Users/rlaney/Projects/ansible/repo-osa',
             '/Users/rlaney/repos/APIs/AzureAPIs/azure-sdk-for-python',

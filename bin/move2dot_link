@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# Move exisintg file to .dotfiles
+mv $1 ~/.dotfiles
+ln -s ~/.dotfiles/$1
+mv ~/.dotfiles/.* ~/.dotfiles/*

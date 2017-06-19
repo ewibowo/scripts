@@ -59,7 +59,7 @@ my_projects_master = [
 output = check_output(find_git, cwd=repos, shell=True)
 output = output.splitlines()
 for r in output:
-    r = r.lstrip('.').rstrip('/.git')
+    r = r.lstrip('.').rsplit('/.git')[0]
     r = repos + r
     results.append(r)
 

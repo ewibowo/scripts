@@ -24,10 +24,13 @@ mess = "The git-update script pushed these"
 git_add = ('git add -A')
 git_commit = ('git commit -a -m "The git-update script pushed these"')
 git_sync_master = ('git push -u origin master')
-#git_sync_osx = ('git push -u origin osx')
 git_pull = ('git pull')
 git_remote = ('git remote show origin')
-
+repos = '/Users/rlaney/repos'
+git_pull = ('git pull')
+git_remote = ('git remote show origin')
+find_git = ('find . -type d -name .git -print')
+results = []
 
 my_projects_master = [
             '/Users/rlaney/.atom',
@@ -52,309 +55,12 @@ my_projects_master = [
             '/Users/rlaney/.virtualenvs/neteng/project',
             ]
 
-#my_projects_osx = [
-#            '/Users/rlaney/scripts',
-#            ]
 
-other_repos = [
-            '/Users/rlaney/Projects/ansible/repo-odl',
-            '/Users/rlaney/Projects/ansible/repo-osa',
-			'/Users/rlaney/repos/APIs/AzureAPIs/azure-sdk-for-python',
-			'/Users/rlaney/repos/APIs/AzureAPIs/python-azureml-client',
-			'/Users/rlaney/repos/APIs/python-slackclient',
-			'/Users/rlaney/repos/APIs/requests',
-			'/Users/rlaney/repos/APIs/wwwclient',
-			'/Users/rlaney/repos/CiscoDevNet/ACI',
-			'/Users/rlaney/repos/CiscoDevNet/Ansible-NXOS',
-			'/Users/rlaney/repos/CiscoDevNet/CONTIV/aci-gw',
-			'/Users/rlaney/repos/CiscoDevNet/CONTIV/ansible',
-			'/Users/rlaney/repos/CiscoDevNet/CONTIV/contiv-1.0.0-beta.5/ansible',
-			'/Users/rlaney/repos/CiscoDevNet/CONTIV/install',
-			'/Users/rlaney/repos/CiscoDevNet/CONTIV/netplugin',
-			'/Users/rlaney/repos/CiscoDevNet/CONTIV/remotessh',
-			'/Users/rlaney/repos/CiscoDevNet/FabricResourceCalculation',
-			'/Users/rlaney/repos/CiscoDevNet/NeXt',
-			'/Users/rlaney/repos/CiscoDevNet/OPNFV',
-			'/Users/rlaney/repos/CiscoDevNet/Opendaylight-Openflow-App',
-			'/Users/rlaney/repos/CiscoDevNet/PyMonitor',
-			'/Users/rlaney/repos/CiscoDevNet/UCS',
-			'/Users/rlaney/repos/CiscoDevNet/aci-ansible',
-			'/Users/rlaney/repos/CiscoDevNet/aci-containers',
-			'/Users/rlaney/repos/CiscoDevNet/aci-diff',
-			'/Users/rlaney/repos/CiscoDevNet/aci-examples',
-			'/Users/rlaney/repos/CiscoDevNet/aci-export',
-			'/Users/rlaney/repos/CiscoDevNet/aci-fabric-deploy',
-			'/Users/rlaney/repos/CiscoDevNet/aci-fault-doc',
-			'/Users/rlaney/repos/CiscoDevNet/aci-integration-module',
-			'/Users/rlaney/repos/CiscoDevNet/aci-learning-labs',
-			'/Users/rlaney/repos/CiscoDevNet/aci-vigilante',
-			'/Users/rlaney/repos/CiscoDevNet/acifabriclib',
-			'/Users/rlaney/repos/CiscoDevNet/acitoolkit',
-			'/Users/rlaney/repos/CiscoDevNet/api-design-guide',
-			'/Users/rlaney/repos/CiscoDevNet/apic-em-samples-aradford',
-			'/Users/rlaney/repos/CiscoDevNet/apicapi',
-			'/Users/rlaney/repos/CiscoDevNet/apicem-ga-ll-sample-code',
-			'/Users/rlaney/repos/CiscoDevNet/arya',
-			'/Users/rlaney/repos/CiscoDevNet/cloudcenter-content',
-			'/Users/rlaney/repos/CiscoDevNet/cobra',
-			'/Users/rlaney/repos/CiscoDevNet/coding-skills-go',
-			'/Users/rlaney/repos/CiscoDevNet/coding-skills-sample-code',
-			'/Users/rlaney/repos/CiscoDevNet/cosc-learning-labs',
-			'/Users/rlaney/repos/CiscoDevNet/cosc-rest-api-python',
-			'/Users/rlaney/repos/CiscoDevNet/devnet-dev-vms',
-			'/Users/rlaney/repos/CiscoDevNet/ignite',
-			'/Users/rlaney/repos/CiscoDevNet/itopo',
-			'/Users/rlaney/repos/CiscoDevNet/link-state-monitor',
-			'/Users/rlaney/repos/CiscoDevNet/netconf-examples',
-			'/Users/rlaney/repos/CiscoDevNet/nexus5000',
-			'/Users/rlaney/repos/CiscoDevNet/nexus7000',
-			'/Users/rlaney/repos/CiscoDevNet/nxapi-learning-labs',
-			'/Users/rlaney/repos/CiscoDevNet/nxos-ansible',
-			'/Users/rlaney/repos/CiscoDevNet/nxos-examples',
-			'/Users/rlaney/repos/CiscoDevNet/nxos',
-			'/Users/rlaney/repos/CiscoDevNet/nxtoolkit',
-			'/Users/rlaney/repos/CiscoDevNet/open-nxos-getting-started',
-			'/Users/rlaney/repos/CiscoDevNet/opendaylight-bootcamps',
-			'/Users/rlaney/repos/CiscoDevNet/opendaylight-sample-apps',
-			'/Users/rlaney/repos/CiscoDevNet/opendaylight-setup',
-			'/Users/rlaney/repos/CiscoDevNet/opennxos',
-			'/Users/rlaney/repos/CiscoDevNet/pceof-gui',
-			'/Users/rlaney/repos/CiscoDevNet/perf-automation',
-			'/Users/rlaney/repos/CiscoDevNet/pyaci',
-			'/Users/rlaney/repos/CiscoDevNet/restconf-examples',
-			'/Users/rlaney/repos/CiscoDevNet/uniq',
-			'/Users/rlaney/repos/CiscoDevNet/vpp-odl',
-			'/Users/rlaney/repos/CiscoDevNet/webarya',
-			'/Users/rlaney/repos/CiscoDevNet/who-moved-my-cli',
-			'/Users/rlaney/repos/CiscoDevNet/yang-examples',
-			'/Users/rlaney/repos/CiscoDevNet/yang-explorer',
-			'/Users/rlaney/repos/CiscoDevNet/yangman',
-			'/Users/rlaney/repos/CiscoDevNet/ydk-gen',
-			'/Users/rlaney/repos/CiscoDevNet/ydk-py-samples',
-			'/Users/rlaney/repos/CiscoDevNet/ydk-py',
-			'/Users/rlaney/repos/GateOne',
-			'/Users/rlaney/repos/HariSekhon/DataScienceResources',
-			'/Users/rlaney/repos/HariSekhon/Dockerfiles',
-			'/Users/rlaney/repos/HariSekhon/bash-tools',
-			'/Users/rlaney/repos/HariSekhon/dockerfile_lint',
-			'/Users/rlaney/repos/HariSekhon/hosts',
-			'/Users/rlaney/repos/HariSekhon/lib-java',
-			'/Users/rlaney/repos/HariSekhon/lib',
-			'/Users/rlaney/repos/HariSekhon/links',
-			'/Users/rlaney/repos/HariSekhon/my-links',
-			'/Users/rlaney/repos/HariSekhon/nagios-plugin-kafka',
-			'/Users/rlaney/repos/HariSekhon/nagios-plugins-1',
-			'/Users/rlaney/repos/HariSekhon/nagios-plugins',
-			'/Users/rlaney/repos/HariSekhon/nrpe-plugins',
-			'/Users/rlaney/repos/HariSekhon/pylib',
-			'/Users/rlaney/repos/HariSekhon/python-consul',
-			'/Users/rlaney/repos/HariSekhon/python-data-workshop',
-			'/Users/rlaney/repos/HariSekhon/pytools',
-			'/Users/rlaney/repos/HariSekhon/share',
-			'/Users/rlaney/repos/HariSekhon/styleguide',
-			'/Users/rlaney/repos/HariSekhon/tools',
-			'/Users/rlaney/repos/KennethReitz/args',
-			'/Users/rlaney/repos/KennethReitz/blindspin',
-			'/Users/rlaney/repos/KennethReitz/bucketstore',
-			'/Users/rlaney/repos/KennethReitz/clint',
-			'/Users/rlaney/repos/KennethReitz/crayons',
-			'/Users/rlaney/repos/KennethReitz/delegator.py',
-			'/Users/rlaney/repos/KennethReitz/dj-database-url',
-			'/Users/rlaney/repos/KennethReitz/dj-static',
-			'/Users/rlaney/repos/KennethReitz/django-postgrespool',
-			'/Users/rlaney/repos/KennethReitz/envoy',
-			'/Users/rlaney/repos/KennethReitz/goldenarch',
-			'/Users/rlaney/repos/KennethReitz/legit',
-			'/Users/rlaney/repos/KennethReitz/markdownplease.com',
-			'/Users/rlaney/repos/KennethReitz/maya',
-			'/Users/rlaney/repos/KennethReitz/ovaltine',
-			'/Users/rlaney/repos/KennethReitz/pip-pop',
-			'/Users/rlaney/repos/KennethReitz/pip-purge',
-			'/Users/rlaney/repos/KennethReitz/pipenv',
-			'/Users/rlaney/repos/KennethReitz/python-docker-image',
-			'/Users/rlaney/repos/KennethReitz/tablib',
-			'/Users/rlaney/repos/KennethReitz/xerox',
-			'/Users/rlaney/repos/LanXchange',
-			'/Users/rlaney/repos/LinuxONLY/blueprint',
-			'/Users/rlaney/repos/NetBox/go-netbox',
-			'/Users/rlaney/repos/NetBox/netbox-docker',
-			'/Users/rlaney/repos/NetBox/netbox',
-			'/Users/rlaney/repos/Net_Graph/NetGraph1',
-			'/Users/rlaney/repos/Net_Graph/NetGraph2',
-			'/Users/rlaney/repos/Net_Graph/NetGraph3',
-			'/Users/rlaney/repos/Net_Graph/NetGraph4',
-			'/Users/rlaney/repos/Network_Automation/Automation',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/ConfPlate',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/Netmiko training',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/ansible-eos-1',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/ansible-junos-stdlib',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/ansible-netmiko-stdlib',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/ansible-techniques',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/ansible',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/ansible_course',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/capirca',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/ciscolib',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/cpal',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/drawthe.net',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/exscript',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/itx2017-net-auto-workshop',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/libnetwork',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/napalm-ansible',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/napalm-base',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/napalm-brocade',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/napalm-cumulus',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/napalm-eos',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/napalm-fortios',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/napalm-ibm',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/napalm-ios',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/napalm-iosxr',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/napalm-junos',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/napalm-logs',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/napalm-nxos',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/napalm-panos',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/napalm-pluribus',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/napalm-ros',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/napalm-utils',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/napalm-vyos',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/napalm-yang',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/napalm',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/ncclient',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/nelkit',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/netcompare',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/netcopa',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/netmiko-ansible',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/netmiko',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/netmiko_tools',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/nexus9000',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/ntc-ansible',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/nxtoolkit',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/paramiko',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/pyangbind',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/pyeos',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/pyfg',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/pyiosxr',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/pynet-ons-mar17',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/pynet',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/pynet_wantonik',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/pyntc',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/python-OpenDaylight',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/scp_sidecar',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/ssh-copy-net',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/trigger',
-			'/Users/rlaney/repos/Network_Automation/KirkByers/who-moved-my-cli',
-			'/Users/rlaney/repos/Network_Automation/NetSpark-Scripts',
-			'/Users/rlaney/repos/Network_Automation/NetworkAutomation',
-			'/Users/rlaney/repos/Network_Automation/NetworkAutomationProject',
-			'/Users/rlaney/repos/Network_Automation/NetworkAutomationUsingPython',
-			'/Users/rlaney/repos/Network_Automation/ansible-snmp-facts',
-			'/Users/rlaney/repos/Network_Automation/ansible-trigger',
-			'/Users/rlaney/repos/Network_Automation/ansible_helpers',
-			'/Users/rlaney/repos/Network_Automation/autonet',
-			'/Users/rlaney/repos/Network_Automation/bgpranking-redis-api',
-			'/Users/rlaney/repos/Network_Automation/bosun',
-			'/Users/rlaney/repos/Network_Automation/bsn-ansible',
-			'/Users/rlaney/repos/Network_Automation/cloud-bandwidth',
-			'/Users/rlaney/repos/Network_Automation/cpauto',
-			'/Users/rlaney/repos/Network_Automation/cpcloud',
-			'/Users/rlaney/repos/Network_Automation/dns-crawl',
-			'/Users/rlaney/repos/Network_Automation/ipspace-NetworkAutomation/MPLS-infrastructure',
-			'/Users/rlaney/repos/Network_Automation/ipspace-NetworkAutomation/NetOpsWorkshop',
-			'/Users/rlaney/repos/Network_Automation/ipspace-NetworkAutomation/VIRL',
-			'/Users/rlaney/repos/Network_Automation/ipspace-NetworkAutomation/VLAN-service',
-			'/Users/rlaney/repos/Network_Automation/ipspace-NetworkAutomation/add_dhcp_helper_address',
-			'/Users/rlaney/repos/Network_Automation/ipspace-NetworkAutomation/ansible-examples',
-			'/Users/rlaney/repos/Network_Automation/ipspace-NetworkAutomation/sot_vlans',
-			'/Users/rlaney/repos/Network_Automation/napalm-ansible',
-			'/Users/rlaney/repos/Network_Automation/napalm',
-			'/Users/rlaney/repos/Network_Automation/net-config',
-			'/Users/rlaney/repos/Network_Automation/netman',
-			'/Users/rlaney/repos/Network_Automation/netmiko-ansible',
-			'/Users/rlaney/repos/Network_Automation/netmiko-cisco-playground',
-			'/Users/rlaney/repos/Network_Automation/netmiko-ppaskowsky',
-			'/Users/rlaney/repos/Network_Automation/netmiko_test',
-			'/Users/rlaney/repos/Network_Automation/netscaler-ansible',
-			'/Users/rlaney/repos/Network_Automation/network-automation',
-			'/Users/rlaney/repos/Network_Automation/ntc-ansible-docs',
-			'/Users/rlaney/repos/Network_Automation/ntc-ansible',
-			'/Users/rlaney/repos/Network_Automation/ntc-templates',
-			'/Users/rlaney/repos/Network_Automation/pyiosxr',
-			'/Users/rlaney/repos/Network_Automation/pyntc',
-			'/Users/rlaney/repos/Network_Automation/pynxos',
-			'/Users/rlaney/repos/Network_Automation/test-network-modules',
-			'/Users/rlaney/repos/Network_Automation/vzp_cisco-config-evaluator',
-			'/Users/rlaney/repos/Nexenta/edge-dev',
-			'/Users/rlaney/repos/Nexenta/nexenta-share',
-			'/Users/rlaney/repos/Nexenta/nexenta-tools',
-			'/Users/rlaney/repos/Nexenta/nexenta',
-			'/Users/rlaney/repos/Openstack_DevToolBox/dragonflow',
-			'/Users/rlaney/repos/Openstack_DevToolBox/grafyaml',
-			'/Users/rlaney/repos/Openstack_DevToolBox/horizon',
-			'/Users/rlaney/repos/Openstack_DevToolBox/kolla-ansible',
-			'/Users/rlaney/repos/Openstack_DevToolBox/kolla',
-			'/Users/rlaney/repos/Openstack_DevToolBox/magnum',
-			'/Users/rlaney/repos/Openstack_DevToolBox/networking-cisco',
-			'/Users/rlaney/repos/Openstack_DevToolBox/networking-odl',
-			'/Users/rlaney/repos/Openstack_DevToolBox/neutron',
-			'/Users/rlaney/repos/Openstack_DevToolBox/tricircle',
-			'/Users/rlaney/repos/PythonDropboxUploader',
-			'/Users/rlaney/repos/ansible-odl',
-			'/Users/rlaney/repos/ansible-osa',
-			'/Users/rlaney/repos/aws-transit-vpc',
-			'/Users/rlaney/repos/bird',
-			'/Users/rlaney/repos/django-wiki-project-template',
-			'/Users/rlaney/repos/django-wiki',
-			'/Users/rlaney/repos/exscript',
-			'/Users/rlaney/repos/ghsync',
-			'/Users/rlaney/repos/gobgp',
-			'/Users/rlaney/repos/hosts',
-			'/Users/rlaney/repos/ivre',
-			'/Users/rlaney/repos/mininet-tests',
-			'/Users/rlaney/repos/mininet-util',
-			'/Users/rlaney/repos/mininet',
-			'/Users/rlaney/repos/newspaper',
-			'/Users/rlaney/repos/oc-pyang',
-			'/Users/rlaney/repos/odl/ansible-opendaylight',
-			'/Users/rlaney/repos/odl/controller',
-			'/Users/rlaney/repos/odl/networking-odl',
-			'/Users/rlaney/repos/onie',
-			'/Users/rlaney/repos/onos',
-			'/Users/rlaney/repos/opencord/composer',
-			'/Users/rlaney/repos/opencord/cord',
-			'/Users/rlaney/repos/opencord/exampleservice',
-			'/Users/rlaney/repos/opencord/maas',
-			'/Users/rlaney/repos/opencord/platform-install',
-			'/Users/rlaney/repos/opencord/service-profile',
-			'/Users/rlaney/repos/opencord/voltha',
-			'/Users/rlaney/repos/opencord/vrouter',
-			'/Users/rlaney/repos/opencord/xos',
-			'/Users/rlaney/repos/osv-apps',
-			'/Users/rlaney/repos/ovs',
-			'/Users/rlaney/repos/ovs_lab',
-			'/Users/rlaney/repos/oxidized',
-			'/Users/rlaney/repos/pep8.org',
-			'/Users/rlaney/repos/pipsi',
-			'/Users/rlaney/repos/procs',
-			'/Users/rlaney/repos/psycopg2',
-			'/Users/rlaney/repos/pure-prompt',
-			'/Users/rlaney/repos/pyandoc',
-			'/Users/rlaney/repos/pyangbind',
-			'/Users/rlaney/repos/pyflix2',
-			'/Users/rlaney/repos/rconfig',
-			'/Users/rlaney/repos/recon-ng',
-			'/Users/rlaney/repos/ryu',
-			'/Users/rlaney/repos/scapy',
-			'/Users/rlaney/repos/showme',
-			'/Users/rlaney/repos/tornado',
-			'/Users/rlaney/repos/trigger-repo',
-			'/Users/rlaney/repos/trigger',
-			'/Users/rlaney/repos/virl-bootstrap',
-			'/Users/rlaney/repos/virl-salt',
-			'/Users/rlaney/repos/virl-utils',
-			'/Users/rlaney/repos/virl_boxcutter',
-			'/Users/rlaney/repos/virl_cluster',
-			'/Users/rlaney/repos/virl_packet',
-
-            ]
+output = check_output(find_git, cwd=repos, shell=True)
+output = output.splitlines()
+for r in output:
+    r = r.lstrip('.').rstrip('/.git')
+    results.append(r)
 
 
 with open('/Users/rlaney/Logs/my_projects.log', 'w') as log_file:
@@ -395,16 +101,15 @@ with open('/Users/rlaney/Logs/my_projects.log', 'w') as log_file:
         log_file.write('~'*79 + '\n\n')
 
 
-with open('/Users/rlaney/Logs/other_repos.log', 'w') as log_file:
+
+with open('/Users/rlaney/Logs/repos_pull.log', 'w') as log_file:
     try:
-        for d in other_repos:
+        for d in results:
             retcode = call(git_pull, cwd=d, shell=True)
-            if retcode < 0:
-                print >>sys.stderr, "Child was terminated by signal", -retcode
-                print('Child was terminated by signal: {} \n'.format(-retcode))
-                log_file.write('Child was terminated by signal: {} \n'.format(-retcode))
+            if retcode == 0:
+                print >>sys.stderr, "Child returned", retcode
+                print('Success!! returned: {} \n'.format(retcode))
                 print('~'*79 + '\n\n')
-                log_file.write('~'*79 + '\n\n')
             elif retcode == 128:
                 newcode = call(git_remote, cwd=d, stdout=log_file, stderr=STDOUT, shell=True)
                 print >>sys.stderr, "Child was terminated by signal", -newcode
@@ -413,12 +118,44 @@ with open('/Users/rlaney/Logs/other_repos.log', 'w') as log_file:
                 print('~'*79 + '\n\n')
                 log_file.write('~'*79 + '\n\n')
             else:
-                print >>sys.stderr, "Child returned", retcode
-                print('Success!! returned: {} \n'.format(retcode))
+                print >>sys.stderr, "Child was terminated by signal", -retcode
+                print('Child was terminated by signal: {} \n'.format(-retcode))
+                log_file.write('Child was terminated by signal: {} \n'.format(-retcode))
                 print('~'*79 + '\n\n')
+                log_file.write('~'*79 + '\n\n')
     except OSError, e:
         print >>sys.stderr, "Execution failed:", e
         print('Execution failed: {} \n'.format(e))
         log_file.write('Execution failed: {} \n'.format(e))
         print('~'*79 + '\n\n')
         log_file.write('~'*79 + '\n\n')
+
+
+#with open('/Users/rlaney/Logs/other_repos.log', 'w') as log_file:
+#    try:
+#        for d in other_repos:
+#            retcode = call(git_pull, cwd=d, shell=True)
+#            if retcode < 0:
+#                print >>sys.stderr, "Child was terminated by signal", -retcode
+#                print('Child was terminated by signal: {} \n'.format(-retcode))
+#                log_file.write('Child was terminated by signal: {} \n'.format(-retcode))
+#                print('~'*79 + '\n\n')
+#                log_file.write('~'*79 + '\n\n')
+#            elif retcode == 128:
+#                newcode = call(git_remote, cwd=d, stdout=log_file, stderr=STDOUT, shell=True)
+#                print >>sys.stderr, "Child was terminated by signal", -newcode
+#                log_file.write('Child was terminated by signal: {} \n'.format(-newcode))
+#                log_file.write('Repo location: {} \n'.format(d))
+#                print('~'*79 + '\n\n')
+#                log_file.write('~'*79 + '\n\n')
+#            else:
+#                print >>sys.stderr, "Child returned", retcode
+#                print('Success!! returned: {} \n'.format(retcode))
+#                print('~'*79 + '\n\n')
+#    except OSError, e:
+#        print >>sys.stderr, "Execution failed:", e
+#        print('Execution failed: {} \n'.format(e))
+#        log_file.write('Execution failed: {} \n'.format(e))
+#        print('~'*79 + '\n\n')
+#        log_file.write('~'*79 + '\n\n')
+

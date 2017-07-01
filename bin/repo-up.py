@@ -64,6 +64,13 @@ for r in output:
     results.append(r)
 
 
+with open('/Users/rlaney/Logs/remote_origin.log', 'w') as remote_file:
+    for d in results:
+        urls = check_output(git_remote, cwd=d, shell=True)
+        urls = urls.splitlines()[1]
+        remote_file.write(urls)
+
+
 with open('/Users/rlaney/Logs/my_projects.log', 'w') as log_file:
     try:
         for d in my_projects_master:

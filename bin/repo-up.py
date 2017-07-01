@@ -69,7 +69,7 @@ with open('/Users/rlaney/Logs/remote_origin.log', 'w') as remote_file:
         urls = check_output(git_remote, cwd=d, shell=True)
         urls = urls.splitlines()[1]
         for u in urls:
-            remote_file.write(u + '\n')
+            remote_file.write(u)
 
 
 with open('/Users/rlaney/Logs/my_projects.log', 'w') as log_file:

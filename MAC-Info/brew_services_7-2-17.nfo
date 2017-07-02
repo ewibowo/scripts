@@ -1,0 +1,9 @@
+Name           Status  User Plist
+dbus           stopped      
+docker-machine stopped      
+mongodb        stopped      
+mysql          stopped      
+nginx          stopped      
+php56          stopped      
+postgresql     stopped      
+redis          stopped      

@@ -3,7 +3,7 @@
 # Start our Ubuntu "DevBox" Docker Container
 docker run \
   --name devbox \
-  -e HOST_IP=$(ifconfig en0 | awk '/ *inet /{print $2}') \
+  -e HOST_IP=$(ifconfig en6 | awk '/ *inet /{print $2}') \
   -v /Users/rlaney/Projects:/src \
   -t -i \
-  ubuntu /bin/bash
+  rlaney/devbox /bin/bash

@@ -5,6 +5,11 @@ expect "Enter passphrase for /Users/rlaney/.ssh/cloud_id:"
 send "LetMeIn22\r";
 expect "Identity added: /Users/rlaney/.ssh/cloud_id (/Users/rlaney/.ssh/cloud_id)"
 
+spawn ssh-add -k /Users/rlaney/.ssh/id_rsa
+expect "Enter passphrase for /Users/rlaney/.ssh/id_rsa:"
+send "LetMeIn22\r";
+expect "Identity added: /Users/rlaney/.ssh/id_rsa (/Users/rlaney/.ssh/id_rsa)"
+
 spawn ssh-add -k /Users/rlaney/.ssh/ssh_rsa
 expect "Enter passphrase for /Users/rlaney/.ssh/ssh_rsa:"
 send "atdSw6t!D\$h2L9De\r"; # The $ must be backslashed to send the literal $.

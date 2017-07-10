@@ -50,6 +50,7 @@ my_projects_master = [
             '/Users/rlaney/Projects/het-ansible',
             '/Users/rlaney/Projects/hosts',
             '/Users/rlaney/Projects/trigger',
+            '/Users/rlaney/Projects/oxidized',
             '/Users/rlaney/Projects/NetEngineerONE',
             '/Users/rlaney/Projects/py-snmp',
             '/Users/rlaney/.virtualenvs/neteng/project',

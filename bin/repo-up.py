@@ -38,7 +38,7 @@ my_projects_master = [
             '/Users/rlaney/scripts',
             '/Users/rlaney/vimwiki',
             '/Users/rlaney/Dropbox (Personal)/cheaters',
-            '/Users/rlaney/Dropbox (Personal)/Projects/VIRL_Projects',
+            '/Users/rlaney/Projects/VIRL_Projects',
             '/Users/rlaney/Projects/myansible',
             '/Users/rlaney/Projects/het-ansible',
             '/Users/rlaney/Projects/hosts',

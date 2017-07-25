@@ -301,18 +301,51 @@ gem update --system
 #  brew_install_or_upgrade 'rcm'
 #fi
 
+# Install GNU core utilities (those that come with OS X are outdated).
+# Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 fancy_echo "Installing GNU core utilities (those that come with OS X are outdated)"
 brew install coreutils
+sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
+# Install some other useful utilities like `sponge`.
+brew install moreutils
+# Install GNU `find`, `locate`, `updatedb`, and `xargs`.
 fancy_echo "Installing GNU find, locate, updatedb, and xargs, g-prefixed"
-brew install findutils
-fancy_echo "Installing Bash 4"
-brew install bash
+brew install findutils --with-default-names
+
 #append_to_zshrc '# To use the new coreutils:' 1
 #append_to_zshrc 'export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"' 1
 #append_to_zshrc 'export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"' 1
 #export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 #export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
+# Install other GNU utilities, overwriting the built-ins.
+brew install gnu-sed --with-default-names
+brew install gnu-tar --with-default-names
+brew install gnu-which --with-default-names
+brew install gnu-indent --with-default-names
+brew install gnutls --with-default-names
+brew install grep --with-default-names
+brew install binutils
+brew install diffutils
+brew install gawk
+brew install gzip
+brew install screen
+brew install watch
+brew install wdiff --with-gettext
+
+# Install `wget` with IRI support.
+brew install wget --with-iri
+
+# Install Bash 4.
+# Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before
+# running `chsh`.
+fancy_echo "Installing Bash 4"
+brew install bash
+brew tap homebrew/versions
+brew install bash-completion2
+
+# Remove outdated versions from the cellar.
+brew cleanup
 brew_tap 'homebrew/fuse'
 brew_tap 'samueljohn/python'
 brew_tap 'homebrew/science'
@@ -411,6 +444,7 @@ brew_install_or_upgrade 'gstreamer'
 brew_install_or_upgrade 'heroku'
 brew_install_or_upgrade 'heroku-toolbelt'
 brew_install_or_upgrade 'highlight'
+brew_install_or_upgrade 'htop'
 brew_install_or_upgrade 'hub'
 brew_install_or_upgrade 'i2p'
 brew_install_or_upgrade 'imagemagick'
@@ -454,11 +488,13 @@ brew_install_or_upgrade 'sdl2_ttf'
 brew_install_or_upgrade 'sift'
 brew_install_or_upgrade 'sip'
 brew_install_or_upgrade 'snort'
+brew_install_or_upgrade 'speedtest_cli'
 brew_install_or_upgrade 'subnetcalc'
 brew_install_or_upgrade 'swig'
 brew_install_or_upgrade 'synscan'
 brew_install_or_upgrade 'tcpreplay'
 brew_install_or_upgrade 'tcptrack'
+brew_install_or_upgrade 'testssl'
 brew_install_or_upgrade 'the_silver_searcher'
 brew_install_or_upgrade 'tmux'
 brew_install_or_upgrade 'trash'
@@ -755,14 +791,6 @@ pip install virtualenvwrapper
 pip install wcwidth
 pip install websocket-client
 
-# I am not a scientist!
-#brew_install_or_upgrade 'homebrew/python/numpy'
-#brew_install_or_upgrade 'samueljohn/python/numpy'
-#brew_install_or_upgrade 'homebrew/python/scipy'
-#brew_install_or_upgrade 'samueljohn/python/scipy'
-#brew_install_or_upgrade 'homebrew/python/matplotlib'
-#brew_install_or_upgrade 'samueljohn/python/matplotlib'
-
 # Install more recent versions of some OS X tools
 # Must install after everything
 brew_tap 'homebrew/dupes'
@@ -783,8 +811,8 @@ brew_install_or_upgrade 'diffutils'
 brew_install_or_upgrade 'diffstat'
 
 # MUST INSTALL JAVA FIRST!!!!!!
-brew_install_or_upgrade 'scala'
-brew_install_or_upgrade 'sbt'
+#brew_install_or_upgrade 'scala'
+#brew_install_or_upgrade 'sbt'
 #echo 'SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:PermSize=256M -XX:MaxPermSize=512M -Xmx2G"' >> ~/.sbtconfig
 
 # Apps that affect script so must be last!!
